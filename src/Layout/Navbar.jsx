@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="max-w-[1400px] mx-auto flex items-center  py-3">
           {/* Left Section: Title + Buttons */}
           <div className="flex items-center space-x-2">
-            <h1 className="text-2xl font-bold text-blue-700 mr-12">
+            <h1 className="text-2xl font-bold text-blue-700 mr-14">
               <span className="text-red-500 text-3xl">Technology</span> Zone
             </h1>
 
@@ -36,28 +36,28 @@ const Navbar = () => {
             >
               Service Center
             </button>
-            <div className="flex gap-4 ml-4 items-center font-extralight">
+            <div className="flex gap-4 ml-8 items-center font-sans">
               <Link
                 to=""
-                className="text-gray-700  font-bold hover:text-green-600  transition-all duration-700 ease-in-out hover:animate-shake3d"
+                className="text-gray-600  font-bold hover:text-cyan-700  transition-all duration-700 ease-in-out hover:animate-shake3d"
               >
                 BLOG
               </Link>
               <Link
                 to=""
-                className="text-gray-700  font-bold hover:text-green-600  transition-all duration-700 ease-in-out hover:animate-shake3d"
+                className="text-gray-600  font-bold hover:text-cyan-700  transition-all duration-700 ease-in-out hover:animate-shake3d"
               >
                 STORES
               </Link>
               <Link
                 to=""
-                className="text-gray-700  font-bold hover:text-green-600  transition-all duration-700 ease-in-out hover:animate-shake3d"
+                className="text-gray-600  font-bold hover:text-cyan-700  transition-all duration-700 ease-in-out hover:animate-shake3d"
               >
                 CORPORATE
               </Link>
               <Link
                 to=""
-                className="text-gray-700  font-bold hover:text-green-600  transition-all duration-700 ease-in-out hover:animate-shake3d"
+                className="text-gray-600  font-bold hover:text-cyan-700  transition-all duration-700 ease-in-out hover:animate-shake3d"
               >
                 USED DEVICE
               </Link>
@@ -423,7 +423,7 @@ const Navbar = () => {
         </div>
       </header>
 
-      {/* Search Product */}
+      {/* ____________________Search Product____________________ */}
       <div class="mx-auto w-screen max-w-screen-md py-10 leading-6">
         <form class="relative mx-auto flex w-full max-w-2xl items-center justify-between rounded border border-gray-300 shadow-lg">
           <svg
@@ -450,7 +450,7 @@ const Navbar = () => {
           {/* Search button */}
           <button
             type="submit"
-            class="absolute right-0 mr-1 inline-flex h-12 items-center justify-center rounded bg-gray-900 px-10 font-medium text-white focus:ring-4 hover:bg-cyan-800"
+            class="absolute right-0 mr-1 inline-flex h-12 items-center justify-center rounded bg-gray-900 px-10 font-medium text-white  hover:bg-cyan-900 transition-all duration-500 ease-in-out"
           >
             Search
           </button>
