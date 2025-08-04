@@ -12,6 +12,7 @@ import banner5 from "../assets/images/banner-image/banner-5.jpg";
 import banner6 from "../assets/images/banner-image/banner-6.jpg";
 import banner7 from "../assets/images/banner-image/banner-7.jpg";
 import NewArrival from "./NewArrival";
+import Shop from "./Shop";
 
 const Home = () => {
   return (
@@ -225,6 +226,9 @@ const Home = () => {
       <FlashSale />
       {/* ___________________New Arrival___________________________ */}
       <NewArrival/>
+
+      {/* ________________Shop_________________ */}
+      <Shop/>
     </>
   );
 };
