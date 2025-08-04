@@ -5,92 +5,75 @@ import profile from "../assets/images/user.png";
 const Navbar = () => {
   return (
     <>
-      {/* ____________________Top Navbar________________________ */}
       <header className="bg-[#f6f6f6] shadow">
-        <div className="max-w-[1400px] mx-auto flex items-center  py-3">
-          {/* Left Section: Title + Buttons */}
-          <div className="flex items-center space-x-2">
-            <h1 className="text-2xl font-bold text-blue-700 mr-14">
-              <span className="text-red-500 text-3xl">Technology</span> Zone
-            </h1>
+        {/* ________________Top Navbar____________ */}
+     <div className="max-w-[1400px] mx-auto py-3 px-4">
+  <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+    
+    {/* Left: Logo */}
+    <div className="w-full md:w-auto text-center md:text-left">
+      <h1 className="text-2xl font-bold text-blue-700">
+        <span className="text-red-500 text-3xl">Technology</span> Zone
+      </h1>
+    </div>
 
-            {/* 40px gap (mr-10) */}
-            <button
-              className="px-4 py-2 font-semibold rounded bg-white shadow-lg text-orange-700
-                   transition-all duration-700 ease-in-out
-                   hover:bg-sky-800 hover:text-white hover:animate-shake3d"
-            >
-              Offers
-            </button>
-            <button
-              className="px-4 py-2 font-semibold rounded bg-white shadow-lg text-orange-700
-                   transition-all duration-700 ease-in-out
-                   hover:bg-sky-800 hover:text-white hover:animate-shake3d"
-            >
-              PC Builder
-            </button>
-            <button
-              className="px-4 py-2 font-semibold rounded bg-white shadow-lg text-orange-700
-                   transition-all duration-700 ease-in-out
-                   hover:bg-sky-800 hover:text-white hover:animate-shake3d"
-            >
-              Service Center
-            </button>
-            <div className="flex gap-4 ml-8 items-center font-sans">
-              <Link
-                to=""
-                className="text-gray-600  font-bold hover:text-cyan-700  transition-all duration-700 ease-in-out hover:animate-shake3d"
-              >
-                BLOG
-              </Link>
-              <Link
-                to=""
-                className="text-gray-600  font-bold hover:text-cyan-700  transition-all duration-700 ease-in-out hover:animate-shake3d"
-              >
-                STORES
-              </Link>
-              <Link
-                to=""
-                className="text-gray-600  font-bold hover:text-cyan-700  transition-all duration-700 ease-in-out hover:animate-shake3d"
-              >
-                CORPORATE
-              </Link>
-              <Link
-                to=""
-                className="text-gray-600  font-bold hover:text-cyan-700  transition-all duration-700 ease-in-out hover:animate-shake3d"
-              >
-                USED DEVICE
-              </Link>
-            </div>
-          </div>
+    {/* Center: Buttons + Links */}
+    <div className="flex flex-col lg:flex-row items-center justify-center gap-3">
+      {/* Buttons */}
+      <div className="flex flex-wrap justify-center gap-2">
+        <button className="px-4 py-2 font-semibold rounded bg-white shadow-lg text-orange-700
+          transition-all duration-700 ease-in-out
+          hover:bg-cyan-800 hover:text-white hover:animate-shake3d">
+          Offers
+        </button>
+        <button className="px-4 py-2 font-semibold rounded bg-white shadow-lg text-orange-700
+          transition-all duration-700 ease-in-out
+          hover:bg-cyan-800 hover:text-white hover:animate-shake3d">
+          PC Builder
+        </button>
+        <button className="px-4 py-2 font-semibold rounded bg-white shadow-lg text-orange-700
+          transition-all duration-700 ease-in-out
+          hover:bg-cyan-800 hover:text-white hover:animate-shake3d">
+          Service Center
+        </button>
+      </div>
 
-          {/* Right Section: Icon */}
-          <div className="flex justify-end ml-auto">
-            <div className="flex gap-3 items-center">
-              <Link>
-                {" "}
-                <img
-                  className="h-10 w-10 bg-white rounded-full p-2 shadow-lg  hover:animate-shake3d transition-all duration-700 ease-in-out hover:bg-yellow-300"
-                  src={trolley}
-                  alt=""
-                />{" "}
-              </Link>
+      {/* Links */}
+      <div className="flex flex-wrap justify-center gap-4 items-center font-sans mt-2 lg:mt-0">
+        <Link to="" className="text-gray-600 font-bold hover:text-cyan-700 transition-all duration-700 ease-in-out hover:animate-shake3d">BLOG</Link>
+        <Link to="" className="text-gray-600 font-bold hover:text-cyan-700 transition-all duration-700 ease-in-out hover:animate-shake3d">STORES</Link>
+        <Link to="" className="text-gray-600 font-bold hover:text-cyan-700 transition-all duration-700 ease-in-out hover:animate-shake3d">CORPORATE</Link>
+        <Link to="" className="text-gray-600 font-bold hover:text-cyan-700 transition-all duration-700 ease-in-out hover:animate-shake3d">USED DEVICE</Link>
+      </div>
+    </div>
 
-              <Link>
-                {" "}
-                <img
-                  className="h-10 w-10 bg-white rounded-full p-2 shadow-lg  hover:animate-shake3d transition-all duration-700 ease-in-out hover:bg-yellow-300"
-                  src={profile}
-                  alt=""
-                />{" "}
-              </Link>
-            </div>
-          </div>
-        </div>
+    {/* Right: Icons */}
+    <div className="flex w-full md:w-auto justify-center md:justify-end">
+      <div className="flex gap-3 items-center">
+        <Link>
+          <img
+            className="h-10 w-10 bg-white rounded-full p-2 shadow-lg hover:animate-shake3d transition-all duration-700 ease-in-out hover:bg-yellow-300"
+            src={trolley}
+            alt="Trolley"
+          />
+        </Link>
+        <Link>
+          <img
+            className="h-10 w-10 bg-white rounded-full p-2 shadow-lg hover:animate-shake3d transition-all duration-700 ease-in-out hover:bg-yellow-300"
+            src={profile}
+            alt="Profile"
+          />
+        </Link>
+      </div>
+    </div>
+
+  </div>
+</div>
+
 
         {/* ______________________Second Navbar_________________________ */}
         <div className="bg-gray-800">
-          <div id="navigation" className=" max-w-[1400px] mx-auto">
+          <div id="navigation" className="max-w-[1400px] mx-auto px-4">
             <ul
               id="desktop-nav"
               className="hidden md:flex justify-center space-x-6"
@@ -105,11 +88,7 @@ const Navbar = () => {
                 </a>
 
                 {/* Dropdown */}
-                <ul
-                  className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100
-               transform origin-top transition-all duration-300 ease-out
-               flex flex-col bg-white border rou-b border-gray-300 shadow-lg  z-10"
-                >
+                <ul className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100 transform origin-top transition-all duration-300 ease-out flex flex-col bg-white border border-gray-300 shadow-lg z-10">
                   <li>
                     <a
                       href="#"
@@ -129,7 +108,7 @@ const Navbar = () => {
                 </ul>
               </li>
 
-              {/* Tablet*/}
+              {/* Tablet */}
               <li className="relative group">
                 <a
                   href="#"
@@ -138,11 +117,7 @@ const Navbar = () => {
                   Tablet
                 </a>
                 {/* Dropdown */}
-                <ul
-                  className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100
-               transform origin-top transition-all duration-300 ease-out
-               flex flex-col bg-white border rou-b border-gray-300 shadow-lg  z-10"
-                >
+                <ul className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100 transform origin-top transition-all duration-300 ease-out flex flex-col bg-white border border-gray-300 shadow-lg z-10">
                   <li>
                     <a
                       href="#"
@@ -171,11 +146,7 @@ const Navbar = () => {
                   Mac
                 </a>
                 {/* Dropdown */}
-                <ul
-                  className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100
-               transform origin-top transition-all duration-300 ease-out
-               flex flex-col bg-white border rou-b border-gray-300 shadow-lg  z-10"
-                >
+                <ul className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100 transform origin-top transition-all duration-300 ease-out flex flex-col bg-white border border-gray-300 shadow-lg z-10">
                   <li>
                     <a
                       href="#"
@@ -194,6 +165,7 @@ const Navbar = () => {
                   </li>
                 </ul>
               </li>
+
               {/* Laptop */}
               <li className="relative group">
                 <a
@@ -203,11 +175,7 @@ const Navbar = () => {
                   Laptop
                 </a>
                 {/* Dropdown */}
-                <ul
-                  className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100
-               transform origin-top transition-all duration-300 ease-out
-               flex flex-col bg-white border rou-b border-gray-300 shadow-lg  z-10"
-                >
+                <ul className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100 transform origin-top transition-all duration-300 ease-out flex flex-col bg-white border border-gray-300 shadow-lg z-10">
                   <li>
                     <a
                       href="#"
@@ -226,6 +194,7 @@ const Navbar = () => {
                   </li>
                 </ul>
               </li>
+
               {/* Desktop */}
               <li className="relative group">
                 <a
@@ -235,11 +204,7 @@ const Navbar = () => {
                   Desktop
                 </a>
                 {/* Dropdown */}
-                <ul
-                  className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100
-               transform origin-top transition-all duration-300 ease-out
-               flex flex-col bg-white border rou-b border-gray-300 shadow-lg  z-10"
-                >
+                <ul className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100 transform origin-top transition-all duration-300 ease-out flex flex-col bg-white border border-gray-300 shadow-lg z-10">
                   <li>
                     <a
                       href="#"
@@ -258,6 +223,7 @@ const Navbar = () => {
                   </li>
                 </ul>
               </li>
+
               {/* Accessories */}
               <li className="relative group">
                 <a
@@ -267,11 +233,7 @@ const Navbar = () => {
                   Accessories
                 </a>
                 {/* Dropdown */}
-                <ul
-                  className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100
-               transform origin-top transition-all duration-300 ease-out
-               flex flex-col bg-white border rou-b border-gray-300 shadow-lg  z-10"
-                >
+                <ul className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100 transform origin-top transition-all duration-300 ease-out flex flex-col bg-white border border-gray-300 shadow-lg z-10">
                   <li>
                     <a
                       href="#"
@@ -290,6 +252,7 @@ const Navbar = () => {
                   </li>
                 </ul>
               </li>
+
               {/* Sound Appliance */}
               <li className="relative group">
                 <a
@@ -299,11 +262,7 @@ const Navbar = () => {
                   Sound Appliance
                 </a>
                 {/* Dropdown */}
-                <ul
-                  className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100
-               transform origin-top transition-all duration-300 ease-out
-               flex flex-col bg-white border rou-b border-gray-300 shadow-lg  z-10"
-                >
+                <ul className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100 transform origin-top transition-all duration-300 ease-out flex flex-col bg-white border border-gray-300 shadow-lg z-10">
                   <li>
                     <a
                       href="#"
@@ -322,6 +281,7 @@ const Navbar = () => {
                   </li>
                 </ul>
               </li>
+
               {/* Smart Gadget */}
               <li className="relative group">
                 <a
@@ -331,11 +291,7 @@ const Navbar = () => {
                   Smart Gadget
                 </a>
                 {/* Dropdown */}
-                <ul
-                  className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100
-               transform origin-top transition-all duration-300 ease-out
-               flex flex-col bg-white border rou-b border-gray-300 shadow-lg  z-10"
-                >
+                <ul className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100 transform origin-top transition-all duration-300 ease-out flex flex-col bg-white border border-gray-300 shadow-lg z-10">
                   <li>
                     <a
                       href="#"
@@ -354,6 +310,7 @@ const Navbar = () => {
                   </li>
                 </ul>
               </li>
+
               {/* Smart Watch */}
               <li className="relative group">
                 <a
@@ -363,11 +320,7 @@ const Navbar = () => {
                   Smart Watch
                 </a>
                 {/* Dropdown */}
-                <ul
-                  className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100
-               transform origin-top transition-all duration-300 ease-out
-               flex flex-col bg-white border rou-b border-gray-300 shadow-lg  z-10"
-                >
+                <ul className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100 transform origin-top transition-all duration-300 ease-out flex flex-col bg-white border border-gray-300 shadow-lg z-10">
                   <li>
                     <a
                       href="#"
@@ -386,6 +339,7 @@ const Navbar = () => {
                   </li>
                 </ul>
               </li>
+
               {/* Monitor */}
               <li className="relative group">
                 <a
@@ -395,11 +349,7 @@ const Navbar = () => {
                   Monitor
                 </a>
                 {/* Dropdown */}
-                <ul
-                  className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100
-               transform origin-top transition-all duration-300 ease-out
-               flex flex-col bg-white border rou-b border-gray-300 shadow-lg  z-10"
-                >
+                <ul className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100 transform origin-top transition-all duration-300 ease-out flex flex-col bg-white border border-gray-300 shadow-lg z-10">
                   <li>
                     <a
                       href="#"
@@ -424,7 +374,7 @@ const Navbar = () => {
       </header>
 
       {/* ____________________Search Product____________________ */}
-      <div class="mx-auto w-screen max-w-screen-md py-10 leading-6">
+      <div class="mx-auto w-screen max-w-screen-md py-10 leading-6 px-4">
         <form class="relative mx-auto flex w-full max-w-2xl items-center justify-between rounded border border-gray-300 shadow-lg">
           <svg
             class="absolute left-2 block h-5 w-5 text-gray-400"

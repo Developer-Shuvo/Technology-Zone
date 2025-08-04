@@ -18,8 +18,8 @@ const Home = () => {
   return (
     <>
       {/* ________________Categories Cart____________________ */}
-      <section className="">
-        <div className="mx-auto grid max-w-screen-xl grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-8 px-">
+      <section className=" px-4 ">
+        <div className="mx-auto max-w-screen-xl px-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-4 justify-center items-center text-center">
           {/* Example Card 1 */}
           <a
             className="group bg-white border border-gray-200 shadow-md hover:shadow-lg
@@ -185,38 +185,40 @@ const Home = () => {
       </section>
 
       {/* __________________Banner______________________ */}
-      <section className="max-w-[1300px] mx-auto py-20">
-        <div className="grid grid-cols-4 gap-2">
+      <section className="max-w-[1300px] mx-auto py-20 px-4 flex items-center justify-center text-center ">
+        <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-4 gap-4">
           {/* Image 1 (Smaller width) */}
-          <div className="col-span-1 h-[320px]">
+          <div className="col-span-1 md:col-span-1 h-[320px]">
             <img
               src={banner5}
               alt="Banner 1"
-              className="w-full h-full object-cover rounded-lg  shadow-lg 
-                   transform transition-transform duration-500 hover:scale-110 hover:rotate-2 
-                   hover:shadow-2xl"
+              className="w-[300px] lg:w-full xl:w-full flex items-center h-full object-cover rounded-lg shadow-lg 
+                         transition-all duration-300 ease-in-out 
+                          transform hover:scale-110 hover:-rotate-2 
+                           hover:shadow-2xl hover:shadow-purple-500"
             />
           </div>
 
-          {/* Image 2 (Big width) */}
-          <div className="col-span-2 h-[320px]">
+          {/* Image 2 (Big width in medium and above) */}
+          <div className="col-span-1 sm:col-span-2 md:col-span-2 h-[320px]">
             <img
               src={banner6}
               alt="Banner 2"
-              className="w-full h-full object-cover rounded-lg shadow-lg 
-                   transform transition-transform duration-500 hover:scale-110 hover:rotate-0
-                   hover:shadow-2xl"
+              className="w-[300px] lg:w-full xl:w-full flex items-center h-full object-cover rounded-lg shadow-lg 
+               transform transition-transform duration-500 hover:scale-125 hover:rotate-0
+                hover:shadow-2xl hover:shadow-cyan-800"
             />
           </div>
 
           {/* Image 3 (Smaller width) */}
-          <div className="col-span-1 h-[320px]">
+          <div className="col-span-1 md:col-span-1 h-[320px]">
             <img
               src={banner7}
               alt="Banner 3"
-              className="w-full h-full object-cover rounded-lg  shadow-lg
-                   transform transition-transform duration-500 hover:scale-110 hover:-rotate-2
-                   hover:shadow-2xl"
+              className="w-[300px] lg:w-full xl:w-full flex items-center h-full object-cover rounded-lg shadow-lg 
+                         transition-all duration-300 ease-in-out 
+                          transform hover:scale-110 hover:rotate-2 
+                           hover:shadow-2xl hover:shadow-[#113F67]"
             />
           </div>
         </div>
@@ -224,11 +226,11 @@ const Home = () => {
 
       {/* ______________Flash Sale____________   এক্সট্রা কম্পোনেন্ট বানিয়ে এখানে সরাসরি ইমপোরট করা হয়েছে */}
       <FlashSale />
-      {/* ___________________New Arrival___________________________ */}
-      <NewArrival/>
+      {/* ___________________New Arrival___________________________ইমপোর্ট হয়েছে!! */} 
+      <NewArrival />
 
       {/* ________________Shop_________________ */}
-      <Shop/>
+      <Shop />
     </>
   );
 };

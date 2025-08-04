@@ -169,11 +169,12 @@ const Shop = () => {
       <h1 className="text-4xl text-cyan-900 font-bold text-left mb-20">
         Shop Your Favorite Tech Today
       </h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-6 gap-y-14">
         {products.map((product) => (
           <div
             key={product.id}
-            className="relative w-full overflow-hidden rounded-lg bg-white shadow-md flex flex-col"
+            className="relative w-full overflow-hidden rounded-lg bg-white shadow-md flex-col flex
+           hover:shadow-lg hover:shadow-[#B2A5FF] transition transform ease-in-out duration-500"
           >
             <div className="relative overflow-hidden">
               <a href="#">
