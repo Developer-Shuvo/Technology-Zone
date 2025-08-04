@@ -1,4 +1,5 @@
-
+// Flash Sale page connect
+import FlashSale from "../Pages/FlashSale";
 import img1 from "../assets/images/1.jpg";
 import img3 from "../assets/images/3.jpg";
 import img4 from "../assets/images/4.jpg";
@@ -6,6 +7,10 @@ import img5 from "../assets/images/5.jpg";
 import img6 from "../assets/images/6.jpg";
 import img7 from "../assets/images/7.jpg";
 import img8 from "../assets/images/8.jpg";
+// ____________________________________________
+import banner5 from "../assets/images/banner-image/banner-5.jpg";
+import banner6 from "../assets/images/banner-image/banner-6.jpg";
+import banner7 from "../assets/images/banner-image/banner-7.jpg";
 
 const Home = () => {
   return (
@@ -178,36 +183,45 @@ const Home = () => {
       </section>
 
       {/* __________________Banner______________________ */}
-      <section className="max-w-[1300px] mx-auto px-6 py-24">
-        <div className="grid grid-cols-3 gap-3">
-          {/* Image 1 (Small) */}
-          <div className="h-52">
+      <section className="max-w-[1300px] mx-auto py-20">
+        <div className="grid grid-cols-4 gap-2">
+          {/* Image 1 (Smaller width) */}
+          <div className="col-span-1 h-[320px]">
             <img
-              src={img6}
+              src={banner5}
               alt="Banner 1"
-              className="w-full h-full object-cover rounded-lg"
+              className="w-full h-full object-cover rounded-lg  shadow-lg 
+                   transform transition-transform duration-500 hover:scale-110 hover:rotate-2 
+                   hover:shadow-2xl"
             />
           </div>
 
-          {/* Image 2 (Big) */}
-          <div className="h-64">
+          {/* Image 2 (Big width) */}
+          <div className="col-span-2 h-[320px]">
             <img
-              src={img1}
+              src={banner6}
               alt="Banner 2"
-              className="w-full h-full object-cover rounded-lg"
+              className="w-full h-full object-cover rounded-lg shadow-lg 
+                   transform transition-transform duration-500 hover:scale-110 hover:rotate-0
+                   hover:shadow-2xl"
             />
           </div>
 
-          {/* Image 3 (Small) */}
-          <div className="h-52">
+          {/* Image 3 (Smaller width) */}
+          <div className="col-span-1 h-[320px]">
             <img
-              src={img3}
+              src={banner7}
               alt="Banner 3"
-              className="w-full h-full object-cover rounded-lg"
+              className="w-full h-full object-cover rounded-lg  shadow-lg
+                   transform transition-transform duration-500 hover:scale-110 hover:-rotate-2
+                   hover:shadow-2xl"
             />
           </div>
         </div>
       </section>
+
+      {/* ______________Flash Sale____________   এক্সট্রা কম্পোনেন্ট বানিয়ে এখানে সরাসরি ইমপোরট করা হয়েছে */}
+      <FlashSale />
     </>
   );
 };

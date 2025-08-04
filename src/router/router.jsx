@@ -5,15 +5,18 @@ import Home from "../Pages/Home";
 
 const router = createBrowserRouter([
   {
-path: "/",
-element: <Main/>,
-errorElement: <ErrorPage/>,
-children: [
-  {
-path: "/",
-element: <Home/>,
-  },
-]
+    path: "/",
+    element: <Main />,
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+
+      },
+    ],
   },
 ]);
 
