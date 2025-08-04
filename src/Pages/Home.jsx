@@ -11,6 +11,7 @@ import img8 from "../assets/images/8.jpg";
 import banner5 from "../assets/images/banner-image/banner-5.jpg";
 import banner6 from "../assets/images/banner-image/banner-6.jpg";
 import banner7 from "../assets/images/banner-image/banner-7.jpg";
+import NewArrival from "./NewArrival";
 
 const Home = () => {
   return (
@@ -222,6 +223,8 @@ const Home = () => {
 
       {/* ______________Flash Sale____________   এক্সট্রা কম্পোনেন্ট বানিয়ে এখানে সরাসরি ইমপোরট করা হয়েছে */}
       <FlashSale />
+      {/* ___________________New Arrival___________________________ */}
+      <NewArrival/>
     </>
   );
 };

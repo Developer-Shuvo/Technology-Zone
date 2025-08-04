@@ -9,11 +9,11 @@ import banner1 from "../assets/images/banner-image/banner-1.jpg";
 
 const FlashSale = () => {
   return (
-    <section className="bg-gray-100 py-10">
+    <section className="bg-[#F5F5F5] py-20 mt-6">
       <div className="mx-auto max-w-[1400px] px-10">
-        {/*  */}
+       <h1 className="text-6xl  text-cyan-900 font-bold">Flash Sale</h1>
         {/* Slider Background Box */}
-        <div className="bg-cyan-800 p-14 rounded-lg shadow-md">
+        <div className="bg-[#3D365C] p-14 rounded-lg shadow-md mt-8">
           {" "}
           <Swiper
             modules={[Autoplay]}
@@ -61,11 +61,6 @@ const FlashSale = () => {
             ))}
           </Swiper>
         </div>
-
-        <p className="pt-8 text-center text-gray-600">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus
-          sunt obcaecati harum inventore aperiam.
-        </p>
       </div>
     </section>
   );
