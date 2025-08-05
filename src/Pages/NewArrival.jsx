@@ -5,7 +5,7 @@ import img3 from "../assets/images/banner-image/banner-6.jpg";
 
 const NewArrival = () => {
   return (
-    <div className="bg-[#A4CCD9] ">
+    <div className="bg-[#D1F8EF]">
       <div className="max-w-[1400px] mx-auto mt- px-4">
         <div className="flex flex-col lg:flex-row xl:flex-row gap-10 lg:gap-16 items-center justify-between py-8">
           {/* Text Section */}

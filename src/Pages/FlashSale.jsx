@@ -17,7 +17,7 @@ const FlashSale = () => {
         </h1>
 
         {/* Slider Background Box */}
-        <div className="bg-[#EBD6FB] p-6 sm:p-10 lg:p-14 rounded-lg shadow-md mt-8">
+        <div className="bg-[#749BC2] p-6 sm:p-10 lg:p-14 rounded-lg shadow-md mt-8">
           <Swiper
             modules={[Autoplay]}
             loop={true}
