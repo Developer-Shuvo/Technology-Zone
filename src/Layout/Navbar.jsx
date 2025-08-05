@@ -1,75 +1,99 @@
 import { Link } from "react-router";
 import trolley from "../assets/images/trolley.png";
 import profile from "../assets/images/user.png";
+import techZone from "../assets/images/favicon/tech-1.png";
 
 const Navbar = () => {
   return (
     <>
       <header className="bg-[#f6f6f6] shadow">
         {/* ________________Top Navbar____________ */}
-     <div className="max-w-[1400px] mx-auto py-3 px-4">
-  <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-    
-    {/* Left: Logo */}
-    <div className="w-full md:w-auto text-center md:text-left">
-      <h1 className="text-2xl font-bold text-blue-700">
-        <span className="text-red-500 text-3xl">Technology</span> Zone
-      </h1>
-    </div>
+        <div className="max-w-[1400px] mx-auto py-3 px-4">
+          <div className="flex flex-col md:flex-row items-center justify-between px-8">
+            {/* Left: Logo */}
+            <div className="w-full md:w-auto text-center md:text-left">
+              <Link to="">
+                <img className="h-[60px] w-full" src={techZone} alt="logo" />
+              </Link>
+            </div>
 
-    {/* Center: Buttons + Links */}
-    <div className="flex flex-col lg:flex-row items-center justify-center gap-3">
-      {/* Buttons */}
-      <div className="flex flex-wrap justify-center gap-2">
-        <button className="px-4 py-2 font-semibold rounded bg-white shadow-lg text-orange-700
+            {/* Center: Buttons + Links */}
+            <div className="flex flex-col lg:flex-row items-center justify-center gap-6">
+              {/* Buttons */}
+              <div className="flex flex-wrap justify-center gap-2">
+                <button
+                  className="px-4 py-2 font-semibold rounded bg-white shadow-lg text-orange-700
           transition-all duration-700 ease-in-out
-          hover:bg-cyan-800 hover:text-white hover:animate-shake3d">
-          Offers
-        </button>
-        <button className="px-4 py-2 font-semibold rounded bg-white shadow-lg text-orange-700
+          hover:bg-cyan-800 hover:text-white hover:animate-shake3d"
+                >
+                  Offers
+                </button>
+                <button
+                  className="px-4 py-2 font-semibold rounded bg-white shadow-lg text-orange-700
           transition-all duration-700 ease-in-out
-          hover:bg-cyan-800 hover:text-white hover:animate-shake3d">
-          PC Builder
-        </button>
-        <button className="px-4 py-2 font-semibold rounded bg-white shadow-lg text-orange-700
+          hover:bg-cyan-800 hover:text-white hover:animate-shake3d"
+                >
+                  PC Builder
+                </button>
+                <button
+                  className="px-4 py-2 font-semibold rounded bg-white shadow-lg text-orange-700
           transition-all duration-700 ease-in-out
-          hover:bg-cyan-800 hover:text-white hover:animate-shake3d">
-          Service Center
-        </button>
-      </div>
+          hover:bg-cyan-800 hover:text-white hover:animate-shake3d"
+                >
+                  Service Center
+                </button>
+              </div>
 
-      {/* Links */}
-      <div className="flex flex-wrap justify-center gap-4 items-center font-sans mt-2 lg:mt-0">
-        <Link to="" className="text-gray-600 font-bold hover:text-cyan-700 transition-all duration-700 ease-in-out hover:animate-shake3d">BLOG</Link>
-        <Link to="" className="text-gray-600 font-bold hover:text-cyan-700 transition-all duration-700 ease-in-out hover:animate-shake3d">STORES</Link>
-        <Link to="" className="text-gray-600 font-bold hover:text-cyan-700 transition-all duration-700 ease-in-out hover:animate-shake3d">CORPORATE</Link>
-        <Link to="" className="text-gray-600 font-bold hover:text-cyan-700 transition-all duration-700 ease-in-out hover:animate-shake3d">USED DEVICE</Link>
-      </div>
-    </div>
+              {/* Links */}
+              <div className="flex flex-wrap justify-center gap-4 items-center font-sans mt-2 lg:mt-0">
+                <Link
+                  to=""
+                  className="text-gray-600 font-bold hover:text-cyan-700 transition-all duration-700 ease-in-out hover:animate-shake3d"
+                >
+                  BLOG
+                </Link>
+                <Link
+                  to=""
+                  className="text-gray-600 font-bold hover:text-cyan-700 transition-all duration-700 ease-in-out hover:animate-shake3d"
+                >
+                  STORES
+                </Link>
+                <Link
+                  to=""
+                  className="text-gray-600 font-bold hover:text-cyan-700 transition-all duration-700 ease-in-out hover:animate-shake3d"
+                >
+                  CORPORATE
+                </Link>
+                <Link
+                  to=""
+                  className="text-gray-600 font-bold hover:text-cyan-700 transition-all duration-700 ease-in-out hover:animate-shake3d"
+                >
+                  USED DEVICE
+                </Link>
+              </div>
+            </div>
 
-    {/* Right: Icons */}
-    <div className="flex w-full md:w-auto justify-center md:justify-end">
-      <div className="flex gap-3 items-center">
-        <Link>
-          <img
-            className="h-10 w-10 bg-white rounded-full p-2 shadow-lg hover:animate-shake3d transition-all duration-700 ease-in-out hover:bg-yellow-300"
-            src={trolley}
-            alt="Trolley"
-          />
-        </Link>
-        <Link>
-          <img
-            className="h-10 w-10 bg-white rounded-full p-2 shadow-lg hover:animate-shake3d transition-all duration-700 ease-in-out hover:bg-yellow-300"
-            src={profile}
-            alt="Profile"
-          />
-        </Link>
-      </div>
-    </div>
-
-  </div>
-</div>
-
+            {/* Right: Icons */}
+            <div className="flex w-full md:w-auto justify-center md:justify-end pt-4 lg:pt-0 xl:pt-0">
+              <div className="flex gap-3 items-center">
+                <Link>
+                  <img
+                    className="h-10 w-10 bg-white rounded-full p-2 shadow-lg hover:animate-shake3d transition-all duration-700 ease-in-out hover:bg-yellow-300"
+                    src={trolley}
+                    alt="Trolley"
+                  />
+                </Link>
+                <Link>
+                  <img
+                    className="h-10 w-10 bg-white rounded-full p-2 shadow-lg hover:animate-shake3d transition-all duration-700 ease-in-out hover:bg-yellow-300"
+                    src={profile}
+                    alt="Profile"
+                  />
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
 
         {/* ______________________Second Navbar_________________________ */}
         <div className="bg-gray-800">
