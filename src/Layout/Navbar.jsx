@@ -398,10 +398,10 @@ const Navbar = () => {
       </header>
 
       {/* ____________________Search Product____________________ */}
-      <div class="mx-auto w-screen max-w-screen-md py-10 leading-6 px-4">
+      <div class="mx-auto w-full max-w-screen-md py-10 leading-6 px-4">
         <form class="relative mx-auto flex w-full max-w-2xl items-center justify-between rounded border border-gray-300 shadow-lg">
           <svg
-            class="absolute left-2 block h-5 w-5 text-gray-400"
+            class="absolute left-3 block h-5 w-5 text-gray-400"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
@@ -412,19 +412,18 @@ const Navbar = () => {
             stroke-linecap="round"
             stroke-linejoin="round"
           >
-            <circle cx="11" cy="11" r="8" class=""></circle>
-            <line x1="21" y1="21" x2="16.65" y2="16.65" class=""></line>
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
           </svg>
           <input
-            type="name"
+            type="text"
             name="search"
-            class="h-14 w-full rounded-md py-4 pr-40 pl-12 outline-none focus:ring-2"
+            class="h-14 w-full rounded-md py-4 pr-36 pl-12 outline-none focus:ring-2 text-sm sm:text-base"
             placeholder="Search Your Choice"
           />
-          {/* Search button */}
           <button
             type="submit"
-            class="absolute right-0 mr-1 inline-flex h-12 items-center justify-center rounded bg-gray-900 px-10 font-medium text-white  hover:bg-cyan-900 transition-all duration-500 ease-in-out"
+            class="absolute right-1 h-12 rounded bg-gray-900 px-6 text-sm sm:px-10 sm:text-base font-medium text-white hover:bg-cyan-900 transition-all duration-500 ease-in-out"
           >
             Search
           </button>

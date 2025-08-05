@@ -167,15 +167,19 @@ const Shop = () => {
   return (
     <div className="mt-30 max-w-[1400px] mx-auto px-4">
       <h1 className="text-3xl lg:text-4xl xl:text-5xl px-4 lg:px-2 xl:px-0 text-cyan-900 font-bold text-left flex items-center mb-20">
-        Shop Your Favorite Tech Today{" "}
-        <span className="text-7xl text-purple-600"> ! </span>
+        Shop Your Favorite Tech Today
+        <span className="text-5xl lg:text-6xl xl:text-6xl text-orange-600 font-serif pr-4">
+          !
+        </span>
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-6 gap-y-14 px-6 lg:px-2 xl:px-0">
         {products.map((product) => (
+          // Cards here *****
+
           <div
             key={product.id}
             className="relative  w-full overflow-hidden rounded-lg bg-white shadow-md flex-col flex
-           hover:shadow-lg hover:shadow-[#B2A5FF] transition transform ease-in-out duration-500 "
+           hover:shadow-lg hover:shadow-[#A4CCD9] transition transform ease-in-out duration-500 "
           >
             <div className="relative overflow-hidden">
               <a href="#">
@@ -253,6 +257,11 @@ const Shop = () => {
           </div>
         ))}
       </div>
+      <a href="#">
+        <button className="bg-[#C4E1E6] text-base py-2 px-4 text-gray-700 rounded-lg mt-12 transition transform ease-in-out duration-700 hover:bg-[#8DBCC7]">
+          View More
+        </button>
+      </a>
     </div>
   );
 };

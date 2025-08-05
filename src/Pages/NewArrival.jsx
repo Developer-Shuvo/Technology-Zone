@@ -5,12 +5,12 @@ import img3 from "../assets/images/banner-image/banner-6.jpg";
 
 const NewArrival = () => {
   return (
-    <div className="bg-[#FEEBF6] ">
+    <div className="bg-[#A4CCD9] ">
       <div className="max-w-[1400px] mx-auto mt- px-4">
         <div className="flex flex-col lg:flex-row xl:flex-row gap-10 lg:gap-16 items-center justify-between py-8">
           {/* Text Section */}
-          <div className="w-full text-left lg:w-1/2">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-cyan-900  ">
+          <div className="w-full text-left px-8 lg:w-1/2">
+            <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-cyan-900  ">
               New Arrival
             </h1>
             <p className="text-gray-800 font-semibold text-base sm:text-lg mt-6 sm:mt-8">

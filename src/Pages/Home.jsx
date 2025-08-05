@@ -11,6 +11,7 @@ import img8 from "../assets/images/8.jpg";
 import banner5 from "../assets/images/banner-image/banner-5.jpg";
 import banner6 from "../assets/images/banner-image/banner-6.jpg";
 import banner7 from "../assets/images/banner-image/banner-7.jpg";
+import FavoriteBrands from "./FavoriteBrands";
 import NewArrival from "./NewArrival";
 import Shop from "./Shop";
 
@@ -23,7 +24,7 @@ const Home = () => {
           {/* Example Card 1 */}
           <a
             className="group bg-white border border-gray-200 shadow-md hover:shadow-lg
-             hover:shadow-cyan-200 rounded-lg 
+             hover:shadow-[#A4CCD9] rounded-lg 
               transition-shadow duration-300 flex flex-col items-center "
           >
             {/* Image */}
@@ -44,7 +45,7 @@ const Home = () => {
           {/* Example Card 2 */}
           <a
             className="group bg-white border border-gray-200 shadow-md hover:shadow-lg
-             hover:shadow-cyan-200 rounded-lg 
+             hover:shadow-[#A4CCD9] rounded-lg 
               transition-shadow duration-300 flex flex-col items-center "
           >
             {/* Image */}
@@ -64,7 +65,7 @@ const Home = () => {
           {/* Example Card 3*/}
           <a
             className="group bg-white border border-gray-200 shadow-md hover:shadow-lg
-             hover:shadow-cyan-200 rounded-lg 
+             hover:shadow-[#A4CCD9] rounded-lg 
               transition-shadow duration-300 flex flex-col items-center "
           >
             {/* Image */}
@@ -84,7 +85,7 @@ const Home = () => {
           {/* Example Card 4 */}
           <a
             className="group bg-white border border-gray-200 shadow-md hover:shadow-lg
-             hover:shadow-cyan-200 rounded-lg 
+             hover:shadow-[#A4CCD9] rounded-lg 
               transition-shadow duration-300 flex flex-col items-center "
           >
             {/* Image */}
@@ -104,7 +105,7 @@ const Home = () => {
           {/* Example Card 5*/}
           <a
             className="group bg-white border border-gray-200 shadow-md hover:shadow-lg
-             hover:shadow-cyan-200 rounded-lg 
+             hover:shadow-[#A4CCD9] rounded-lg 
               transition-shadow duration-300 flex flex-col items-center "
           >
             {/* Image */}
@@ -124,7 +125,7 @@ const Home = () => {
           {/* Example Card 6*/}
           <a
             className="group bg-white border border-gray-200 shadow-md hover:shadow-lg
-             hover:shadow-cyan-200 rounded-lg 
+             hover:shadow-[#A4CCD9] rounded-lg 
               transition-shadow duration-300 flex flex-col items-center "
           >
             {/* Image */}
@@ -144,7 +145,7 @@ const Home = () => {
           {/* Example Card 7*/}
           <a
             className="group bg-white border border-gray-200 shadow-md hover:shadow-lg
-             hover:shadow-cyan-200 rounded-lg 
+             hover:shadow-[#A4CCD9] rounded-lg 
               transition-shadow duration-300 flex flex-col items-center "
           >
             {/* Image */}
@@ -164,7 +165,7 @@ const Home = () => {
           {/* Example Card 8 */}
           <a
             className="group bg-white border border-gray-200 shadow-md hover:shadow-lg
-             hover:shadow-cyan-200 rounded-lg 
+             hover:shadow-[#A4CCD9] rounded-lg 
               transition-shadow duration-300 flex flex-col items-center "
           >
             {/* Image */}
@@ -226,11 +227,15 @@ const Home = () => {
 
       {/* ______________Flash Sale____________   এক্সট্রা কম্পোনেন্ট বানিয়ে এখানে সরাসরি ইমপোরট করা হয়েছে */}
       <FlashSale />
-      {/* ___________________New Arrival___________________________ইমপোর্ট হয়েছে!! */} 
+      {/* ___________________New Arrival___________________________ইমপোর্ট হয়েছে!! */}
       <NewArrival />
 
       {/* ________________Shop_________________ */}
       <Shop />
+
+
+      {/* _______________Favorite Brands_______________ */}
+      <FavoriteBrands/>
     </>
   );
 };
