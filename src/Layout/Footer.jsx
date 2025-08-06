@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="px-4 mt-60 divide-y   bg-[#212121]  text-gray-100">
+    <footer className="px-8 mt-60 divide-y   bg-[#212121]  text-gray-100">
       <div className="container max-w-[1400px]  items-center  flex flex-col justify-between py-20 mx-auto  space-y-8 lg:flex-row lg:space-y-0">
 
         {/* Technology Zone */}

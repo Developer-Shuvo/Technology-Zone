@@ -232,25 +232,34 @@ const Shop = () => {
                     ${product.oldPrice}
                   </span>
                 </p>
+                {/* button */}
                 <a
                   href="#"
-                  className="flex items-center rounded-md bg-slate-900 px-4 py-2 text-sm font-medium text-white hover:bg-gray-700"
+                  className="relative inline-flex items-center text-gray-700 font-semibold text-lg 
+    border border-gray-300 rounded px-4 py-1 overflow-hidden
+    transition-colors duration-[800ms] ease-[cubic-bezier(0.25,1,0.5,1)]
+    before:absolute before:top-0 before:left-0 before:h-full before:w-0 
+    before:bg-gradient-to-r before:from-pink-100 before:to-purple-500 
+    before:transition-all before:duration-[900ms] before:ease-[cubic-bezier(0.25,1,0.5,1)] 
+    hover:before:w-full hover:text-black z-10 before:z-0"
                 >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="mr-2 h-5 w-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth={2}
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
-                    />
-                  </svg>
-                  Add
+                  <span className="relative z-10 flex items-center gap-2 transition-all duration-300">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth={2}
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                      />
+                    </svg>
+                    Add
+                  </span>
                 </a>
               </div>
             </div>
@@ -258,7 +267,7 @@ const Shop = () => {
         ))}
       </div>
       <a href="#">
-        <button className="bg-[#C4E1E6] text-base py-2 px-4 text-gray-700 rounded-lg mt-12 transition transform ease-in-out duration-700 hover:bg-[#8DBCC7]">
+        <button className="bg-[#C4E1E6] text-base font-semibold py-2 px-4 text-gray-700 rounded-lg mt-12 transition transform ease-in-out duration-700 hover:bg-[#8DBCC7]">
           View More
         </button>
       </a>

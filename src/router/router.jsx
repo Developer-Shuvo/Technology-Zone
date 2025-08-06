@@ -4,6 +4,7 @@ import ErrorPage from "../Layout/ErrorPage";
 import Home from "../Pages/Home";
 import Offers from "../Pages/2ndLayerPage/Offers";
 import PcBuilder from "../Pages/2ndLayerPage/PcBuilder";
+import ServiceCenter from "../Pages/2ndLayerPage/ServiceCenter";
 
 const router = createBrowserRouter([
   {
@@ -23,7 +24,11 @@ const router = createBrowserRouter([
 
       {
         path: "/pcBuilder",
-        element : <PcBuilder/>,
+        element: <PcBuilder />,
+      },
+      {
+        path: "/serviceCenter",
+        element: <ServiceCenter />,
       },
     ],
   },

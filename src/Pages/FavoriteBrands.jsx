@@ -23,7 +23,7 @@ const Companies = [
 const FavoriteBrands = () => {
   return (
     <>
-      <div className="bg-[#A35C7A] mt-30">
+      <div className="bg-[#3D365C] mt-30">
         {/* Brands */}
         <div className="max-w-[1400px]  mx-auto">
           <div className="py-16 lg:py-40 px-4 pl-4 sm:px-6 md:px-8 grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-20 text-white">
@@ -32,7 +32,7 @@ const FavoriteBrands = () => {
               <h1 className="text-3xl lg:text-4xl xl:text-5xl text-white font-bold">
                 Shop Products from Your Favorite Brands
               </h1>
-              <p className="text-black text-lg font-semibold mt-8">
+              <p className="text-gray-300 text-lg font-semibold mt-8">
                 Shop top-quality products from your favorite brands. Find
                 trends, essentials, and more in our curated collection. Start
                 shopping today!
@@ -47,10 +47,10 @@ const FavoriteBrands = () => {
                     key={i}
                     href="#"
                     className="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32
-                hover:shadow-lg hover:shadow-gray-700 bg-[#090040] 
-                text-gray-100 font-semibold text-center flex flex-col items-center justify-center 
+                hover:shadow-md hover:shadow-purple-600 bg-[#A8F1FF]  
+                text-gray-800 font-semibold text-center flex flex-col items-center justify-center 
                 rounded-full transform transition-transform duration-700 hover:scale-110 
-                hover:bg-[#66D2CE] hover:text-gray-800"
+                hover:bg-[#F3C623] hover:text-gray-900"
                   >
                     <img
                       src={company.image}

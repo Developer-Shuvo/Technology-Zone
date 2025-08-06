@@ -4,7 +4,7 @@ const Offers = () => {
   return (
     <div>
       <section className="pt-8">
-        <div className="bg-[#C2EFD4] mx-auto w-[1400px] relative flex justify-around items-center">
+        <div className="bg-[#C2EFD4] mx-auto w-[1400px] px-4 relative flex justify-around items-center">
           {/* Dotted Grid Decoration */}
           <div className="absolute left-10 bottom-0 w-[156px] h-[110px] grid grid-cols-4">
             {Array.from({ length: 12 }).map((_, index) => (
@@ -16,11 +16,15 @@ const Offers = () => {
           </div>
 
           {/* Image */}
-          <img src="https://iili.io/3Bvpo4R.png" alt="Exclusive Offer" />
+          <img
+            className=" rounded-xl h-[400px] w-[600px]"
+            src="https://i.postimg.cc/dVPkqkVK/245861-P4-HNZU-388.jpg"
+            alt="Exclusive Offer"
+          />
 
           {/* Offer Content */}
-          <div className="w-[589px] h-[447px] rounded-[3px]">
-            <h2 className="text-[#224f34] text-[46px] font-bold font-['Roboto_Slab']">
+          <div className="w-[589px] h-[600px] rounded-[3px]">
+            <h2 className="text-[#224f34] text-[46px] mt-8 font-bold font-['Roboto_Slab']">
               Exclusive offer
             </h2>
             <p className="w-[589px] text-[#224f34] text-[22px] font-medium font-['Poppins'] leading-9">
@@ -29,7 +33,7 @@ const Offers = () => {
             </p>
 
             {/* Countdown Timer */}
-            <div className="flex gap-9 my-10 font-['Poppins']">
+            <div className="flex justify-center  gap-9 my-10 font-['Poppins']">
               <div className="w-[100px] h-[100px] text-center py-4 bg-white rounded-[3px] shadow-[0px_7px_30px_0px_rgba(0,0,0,0.05)]">
                 <span className="block text-[#224f34] text-[32px] font-semibold">
                   06

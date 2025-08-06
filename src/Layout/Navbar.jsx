@@ -11,9 +11,9 @@ const Navbar = () => {
         <div className="max-w-[1400px] mx-auto py-3 px-4">
           <div className="flex flex-col md:flex-row items-center justify-between px-8">
             {/* Left: Logo */}
-            <div className="w-full md:w-auto text-center md:text-left">
+            <div className=" md:w-auto text-center md:text-left pb-4 sm:pb-0 md:pb-0 lg:pb-0 xl:pb-0">
               <Link to="/">
-                <img className="h-[60px] w-full" src={techZone} alt="logo" />
+                <img className="h-[40px]  w-[40px]" src={techZone} alt="logo" />
               </Link>
             </div>
 
@@ -38,7 +38,7 @@ const Navbar = () => {
                 </Link>
                 {/* service center */}
                 <Link
-                  to="/service-center"
+                  to="/serviceCenter"
                   className="px-4 py-2 font-semibold rounded bg-white shadow-lg text-orange-700 transition-all duration-700 ease-in-out hover:bg-cyan-800 hover:text-white hover:animate-shake3d"
                 >
                   Service Center
