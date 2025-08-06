@@ -5,7 +5,8 @@ import img1 from "../assets/images/1.jpg";
 import img2 from "../assets/images/2.jpg";
 import img3 from "../assets/images/3.jpg";
 import img4 from "../assets/images/4.jpg";
-import banner1 from "../assets/images/banner-image/banner-1.jpg";
+import img5 from "../assets/images/Shop/10.jpg";
+import img6 from "../assets/images/Shop/11.jpg";
 
 const FlashSale = () => {
   return (
@@ -38,7 +39,7 @@ const FlashSale = () => {
               <SwiperSlide key={index}>
                 <div className="flex flex-col overflow-hidden rounded-xl shadow-md bg-white">
                   <img
-                    src={banner1}
+                    src={[img1, img2, img3, img4, img5, img6][index % 5]}
                     className="h-44 sm:h-48 md:h-52 lg:h-56 w-full object-cover"
                     alt={`Product ${index + 1}`}
                   />

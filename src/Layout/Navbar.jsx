@@ -12,7 +12,7 @@ const Navbar = () => {
           <div className="flex flex-col md:flex-row items-center justify-between px-8">
             {/* Left: Logo */}
             <div className="w-full md:w-auto text-center md:text-left">
-              <Link to="">
+              <Link to="/">
                 <img className="h-[60px] w-full" src={techZone} alt="logo" />
               </Link>
             </div>
@@ -21,49 +21,58 @@ const Navbar = () => {
             <div className="flex flex-col lg:flex-row items-center justify-center gap-6">
               {/* Buttons */}
               <div className="flex flex-wrap justify-center gap-2">
-                <button
-                  className="px-4 py-2 font-semibold rounded bg-white shadow-lg text-orange-700
-          transition-all duration-700 ease-in-out
-          hover:bg-cyan-800 hover:text-white hover:animate-shake3d"
+
+                {/* Offers */}
+                <Link
+                  to="/offers"
+                  className="px-4 py-2 font-semibold rounded bg-white shadow-lg text-orange-700 transition-all duration-700 ease-in-out hover:bg-cyan-800 hover:text-white hover:animate-shake3d"
                 >
                   Offers
-                </button>
-                <button
-                  className="px-4 py-2 font-semibold rounded bg-white shadow-lg text-orange-700
-          transition-all duration-700 ease-in-out
-          hover:bg-cyan-800 hover:text-white hover:animate-shake3d"
+                </Link>
+                {/* pc builder */}
+                <Link
+                  to="/pcBuilder"
+                  className="px-4 py-2 font-semibold rounded bg-white shadow-lg text-orange-700 transition-all duration-700 ease-in-out hover:bg-cyan-800 hover:text-white hover:animate-shake3d"
                 >
                   PC Builder
-                </button>
-                <button
-                  className="px-4 py-2 font-semibold rounded bg-white shadow-lg text-orange-700
-          transition-all duration-700 ease-in-out
-          hover:bg-cyan-800 hover:text-white hover:animate-shake3d"
+                </Link>
+                {/* service center */}
+                <Link
+                  to="/service-center"
+                  className="px-4 py-2 font-semibold rounded bg-white shadow-lg text-orange-700 transition-all duration-700 ease-in-out hover:bg-cyan-800 hover:text-white hover:animate-shake3d"
                 >
                   Service Center
-                </button>
+                </Link>
               </div>
 
               {/* Links */}
               <div className="flex flex-wrap justify-center gap-4 items-center font-sans mt-2 lg:mt-0">
+               
+               {/* Blog */}
                 <Link
                   to=""
                   className="text-gray-600 font-bold hover:text-cyan-700 transition-all duration-700 ease-in-out hover:animate-shake3d"
                 >
                   BLOG
                 </Link>
+
+                {/* stores */}
                 <Link
                   to=""
                   className="text-gray-600 font-bold hover:text-cyan-700 transition-all duration-700 ease-in-out hover:animate-shake3d"
                 >
                   STORES
                 </Link>
+
+                {/* corporate */}
                 <Link
                   to=""
                   className="text-gray-600 font-bold hover:text-cyan-700 transition-all duration-700 ease-in-out hover:animate-shake3d"
                 >
                   CORPORATE
                 </Link>
+
+                {/* Used Device */}
                 <Link
                   to=""
                   className="text-gray-600 font-bold hover:text-cyan-700 transition-all duration-700 ease-in-out hover:animate-shake3d"

@@ -233,9 +233,8 @@ const Home = () => {
       {/* ________________Shop_________________ */}
       <Shop />
 
-
       {/* _______________Favorite Brands_______________ */}
-      <FavoriteBrands/>
+      <FavoriteBrands />
     </>
   );
 };
