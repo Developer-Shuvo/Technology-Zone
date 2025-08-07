@@ -6,6 +6,7 @@ import Offers from "../Pages/2ndLayerPage/Offers";
 import PcBuilder from "../Pages/2ndLayerPage/PcBuilder";
 import ServiceCenter from "../Pages/2ndLayerPage/ServiceCenter";
 import Blog from "../Pages/2ndLayerPage/Blog";
+import Stores from "../Pages/2ndLayerPage/Stores";
 
 const router = createBrowserRouter([
   {
@@ -33,8 +34,12 @@ const router = createBrowserRouter([
       },
 
       {
-        path : "/blog",
-        element: <Blog/>,
+        path: "/blog",
+        element: <Blog />,
+      },
+      {
+        path: "/stores",
+        element: <Stores />,
       },
     ],
   },

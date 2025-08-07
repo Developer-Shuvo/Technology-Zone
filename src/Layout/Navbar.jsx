@@ -23,7 +23,7 @@ const Navbar = () => {
 
             {/* Center: Buttons + Links */}
             <div className="flex flex-col lg:flex-row items-center justify-center gap-6">
-              {/*** * Buttons *** */}
+              {/*___________ Buttons __________*/}
               <div className="flex flex-wrap justify-center gap-2">
                 {/* Offers */}
                 <Link
@@ -47,7 +47,7 @@ const Navbar = () => {
                   Service Center
                 </Link>
               </div>
-              {/* **** Links**** */}
+              {/* ___________ Links___________ */}
               <div className="flex flex-wrap justify-center gap-4 items-center font-sans mt-2 lg:mt-0">
                 {/* Blog */}
                 <Link
@@ -59,7 +59,7 @@ const Navbar = () => {
 
                 {/* stores */}
                 <Link
-                  to=""
+                  to="/stores"
                   className="text-gray-600 font-bold hover:text-cyan-700 transition-all duration-700 ease-in-out hover:animate-shake3d"
                 >
                   STORES
