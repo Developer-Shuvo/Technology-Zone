@@ -4,7 +4,8 @@ const products = [
   {
     id: 1,
     title: "MacBook Pro 14-inch (M2)",
-    image: "https://i.postimg.cc/qqWgV087/1.jpg",
+    image:
+      "https://i.postimg.cc/qqWgV087/1.jpg?w=300&format=webp&quality=80 ?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 1999,
     oldPrice: 2299,
@@ -12,7 +13,8 @@ const products = [
   {
     id: 2,
     title: "Dell XPS 15",
-    image: "https://i.postimg.cc/J7FsB39W/2.jpg",
+    image:
+      "https://i.postimg.cc/J7FsB39W/2.jpg?w=300&format=webp&quality=80 ?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 1499,
     oldPrice: 1699,
@@ -20,7 +22,8 @@ const products = [
   {
     id: 3,
     title: "iPhone 15 Pro Max",
-    image: "https://i.postimg.cc/5NF65YVQ/3.jpg",
+    image:
+      "https://i.postimg.cc/5NF65YVQ/3.jpg?w=300&format=webp&quality=80 ?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 1199,
     oldPrice: 1399,
@@ -28,7 +31,8 @@ const products = [
   {
     id: 4,
     title: "Samsung Galaxy S24 Ultra",
-    image: "https://i.postimg.cc/g2Vj5CrY/4.jpg",
+    image:
+      "https://i.postimg.cc/g2Vj5CrY/4.jpg?w=300&format=webp&quality=80 ?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 1099,
     oldPrice: 1299,
@@ -36,7 +40,8 @@ const products = [
   {
     id: 5,
     title: "Asus ROG Gaming Laptop",
-    image: "https://i.postimg.cc/VkQ5KffG/5.jpg",
+    image:
+      "https://i.postimg.cc/VkQ5KffG/5.jpg?w=300&format=webp&quality=80 ?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 1799,
     oldPrice: 1999,
@@ -44,7 +49,8 @@ const products = [
   {
     id: 6,
     title: "MSI Optix Gaming Monitor",
-    image: "https://i.postimg.cc/pdPrtsnK/6.jpg",
+    image:
+      "https://i.postimg.cc/pdPrtsnK/6.jpg?w=300&format=webp&quality=80 ?w=300&format=webp&quality=80",
     rating: 4.4,
     price: 399,
     oldPrice: 499,
@@ -52,7 +58,8 @@ const products = [
   {
     id: 7,
     title: "LG UltraWide Monitor",
-    image: "https://i.postimg.cc/W3H1gjY7/7.jpg",
+    image:
+      "https://i.postimg.cc/W3H1gjY7/7.jpg?w=300&format=webp&quality=80 ?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 699,
     oldPrice: 849,
@@ -60,7 +67,8 @@ const products = [
   {
     id: 8,
     title: "Logitech MX Master 3 Mouse",
-    image: "https://i.postimg.cc/SKQ9GSV0/8.jpg",
+    image:
+      "https://i.postimg.cc/SKQ9GSV0/8.jpg?w=300&format=webp&quality=80 ?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 99,
     oldPrice: 129,
@@ -68,7 +76,7 @@ const products = [
   {
     id: 9,
     title: "Razer BlackWidow V3 Keyboard",
-    image: "https://i.postimg.cc/wxnhddxJ/9.jpg",
+    image: "https://i.postimg.cc/wxnhddxJ/9.jpg?w=300&format=webp&quality=80  ",
     rating: 4.6,
     price: 149,
     oldPrice: 179,
@@ -76,7 +84,7 @@ const products = [
   {
     id: 10,
     title: "Corsair K100 RGB Mechanical Keyboard",
-    image: "https://i.postimg.cc/tJnCzfLG/10.jpg",
+    image: "https://i.postimg.cc/tJnCzfLG/10.jpg?w=300&format=webp&quality=80 ",
     rating: 4.9,
     price: 199,
     oldPrice: 229,
@@ -84,7 +92,7 @@ const products = [
   {
     id: 11,
     title: "Sony WH-1000XM5 Headphones",
-    image: "https://i.postimg.cc/2j14J5Yr/11.jpg",
+    image: "https://i.postimg.cc/2j14J5Yr/11.jpg?w=300&format=webp&quality=80 ",
     rating: 4.8,
     price: 349,
     oldPrice: 399,
@@ -92,7 +100,7 @@ const products = [
   {
     id: 12,
     title: "AirPods Pro 2nd Gen",
-    image: "https://i.postimg.cc/9QhZrt7Q/12.jpg",
+    image: "https://i.postimg.cc/9QhZrt7Q/12.jpg?w=300&format=webp&quality=80 ",
     rating: 4.7,
     price: 249,
     oldPrice: 299,
@@ -100,7 +108,7 @@ const products = [
   {
     id: 13,
     title: "Anker 737 Power Bank (PowerCore 24K)",
-    image: "https://i.postimg.cc/Wbr0Nfty/13.jpg",
+    image: "https://i.postimg.cc/Wbr0Nfty/13.jpg?w=300&format=webp&quality=80 ",
     rating: 4.9,
     price: 149,
     oldPrice: 179,
@@ -108,7 +116,7 @@ const products = [
   {
     id: 14,
     title: "Canon EOS R6 Mark II",
-    image: "https://i.postimg.cc/q7m3bPZN/14.jpg",
+    image: "https://i.postimg.cc/q7m3bPZN/14.jpg?w=300&format=webp&quality=80 ",
     rating: 4.9,
     price: 2499,
     oldPrice: 2699,
@@ -116,7 +124,7 @@ const products = [
   {
     id: 15,
     title: "DJI Mavic Air 2 Drone",
-    image: "https://i.postimg.cc/cHr8VFVX/15.jpg",
+    image: "https://i.postimg.cc/cHr8VFVX/15.jpg?w=300&format=webp&quality=80 ",
     rating: 4.8,
     price: 799,
     oldPrice: 999,
@@ -124,7 +132,7 @@ const products = [
   {
     id: 16,
     title: "Xbox Series X Console",
-    image: "https://i.postimg.cc/7Zn77G3M/16.jpg",
+    image: "https://i.postimg.cc/7Zn77G3M/16.jpg?w=300&format=webp&quality=80 ",
     rating: 4.7,
     price: 499,
     oldPrice: 549,
@@ -132,7 +140,7 @@ const products = [
   {
     id: 17,
     title: "PlayStation 5",
-    image: "https://i.postimg.cc/mk91rtZ9/17.jpg",
+    image: "https://i.postimg.cc/mk91rtZ9/17.jpg?w=300&format=webp&quality=80 ",
     rating: 4.9,
     price: 499,
     oldPrice: 549,
@@ -140,7 +148,7 @@ const products = [
   {
     id: 18,
     title: "Elgato Stream Deck XL",
-    image: "https://i.postimg.cc/T3f5Rdzy/18.jpg",
+    image: "https://i.postimg.cc/T3f5Rdzy/18.jpg?w=300&format=webp&quality=80 ",
     rating: 4.7,
     price: 249,
     oldPrice: 299,
@@ -148,7 +156,7 @@ const products = [
   {
     id: 19,
     title: "GoPro HERO10 Black",
-    image: "https://i.postimg.cc/jqn7ck6j/19.jpg",
+    image: "https://i.postimg.cc/jqn7ck6j/19.jpg?w=300&format=webp&quality=80 ",
     rating: 4.6,
     price: 399,
     oldPrice: 499,
@@ -156,7 +164,7 @@ const products = [
   {
     id: 20,
     title: "Apple iPad Pro 12.9” (M2)",
-    image: "https://i.postimg.cc/QxpWG9yG/20.jpg",
+    image: "https://i.postimg.cc/QxpWG9yG/20.jpg?w=300&format=webp&quality=80 ",
     rating: 4.8,
     price: 1099,
     oldPrice: 1249,

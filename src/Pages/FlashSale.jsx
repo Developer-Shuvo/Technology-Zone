@@ -1,12 +1,12 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
-import img1 from "../assets/images/1.jpg";
-import img2 from "../assets/images/2.jpg";
-import img3 from "../assets/images/3.jpg";
-import img4 from "../assets/images/4.jpg";
-import img5 from "../assets/images/Shop/10.jpg";
-import img6 from "../assets/images/Shop/11.jpg";
+import img1 from "../assets/images/1.jpg?w=300&format=webp&quality=80";
+import img2 from "../assets/images/2.jpg?w=300&format=webp&quality=80";
+import img3 from "../assets/images/3.jpg?w=300&format=webp&quality=80";
+import img4 from "../assets/images/4.jpg?w=300&format=webp&quality=80";
+import img5 from "../assets/images/Shop/10.jpg?w=300&format=webp&quality=80";
+import img6 from "../assets/images/Shop/11.jpg?w=300&format=webp&quality=80";
 
 const FlashSale = () => {
   return (

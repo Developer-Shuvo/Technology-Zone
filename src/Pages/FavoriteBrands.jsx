@@ -47,10 +47,10 @@ const FavoriteBrands = () => {
                     key={i}
                     href="#"
                     className="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32
-                hover:shadow-md hover:shadow-purple-600 bg-[#A8F1FF]  
+                hover:shadow-md hover:shadow-purple-600 bg-white  
                 text-gray-800 font-semibold text-center flex flex-col items-center justify-center 
                 rounded-full transform transition-transform duration-700 hover:scale-110 
-                hover:bg-[#F3C623] hover:text-gray-900"
+                hover:bg-lime-300 hover:text-gray-900"
                   >
                     <img
                       src={company.image}

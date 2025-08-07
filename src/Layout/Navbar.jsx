@@ -12,16 +12,19 @@ const Navbar = () => {
           <div className="flex flex-col md:flex-row items-center justify-between px-8">
             {/* Left: Logo */}
             <div className=" md:w-auto text-center md:text-left pb-4 sm:pb-0 md:pb-0 lg:pb-0 xl:pb-0">
-              <Link to="/">
-                <img className="h-[40px]  w-[40px]" src={techZone} alt="logo" />
+              <Link to="/" className="group inline-block">
+                <img
+                  src={techZone}
+                  alt="logo"
+                  className="h-[40px] w-[40px] transition-transform duration-700 ease-in-out group-hover:-translate-y-2"
+                />
               </Link>
             </div>
 
             {/* Center: Buttons + Links */}
             <div className="flex flex-col lg:flex-row items-center justify-center gap-6">
-              {/* Buttons */}
+              {/*** * Buttons *** */}
               <div className="flex flex-wrap justify-center gap-2">
-
                 {/* Offers */}
                 <Link
                   to="/offers"
@@ -44,13 +47,11 @@ const Navbar = () => {
                   Service Center
                 </Link>
               </div>
-
-              {/* Links */}
+              {/* **** Links**** */}
               <div className="flex flex-wrap justify-center gap-4 items-center font-sans mt-2 lg:mt-0">
-               
-               {/* Blog */}
+                {/* Blog */}
                 <Link
-                  to=""
+                  to="/blog"
                   className="text-gray-600 font-bold hover:text-cyan-700 transition-all duration-700 ease-in-out hover:animate-shake3d"
                 >
                   BLOG

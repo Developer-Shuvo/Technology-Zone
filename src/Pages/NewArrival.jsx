@@ -1,7 +1,7 @@
 import React from "react";
-import img1 from "../assets/images/banner-image/banner-2.jpg";
-import img2 from "../assets/images/banner-image/banner-5.jpg";
-import img3 from "../assets/images/banner-image/banner-6.jpg";
+import img1 from "../assets/images/banner-image/banner-2.jpg?w=300&format=webp&quality=80";
+import img2 from "../assets/images/banner-image/banner-5.jpg?w=300&format=webp&quality=80";
+import img3 from "../assets/images/banner-image/banner-6.jpg?w=300&format=webp&quality=80";
 
 const NewArrival = () => {
   return (

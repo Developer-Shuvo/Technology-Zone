@@ -5,6 +5,7 @@ import Home from "../Pages/Home";
 import Offers from "../Pages/2ndLayerPage/Offers";
 import PcBuilder from "../Pages/2ndLayerPage/PcBuilder";
 import ServiceCenter from "../Pages/2ndLayerPage/ServiceCenter";
+import Blog from "../Pages/2ndLayerPage/Blog";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,11 @@ const router = createBrowserRouter([
       {
         path: "/serviceCenter",
         element: <ServiceCenter />,
+      },
+
+      {
+        path : "/blog",
+        element: <Blog/>,
       },
     ],
   },

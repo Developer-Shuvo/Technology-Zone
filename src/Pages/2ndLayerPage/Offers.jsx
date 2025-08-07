@@ -4,9 +4,9 @@ const Offers = () => {
   return (
     <div>
       <section className="pt-8">
-        <div className="bg-[#C2EFD4] mx-auto w-[1400px] px-4 relative flex justify-around items-center">
+        <div className="bg-[#C2EFD4] mx-auto max-w-[1400px] w-full px-4 sm:px-6 md:px-10 relative flex flex-col-reverse lg:flex-row justify-around items-center gap-8">
           {/* Dotted Grid Decoration */}
-          <div className="absolute left-10 bottom-0 w-[156px] h-[110px] grid grid-cols-4">
+          <div className="absolute left-2 bottom-0 w-[156px] h-[110px] grid grid-cols-4 px-6  lg:grid">
             {Array.from({ length: 12 }).map((_, index) => (
               <div
                 key={index}
@@ -17,53 +17,49 @@ const Offers = () => {
 
           {/* Image */}
           <img
-            className=" rounded-xl h-[400px] w-[600px]"
+            className=" w-full max-w-[600px] h-auto object-cover"
             src="https://i.postimg.cc/dVPkqkVK/245861-P4-HNZU-388.jpg"
             alt="Exclusive Offer"
           />
 
           {/* Offer Content */}
-          <div className="w-[589px] h-[600px] rounded-[3px]">
-            <h2 className="text-[#224f34] text-[46px] mt-8 font-bold font-['Roboto_Slab']">
+          <div className="w-full max-w-[589px] px-4 sm:px-0">
+            <h2 className="text-[#224f34] text-[30px] sm:text-[36px] md:text-[46px] mt-6 font-bold font-['Roboto_Slab'] text-center lg:text-left leading-tight">
               Exclusive offer
             </h2>
-            <p className="w-[589px] text-[#224f34] text-[22px] font-medium font-['Poppins'] leading-9">
+
+            <p className="text-[#224f34] text-[16px] sm:text-[18px] md:text-[22px] font-medium font-['Poppins'] leading-8 mt-4 text-center lg:text-left">
               Unlock the ultimate style upgrade with our exclusive offer. Enjoy
               savings of up to 40% off on our latest New Arrivals
             </p>
 
             {/* Countdown Timer */}
-            <div className="flex justify-center  gap-9 my-10 font-['Poppins']">
-              <div className="w-[100px] h-[100px] text-center py-4 bg-white rounded-[3px] shadow-[0px_7px_30px_0px_rgba(0,0,0,0.05)]">
-                <span className="block text-[#224f34] text-[32px] font-semibold">
-                  06
-                </span>
-                <span className="block text-[#224f34] text-base font-medium">
-                  Days
-                </span>
-              </div>
-              <div className="w-[100px] h-[100px] text-center py-4 bg-white rounded-[3px] shadow-[0px_7px_30px_0px_rgba(0,0,0,0.05)]">
-                <span className="block text-[#224f34] text-[32px] font-semibold">
-                  18
-                </span>
-                <span className="block text-[#224f34] text-base font-medium">
-                  Hours
-                </span>
-              </div>
-              <div className="w-[100px] h-[100px] text-center py-4 bg-white rounded-[3px] shadow-[0px_7px_30px_0px_rgba(0,0,0,0.05)]">
-                <span className="block text-[#224f34] text-[32px] font-semibold">
-                  48
-                </span>
-                <span className="block text-[#224f34] text-base font-medium">
-                  Min
-                </span>
-              </div>
+            <div className="flex justify-center  lg:justify-start flex-wrap gap-6 my-10 font-['Poppins']">
+              {[
+                { label: "Days", value: "06" },
+                { label: "Hours", value: "18" },
+                { label: "Min", value: "48" },
+              ].map((item, i) => (
+                <div
+                  key={i}
+                  className="w-[80px] h-[80px] sm:w-[90px] sm:h-[90px] md:w-[100px] md:h-[100px] text-center py-3 md:py-4 bg-white rounded-[3px] shadow-[0px_7px_30px_0px_rgba(0,0,0,0.05)]"
+                >
+                  <span className="block text-[#224f34] text-[24px] sm:text-[28px] md:text-[32px] font-semibold">
+                    {item.value}
+                  </span>
+                  <span className="block text-[#224f34] text-xs sm:text-sm md:text-base font-medium">
+                    {item.label}
+                  </span>
+                </div>
+              ))}
             </div>
 
             {/* Buy Now Button */}
-            <button className="px-16 py-5 bg-[#224f34] rounded-[3px] shadow-[0px_7px_30px_0px_rgba(0,0,0,0.05)] text-white text-xl font-medium font-['Poppins'] uppercase">
-              BUY NOW
-            </button>
+            <div className="text-center  lg:text-left">
+              <button className="px-8 sm:px-10 md:px-16 py-3 sm:py-4 md:py-5 bg-[#224f34] rounded-[3px] shadow-[0px_7px_30px_0px_rgba(0,0,0,0.05)] text-white text-base sm:text-lg md:text-xl font-medium font-['Poppins'] uppercase">
+                BUY NOW
+              </button>
+            </div>
           </div>
         </div>
       </section>

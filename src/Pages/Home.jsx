@@ -1,16 +1,16 @@
 // Flash Sale page connect
 import FlashSale from "../Pages/FlashSale";
-import img1 from "../assets/images/1.jpg";
-import img3 from "../assets/images/3.jpg";
-import img4 from "../assets/images/4.jpg";
-import img5 from "../assets/images/5.jpg";
-import img6 from "../assets/images/6.jpg";
-import img7 from "../assets/images/7.jpg";
-import img8 from "../assets/images/8.jpg";
+import img1 from "../assets/images/1.jpg?w=300&format=webp&quality=80";
+import img3 from "../assets/images/3.jpg?w=300&format=webp&quality=80";
+import img4 from "../assets/images/4.jpg?w=300&format=webp&quality=80";
+import img5 from "../assets/images/5.jpg?w=300&format=webp&quality=80";
+import img6 from "../assets/images/6.jpg?w=300&format=webp&quality=80";
+import img7 from "../assets/images/7.jpg?w=300&format=webp&quality=80";
+import img8 from "../assets/images/8.jpg?w=300&format=webp&quality=80";
 // ____________________________________________
-import banner5 from "../assets/images/banner-image/banner-5.jpg";
-import banner6 from "../assets/images/banner-image/banner-6.jpg";
-import banner7 from "../assets/images/banner-image/banner-7.jpg";
+import banner5 from "../assets/images/banner-image/banner-5.jpg?w=800&format=webp&quality=75";
+import banner6 from "../assets/images/banner-image/banner-6.jpg?w=800&format=webp&quality=75";
+import banner7 from "../assets/images/banner-image/banner-7.jpg?w=800&format=webp&quality=75";
 import FavoriteBrands from "./FavoriteBrands";
 import NewArrival from "./NewArrival";
 import Shop from "./Shop";
