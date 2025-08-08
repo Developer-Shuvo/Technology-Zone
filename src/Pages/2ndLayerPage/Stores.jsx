@@ -6,7 +6,7 @@ import shop from "./Stores/shop.png?w=300&format=webp&quality=60";
 
 const Stores = () => {
   return (
-    <section class="bg-[#109fa3]">
+    <section class="bg-gradient-to-r from-cyan-800 to-sky-300">
       <div class="mx-auto grid max-w-lg gap-x-6 gap-y-20 px-4 py-32 md:max-w-screen-xl md:grid-cols-2 md:px-6 lg:grid-cols-3">
         <div>
           <h2 class="text-3xl lg:text-5xl  font-bold text-white">

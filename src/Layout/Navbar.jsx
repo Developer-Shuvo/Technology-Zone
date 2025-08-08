@@ -67,7 +67,7 @@ const Navbar = () => {
 
                 {/* corporate */}
                 <Link
-                  to=""
+                  to="/corporate"
                   className="text-gray-600 font-bold hover:text-cyan-700 transition-all duration-700 ease-in-out hover:animate-shake3d"
                 >
                   CORPORATE

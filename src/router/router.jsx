@@ -7,6 +7,7 @@ import PcBuilder from "../Pages/2ndLayerPage/PcBuilder";
 import ServiceCenter from "../Pages/2ndLayerPage/ServiceCenter";
 import Blog from "../Pages/2ndLayerPage/Blog";
 import Stores from "../Pages/2ndLayerPage/Stores";
+import Corporate from "../Pages/2ndLayerPage/Corporate";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,9 @@ const router = createBrowserRouter([
       {
         path: "/stores",
         element: <Stores />,
+      },
+      {path: "/corporate",
+        element: <Corporate/>,
       },
     ],
   },
