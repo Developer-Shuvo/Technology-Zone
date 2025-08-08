@@ -73,12 +73,12 @@ const Navbar = () => {
                   CORPORATE
                 </Link>
 
-                {/* Used Device */}
+                {/* About Us */}
                 <Link
-                  to=""
-                  className="text-gray-600 font-bold hover:text-cyan-700 transition-all duration-700 ease-in-out hover:animate-shake3d"
+                  to="/aboutUs"
+                  className="text-gray-600 font-bold hover:text-cyan-700 transition-all duration-700 ease-in-out hover:animate-shake3d uppercase"
                 >
-                  USED DEVICE
+                  About Us
                 </Link>
               </div>
             </div>

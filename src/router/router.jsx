@@ -8,6 +8,7 @@ import ServiceCenter from "../Pages/2ndLayerPage/ServiceCenter";
 import Blog from "../Pages/2ndLayerPage/Blog";
 import Stores from "../Pages/2ndLayerPage/Stores";
 import Corporate from "../Pages/2ndLayerPage/Corporate";
+import AboutUs from "../Pages/2ndLayerPage/About Us";
 
 const router = createBrowserRouter([
   {
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
       },
       {path: "/corporate",
         element: <Corporate/>,
+      },
+      {
+        path: "/aboutUs",
+        element: <AboutUs/>,
       },
     ],
   },
