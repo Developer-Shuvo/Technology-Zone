@@ -15,7 +15,7 @@ import img13 from "./pc-builder/headphone.png";
 
 const PcBuilder = () => {
   return (
-    <div className="max-w-[1200px] mx-auto p-6 bg-white shadow-lg rounded-xl">
+    <div className="max-w-[1200px] mx-auto p-6 mt-10 mb-30 bg-white shadow-lg rounded-xl">
       <div className="border border-gray-300 rounded-xl ">
         {/* Top */}
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 sm:gap-0 p-4">

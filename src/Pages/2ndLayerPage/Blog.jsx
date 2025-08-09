@@ -9,7 +9,7 @@ import img6 from "./blog-images/6.jpg?w=300&format=webp&quality=80";
 const Blog = () => {
   return (
     <section className="dark:bg-gray-100 dark:text-gray-800">
-      <div className="container max-w-[1350px] p-6 mx-auto space-y-6 sm:space-y-12">
+      <div className="container max-w-[1350px] p-6 pb-30 mx-auto space-y-6 sm:space-y-12">
         <a
           rel="noopener noreferrer"
           href="#"

@@ -4,7 +4,7 @@ import img3 from "./corporate/location.png";
 
 const Corporate = () => {
   return (
-    <section className="max-w-[1400px] mx-auto min-h-screen  flex flex-col items-center justify-center px-10">
+    <section className="max-w-[1400px] mx-auto min-h-screen mt-10 mb-30  flex flex-col items-center justify-center px-10">
       <div className="flex w-full  mb- bg-white rounded-lg shadow-lg overflow-hidden flex-col md:flex-row">
         {/* Left Side - Color Box with Text (Hidden on small devices) */}
         <div className="hidden md:flex bg-slate-600 text-white flex-col justify-center p-8 md:w-2/5">

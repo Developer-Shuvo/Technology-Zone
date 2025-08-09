@@ -1,27 +1,28 @@
-import icon from "../assets/images/favicon/tech-1.png"
+import icon from "../assets/images/favicon/tech-1.png";
 
 const Footer = () => {
   return (
-    <footer className="px-8 mt-60 divide-y   bg-[#212121]  text-gray-100">
+    <footer className="px-8  divide-y   bg-[#212121]  text-gray-100">
       <div className="container max-w-[1400px]  items-center  flex flex-col justify-between py-20 mx-auto  space-y-8 lg:flex-row lg:space-y-0">
         {/* Technology Zone */}
-    <div className="lg:w-1/3">
-  <a
-    rel="noopener noreferrer"
-    href="#"
-    className="flex items-center gap-2 justify-center lg:justify-start"
-  >
-    <div className="w-20 h-20 flex items-center justify-center rounded-full">
-      <img
-        className="h-20 w-20 object-contain"
-        src={icon}
-        alt="Technology Logo"
-      />
-    </div>
-    <span className="text-2xl lg:text-3xl font-semibold">Technology Zone</span>
-  </a>
-</div>
-
+        <div className="lg:w-1/3">
+          <a
+            rel="noopener noreferrer"
+            href="#"
+            className="flex items-center gap-2 justify-center lg:justify-start"
+          >
+            <div className="w-20 h-20 flex items-center justify-center rounded-full">
+              <img
+                className="h-20 w-20 object-contain"
+                src={icon}
+                alt="Technology Logo"
+              />
+            </div>
+            <span className="text-2xl lg:text-3xl font-semibold">
+              Technology Zone
+            </span>
+          </a>
+        </div>
 
         {/* All Links here */}
         <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">

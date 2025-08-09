@@ -2,8 +2,11 @@ import { Link } from "react-router";
 import trolley from "../assets/images/trolley.png";
 import profile from "../assets/images/user.png";
 import techZone from "../assets/images/favicon/tech-1.png";
+import { useState } from "react";
 
 const Navbar = () => {
+  const [searchField, setSearchField] = useState(false);
+
   return (
     <>
       <header className="bg-[#f6f6f6] shadow">
@@ -92,19 +95,71 @@ const Navbar = () => {
               </div>
             </div>
 
-            {/* Right: Icons */}
+            {/*----------- Right: Icons-------------- */}
             <div className="flex w-full md:w-auto justify-center md:justify-end pt-4 lg:pt-0 xl:pt-0">
               <div className="flex gap-3 items-center">
+                {/* *
+                1/ প্রথমে একটা Hook ডিক্লেয়ার করেছি  const [searchField, setSearchField] = useState(false);
+                 initial value = false  প্রাথমিক মান মিথ্যা দিয়েছি।
+
+                2/ তারপর যে জিনিস টা show করবো সেটার একটা মান দিয়েছি  {searchField === true && (
+                <>
+                ভিতরে যে জিনিস টা দেখাবো সেটা রেখছি।
+                </>
+                )}
+                
+
+                3/ সার্চ আইকনে এসে Arrow funtion লিখে শর্ত দিয়েছি... সত্য হলে দেখাবে, মিথ্যা হলে দেখাবে না। 
+                এবং setSearchfield দিয়ে মান সেট করেছি।
+                
+                *  */}
+                {/* _______________________--_start_--___________________________ */}
+
+                {searchField === true ? (
+                  <>
+                    {/* Closing icon */}
+                    <button onClick={() => setSearchField(!searchField)}>
+                      <img
+                        className="h-10 w-10 bg-white rounded-full p-2 shadow-lg
+                         hover:animate-shake3d transition-all duration-700 
+                         ease-in-out hover:bg-red-500"
+                        src="https://i.postimg.cc/Ssn484q4/cancel.png"
+                        alt="Search"
+                      />
+                    </button>
+                  </>
+                ) : (
+                  <>
+                    {/* search Icon */}
+                    <button onClick={() => setSearchField(!searchField)}>
+                      <img
+                        className="h-10 w-10 bg-white rounded-full p-1 shadow-lg
+                         hover:animate-shake3d transition-all duration-700 
+                         ease-in-out hover:bg-lime-400"
+                        src="https://i.postimg.cc/rm531PBz/search.png"
+                        alt="Search"
+                      />
+                    </button>
+                  </>
+                )}
+                {/* _______________________--_End_--___________________________ */}
+
+                {/* Cart */}
                 <Link>
                   <img
-                    className="h-10 w-10 bg-white rounded-full p-2 shadow-lg hover:animate-shake3d transition-all duration-700 ease-in-out hover:bg-yellow-300"
+                    className="h-10 w-10 bg-white rounded-full p-2 shadow-lg
+                     hover:animate-shake3d transition-all duration-700 
+                     ease-in-out hover:bg-lime-400"
                     src={trolley}
                     alt="Trolley"
                   />
                 </Link>
+                {/* log in */}
                 <Link to="/signup">
                   <img
-                    className="h-10 w-10 bg-white rounded-full p-2 shadow-lg hover:animate-shake3d transition-all duration-700 ease-in-out hover:bg-yellow-300"
+                    className="h-10 w-10 bg-white rounded-full p-2 shadow-lg
+                     hover:animate-shake3d transition-all duration-700
+                      ease-in-out hover:bg-lime-400"
                     src={profile}
                     alt="Profile"
                   />
@@ -567,37 +622,43 @@ const Navbar = () => {
       </header>
 
       {/* ____________________Search Product____________________ */}
-      <div class="mx-auto w-full max-w-screen-md py-10 leading-6 px-4">
-        <form class="relative mx-auto flex w-full max-w-2xl items-center justify-between rounded border border-gray-300 shadow-lg">
-          <svg
-            class="absolute left-3 block h-5 w-5 text-gray-400"
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <circle cx="11" cy="11" r="8"></circle>
-            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-          </svg>
-          <input
-            type="text"
-            name="search"
-            class="h-14 w-full rounded-md py-4 pr-36 pl-12 outline-none focus:ring-2 text-sm sm:text-base"
-            placeholder="Search Your Choice"
-          />
-          <button
-            type="submit"
-            class="absolute right-1 h-12 rounded bg-gray-900 px-6 text-sm sm:px-10 sm:text-base font-medium text-white hover:bg-cyan-900 transition-all duration-500 ease-in-out"
-          >
-            Search
-          </button>
-        </form>
-      </div>
+
+      {searchField === true && (
+        <div className="mx-auto w-full max-w-screen-md py-4 px-4">
+          <form className="relative flex w-full max-w-2xl items-center justify-between rounded border border-gray-300 shadow-lg">
+            <svg
+              className="absolute left-3 h-5 w-5 text-gray-400"
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+
+            <input
+              type="text"
+              name="search"
+              className="h-11 w-full rounded-md py-2 pr-32 pl-10 outline-none focus:ring-2
+               focus:ring-black text-sm sm:text-base"
+              placeholder="Search Your Choice"
+            />
+
+            <button
+              type="submit"
+              className="absolute right-0 h-11 rounded-r bg-gray-900 px-6 sm:px-8 text-sm sm:text-base font-medium text-white hover:bg-cyan-900 transition-all duration-300"
+            >
+              Search
+            </button>
+          </form>
+        </div>
+      )}
     </>
   );
 };
