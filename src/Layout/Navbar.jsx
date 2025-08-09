@@ -102,7 +102,7 @@ const Navbar = () => {
                     alt="Trolley"
                   />
                 </Link>
-                <Link>
+                <Link to="/signup">
                   <img
                     className="h-10 w-10 bg-white rounded-full p-2 shadow-lg hover:animate-shake3d transition-all duration-700 ease-in-out hover:bg-yellow-300"
                     src={profile}
@@ -166,7 +166,19 @@ const Navbar = () => {
                       href="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
-                      Smart Phone
+                      Xiaomi
+                    </a>
+                    <a
+                      href="#"
+                      className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
+                    >
+                      Apple
+                    </a>
+                    <a
+                      href="#"
+                      className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
+                    >
+                      Samsung
                     </a>
                   </li>
                   <li>
@@ -195,7 +207,19 @@ const Navbar = () => {
                       href="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
-                      Smart Phone
+                      i Mac
+                    </a>
+                    <a
+                      href="#"
+                      className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
+                    >
+                      Mac Pro
+                    </a>
+                    <a
+                      href="#"
+                      className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
+                    >
+                      Mac Mini
                     </a>
                   </li>
                   <li>
@@ -224,7 +248,37 @@ const Navbar = () => {
                       href="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
-                      Smart Phone
+                      Asus
+                    </a>
+                    <a
+                      href="#"
+                      className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
+                    >
+                      Dell
+                    </a>
+                    <a
+                      href="#"
+                      className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
+                    >
+                      Hp
+                    </a>
+                    <a
+                      href="#"
+                      className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
+                    >
+                      Lenovo
+                    </a>
+                    <a
+                      href="#"
+                      className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
+                    >
+                      Apple
+                    </a>
+                    <a
+                      href="#"
+                      className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
+                    >
+                      Asus
                     </a>
                   </li>
                   <li>
@@ -232,7 +286,7 @@ const Navbar = () => {
                       href="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
-                      Featured Phone
+                      Acer
                     </a>
                   </li>
                 </ul>
@@ -253,7 +307,7 @@ const Navbar = () => {
                       href="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
-                      Smart Phone
+                      Brand Pc
                     </a>
                   </li>
                   <li>
@@ -261,7 +315,25 @@ const Navbar = () => {
                       href="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
-                      Featured Phone
+                      Custom Pc
+                    </a>
+                    <a
+                      href="#"
+                      className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
+                    >
+                      Gaming Pc
+                    </a>
+                    <a
+                      href="#"
+                      className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
+                    >
+                      Featured Pc
+                    </a>
+                    <a
+                      href="#"
+                      className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
+                    >
+                      Mini Pc
                     </a>
                   </li>
                 </ul>
@@ -282,7 +354,7 @@ const Navbar = () => {
                       href="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
-                      Smart Phone
+                      Cable
                     </a>
                   </li>
                   <li>
@@ -290,7 +362,25 @@ const Navbar = () => {
                       href="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
-                      Featured Phone
+                      Printer
+                    </a>
+                    <a
+                      href="#"
+                      className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
+                    >
+                      Scanner
+                    </a>
+                    <a
+                      href="#"
+                      className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
+                    >
+                      Power Supply
+                    </a>
+                    <a
+                      href="#"
+                      className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
+                    >
+                      Projector
                     </a>
                   </li>
                 </ul>
@@ -311,7 +401,7 @@ const Navbar = () => {
                       href="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
-                      Smart Phone
+                      AirPods
                     </a>
                   </li>
                   <li>
@@ -319,7 +409,19 @@ const Navbar = () => {
                       href="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
-                      Featured Phone
+                      AirBuds
+                    </a>
+                    <a
+                      href="#"
+                      className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
+                    >
+                      Headphone
+                    </a>
+                    <a
+                      href="#"
+                      className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
+                    >
+                      Microphone
                     </a>
                   </li>
                 </ul>
@@ -340,7 +442,7 @@ const Navbar = () => {
                       href="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
-                      Smart Phone
+                      Gimbal
                     </a>
                   </li>
                   <li>
@@ -348,7 +450,19 @@ const Navbar = () => {
                       href="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
-                      Featured Phone
+                      Device Stand
+                    </a>
+                    <a
+                      href="#"
+                      className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
+                    >
+                      Action Camera
+                    </a>
+                    <a
+                      href="#"
+                      className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
+                    >
+                      Drone Gear
                     </a>
                   </li>
                 </ul>
@@ -369,7 +483,7 @@ const Navbar = () => {
                       href="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
-                      Smart Phone
+                      Apple
                     </a>
                   </li>
                   <li>
@@ -377,7 +491,25 @@ const Navbar = () => {
                       href="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
-                      Featured Phone
+                      Xiaomi
+                    </a>
+                    <a
+                      href="#"
+                      className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
+                    >
+                      Lenovo
+                    </a>
+                    <a
+                      href="#"
+                      className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
+                    >
+                      One Plus
+                    </a>
+                    <a
+                      href="#"
+                      className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
+                    >
+                      Samsung
                     </a>
                   </li>
                 </ul>
@@ -398,7 +530,7 @@ const Navbar = () => {
                       href="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
-                      Smart Phone
+                      LG
                     </a>
                   </li>
                   <li>
@@ -406,7 +538,25 @@ const Navbar = () => {
                       href="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
-                      Featured Phone
+                      Dell
+                    </a>
+                    <a
+                      href="#"
+                      className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
+                    >
+                      Lenovo
+                    </a>
+                    <a
+                      href="#"
+                      className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
+                    >
+                      Apple
+                    </a>
+                    <a
+                      href="#"
+                      className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
+                    >
+                      Samsung
                     </a>
                   </li>
                 </ul>

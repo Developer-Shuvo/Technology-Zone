@@ -10,6 +10,7 @@ import Stores from "../Pages/2ndLayerPage/Stores";
 import Corporate from "../Pages/2ndLayerPage/Corporate";
 import AboutUs from "../Pages/2ndLayerPage/About Us";
 import Banner from "../Pages/Banner";
+import SignUp from "../Pages/LogIn/SignUp";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/signup",
+        element: <SignUp />,
       },
       {
         path: "/banner",
@@ -48,12 +53,10 @@ const router = createBrowserRouter([
         path: "/stores",
         element: <Stores />,
       },
-      {path: "/corporate",
-        element: <Corporate/>,
-      },
+      { path: "/corporate", element: <Corporate /> },
       {
         path: "/aboutUs",
-        element: <AboutUs/>,
+        element: <AboutUs />,
       },
     ],
   },
