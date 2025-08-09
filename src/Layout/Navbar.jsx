@@ -11,13 +11,22 @@ const Navbar = () => {
         <div className="max-w-[1400px] mx-auto py-3 px-4">
           <div className="flex flex-col md:flex-row items-center justify-between px-8">
             {/* Left: Logo */}
-            <div className=" md:w-auto text-center md:text-left pb-4 sm:pb-0 md:pb-0 lg:pb-0 xl:pb-0">
-              <Link to="/" className="group inline-block">
+            <div className="md:w-auto text-center md:text-left pb-4 sm:pb-0">
+              <Link to="/" className="group inline-flex items-center relative">
+                {/* Logo */}
                 <img
                   src={techZone}
                   alt="logo"
                   className="h-[40px] w-[40px] transition-transform duration-700 ease-in-out group-hover:-translate-y-2"
                 />
+
+                {/* Tooltip */}
+                <span
+                  className="absolute left-full ml-3 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all
+                 duration-500 border border-gray-300 text-gray-800 text-sm rounded px-2 py-1 shadow-lg shadow-gray-600 whitespace-nowrap"
+                >
+                  Home
+                </span>
               </Link>
             </div>
 

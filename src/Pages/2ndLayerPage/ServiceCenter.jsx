@@ -4,39 +4,28 @@ const ServiceCenter = () => {
   return (
     <div className="bg-[#109fa3]">
       <div className="max-w-[1300px] mx-auto py-40 px-4">
-        <div className="flex flex-col lg:flex-row justify-center items-center gap-12">
+        <div className="flex flex-col lg:flex-row justify-center items-center gap-16">
           {/* Text */}
           <div className="lg:w-1/2 px-4 lg:text-left">
-            <h1
-              className="text-white font-bold text-3xl lg:text-5xl
-             xl-text-5xl leading-snug text-left  "
-            >
+            <h1 className="text-white font-extrabold text-3xl lg:text-5xl leading-snug drop-shadow-md">
               Technology Zone - The Official Service <br /> Center of TECHNOLOGY
               ZONE
             </h1>
-            <p className="text-gray-300 mt-4 lg:text-lg text-left   font-semibold">
+            <p className="text-gray-100 mt-4 lg:text-lg font-medium leading-relaxed">
               Expert Repair for iPhone, MacBook, Samsung, Android & All Your
-              Tech Devices — Fast, Reliable <br /> Service with Genuine Parts
-              and Certified Technicians in Dhaka
+              Tech Devices — Fast, Reliable Service with Genuine Parts and
+              Certified Technicians in Dhaka
             </p>
 
-            {/* Button */}
+            {/* Buttons */}
             <div className="flex items-center gap-4 mt-8 flex-wrap">
-              {/* WhatsApp Button */}
               <Link to="#">
-                <button
-                  className="bg-white font-semibold text-gray-900 
-                px-6 py-2 rounded hover:bg-black hover:text-white transition duration-500"
-                >
+                <button className="bg-white font-semibold text-gray-900 px-6 py-3 rounded-lg shadow-md hover:bg-black hover:text-white transition-all duration-300 hover:scale-105">
                   WhatsApp
                 </button>
               </Link>
-              {/* Book a Repair Button */}
               <Link to="#">
-                <button
-                  className="bg-white font-semibold text-gray-900
-                 px-6 py-2 rounded hover:bg-black hover:text-white transition duration-500"
-                >
+                <button className="bg-white font-semibold text-gray-900 px-6 py-3 rounded-lg shadow-md hover:bg-black hover:text-white transition-all duration-300 hover:scale-105">
                   Book a Repair
                 </button>
               </Link>
@@ -44,7 +33,7 @@ const ServiceCenter = () => {
           </div>
 
           {/* Map */}
-          <div className="lg:w-1/2 w-full bg-gray-300 rounded-lg overflow-hidden relative">
+          <div className="lg:w-1/2 w-full bg-gray-300 rounded-xl overflow-hidden shadow-xl relative">
             <div className="relative h-[350px] sm:h-[400px] md:h-[450px]">
               <iframe
                 title="map"
@@ -53,16 +42,16 @@ const ServiceCenter = () => {
                 frameBorder="0"
                 allowFullScreen=""
                 loading="lazy"
-                style={{ filter: "grayscale(1) contrast(1.2) opacity(0.4)" }}
+                style={{ filter: "grayscale(1) contrast(1.2) opacity(0.5)" }}
               ></iframe>
 
               {/* Address Field */}
-              <div className="bg-white border border-gray-300 relative z-10 flex flex-col sm:flex-row flex-wrap py-6 rounded shadow-md mx-4 sm:mx-6 md:mx-10 top-30 sm:top-44">
+              <div className="bg-white/90 backdrop-blur-md border border-gray-200 relative z-10 flex flex-col sm:flex-row flex-wrap py-6 rounded-lg shadow-lg mx-4 sm:mx-6 md:mx-10 -bottom-12 sm:-bottom-20">
                 <div className="w-full sm:w-1/2 px-4 sm:px-6 mb-4 sm:mb-0">
                   <h2 className="font-semibold text-gray-900 text-xs tracking-widest">
                     ADDRESS
                   </h2>
-                  <p className="mt-1 text-sm">
+                  <p className="mt-1 text-sm leading-relaxed">
                     123 Nakhalpara Street, Tejgaon. [Dhaka City, Bangladesh]
                   </p>
                 </div>
@@ -71,7 +60,7 @@ const ServiceCenter = () => {
                     EMAIL
                   </h2>
                   <a
-                    className="text-green-500 text-sm break-words"
+                    className="text-green-600 font-medium text-sm break-words hover:underline"
                     href="mailto:example@email.com"
                   >
                     im.computer.engineeer@gmail.com
@@ -79,7 +68,7 @@ const ServiceCenter = () => {
                   <h2 className="font-semibold text-gray-900 text-xs tracking-widest mt-4">
                     PHONE
                   </h2>
-                  <p className="text-sm">+8801817422784</p>
+                  <p className="text-sm font-medium">+8801817422784</p>
                 </div>
               </div>
             </div>
