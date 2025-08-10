@@ -275,7 +275,9 @@ const Shop = () => {
         ))}
       </div>
       <a href="#">
-        <button className="bg-[#C4E1E6] text-base font-semibold py-2 px-4 text-gray-700 rounded-lg mt-12 transition transform ease-in-out duration-700 hover:bg-[#8DBCC7]">
+        <button className="bg-[#C4E1E6] text-base font-semibold py-2 px-4
+         text-gray-700 rounded-lg mt-12 transition transform 
+         ease-in-out duration-700 hover:bg-[#8DBCC7]">
           View More
         </button>
       </a>

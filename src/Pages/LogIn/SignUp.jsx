@@ -8,7 +8,7 @@ export default function AuthForm() {
   const [showConfirmPassword, setShowConfirmPassword] = useState(true);
 
   return (
-    <div className="flex items-center justify-center p-2 ">
+    <div className="flex items-center justify-center p-2 mt-20 mb-30">
       <div className="w-full max-w-sm bg-gray-900 shadow-lg rounded-xl p-6 transition-all duration-300">
         {/* Top SignIn, SignUp */}
         <div className="flex justify-between mb-4 border-b border-gray-700">

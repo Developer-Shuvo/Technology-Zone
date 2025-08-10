@@ -23,7 +23,7 @@ const Companies = [
 const FavoriteBrands = () => {
   return (
     <>
-      <div className="bg-[#3D365C] mt-30">
+      <div className="bg-[#3D365C] mt-30 ">
         {/* Brands */}
         <div className="max-w-[1400px]  mx-auto">
           <div className="py-16 lg:py-40 px-4 pl-4 sm:px-6 md:px-8 grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-20 text-white">
@@ -67,7 +67,7 @@ const FavoriteBrands = () => {
       </div>
 
       {/* Service */}
-      <div className="max-w-[1300px] mx-auto px-4">
+      <div className="max-w-[1300px] mx-auto mb-50 px-4">
         <div className="border-gray-300  bg-white rounded-b-lg border-l border-r border-b shadow-xl">
           <div className="flex flex-wrap justify-center items-center gap-6 md:gap-10 lg:gap-20 h-auto py-8">
             {/* 1 */}

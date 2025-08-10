@@ -20,7 +20,7 @@ const Home = () => {
     <>
       {/* ________________Categories Cart____________________ */}
       <section className=" px-4 ">
-        <div className="mx-auto max-w-screen-xl px-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-4 justify-center items-center text-center">
+        <div className="mx-auto mt-8  max-w-screen-xl px-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-4 justify-center items-center text-center">
           {/* Example Card 1 */}
           <a
             className="group bg-white border border-gray-200 shadow-md hover:shadow-lg
@@ -186,7 +186,7 @@ const Home = () => {
       </section>
 
       {/* __________________Banner______________________ */}
-   <Banner/>
+      <Banner />
 
       {/* ______________Flash Sale____________   এক্সট্রা কম্পোনেন্ট বানিয়ে এখানে সরাসরি ইমপোরট করা হয়েছে */}
       <FlashSale />
