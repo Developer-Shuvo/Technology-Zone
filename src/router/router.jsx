@@ -14,6 +14,10 @@ import SignUp from "../Pages/LogIn/SignUp";
 import SmartPhone from "../Pages/2ndLayerPage/Phone/SmartPhone";
 import RegardingUs from "../Pages/FooterPage/AboutUs/RegardingUs";
 import TermsConditions from "../Pages/FooterPage/AboutUs/TermsConditions";
+import Career from "../Pages/FooterPage/AboutUs/Career";
+import DeliveryPolicy from "../Pages/FooterPage/Policy/DeliveryPolicy";
+import ReturnPolicy from "../Pages/FooterPage/Policy/ReturnPolicy";
+import RefundPolicy from "../Pages/FooterPage/Policy/RefundPolicy";
 
 const router = createBrowserRouter([
   {
@@ -71,6 +75,10 @@ const router = createBrowserRouter([
       //Footer Pages...
       { path: "/regardingUs", element: <RegardingUs /> },
       { path: "/termsConditions", element: <TermsConditions /> },
+      { path: "/career", element: <Career /> },
+      { path: "/deliveryPolicy", element: <DeliveryPolicy /> },
+      { path: "/returnPolicy", element: <ReturnPolicy /> },
+      { path: "/refundPolicy", element: <RefundPolicy/> },
     ],
   },
 ]);

@@ -7,7 +7,7 @@ const RegardingUs = () => {
         <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-800">
           Regarding Us
         </h1>
-        <div className="mt-6 sm:mt-8 lg:mt-10 text-base sm:text-lg leading-relaxed font-medium text-gray-700">
+        <div className="mt-6 sm:mt-8 lg:mt-10 text-base sm:text-lg leading-relaxed  text-gray-700">
           <p>
             Welcome to Sumash Tech Limited, one of the leading mobile and gadget
             retail chains in Bangladesh! Since our establishment, we have been

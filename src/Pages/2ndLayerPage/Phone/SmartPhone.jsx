@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Sidebar from "./Sidebar/Sidebar";
+import { AllProducts } from "../../AllProducts/AllProducts";
 
 const products = [
   {
@@ -173,6 +174,12 @@ const products = [
 ];
 
 const SmartPhone = () => {
+//   const [AllProducts, setAllProducts] = useState(AllProducts);
+
+// useEffect (()=>{
+
+// },[]);
+
   return (
     <div className="mt-20 mb-40 max-w-[1400px] mx-auto px-4">
       <div className="flex w-full">
