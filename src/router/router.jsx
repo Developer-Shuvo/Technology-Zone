@@ -12,8 +12,8 @@ import AboutUs from "../Pages/2ndLayerPage/About Us";
 import Banner from "../Pages/Banner";
 import SignUp from "../Pages/LogIn/SignUp";
 import SmartPhone from "../Pages/2ndLayerPage/Phone/SmartPhone";
-
-
+import RegardingUs from "../Pages/FooterPage/AboutUs/RegardingUs";
+import TermsConditions from "../Pages/FooterPage/AboutUs/TermsConditions";
 
 const router = createBrowserRouter([
   {
@@ -64,9 +64,13 @@ const router = createBrowserRouter([
 
       // 2nd Navbar pages ...
       {
-        path : "/smartPhone",
-        element: <SmartPhone/>,
+        path: "/smartPhone",
+        element: <SmartPhone />,
       },
+
+      //Footer Pages...
+      { path: "/regardingUs", element: <RegardingUs /> },
+      { path: "/termsConditions", element: <TermsConditions /> },
     ],
   },
 ]);

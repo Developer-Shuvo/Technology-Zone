@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import icon from "../assets/images/favicon/tech-1.png";
 
 const Footer = () => {
@@ -27,36 +28,32 @@ const Footer = () => {
         {/* All Links here */}
         <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
           {/* About Us */}
-          <div className="space-y-3 text-left">
+          <div className="space-y-3 text-left text-base font-medium">
             <h3 className="tracking-wide uppercase text-sky-400 font-bold text-lg">
               About Us
             </h3>
             <ul className="space-y-2 ">
               <li className="hover:text-orange-500 transition transform ease-in-out duration-500">
-                <a rel="noopener noreferrer" href="#">
-                  Features
-                </a>
+                <Link to="/regardingUs" rel="noopener noreferrer">
+                  Regarding Us
+                </Link>
+              </li>
+              <li className="hover:text-orange-500 transition transform ease-in-out duration-500">
+                <Link to="/termsConditions" rel="noopener noreferrer" >
+                  Terms & Conditions
+                </Link>
               </li>
               <li className="hover:text-orange-500 transition transform ease-in-out duration-500">
                 <a rel="noopener noreferrer" href="#">
-                  Integrations
+                  Career
                 </a>
               </li>
-              <li className="hover:text-orange-500 transition transform ease-in-out duration-500">
-                <a rel="noopener noreferrer" href="#">
-                  Pricing
-                </a>
-              </li>
-              <li className="hover:text-orange-500 transition transform ease-in-out duration-500">
-                <a rel="noopener noreferrer" href="#">
-                  FAQ
-                </a>
-              </li>
+          
             </ul>
           </div>
 
           {/* Policy */}
-          <div className="space-y-3 text-left">
+          <div className="space-y-3 text-left text-base font-medium">
             <h3 className="tracking-wide uppercase text-sky-400 text-lg font-bold">
               Policy
             </h3>
@@ -94,22 +91,22 @@ const Footer = () => {
             </ul>
           </div>
           {/* Help */}
-          <div className="space-y-3 text-left">
+          <div className="space-y-3 text-left text-base font-medium">
             <h3 className="uppercase text-lg font-bold text-sky-400">Help</h3>
             <ul className="space-y-2">
               <li className="hover:text-orange-500 transition transform ease-in-out duration-500">
                 <a rel="noopener noreferrer" href="#">
-                  Public API
+                  Contact Us
                 </a>
               </li>
               <li className="hover:text-orange-500 transition transform ease-in-out duration-500">
                 <a rel="noopener noreferrer" href="#">
-                  Documentation
+                  Exchange
                 </a>
               </li>
               <li className="hover:text-orange-500 transition transform ease-in-out duration-500">
                 <a rel="noopener noreferrer" href="#">
-                  Guides
+                  Announcement
                 </a>
               </li>
             </ul>

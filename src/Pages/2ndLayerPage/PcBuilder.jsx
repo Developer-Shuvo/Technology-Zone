@@ -16,27 +16,27 @@ import img13 from "./pc-builder/headphone.png";
 const PcBuilder = () => {
   return (
     <section className="bg-gradient-to-r from-cyan-800 to-sky-300 min-h-screen flex justify-center items-start">
-      <div className="max-w-[1000px] w-full mx-auto p-6 mt-10 mb-[150px] bg-white  shadow-lg rounded-xl">
+      <div className="max-w-[1000px] w-full mx-auto p-6 mt-10 mb-[150px] bg-[#17313E]  shadow-lg rounded-xl">
         <div className="border border-gray-300 rounded-xl ">
           {/* Top */}
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 sm:gap-0 p-4">
             {/* Heading */}
-            <h1 className="text-gray-200 font-semibold text-sm lg:text-lg  lg:text-xl sm:text-2xl bg-[#2F5249] py-2 px-2 lg:px-4 rounded-lg text-center sm:text-left w-full sm:w-auto">
+            <h1 className="text-gray-200 font-semibold text-sm border   lg:text-xl sm:text-2xl bg-[#052f03] py-2 px-2 lg:px-4 rounded-lg text-center sm:text-left w-full sm:w-auto">
               Build Your Own Computer on
               <span className="text-yellow-300"> TECHNOLOGY ZONE</span>
             </h1>
 
             {/* Total Cost Box */}
-            <div className="w-full sm:w-auto border-gray-200 shadow-lg shadow-gray-300 rounded-lg py-3 px-6 sm:px-10 text-left bg-sky-100">
-              <h1 className="font-semibold text-gray-800">Total Cost :</h1>
-              <h1 className="font-semibold text-gray-600">Total Items :</h1>
+            <div className="w-full sm:w-auto border-2 border-black  rounded-lg py-3 px-6 sm:px-10 text-left bg-gray-100">
+              <h1 className="font-semibold text-gray-900">Total Cost :</h1>
+              <h1 className="font-semibold text-gray-900">Total Items :</h1>
             </div>
           </div>
 
           {/* Title */}
           <div className="p-4">
-            <div className="bg-[#9ECAD6] p-2 text-left ">
-              <h1 className="text-gray-800 font-semibold text-lg">
+            <div className="bg-[#93DA97] p-2 text-center  rounded">
+              <h1 className="text-gray-900 font-semibold text-lg">
                 Core Components
               </h1>
             </div>
@@ -269,8 +269,8 @@ const PcBuilder = () => {
 
           {/* __________Title_________ */}
           <div className="p-4">
-            <div className="bg-[#9ECAD6]  p-2 text-left ">
-              <h1 className="text-gray-800 font-semibold text-lg">
+            <div className="bg-[#93DA97] p-2 text-center  rounded ">
+              <h1 className="text-gray-900 font-semibold text-lg">
                 Peripherals and Others
               </h1>
             </div>

@@ -24,22 +24,86 @@ const Sidebar = () => {
   const rangePercentMin = ((minPrice - minLimit) / (maxLimit - minLimit)) * 100;
   const rangePercentMax = ((maxPrice - minLimit) / (maxLimit - minLimit)) * 100;
 
-  //   _____________Display Type______________________
-  const [showMore, setShowMore] = useState(false);
+  //   _____________Display Type, Ram, Internal Storage, Chipset, Region______________________
+  const [showMoreDisplay, setShowMoreDisplay] = useState(false);
+  const [showMoreRam, setShowMoreRam] = useState(false);
+  const [showMoreStorage, setShowMoreStorage] = useState(false);
+  const [showMoreChipset, setShowMoreChipset] = useState(false);
+  const [showMoreRegion, setShowMoreRegion] = useState(false);
 
-  const defaultTypes = ["AMOLED", "Analog-Digital", "LCD", "LED"];
-  const extraTypes = ["OLED", "TFT", "IPS", "Retina", "MicroLED", "Plasma"];
+  // Display type
+  const defaultDisplay = ["AMOLED", "Analog-Digital", "LCD", "LED"];
+  const extraDisplay = ["OLED", "TFT", "IPS", "Retina", "MicroLED", "Plasma"];
+  const displayTypes = showMoreDisplay
+    ? [...defaultDisplay, ...extraDisplay]
+    : defaultDisplay;
+  //Ram
+  const defaultRam = ["2GB", "3GB", "4GB", "6GB"];
+  const extraRam = ["8GB", "12GB", "16GB"];
+  const ramTypes = showMoreRam ? [...defaultRam, ...extraRam] : defaultRam;
 
+  //Storage
+  const defaultStorage = ["32GB", "64GB", "128GB", "256GB"];
+  const extraStorage = ["512GB", "1TB"];
+  const storageTypes = showMoreStorage
+    ? [...defaultStorage, ...extraStorage]
+    : defaultStorage;
+  //Chipset
+  const defaultChipset = ["Snapdragon", "MediaTek", "Apple Bionic", "Exynos"];
+  const extraChipset = ["Kirin", "Tensor", "Dimensity"];
+  const chipsetTypes = showMoreChipset
+    ? [...defaultChipset, ...extraChipset]
+    : defaultChipset;
 
-  const types = showMore ? [...defaultTypes, ...extraTypes] : defaultTypes;
+  //Region
+  const defaultRegion = ["Japan", "China", "America", "Singapur"];
+  const extraRegion = ["Vietnam", "Canada"];
+  const regionTypes = showMoreRegion
+    ? [...defaultRegion, ...extraRegion]
+    : defaultRegion;
+
+  const Section = ({ title, items, showMore, setShowMore }) => (
+    <div className="space-y-4 p-4 max-w-sm mx-auto">
+      <div className="border border-gray-200 rounded shadow p-4 w-68 bg-white">
+        {/* Header */}
+        <div className="flex justify-between items-center mb-3">
+          <h3 className="font-semibold">{title}</h3>
+          <button className="text-lg leading-none">−</button>
+        </div>
+
+        {/* Checkbox List */}
+        <div className="flex flex-col gap-2 mb-3">
+          {items.map((item) => (
+            <label
+              key={item}
+              className="inline-flex items-center gap-2 cursor-pointer select-none"
+            >
+              <input
+                type="checkbox"
+                className="form-checkbox h-4 w-4 text-gray-700 rounded"
+              />
+              <span className="text-sm">{item}</span>
+            </label>
+          ))}
+        </div>
+
+        {/* See More Button */}
+        <button
+          onClick={() => setShowMore(!showMore)}
+          className="text-xs font-semibold border border-gray-300 rounded-full px-4 py-1 hover:bg-black hover:text-white
+          ease-in-out duration-500 transition transform"
+        >
+          {showMore ? "SEE LESS" : "SEE MORE"}
+        </button>
+      </div>
+    </div>
+  );
+  //_______________________________________
   return (
     <div>
       <div class="w-screen ">
         <div class=" w-80 pb-10">
-          <div
-            class="flex h-full flex-grow flex-col overflow-y-auto
-           rounded-br-lg rounded-tr-lg bg-white pt-5 shadow-md "
-          >
+          <div class="flex h-full flex-grow flex-col overflow-y-auto ">
             {/* Price Range Field*/}
             <div className="space-y-4 p-4 max-w-sm mx-auto ">
               {/* ________Price Range_______ */}
@@ -200,72 +264,37 @@ const Sidebar = () => {
                `}</style>
             </div>
             {/* ____________Display Type______________ */}
-            <div className="space-y-4 p-4 max-w-sm mx-auto ">
-              <div className="border border-gray-200 rounded shadow p-4  w-68 bg-white ">
-                {/* Header */}
-                <div className="flex justify-between items-center mb-3">
-                  <h3 className="font-semibold">Display Type</h3>
-                  <button className="text-lg leading-none">−</button>
-                </div>
-
-                {/* Checkbox List */}
-                <div className="flex flex-col gap-2 mb-3">
-                  {types.map((type) => (
-                    <label
-                      key={type}
-                      className="inline-flex items-center gap-2 cursor-pointer select-none"
-                    >
-                      <input
-                        type="checkbox"
-                        className="form-checkbox h-4 w-4 text-gray-700 rounded"
-                      />
-                      <span className="text-sm">{type}</span>
-                    </label>
-                  ))}
-                </div>
-
-                {/* See More Button */}
-                <button
-                  onClick={() => setShowMore(!showMore)}
-                  className="text-xs font-semibold border border-gray-300 rounded-full px-4 py-1 hover:bg-gray-100 transition"
-                >
-                  {showMore ? "SEE LESS" : "SEE MORE"}
-                </button>
-              </div>
-            </div>
-            {/* ____________Ram______________ */}
-            <div className="space-y-4 p-4 max-w-sm mx-auto ">
-              <div className="border border-gray-200 rounded shadow p-4  w-68 bg-white ">
-                {/* Header */}
-                <div className="flex justify-between items-center mb-3">
-                  <h3 className="font-semibold">Ram</h3>
-                  <button className="text-lg leading-none">−</button>
-                </div>
-
-                {/* Checkbox List */}
-                <div className="flex flex-col gap-2 mb-3">
-                  {types.map((type) => (
-                    <label
-                      key={type}
-                      className="inline-flex items-center gap-2 cursor-pointer select-none"
-                    >
-                      <input
-                        type="checkbox"
-                        className="form-checkbox h-4 w-4 text-gray-700 rounded"
-                      />
-                      <span className="text-sm">{type}</span>
-                    </label>
-                  ))}
-                </div>
-
-                {/* See More Button */}
-                <button
-                  onClick={() => setShowMore(!showMore)}
-                  className="text-xs font-semibold border border-gray-300 rounded-full px-4 py-1 hover:bg-gray-100 transition"
-                >
-                  {showMore ? "SEE LESS" : "SEE MORE"}
-                </button>
-              </div>
+            <div className="flex flex-col justify-center items-center">
+              <Section
+                title="Display Type"
+                items={displayTypes}
+                showMore={showMoreDisplay}
+                setShowMore={setShowMoreDisplay}
+              />
+              <Section
+                title="Ram"
+                items={ramTypes}
+                showMore={showMoreRam}
+                setShowMore={setShowMoreRam}
+              />
+              <Section
+                title="Internal Storage"
+                items={storageTypes}
+                showMore={showMoreStorage}
+                setShowMore={setShowMoreStorage}
+              />
+              <Section
+                title="Chipset"
+                items={chipsetTypes}
+                showMore={showMoreChipset}
+                setShowMore={setShowMoreChipset}
+              />
+              <Section
+                title="Region"
+                items={regionTypes}
+                showMore={showMoreRegion}
+                setShowMore={setShowMoreRegion}
+              />
             </div>
           </div>
         </div>
