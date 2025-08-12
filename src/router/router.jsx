@@ -18,6 +18,12 @@ import Career from "../Pages/FooterPage/AboutUs/Career";
 import DeliveryPolicy from "../Pages/FooterPage/Policy/DeliveryPolicy";
 import ReturnPolicy from "../Pages/FooterPage/Policy/ReturnPolicy";
 import RefundPolicy from "../Pages/FooterPage/Policy/RefundPolicy";
+import CancellationPolicy from "../Pages/FooterPage/Policy/CancellationPolicy";
+import PrivacyPolicy from "../Pages/FooterPage/Policy/PrivacyPolicy";
+import WarrantyPolicy from "../Pages/FooterPage/Policy/WarrantyPolicy";
+import ContactUs from "../Pages/FooterPage/Help/ContactUs";
+import Exchange from "../Pages/FooterPage/Help/Exchange";
+import Announcement from "../Pages/FooterPage/Help/Announcement";
 
 const router = createBrowserRouter([
   {
@@ -79,6 +85,12 @@ const router = createBrowserRouter([
       { path: "/deliveryPolicy", element: <DeliveryPolicy /> },
       { path: "/returnPolicy", element: <ReturnPolicy /> },
       { path: "/refundPolicy", element: <RefundPolicy/> },
+      { path: "/cancellationPolicy", element: <CancellationPolicy/> },
+      { path: "/privacyPolicy", element: <PrivacyPolicy/> },
+      { path: "/warrantyPolicy", element: <WarrantyPolicy/> },
+      { path: "/contactUs", element: <ContactUs/> },
+      { path: "/exchange", element: <Exchange/> },
+      { path: "/announcement", element: <Announcement/> },
     ],
   },
 ]);

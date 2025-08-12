@@ -9,7 +9,6 @@ const Footer = () => {
         <div className="lg:w-1/3">
           <Link
             rel="noopener noreferrer"
-            href="#"
             className="flex items-center gap-2 justify-center lg:justify-start"
           >
             <div className="w-20 h-20 flex items-center justify-center rounded-full">
@@ -73,13 +72,19 @@ const Footer = () => {
                 </Link>
               </li>
               <li className="hover:text-orange-500 transition transform ease-in-out duration-500">
-                <Link rel="noopener noreferrer">Cancellation Policy</Link>
+                <Link to="/cancellationPolicy" rel="noopener noreferrer">
+                  Cancellation Policy
+                </Link>
               </li>
               <li className="hover:text-orange-500 transition transform ease-in-out duration-500">
-                <Link rel="noopener noreferrer">Privacy Policy</Link>
+                <Link to="/privacyPolicy" rel="noopener noreferrer">
+                  Privacy Policy
+                </Link>
               </li>
               <li className="hover:text-orange-500 transition transform ease-in-out duration-500">
-                <Link rel="noopener noreferrer">Warranty Policy</Link>
+                <Link to="/warrantyPolicy" rel="noopener noreferrer">
+                  Warranty Policy
+                </Link>
               </li>
             </ul>
           </div>
@@ -88,19 +93,13 @@ const Footer = () => {
             <h3 className="uppercase text-lg font-bold text-sky-400">Help</h3>
             <ul className="space-y-2">
               <li className="hover:text-orange-500 transition transform ease-in-out duration-500">
-                <Link rel="noopener noreferrer" href="#">
-                  Contact Us
-                </Link>
+                <Link to="/contactUs" rel="noopener noreferrer">Contact Us</Link>
               </li>
               <li className="hover:text-orange-500 transition transform ease-in-out duration-500">
-                <Link rel="noopener noreferrer" href="#">
-                  Exchange
-                </Link>
+                <Link to="/exchange" rel="noopener noreferrer">Exchange</Link>
               </li>
               <li className="hover:text-orange-500 transition transform ease-in-out duration-500">
-                <Link rel="noopener noreferrer" href="#">
-                  Announcement
-                </Link>
+                <Link to="/announcement" rel="noopener noreferrer">Announcement</Link>
               </li>
             </ul>
           </div>
@@ -113,7 +112,6 @@ const Footer = () => {
             <div className="flex  items-center  space-x-3">
               <Link
                 rel="noopener noreferrer"
-                href="#"
                 title="Facebook"
                 className="flex items-center p-1 transition transform ease-in-out duration-500 hover:scale-125"
               >
@@ -128,7 +126,6 @@ const Footer = () => {
               </Link>
               <Link
                 rel="noopener noreferrer"
-                href="#"
                 title="Twitter"
                 className="flex items-center p-1 transition transform ease-in-out duration-500 hover:scale-125"
               >
@@ -142,7 +139,6 @@ const Footer = () => {
               </Link>
               <Link
                 rel="noopener noreferrer"
-                href="#"
                 title="Instagram"
                 className="flex items-center p-1 transition transform ease-in-out duration-500 hover:scale-125
                  "

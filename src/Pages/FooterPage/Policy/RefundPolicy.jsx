@@ -4,7 +4,7 @@ const RefundPolicy = () => {
   return (
     <div className="space-y-4 p-4 max-w-[1300px] mx-auto text-left mt-10 mb-40">
       {/* Title */}
-      <h2 className="text-2xl font-bold mb-4">Refund Policy</h2>
+      <h2 className="text-3xl font-bold mb-4">Refund Policy</h2>
 
       {/* Refund Method */}
       <section>
