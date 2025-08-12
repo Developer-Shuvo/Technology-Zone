@@ -3,7 +3,7 @@ import Main from "../Layout/Main";
 import ErrorPage from "../Layout/ErrorPage";
 import Home from "../Pages/Home";
 import Offers from "../Pages/2ndLayerPage/Offers";
-import PcBuilder from "../Pages/2ndLayerPage/PcBuilder";
+
 import ServiceCenter from "../Pages/2ndLayerPage/ServiceCenter";
 import Blog from "../Pages/2ndLayerPage/Blog";
 import Stores from "../Pages/2ndLayerPage/Stores";
@@ -24,6 +24,7 @@ import WarrantyPolicy from "../Pages/FooterPage/Policy/WarrantyPolicy";
 import ContactUs from "../Pages/FooterPage/Help/ContactUs";
 import Exchange from "../Pages/FooterPage/Help/Exchange";
 import Announcement from "../Pages/FooterPage/Help/Announcement";
+import PcBuilder from "../Pages/2ndLayerPage/PcBuilder/PcBuilder";
 
 const router = createBrowserRouter([
   {

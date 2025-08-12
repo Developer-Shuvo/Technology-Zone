@@ -1,22 +1,22 @@
 import { Link } from "react-router";
-import img1 from "./pc-builder/motherboard.png";
-import img2 from "./pc-builder/chip.png";
-import img3 from "./pc-builder/ram.png";
-import img4 from "./pc-builder/hdd.png";
-import img5 from "./pc-builder/ssd-drive.png";
-import img6 from "./pc-builder/cooler.png";
-import img7 from "./pc-builder/cpu.png";
-import img8 from "./pc-builder/power-supply.png";
-import img9 from "./pc-builder/graphic-card.png";
-import img10 from "./pc-builder/monitor.png";
-import img11 from "./pc-builder/mouse.png";
-import img12 from "./pc-builder/keyboard.png";
-import img13 from "./pc-builder/headphone.png";
+import img1 from "./icons/1.png";
+import img2 from "./icons/2.png";
+import img3 from "./icons/3.png";
+import img4 from "./icons/4.png";
+import img5 from "./icons/5.png";
+import img6 from "./icons/6.png";
+import img7 from "./icons/7.png";
+import img8 from "./icons/8.png";
+import img9 from "./icons/9.png";
+import img10 from "./icons/10.png";
+import img11 from "./icons/11.png";
+import img12 from "./icons/12.png";
+import img13 from "./icons/13.png";
 
 const PcBuilder = () => {
   return (
     <section className="bg-gradient-to-r from-cyan-800 to-sky-300 min-h-screen flex justify-center items-start">
-      <div className="max-w-[1000px] w-full mx-auto p-6 mt-10 mb-[150px] bg-[#17313E]  shadow-lg rounded-xl">
+      <div className="max-w-[1000px] w-full mx-auto p-6 mt-10 mb-[150px] bg-[#0a71169a]  shadow-lg rounded-xl">
         <div className="border border-gray-300 rounded-xl ">
           {/* Top */}
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 sm:gap-0 p-4">
