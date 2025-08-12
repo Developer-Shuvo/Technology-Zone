@@ -155,7 +155,7 @@ const PcBuilder = () => {
 
             {/* Button */}
             <Link
-              to="#"
+              to="/ssd"
               className="relative inline-block text-gray-600 font-semibold text-sm lg:text-lg  
               border border-gray-300 rounded px-2 lg:px-4 py-2 overflow-hidden 
               transition-colors duration-[800ms] ease-[cubic-bezier(0.25, 1, 0.5, 1)]
@@ -180,7 +180,7 @@ const PcBuilder = () => {
 
             {/* Button */}
             <Link
-              to="#"
+              to="/cooler"
               className="relative inline-block text-gray-600 font-semibold text-sm lg:text-lg  
               border border-gray-300 rounded px-2 lg:px-4 py-2 overflow-hidden 
               transition-colors duration-[800ms] ease-[cubic-bezier(0.25, 1, 0.5, 1)]
@@ -204,7 +204,7 @@ const PcBuilder = () => {
 
             {/* Button */}
             <Link
-              to="#"
+              to="/casing"
               className="relative inline-block text-gray-600 font-semibold text-sm lg:text-lg  
               border border-gray-300 rounded px-2 lg:px-4 py-2 overflow-hidden 
               transition-colors duration-[800ms] ease-[cubic-bezier(0.25, 1, 0.5, 1)]
@@ -229,7 +229,7 @@ const PcBuilder = () => {
 
             {/* Button */}
             <Link
-              to="#"
+              to="/powerSupply"
               className="relative inline-block text-gray-600 font-semibold text-sm lg:text-lg  
               border border-gray-300 rounded px-2 lg:px-4 py-2 overflow-hidden 
               transition-colors duration-[800ms] ease-[cubic-bezier(0.25, 1, 0.5, 1)]
@@ -254,7 +254,7 @@ const PcBuilder = () => {
 
             {/* Button */}
             <Link
-              to="#"
+              to="/graphicsCard"
               className="relative inline-block text-gray-600 font-semibold text-sm lg:text-lg  
               border border-gray-300 rounded px-2 lg:px-4 py-2 overflow-hidden 
               transition-colors duration-[800ms] ease-[cubic-bezier(0.25, 1, 0.5, 1)]

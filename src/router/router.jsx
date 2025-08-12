@@ -29,6 +29,11 @@ import MotherBoard from "../Pages/2ndLayerPage/PcBuilder/MotherBoard/MotherBoard
 import Processor from "../Pages/2ndLayerPage/PcBuilder/Processor/Processor";
 import Ram from "../Pages/2ndLayerPage/PcBuilder/Ram/Ram";
 import HDD from "../Pages/2ndLayerPage/PcBuilder/HDD/HDD";
+import SSD from "../Pages/2ndLayerPage/PcBuilder/SSD/SSD";
+import CoolerFan from "../Pages/2ndLayerPage/PcBuilder/CoolerFan/CoolerFan";
+import Casing from "../Pages/2ndLayerPage/PcBuilder/Casing/Casing";
+import PowerSupply from "../Pages/2ndLayerPage/PcBuilder/PowerSupply/PowerSupply";
+import GraphicsCard from "../Pages/2ndLayerPage/PcBuilder/GraphicsCard/GraphicsCard";
 
 const router = createBrowserRouter([
   {
@@ -74,6 +79,26 @@ const router = createBrowserRouter([
       {
         path: "/hdd",
         element: <HDD/>,
+      },
+      {
+        path: "/ssd",
+        element: <SSD/>,
+      },
+      {
+        path: "/cooler",
+        element: <CoolerFan/>,
+      },
+      {
+        path: "/casing",
+        element: <Casing/>,
+      },
+      {
+        path: "/powerSupply",
+        element: < PowerSupply/>,
+      },
+      {
+        path: "/graphicsCard",
+        element: < GraphicsCard/>,
       },
       {
         path: "/serviceCenter",
