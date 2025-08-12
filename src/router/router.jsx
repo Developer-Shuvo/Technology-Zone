@@ -25,6 +25,8 @@ import ContactUs from "../Pages/FooterPage/Help/ContactUs";
 import Exchange from "../Pages/FooterPage/Help/Exchange";
 import Announcement from "../Pages/FooterPage/Help/Announcement";
 import PcBuilder from "../Pages/2ndLayerPage/PcBuilder/PcBuilder";
+import MotherBoard from "../Pages/2ndLayerPage/PcBuilder/MotherBoard/MotherBoard";
+import Processor from "../Pages/2ndLayerPage/PcBuilder/Processor/Processor";
 
 const router = createBrowserRouter([
   {
@@ -53,6 +55,15 @@ const router = createBrowserRouter([
       {
         path: "/pcBuilder",
         element: <PcBuilder />,
+      },
+      //Pc Builder All Page here
+      {
+        path: "/motherBoard",
+        element: <MotherBoard/>,
+      },
+      {
+        path: "/processor",
+        element: <Processor/>,
       },
       {
         path: "/serviceCenter",
