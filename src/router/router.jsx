@@ -27,6 +27,8 @@ import Announcement from "../Pages/FooterPage/Help/Announcement";
 import PcBuilder from "../Pages/2ndLayerPage/PcBuilder/PcBuilder";
 import MotherBoard from "../Pages/2ndLayerPage/PcBuilder/MotherBoard/MotherBoard";
 import Processor from "../Pages/2ndLayerPage/PcBuilder/Processor/Processor";
+import Ram from "../Pages/2ndLayerPage/PcBuilder/Ram/Ram";
+import HDD from "../Pages/2ndLayerPage/PcBuilder/HDD/HDD";
 
 const router = createBrowserRouter([
   {
@@ -64,6 +66,14 @@ const router = createBrowserRouter([
       {
         path: "/processor",
         element: <Processor/>,
+      },
+      {
+        path: "/ram",
+        element: <Ram/>,
+      },
+      {
+        path: "/hdd",
+        element: <HDD/>,
       },
       {
         path: "/serviceCenter",
