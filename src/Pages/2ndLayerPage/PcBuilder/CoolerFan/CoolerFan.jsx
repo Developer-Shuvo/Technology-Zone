@@ -1,8 +1,8 @@
-import img1 from "./coolerFan-img/1.jpg";
-import img2 from "./coolerFan-img/2.jpg";
-import img3 from "./coolerFan-img/3.jpg";
-import img4 from "./coolerFan-img/4.jpg";
-import img5 from "./coolerFan-img/5.jpg";
+import img1 from "./coolerFan-img/1.jpg?w=800&format=webp&quality=75";
+import img2 from "./coolerFan-img/2.jpg?w=800&format=webp&quality=75";
+import img3 from "./coolerFan-img/3.jpg?w=800&format=webp&quality=75";
+import img4 from "./coolerFan-img/4.jpg?w=800&format=webp&quality=75";
+import img5 from "./coolerFan-img/5.jpg?w=800&format=webp&quality=75";
 
 
 

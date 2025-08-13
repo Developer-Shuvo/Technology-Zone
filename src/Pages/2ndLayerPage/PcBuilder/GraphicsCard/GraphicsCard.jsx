@@ -1,8 +1,8 @@
-import img1 from "./graphicsCard-img/1.jpg";
-import img2 from "./graphicsCard-img/2.jpg";
-import img3 from "./graphicsCard-img/3.jpg";
-import img4 from "./graphicsCard-img/4.jpg";
-import img5 from "./graphicsCard-img/5.jpg";
+import img1 from "./graphicsCard-img/1.jpg?w=800&format=webp&quality=75";
+import img2 from "./graphicsCard-img/2.jpg?w=800&format=webp&quality=75";
+import img3 from "./graphicsCard-img/3.jpg?w=800&format=webp&quality=75";
+import img4 from "./graphicsCard-img/4.jpg?w=800&format=webp&quality=75";
+import img5 from "./graphicsCard-img/5.jpg?w=800&format=webp&quality=75";
 const GraphicsCard = () => {
   return (
     <div className="space-y-4 p-4 max-w-[1300px] mx-auto mt-10 mb-30">
@@ -132,7 +132,7 @@ const GraphicsCard = () => {
             ৳ 75,500
           </p>
           <p className="text-base md:text-lg line-through text-gray-500">—</p>
-          <button className="mt-4 relative inline-block text-gray-600 font-semibold text-sm lg:text-lg border border-gray-300 rounded px-2 lg:px-6 py-1 overflow-hidden transition-colors duration-[800ms] ease-[cubic-bezier(0.25,1,0.5,1)] before:absolute before:top-0 before:left-0 before:h-full before:w-0 before:bg-gradient-to-r before:from-yellow-100 before:to-green-600 before:transition-all before:duration-[900ms] before:ease-[cubic-bezier(0.25,1,0.5,1)] hover:before>w-full hover:text-black z-10 before:z-0">
+          <button className="mt-4 relative inline-block text-gray-600 font-semibold text-sm lg:text-lg border border-gray-300 rounded px-2 lg:px-6 py-1 overflow-hidden transition-colors duration-[800ms] ease-[cubic-bezier(0.25,1,0.5,1)] before:absolute before:top-0 before:left-0 before:h-full before:w-0 before:bg-gradient-to-r before:from-yellow-100 before:to-green-600 before:transition-all before:duration-[900ms] before:ease-[cubic-bezier(0.25,1,0.5,1)] hover:before:w-full hover:text-black z-10 before:z-0">
             <span className="relative z-10">Add</span>
           </button>
         </div>
@@ -164,7 +164,7 @@ const GraphicsCard = () => {
             ৳ 75,900
           </p>
           <p className="text-base md:text-lg line-through text-gray-500">—</p>
-          <button className="mt-4 relative inline-block text-gray-600 font-semibold text-sm lg:text-lg border border-gray-300 rounded px-2 lg:px-6 py-1 overflow-hidden transition-colors duration-[800ms] ease-[cubic-bezier(0.25,1,0.5,1)] before:absolute before:top-0 before:left-0 before:h-full before:w-0 before:bg-gradient-to-r before:from-yellow-100 before:to-green-600 before:transition-all before:duration-[900ms] before:ease-[cubic-bezier(0.25,1,0.5,1)] hover:before>w-full hover:text-black z-10 before:z-0">
+          <button className="mt-4 relative inline-block text-gray-600 font-semibold text-sm lg:text-lg border border-gray-300 rounded px-2 lg:px-6 py-1 overflow-hidden transition-colors duration-[800ms] ease-[cubic-bezier(0.25,1,0.5,1)] before:absolute before:top-0 before:left-0 before:h-full before:w-0 before:bg-gradient-to-r before:from-yellow-100 before:to-green-600 before:transition-all before:duration-[900ms] before:ease-[cubic-bezier(0.25,1,0.5,1)] hover:before:w-full hover:text-black z-10 before:z-0">
             <span className="relative z-10">Add</span>
           </button>
         </div>

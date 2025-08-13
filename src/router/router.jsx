@@ -34,6 +34,10 @@ import CoolerFan from "../Pages/2ndLayerPage/PcBuilder/CoolerFan/CoolerFan";
 import Casing from "../Pages/2ndLayerPage/PcBuilder/Casing/Casing";
 import PowerSupply from "../Pages/2ndLayerPage/PcBuilder/PowerSupply/PowerSupply";
 import GraphicsCard from "../Pages/2ndLayerPage/PcBuilder/GraphicsCard/GraphicsCard";
+import Monitor from "../Pages/2ndLayerPage/PcBuilder/Monitor/Monitor";
+import Mouse from "../Pages/2ndLayerPage/PcBuilder/Mouse/Mouse";
+import Keyboard from "../Pages/2ndLayerPage/PcBuilder/Keyboard/Keyboard";
+import Speaker from "../Pages/2ndLayerPage/PcBuilder/Speaker/Speaker";
 
 const router = createBrowserRouter([
   {
@@ -99,6 +103,22 @@ const router = createBrowserRouter([
       {
         path: "/graphicsCard",
         element: < GraphicsCard/>,
+      },
+      {
+        path: "/monitor",
+        element: < Monitor/>,
+      },
+      {
+        path: "/mouse",
+        element: < Mouse/>,
+      },
+      {
+        path: "/keyboard",
+        element: < Keyboard/>,
+      },
+      {
+        path: "/speaker",
+        element: < Speaker/>,
       },
       {
         path: "/serviceCenter",

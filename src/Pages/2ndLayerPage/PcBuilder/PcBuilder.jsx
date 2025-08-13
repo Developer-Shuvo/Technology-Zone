@@ -1,17 +1,17 @@
 import { Link } from "react-router";
-import img1 from "./icons/1.png";
-import img2 from "./icons/2.png";
-import img3 from "./icons/3.png";
-import img4 from "./icons/4.png";
-import img5 from "./icons/5.png";
-import img6 from "./icons/6.png";
-import img7 from "./icons/7.png";
-import img8 from "./icons/8.png";
-import img9 from "./icons/9.png";
-import img10 from "./icons/10.png";
-import img11 from "./icons/11.png";
-import img12 from "./icons/12.png";
-import img13 from "./icons/13.png";
+import img1 from "./icons/1.png?w=800&format=webp&quality=75";
+import img2 from "./icons/2.png?w=800&format=webp&quality=75";
+import img3 from "./icons/3.png?w=800&format=webp&quality=75";
+import img4 from "./icons/4.png?w=800&format=webp&quality=75";
+import img5 from "./icons/5.png?w=800&format=webp&quality=75";
+import img6 from "./icons/6.png?w=800&format=webp&quality=75";
+import img7 from "./icons/7.png?w=800&format=webp&quality=75";
+import img8 from "./icons/8.png?w=800&format=webp&quality=75";
+import img9 from "./icons/9.png?w=800&format=webp&quality=75";
+import img10 from "./icons/10.png?w=800&format=webp&quality=75";
+import img11 from "./icons/11.png?w=800&format=webp&quality=75";
+import img12 from "./icons/12.png?w=800&format=webp&quality=75";
+import img13 from "./icons/13.png?w=800&format=webp&quality=75";
 
 const PcBuilder = () => {
   return (
@@ -288,7 +288,7 @@ const PcBuilder = () => {
 
             {/* Button */}
             <Link
-              to="#"
+              to="/monitor"
               className="relative inline-block text-gray-600 font-semibold text-sm lg:text-lg  
               border border-gray-300 rounded px-2 lg:px-4 py-2 overflow-hidden 
               transition-colors duration-[800ms] ease-[cubic-bezier(0.25, 1, 0.5, 1)]
@@ -313,7 +313,7 @@ const PcBuilder = () => {
 
             {/* Button */}
             <Link
-              to="#"
+              to="/mouse"
               className="relative inline-block text-gray-600 font-semibold text-sm lg:text-lg  
               border border-gray-300 rounded px-2 lg:px-4 py-2 overflow-hidden 
               transition-colors duration-[800ms] ease-[cubic-bezier(0.25, 1, 0.5, 1)]
@@ -338,7 +338,7 @@ const PcBuilder = () => {
 
             {/* Button */}
             <Link
-              to="#"
+              to="/keyboard"
               className="relative inline-block text-gray-600 font-semibold text-sm lg:text-lg  
               border border-gray-300 rounded px-2 lg:px-4 py-2 overflow-hidden 
               transition-colors duration-[800ms] ease-[cubic-bezier(0.25, 1, 0.5, 1)]
@@ -362,7 +362,7 @@ const PcBuilder = () => {
 
             {/* Button */}
             <Link
-              to="#"
+              to="/speaker"
               className="relative inline-block text-gray-600 font-semibold text-sm lg:text-lg  
               border border-gray-300 rounded px-2 lg:px-4 py-2 overflow-hidden 
               transition-colors duration-[800ms] ease-[cubic-bezier(0.25, 1, 0.5, 1)]

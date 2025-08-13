@@ -1,9 +1,9 @@
 
-import img1 from "./motherboard-img/andrey-matveev-PFUU5SpARxw-unsplash.jpg";
-import img2 from "./motherboard-img/branislav-herc-4TT21qJebpY-unsplash.jpg";
-import img3 from "./motherboard-img/cartist-kfT6CFAuqe4-unsplash.jpg";
-import img4 from "./motherboard-img/christian-wiediger-Htfy7TaDBgo-unsplash.jpg";
-import img5 from "./motherboard-img/gamercomp-ru-phdNBU3QUrk-unsplash.jpg";
+import img1 from "./motherboard-img/andrey-matveev-PFUU5SpARxw-unsplash.jpg?w=800&format=webp&quality=75";
+import img2 from "./motherboard-img/branislav-herc-4TT21qJebpY-unsplash.jpg?w=800&format=webp&quality=75";
+import img3 from "./motherboard-img/cartist-kfT6CFAuqe4-unsplash.jpg?w=800&format=webp&quality=75";
+import img4 from "./motherboard-img/christian-wiediger-Htfy7TaDBgo-unsplash.jpg?w=800&format=webp&quality=75";
+import img5 from "./motherboard-img/gamercomp-ru-phdNBU3QUrk-unsplash.jpg?w=800&format=webp&quality=75";
 
 const MotherBoard = () => {
   return (

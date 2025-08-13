@@ -1,8 +1,8 @@
-import img1 from "./casing-img/1.jpg";
-import img2 from "./casing-img/2.jpg";
-import img3 from "./casing-img/3.jpg";
-import img4 from "./casing-img/4.jpg";
-import img5 from "./casing-img/5.jpg";
+import img1 from "./casing-img/1.jpg?w=800&format=webp&quality=75";
+import img2 from "./casing-img/2.jpg?w=800&format=webp&quality=75";
+import img3 from "./casing-img/3.jpg?w=800&format=webp&quality=75";
+import img4 from "./casing-img/4.jpg?w=800&format=webp&quality=75";
+import img5 from "./casing-img/5.jpg?w=800&format=webp&quality=75";
 
 const Casing = () => {
   return (

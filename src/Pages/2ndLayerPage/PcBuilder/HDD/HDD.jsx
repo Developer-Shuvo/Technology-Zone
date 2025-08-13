@@ -1,8 +1,8 @@
-import img1 from "./hdd-img/1.jpg";
-import img2 from "./hdd-img/2.jpg";
-import img3 from "./hdd-img/3.jpg";
-import img4 from "./hdd-img/4.jpg";
-import img5 from "./hdd-img/5.jpg";
+import img1 from "./hdd-img/1.jpg?w=800&format=webp&quality=75";
+import img2 from "./hdd-img/2.jpg?w=800&format=webp&quality=75";
+import img3 from "./hdd-img/3.jpg?w=800&format=webp&quality=75";
+import img4 from "./hdd-img/4.jpg?w=800&format=webp&quality=75";
+import img5 from "./hdd-img/5.jpg?w=800&format=webp&quality=75";
 
 const HDD = () => {
   return (
