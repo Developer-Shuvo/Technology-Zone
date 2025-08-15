@@ -1,31 +1,18 @@
+import React, { useEffect, useState } from "react";
 import Sidebar from "./Sidebar/Sidebar";
-
-import { useEffect, useState } from "react";
 import { AllProducts } from "../../AllProducts/AllProducts";
 
-const SmartPhone = () => {
-  // useEffect(() => {
-  //   const allowedCategories = ["smartPhone", "featuredPhone", "anotherCategory"]; // add more if needed
-
-  //   const filteredProducts = AllProducts.filter(
-  //     (product) => allowedCategories.includes(product?.categories)
-  //   );
-
-  //   setProducts(filteredProducts);
-  // }, []);
-
+const FeaturedPhone = () => {
+  // javaScript here
   const [products, setProducts] = useState([]);
 
-  //প্রথমে ইউজ ইফেক্ট দিয়ে ...
   useEffect(() => {
-    const smartPhone = AllProducts.filter(
-      (singleProduct) => singleProduct?.categories === "smartPhone"
+    const featuredPhone = AllProducts.filter(
+      (singleProduct) => singleProduct?.categories === "featuredPhone"
     );
 
-    // set Korbo aikhane
-    setProducts(smartPhone);
+    setProducts(featuredPhone);
   }, []);
-
   return (
     <div className="mt-20 mb-40 max-w-[1400px] mx-auto px-4">
       <div className="flex w-full">
@@ -37,7 +24,7 @@ const SmartPhone = () => {
         {/*_________________ Card Section __________________ */}
         <div className="w-[70%] flex-1">
           <h1 className="text-3xl lg:text-4xl xl:text-5xl px-4 lg:px-2 xl:px-0 text-cyan-900 font-bold text-left flex items-center mb-8">
-            Smart Phone
+            Featur Phone
             <span className="text-5xl lg:text-6xl xl:text-6xl text-orange-600 font-serif pr-4">
               !
             </span>
@@ -150,4 +137,4 @@ const SmartPhone = () => {
   );
 };
 
-export default SmartPhone;
+export default FeaturedPhone;

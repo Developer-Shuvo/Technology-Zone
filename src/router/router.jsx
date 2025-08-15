@@ -38,6 +38,8 @@ import Monitor from "../Pages/2ndLayerPage/PcBuilder/Monitor/Monitor";
 import Mouse from "../Pages/2ndLayerPage/PcBuilder/Mouse/Mouse";
 import Keyboard from "../Pages/2ndLayerPage/PcBuilder/Keyboard/Keyboard";
 import Speaker from "../Pages/2ndLayerPage/PcBuilder/Speaker/Speaker";
+import FeaturedPhone from "../Pages/2ndLayerPage/Phone/FeaturedPhone";
+import Tablet from "../Pages/2ndLayerPage/Tablet/Tablet";
 
 const router = createBrowserRouter([
   {
@@ -143,6 +145,14 @@ const router = createBrowserRouter([
       {
         path: "/smartPhone",
         element: <SmartPhone />,
+      },
+      {
+        path: "/featuredPhone",
+        element: <FeaturedPhone />,
+      },
+      {
+        path: "/tablet",
+        element: <Tablet />,
       },
 
       //Footer Pages...

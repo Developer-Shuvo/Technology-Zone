@@ -1,3 +1,8 @@
+// // Google Authentication..
+// import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
+// import { auth } from "../Firebase/firebase.init";
+// // Google Authentication..
+
 import { Link } from "react-router";
 import trolley from "../assets/images/trolley.png";
 import profile from "../assets/images/user.png";
@@ -6,6 +11,20 @@ import { useState } from "react";
 
 const Navbar = () => {
   const [searchField, setSearchField] = useState(false);
+
+  // Google sign in ***
+  // const provider = new GoogleAuthProvider();
+
+  // const handleGoogleSignIn =()=>{
+  //   signInWithPopup(auth, provider)
+  //   .then(result =>{
+  //     console.log (result);
+  //   })
+
+  //   .catch(error =>{
+  //     console.log (error, 'ERROR')
+  //   })
+  // }
 
   return (
     <>
@@ -154,7 +173,7 @@ const Navbar = () => {
                     alt="Trolley"
                   />
                 </Link>
-                {/* log in */}
+                {/* ****************** log in ********************** */}
                 <Link to="/signup">
                   <img
                     className="h-10 w-10 bg-white rounded-full p-2 shadow-lg
@@ -179,7 +198,7 @@ const Navbar = () => {
               {/*Smart Phone */}
               <li className="relative group">
                 <Link
-                  to="#"
+                  to="/smartPhone"
                   className="block px-6 py-4 text-sm font-semibold text-white hover:bg-cyan-800"
                 >
                   Phone
@@ -196,53 +215,53 @@ const Navbar = () => {
                     </Link>
                   </li>
                   <li>
-                    <a
-                      href="#"
+                    <Link
+                      to="/featuredPhone"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Featured Phone
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
 
               {/* Tablet */}
               <li className="relative group">
-                <a
-                  href="#"
+                <Link
+                  to="/tablet"
                   className="block px-6 py-4 text-sm font-semibold text-white hover:bg-cyan-800"
                 >
                   Tablet
-                </a>
+                </Link>
                 {/* Dropdown */}
                 <ul className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100 transform origin-top transition-all duration-300 ease-out flex flex-col bg-white border border-gray-300 shadow-lg z-10">
                   <li>
-                    <a
-                      href="#"
+                    <Link
+                      to="/tablet"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Xiaomi
-                    </a>
-                    <a
-                      href="#"
+                    </Link>
+                    <Link
+                      to="/tablet"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Apple
-                    </a>
-                    <a
-                      href="#"
+                    </Link>
+                    <Link
+                      to="/tablet"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Samsung
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="#"
+                    <Link
+                      to="/tablet"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
-                      Featured Phone
-                    </a>
+                      Sony
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -250,7 +269,7 @@ const Navbar = () => {
               {/* Mac */}
               <li className="relative group">
                 <a
-                  href="#"
+                  to="#"
                   className="block px-6 py-4 text-sm font-semibold text-white hover:bg-cyan-800"
                 >
                   Mac
@@ -259,19 +278,19 @@ const Navbar = () => {
                 <ul className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100 transform origin-top transition-all duration-300 ease-out flex flex-col bg-white border border-gray-300 shadow-lg z-10">
                   <li>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       i Mac
                     </a>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Mac Pro
                     </a>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Mac Mini
@@ -279,7 +298,7 @@ const Navbar = () => {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Featured Phone
@@ -291,7 +310,7 @@ const Navbar = () => {
               {/* Laptop */}
               <li className="relative group">
                 <a
-                  href="#"
+                  to="#"
                   className="block px-6 py-4 text-sm font-semibold text-white hover:bg-cyan-800"
                 >
                   Laptop
@@ -300,37 +319,37 @@ const Navbar = () => {
                 <ul className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100 transform origin-top transition-all duration-300 ease-out flex flex-col bg-white border border-gray-300 shadow-lg z-10">
                   <li>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Asus
                     </a>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Dell
                     </a>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Hp
                     </a>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Lenovo
                     </a>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Apple
                     </a>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Asus
@@ -338,7 +357,7 @@ const Navbar = () => {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Acer
@@ -350,7 +369,7 @@ const Navbar = () => {
               {/* Desktop */}
               <li className="relative group">
                 <a
-                  href="#"
+                  to="#"
                   className="block px-6 py-4 text-sm font-semibold text-white hover:bg-cyan-800"
                 >
                   Desktop
@@ -359,7 +378,7 @@ const Navbar = () => {
                 <ul className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100 transform origin-top transition-all duration-300 ease-out flex flex-col bg-white border border-gray-300 shadow-lg z-10">
                   <li>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Brand Pc
@@ -367,25 +386,25 @@ const Navbar = () => {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Custom Pc
                     </a>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Gaming Pc
                     </a>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Featured Pc
                     </a>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Mini Pc
@@ -397,7 +416,7 @@ const Navbar = () => {
               {/* Accessories */}
               <li className="relative group">
                 <a
-                  href="#"
+                  to="#"
                   className="block px-6 py-4 text-sm font-semibold text-white hover:bg-cyan-800"
                 >
                   Accessories
@@ -406,7 +425,7 @@ const Navbar = () => {
                 <ul className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100 transform origin-top transition-all duration-300 ease-out flex flex-col bg-white border border-gray-300 shadow-lg z-10">
                   <li>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Cable
@@ -414,25 +433,25 @@ const Navbar = () => {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Printer
                     </a>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Scanner
                     </a>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Power Supply
                     </a>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Projector
@@ -444,7 +463,7 @@ const Navbar = () => {
               {/* Sound Appliance */}
               <li className="relative group">
                 <a
-                  href="#"
+                  to="#"
                   className="block px-6 py-4 text-sm font-semibold text-white hover:bg-cyan-800"
                 >
                   Sound Appliance
@@ -453,7 +472,7 @@ const Navbar = () => {
                 <ul className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100 transform origin-top transition-all duration-300 ease-out flex flex-col bg-white border border-gray-300 shadow-lg z-10">
                   <li>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       AirPods
@@ -461,19 +480,19 @@ const Navbar = () => {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       AirBuds
                     </a>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Headphone
                     </a>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Microphone
@@ -485,7 +504,7 @@ const Navbar = () => {
               {/* Smart Gadget */}
               <li className="relative group">
                 <a
-                  href="#"
+                  to="#"
                   className="block px-6 py-4 text-sm font-semibold text-white hover:bg-cyan-800"
                 >
                   Smart Gadget
@@ -494,7 +513,7 @@ const Navbar = () => {
                 <ul className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100 transform origin-top transition-all duration-300 ease-out flex flex-col bg-white border border-gray-300 shadow-lg z-10">
                   <li>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Gimbal
@@ -502,19 +521,19 @@ const Navbar = () => {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Device Stand
                     </a>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Action Camera
                     </a>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Drone Gear
@@ -526,7 +545,7 @@ const Navbar = () => {
               {/* Smart Watch */}
               <li className="relative group">
                 <a
-                  href="#"
+                  to="#"
                   className="block px-6 py-4 text-sm font-semibold text-white hover:bg-cyan-800"
                 >
                   Smart Watch
@@ -535,7 +554,7 @@ const Navbar = () => {
                 <ul className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100 transform origin-top transition-all duration-300 ease-out flex flex-col bg-white border border-gray-300 shadow-lg z-10">
                   <li>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Apple
@@ -543,25 +562,25 @@ const Navbar = () => {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Xiaomi
                     </a>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Lenovo
                     </a>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       One Plus
                     </a>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Samsung
@@ -573,7 +592,7 @@ const Navbar = () => {
               {/* Monitor */}
               <li className="relative group">
                 <a
-                  href="#"
+                  to="#"
                   className="block px-6 py-4 text-sm font-semibold text-white hover:bg-cyan-800"
                 >
                   Monitor
@@ -582,7 +601,7 @@ const Navbar = () => {
                 <ul className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100 transform origin-top transition-all duration-300 ease-out flex flex-col bg-white border border-gray-300 shadow-lg z-10">
                   <li>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       LG
@@ -590,25 +609,25 @@ const Navbar = () => {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Dell
                     </a>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Lenovo
                     </a>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Apple
                     </a>
                     <a
-                      href="#"
+                      to="#"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Samsung

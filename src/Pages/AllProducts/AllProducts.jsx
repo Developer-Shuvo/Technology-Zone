@@ -1,8 +1,8 @@
 export const AllProducts = [
-  // _____________smartphone________________
+  // _____________smartPhone________________
   {
     id: 1,
-    categories: "smartphone",
+    categories: "smartPhone",
     title: "MacBook Pro 14-inch (M2)",
     image:
       "https://i.postimg.cc/qqWgV087/1.jpg?w=300&format=webp&quality=80 ?w=300&format=webp&quality=80",
@@ -12,7 +12,7 @@ export const AllProducts = [
   },
   {
     id: 2,
-    categories: "smartphone",
+    categories: "smartPhone",
     title: "Dell XPS 15",
     image:
       "https://i.postimg.cc/J7FsB39W/2.jpg?w=300&format=webp&quality=80 ?w=300&format=webp&quality=80",
@@ -22,7 +22,7 @@ export const AllProducts = [
   },
   {
     id: 3,
-    categories: "smartphone",
+    categories: "smartPhone",
     title: "iPhone 15 Pro Max",
     image: "https://i.postimg.cc/x8ByJ5hG/1.jpg ?w=300&format=webp&quality=80",
     rating: 4.8,
@@ -31,7 +31,7 @@ export const AllProducts = [
   },
   {
     id: 4,
-    categories: "smartphone",
+    categories: "smartPhone",
     title: "Samsung Galaxy S24 Ultra",
     image: "https://i.postimg.cc/BZ7hfcYn/2.jpg ?w=300&format=webp&quality=80",
     rating: 4.6,
@@ -40,7 +40,7 @@ export const AllProducts = [
   },
   {
     id: 5,
-    categories: "smartphone",
+    categories: "smartPhone",
     title: "Asus ROG Gaming Laptop",
     image: "https://i.postimg.cc/pX9sWh4Y/3.jpg?w=300&format=webp&quality=80",
     rating: 4.5,
@@ -49,7 +49,7 @@ export const AllProducts = [
   },
   {
     id: 6,
-    categories: "smartphone",
+    categories: "smartPhone",
     title: "MSI Optix Gaming Monitor",
     image: "https://i.postimg.cc/LsVTCzgR/4.jpg ?w=300&format=webp&quality=80",
     rating: 4.4,
@@ -58,7 +58,7 @@ export const AllProducts = [
   },
   {
     id: 7,
-    categories: "smartphone",
+    categories: "smartPhone",
     title: "LG UltraWide Monitor",
     image: "https://i.postimg.cc/Px3MhTMR/5.jpg ?w=300&format=webp&quality=80",
     rating: 4.7,
@@ -67,7 +67,7 @@ export const AllProducts = [
   },
   {
     id: 8,
-    categories: "smartphone",
+    categories: "smartPhone",
     title: "Logitech MX Master 3 Mouse",
     image: "https://i.postimg.cc/prSkQRhF/6.jpg ?w=300&format=webp&quality=80",
     rating: 4.8,
@@ -76,7 +76,7 @@ export const AllProducts = [
   },
   {
     id: 9,
-    categories: "smartphone",
+    categories: "smartPhone",
     title: "Razer BlackWidow V3 Keyboard",
     image:
       "https://i.postimg.cc/6prLqd0R/7.jpg ?w=300&format=webp&quality=80  ",
@@ -86,7 +86,7 @@ export const AllProducts = [
   },
   {
     id: 10,
-    categories: "smartphone",
+    categories: "smartPhone",
     title: "Corsair K100 RGB Mechanical Keyboard",
     image: "https://i.postimg.cc/vBN5kXYR/8.jpg?w=300&format=webp&quality=80 ",
     rating: 4.9,
@@ -95,7 +95,7 @@ export const AllProducts = [
   },
   {
     id: 11,
-    categories: "smartphone",
+    categories: "smartPhone",
     title: "Sony WH-1000XM5 Headphones",
     image: "https://i.postimg.cc/K4XBvz3J/9.jpg?w=300&format=webp&quality=80 ",
     rating: 4.8,
@@ -104,7 +104,7 @@ export const AllProducts = [
   },
   {
     id: 12,
-    categories: "smartphone",
+    categories: "smartPhone",
     title: "AirPods Pro 2nd Gen",
     image: "https://i.postimg.cc/XJ7gTp95/10.jpg?w=300&format=webp&quality=80 ",
     rating: 4.7,
@@ -113,7 +113,7 @@ export const AllProducts = [
   },
   {
     id: 13,
-    categories: "smartphone",
+    categories: "smartPhone",
     title: "Anker 737 Power Bank (PowerCore 24K)",
     image: "https://i.postimg.cc/cLyBdDQ0/11.jpg?w=300&format=webp&quality=80 ",
     rating: 4.9,
@@ -122,7 +122,7 @@ export const AllProducts = [
   },
   {
     id: 14,
-    categories: "smartphone",
+    categories: "smartPhone",
     title: "Canon EOS R6 Mark II",
     image: "https://i.postimg.cc/kMHypMGV/12.jpg?w=300&format=webp&quality=80 ",
     rating: 4.9,
@@ -131,7 +131,7 @@ export const AllProducts = [
   },
   {
     id: 15,
-    categories: "smartphone",
+    categories: "smartPhone",
     title: "DJI Mavic Air 2 Drone",
     image: "https://i.postimg.cc/65DYy6Ns/13.jpg?w=300&format=webp&quality=80 ",
     rating: 4.8,
@@ -140,7 +140,7 @@ export const AllProducts = [
   },
   {
     id: 16,
-    categories: "smartphone",
+    categories: "smartPhone",
     title: "Xbox Series X Console",
     image: "https://i.postimg.cc/bwkLbXzZ/14.jpg?w=300&format=webp&quality=80 ",
     rating: 4.7,
@@ -149,7 +149,7 @@ export const AllProducts = [
   },
   {
     id: 17,
-    categories: "smartphone",
+    categories: "smartPhone",
     title: "PlayStation 5",
     image: "https://i.postimg.cc/prmJL4GX/15.jpg?w=300&format=webp&quality=80 ",
     rating: 4.9,
@@ -158,7 +158,7 @@ export const AllProducts = [
   },
   {
     id: 18,
-    categories: "smartphone",
+    categories: "smartPhone",
     title: "Elgato Stream Deck XL",
     image: "https://i.postimg.cc/R0G7Q42Z/16.jpg?w=300&format=webp&quality=80 ",
     rating: 4.7,
@@ -167,7 +167,7 @@ export const AllProducts = [
   },
   {
     id: 19,
-    categories: "smartphone",
+    categories: "smartPhone",
     title: "GoPro HERO10 Black",
     image: "https://i.postimg.cc/nr9qJ7rX/17.jpg?w=300&format=webp&quality=80 ",
     rating: 4.6,
@@ -176,7 +176,7 @@ export const AllProducts = [
   },
   {
     id: 20,
-    categories: "smartphone",
+    categories: "smartPhone",
     title: "Apple iPad Pro 12.9” (M2)",
     image: "https://i.postimg.cc/YqmxKcLd/19.jpg?w=300&format=webp&quality=80 ",
     rating: 4.8,
@@ -184,11 +184,11 @@ export const AllProducts = [
     oldPrice: 1249,
   },
 
-  // ______________feature phone _______________
+  // ______________featuredPhone _______________
   {
     id: 21,
-    categories: "feature phone",
-    title: "Feature Phone Model 1",
+    categories: "featuredPhone",
+    title: "featuredPhone Model 1",
     image: "https://i.postimg.cc/90vm6wwF/1.jpg?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 59,
@@ -196,8 +196,8 @@ export const AllProducts = [
   },
   {
     id: 22,
-    categories: "feature phone",
-    title: "Feature Phone Model 2",
+    categories: "featuredPhone",
+    title: "featuredPhone Model 2",
     image: "https://i.postimg.cc/g2pXj1rc/10.jpg?w=300&format=webp&quality=80",
     rating: 4.4,
     price: 69,
@@ -205,8 +205,8 @@ export const AllProducts = [
   },
   {
     id: 23,
-    categories: "feature phone",
-    title: "Feature Phone Model 3",
+    categories: "featuredPhone",
+    title: "featuredPhone Model 3",
     image: "https://i.postimg.cc/L4qZbzrS/11.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 75,
@@ -214,8 +214,8 @@ export const AllProducts = [
   },
   {
     id: 24,
-    categories: "feature phone",
-    title: "Feature Phone Model 4",
+    categories: "featuredPhone",
+    title: "featuredPhone Model 4",
     image: "https://i.postimg.cc/MKQKy5gc/12.jpg?w=300&format=webp&quality=80",
     rating: 4.3,
     price: 65,
@@ -223,8 +223,8 @@ export const AllProducts = [
   },
   {
     id: 25,
-    categories: "feature phone",
-    title: "Feature Phone Model 5",
+    categories: "featuredPhone",
+    title: "featuredPhone Model 5",
     image: "https://i.postimg.cc/RF2qBDjB/13.jpg?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 79,
@@ -232,8 +232,8 @@ export const AllProducts = [
   },
   {
     id: 26,
-    categories: "feature phone",
-    title: "Feature Phone Model 6",
+    categories: "featuredPhone",
+    title: "featuredPhone Model 6",
     image: "https://i.postimg.cc/x1Pkzgbv/14.jpg?w=300&format=webp&quality=80",
     rating: 4.4,
     price: 85,
@@ -241,8 +241,8 @@ export const AllProducts = [
   },
   {
     id: 27,
-    categories: "feature phone",
-    title: "Feature Phone Model 7",
+    categories: "featuredPhone",
+    title: "featuredPhone Model 7",
     image: "https://i.postimg.cc/W4Wh938t/15.jpg?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 70,
@@ -250,8 +250,8 @@ export const AllProducts = [
   },
   {
     id: 28,
-    categories: "feature phone",
-    title: "Feature Phone Model 8",
+    categories: "featuredPhone",
+    title: "featuredPhone Model 8",
     image: "https://i.postimg.cc/vmQYwsT9/16.jpg?w=300&format=webp&quality=80",
     rating: 4.3,
     price: 55,
@@ -259,8 +259,8 @@ export const AllProducts = [
   },
   {
     id: 29,
-    categories: "feature phone",
-    title: "Feature Phone Model 9",
+    categories: "featuredPhone",
+    title: "featuredPhone Model 9",
     image: "https://i.postimg.cc/N0pggz2n/17.jpg?w=300&format=webp&quality=80",
     rating: 4.2,
     price: 65,
@@ -268,8 +268,8 @@ export const AllProducts = [
   },
   {
     id: 30,
-    categories: "feature phone",
-    title: "Feature Phone Model 10",
+    categories: "featuredPhone",
+    title: "featuredPhone Model 10",
     image: "https://i.postimg.cc/d13JDj8V/18.jpg?w=300&format=webp&quality=80",
     rating: 4.4,
     price: 75,
@@ -277,8 +277,8 @@ export const AllProducts = [
   },
   {
     id: 31,
-    categories: "feature phone",
-    title: "Feature Phone Model 11",
+    categories: "featuredPhone",
+    title: "featuredPhone Model 11",
     image: "https://i.postimg.cc/7Z1HR6Hw/2.jpg?w=300&format=webp&quality=80",
     rating: 4.3,
     price: 60,
@@ -286,8 +286,8 @@ export const AllProducts = [
   },
   {
     id: 32,
-    categories: "feature phone",
-    title: "Feature Phone Model 12",
+    categories: "featuredPhone",
+    title: "featuredPhone Model 12",
     image: "https://i.postimg.cc/nhfVT7t3/3.jpg?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 65,
@@ -295,8 +295,8 @@ export const AllProducts = [
   },
   {
     id: 33,
-    categories: "feature phone",
-    title: "Feature Phone Model 13",
+    categories: "featuredPhone",
+    title: "featuredPhone Model 13",
     image: "https://i.postimg.cc/gJ7mhLDq/4.jpg?w=300&format=webp&quality=80",
     rating: 4.4,
     price: 72,
@@ -304,8 +304,8 @@ export const AllProducts = [
   },
   {
     id: 34,
-    categories: "feature phone",
-    title: "Feature Phone Model 14",
+    categories: "featuredPhone",
+    title: "featuredPhone Model 14",
     image: "https://i.postimg.cc/T1WGJ2N8/5.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 68,
@@ -313,8 +313,8 @@ export const AllProducts = [
   },
   {
     id: 35,
-    categories: "feature phone",
-    title: "Feature Phone Model 15",
+    categories: "featuredPhone",
+    title: "featuredPhone Model 15",
     image: "https://i.postimg.cc/1z58c6pL/6.jpg?w=300&format=webp&quality=80",
     rating: 4.3,
     price: 66,
@@ -322,8 +322,8 @@ export const AllProducts = [
   },
   {
     id: 36,
-    categories: "feature phone",
-    title: "Feature Phone Model 16",
+    categories: "featuredPhone",
+    title: "featuredPhone Model 16",
     image: "https://i.postimg.cc/PrYvtdXF/7.jpg?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 80,
@@ -331,8 +331,8 @@ export const AllProducts = [
   },
   {
     id: 37,
-    categories: "feature phone",
-    title: "Feature Phone Model 17",
+    categories: "featuredPhone",
+    title: "featuredPhone Model 17",
     image: "https://i.postimg.cc/kMkt32mb/8.jpg?w=300&format=webp&quality=80",
     rating: 4.4,
     price: 70,
@@ -340,8 +340,8 @@ export const AllProducts = [
   },
   {
     id: 38,
-    categories: "feature phone",
-    title: "Feature Phone Model 18",
+    categories: "featuredPhone",
+    title: "featuredPhone Model 18",
     image: "https://i.postimg.cc/8sQGK8x7/9.jpg?w=300&format=webp&quality=80",
     rating: 4.3,
     price: 69,

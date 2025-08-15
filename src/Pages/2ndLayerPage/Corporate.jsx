@@ -38,7 +38,7 @@ const Corporate = () => {
 
         {/* Right Side - Form */}
         <div className="flex flex-col justify-center p-6 sm:p-8 md:w-3/5 w-full">
-          <h1 className="text-center text-2xl sm:text-3xl font-bold py-2 rounded-lg bg-gradient-to-r from-blue-50 to-blue-200 mb-8">
+          <h1 className="text-center text-xl sm:text-3xl font-bold py-2 px-2 rounded-lg bg-gradient-to-r from-blue-50 to-blue-200 mb-8">
             Make a schedule
           </h1>
 
@@ -120,44 +120,59 @@ const Corporate = () => {
 
       {/* Card Section */}
       <div className="mt-16 flex items-center justify-center">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl px-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-6xl px-4">
           {/* Card 1 */}
-          <div className="flex items-start gap-4 bg-gradient-to-r from-blue-50 to-blue-100 rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
-            <div className="p-3 bg-blue-200 text-white rounded-lg">
-              {/* Example Icon */}
-              <img className="h-6 w-6 lg:h-10 lg:w-10" src={img1} alt="" />
+          <div className="flex items-start gap-4 bg-gradient-to-r from-blue-50 to-blue-100 rounded-xl shadow-md p-5 sm:p-6 hover:shadow-lg transition-shadow duration-300">
+            <div className="p-3 sm:p-4 bg-blue-200 text-white rounded-lg flex items-center justify-center">
+              <img
+                className="h-8 w-8 sm:h-10 sm:w-10 object-contain"
+                src={img1}
+                alt="Email Icon"
+              />
             </div>
-            <div>
-              <h2 className="text-lg font-semibold text-gray-800">
+            <div className="flex flex-col">
+              <h2 className="text-base sm:text-lg font-semibold text-gray-800">
                 Email Address
               </h2>
-              <p className="text-gray-600">corporate@gmail.com</p>
+              <p className="text-sm sm:text-base text-gray-600 break-words">
+                corporate@gmail.com
+              </p>
             </div>
           </div>
 
           {/* Card 2 */}
-          <div className="flex items-start gap-4 bg-gradient-to-r from-green-50 to-green-100 rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
-            <div className="p-3 bg-green-200 text-white rounded-lg">
-              <img className="h-6 w-6 lg:h-10 lg:w-10" src={img2} alt="" />
+          <div className="flex items-start gap-4 bg-gradient-to-r from-green-50 to-green-100 rounded-xl shadow-md p-5 sm:p-6 hover:shadow-lg transition-shadow duration-300">
+            <div className="p-3 sm:p-4 bg-green-200 text-white rounded-lg flex items-center justify-center">
+              <img
+                className="h-8 w-8 sm:h-10 sm:w-10 object-contain"
+                src={img2}
+                alt="Phone Icon"
+              />
             </div>
-            <div>
-              <h2 className="text-lg font-semibold text-gray-800">
+            <div className="flex flex-col">
+              <h2 className="text-base sm:text-lg font-semibold text-gray-800">
                 Phone Number
               </h2>
-              <p className="text-gray-600">+880 1234567890</p>
+              <p className="text-sm sm:text-base text-gray-600 break-words">
+                +880 1234567890
+              </p>
             </div>
           </div>
 
           {/* Card 3 */}
-          <div className="flex items-start gap-4 bg-gradient-to-r from-purple-50 to-purple-100 rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
-            <div className="p-3 bg-purple-200 text-white rounded-lg">
-              <img className="h-6 w-8 lg:h-10 lg:w-12" src={img3} alt="" />
+          <div className="flex items-start gap-4 bg-gradient-to-r from-purple-50 to-purple-100 rounded-xl shadow-md p-5 sm:p-6 hover:shadow-lg transition-shadow duration-300">
+            <div className="p-3 sm:p-4 bg-purple-200 text-white rounded-lg flex items-center justify-center">
+              <img
+                className="h-8 w-10 sm:h-10 sm:w-12 object-contain"
+                src={img3}
+                alt="Office Icon"
+              />
             </div>
-            <div>
-              <h2 className="text-lg font-semibold text-gray-800">
+            <div className="flex flex-col">
+              <h2 className="text-base sm:text-lg font-semibold text-gray-800">
                 Corporate Office
               </h2>
-              <p className="text-gray-600">
+              <p className="text-sm sm:text-base text-gray-600 break-words">
                 123 Corporate St, Business City, Dhaka
               </p>
             </div>

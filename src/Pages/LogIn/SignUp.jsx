@@ -1,11 +1,32 @@
 import React, { useState } from "react";
 import { Eye, EyeOff } from "lucide-react";
 
+// Google Authentication.. start
+import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
+import { auth } from "../../Firebase/firebase.init";
+// Google Authentication.. end
+
 export default function AuthForm() {
   const [isSignIn, setIsSignIn] = useState(true);
   const [showPassword, setShowPassword] = useState(true);
   const [showSignUpPassword, setShowSignUpPassword] = useState(true);
   const [showConfirmPassword, setShowConfirmPassword] = useState(true);
+
+  // Google Authentication.. start
+
+  const provider = new GoogleAuthProvider();
+
+  const handleGoogleSignIn = () => {
+    signInWithPopup(auth, provider)
+      .then((result) => {
+        console.log(result);
+      })
+
+      .catch((error) => {
+        console.log(error, "ERROR");
+      });
+  };
+  // Google Authentication.. start
 
   return (
     <div className="flex items-center justify-center p-2 mt-20 mb-30">
@@ -171,11 +192,12 @@ export default function AuthForm() {
                 className="h-6 bg-white  rounded-full"
               />
             </button>
+            {/* ************Google Sign In************** */}
 
-            {/* Google */}
             <button
+              onClick={handleGoogleSignIn}
               className="flex-1 bg-cyan-800 hover:bg-lime-500 transition
-             p-2 rounded-md flex items-center justify-center"
+             p-2 rounded-md flex items-center justify-center "
             >
               <img
                 src="https://i.postimg.cc/d3wKMKPP/google.png"
