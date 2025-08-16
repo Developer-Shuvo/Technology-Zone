@@ -56,6 +56,8 @@ import Lenovo from "../Pages/2ndLayerPage/Laptop/Lenovo";
 import Apple from "../Pages/2ndLayerPage/Laptop/Apple";
 import AsusLaptop from "../Pages/2ndLayerPage/Laptop/AsusLaptop";
 import Acer from "../Pages/2ndLayerPage/Laptop/Acer";
+import BrandPc from "../Pages/2ndLayerPage/Desktop/BrandPc";
+import GamingPc from "../Pages/2ndLayerPage/Desktop/GamingPc";
 
 const router = createBrowserRouter([
   {
@@ -88,55 +90,55 @@ const router = createBrowserRouter([
       //Pc Builder All Page here
       {
         path: "/motherBoard",
-        element: <MotherBoard/>,
+        element: <MotherBoard />,
       },
       {
         path: "/processor",
-        element: <Processor/>,
+        element: <Processor />,
       },
       {
         path: "/ram",
-        element: <Ram/>,
+        element: <Ram />,
       },
       {
         path: "/hdd",
-        element: <HDD/>,
+        element: <HDD />,
       },
       {
         path: "/ssd",
-        element: <SSD/>,
+        element: <SSD />,
       },
       {
         path: "/cooler",
-        element: <CoolerFan/>,
+        element: <CoolerFan />,
       },
       {
         path: "/casing",
-        element: <Casing/>,
+        element: <Casing />,
       },
       {
         path: "/powerSupply",
-        element: < PowerSupply/>,
+        element: <PowerSupply />,
       },
       {
         path: "/graphicsCard",
-        element: < GraphicsCard/>,
+        element: <GraphicsCard />,
       },
       {
         path: "/monitor",
-        element: < Monitor/>,
+        element: <Monitor />,
       },
       {
         path: "/mouse",
-        element: < Mouse/>,
+        element: <Mouse />,
       },
       {
         path: "/keyboard",
-        element: < Keyboard/>,
+        element: <Keyboard />,
       },
       {
         path: "/speaker",
-        element: < Speaker/>,
+        element: <Speaker />,
       },
       {
         path: "/serviceCenter",
@@ -210,31 +212,41 @@ const router = createBrowserRouter([
       // laptop
       {
         path: "/asus",
-        element: <Asus/>
+        element: <Asus />,
       },
       {
         path: "/dell",
-        element: <Dell/>
+        element: <Dell />,
       },
       {
         path: "/hp",
-        element: <Hp/>
+        element: <Hp />,
       },
       {
         path: "/lenovo",
-        element: <Lenovo/>
+        element: <Lenovo />,
       },
       {
         path: "/apple",
-        element: <Apple/>
+        element: <Apple />,
       },
       {
         path: "/asusLaptop",
-        element: <AsusLaptop/>
+        element: <AsusLaptop />,
       },
       {
         path: "/acer",
-        element: <Acer/>
+        element: <Acer />,
+      },
+
+      // Desktop
+      {
+        path: "/brandPc",
+        element: <BrandPc />,
+      },
+      {
+        path: "/gamingPc",
+        element: <GamingPc />,
       },
 
       //Footer Pages...
@@ -243,13 +255,13 @@ const router = createBrowserRouter([
       { path: "/career", element: <Career /> },
       { path: "/deliveryPolicy", element: <DeliveryPolicy /> },
       { path: "/returnPolicy", element: <ReturnPolicy /> },
-      { path: "/refundPolicy", element: <RefundPolicy/> },
-      { path: "/cancellationPolicy", element: <CancellationPolicy/> },
-      { path: "/privacyPolicy", element: <PrivacyPolicy/> },
-      { path: "/warrantyPolicy", element: <WarrantyPolicy/> },
-      { path: "/contactUs", element: <ContactUs/> },
-      { path: "/exchange", element: <Exchange/> },
-      { path: "/announcement", element: <Announcement/> },
+      { path: "/refundPolicy", element: <RefundPolicy /> },
+      { path: "/cancellationPolicy", element: <CancellationPolicy /> },
+      { path: "/privacyPolicy", element: <PrivacyPolicy /> },
+      { path: "/warrantyPolicy", element: <WarrantyPolicy /> },
+      { path: "/contactUs", element: <ContactUs /> },
+      { path: "/exchange", element: <Exchange /> },
+      { path: "/announcement", element: <Announcement /> },
     ],
   },
 ]);
