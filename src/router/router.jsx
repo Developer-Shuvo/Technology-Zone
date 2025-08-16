@@ -42,6 +42,11 @@ import FeaturedPhone from "../Pages/2ndLayerPage/Phone/FeaturedPhone";
 import Tablet from "../Pages/2ndLayerPage/Tablet/Tablet";
 import AllPhone from "../Pages/2ndLayerPage/Phone/AllPhone";
 import Xiaomi from "../Pages/2ndLayerPage/Tablet/Xiaomi";
+import Mac from "../Pages/2ndLayerPage/Mac/Mac";
+import MacPro from "../Pages/2ndLayerPage/Mac/MacPro";
+import MacMini from "../Pages/2ndLayerPage/Mac/MacMini";
+import IMac from "../Pages/2ndLayerPage/Mac/iMac";
+import AppleTablet from "../Pages/2ndLayerPage/Tablet/AppleTablet";
 
 const router = createBrowserRouter([
   {
@@ -163,6 +168,26 @@ const router = createBrowserRouter([
       {
         path: "/xiaomi",
         element: <Xiaomi />,
+      },
+      {
+        path: "/appleTablet",
+        element: <AppleTablet />,
+      },
+      {
+        path: "/mac",
+        element: <Mac />,
+      },
+      {
+        path: "/iMac",
+        element: <IMac />,
+      },
+      {
+        path: "/macPro",
+        element: <MacPro />,
+      },
+      {
+        path: "/macMini",
+        element: <MacMini />,
       },
 
       //Footer Pages...

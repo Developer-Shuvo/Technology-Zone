@@ -45,7 +45,7 @@ const Navbar = () => {
                 {/* Tooltip */}
                 <span
                   className="absolute left-full ml-3 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all
-                 duration-500 border border-gray-300 text-gray-800 text-sm rounded px-2 py-1 shadow-lg shadow-gray-600 whitespace-nowrap"
+                 duration-700  text-green-800 text-md font-semibold  whitespace-nowrap"
                 >
                   Home
                 </span>
@@ -195,7 +195,7 @@ const Navbar = () => {
               id="desktop-nav"
               className="hidden md:flex justify-center space-x-6"
             >
-             {/* ________ Phone __________  */}
+              {/* ________ Phone __________  */}
               <li className="relative group">
                 <Link
                   to="/allPhone"
@@ -243,7 +243,7 @@ const Navbar = () => {
                       Xiaomi
                     </Link>
                     <Link
-                      to="/tablet"
+                      to="/appleTablet"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Apple
@@ -268,42 +268,35 @@ const Navbar = () => {
 
               {/* Mac */}
               <li className="relative group">
-                <a
-                  to="#"
+                <Link
+                  to="/mac"
                   className="block px-6 py-4 text-sm font-semibold text-white hover:bg-cyan-800"
                 >
                   Mac
-                </a>
+                </Link>
                 {/* Dropdown */}
                 <ul className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100 transform origin-top transition-all duration-300 ease-out flex flex-col bg-white border border-gray-300 shadow-lg z-10">
                   <li>
-                    <a
-                      to="#"
+                    <Link
+                      to="/iMac"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       i Mac
-                    </a>
-                    <a
-                      to="#"
+                    </Link>
+                    <Link
+                      to="/macPro"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Mac Pro
-                    </a>
-                    <a
-                      to="#"
+                    </Link>
+                    <Link
+                      to="/macMini"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Mac Mini
-                    </a>
+                    </Link>
                   </li>
-                  <li>
-                    <a
-                      to="#"
-                      className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
-                    >
-                      Featured Phone
-                    </a>
-                  </li>
+             
                 </ul>
               </li>
 

@@ -2,18 +2,18 @@ import { useEffect, useState } from "react";
 import { AllProducts } from "../../AllProducts/AllProducts";
 import ProductCardMainStore from "../ProductCardMainStore/ProductCardMainStore";
 
-const Mac = () => {
+const MacPro = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
     const tablet = AllProducts.filter(
-      (singleProduct) => singleProduct?.categories === "mac"
+      (singleProduct) => singleProduct?.categories === "macPro"
     );
 
     setProducts(tablet);
   }, []);
 
-  return <ProductCardMainStore title="Mac" products={products} />;
+  return <ProductCardMainStore title="Mac Pro" products={products} />;
 };
 
-export default Mac;
+export default MacPro;

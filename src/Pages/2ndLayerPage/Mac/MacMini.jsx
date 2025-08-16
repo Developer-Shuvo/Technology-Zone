@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import { AllProducts } from "../../AllProducts/AllProducts";
 import ProductCardMainStore from "../ProductCardMainStore/ProductCardMainStore";
 
-const Mac = () => {
+
+const MacMini = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
@@ -13,7 +14,7 @@ const Mac = () => {
     setProducts(tablet);
   }, []);
 
-  return <ProductCardMainStore title="Mac" products={products} />;
+  return <ProductCardMainStore title="Mac Mini" products={products} />;
 };
 
-export default Mac;
+export default MacMini;

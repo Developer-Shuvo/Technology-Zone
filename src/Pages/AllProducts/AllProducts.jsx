@@ -1143,6 +1143,7 @@ export const AllProducts = [
     price: 2800,
     oldPrice: 3000,
   },
+
   // _____________Accessories________________
   {
     id: 118,
@@ -1937,5 +1938,126 @@ export const AllProducts = [
     rating: 4.8,
     price: 980,
     oldPrice: 1060,
+  },
+  // __________Mac Pro (Next Batch)______________
+  {
+    id: 198,
+    categories: "macPro",
+    title: "Mac Pro 2024 (M3 Ultra)",
+    image:
+      "https://www.apple.com/newsroom/images/product/mac-pro/standard/mac-pro-m3-ultra-hero_2024.jpg",
+    rating: 4.9,
+    price: 9500,
+    oldPrice: 10500,
+  },
+  {
+    id: 199,
+    categories: "macPro",
+    title: "Mac Pro Rack Edition (M3)",
+    image:
+      "https://www.apple.com/newsroom/images/product/mac-pro/standard/mac-pro-rack-m3_2024.jpg",
+    rating: 4.8,
+    price: 11500,
+    oldPrice: 13000,
+  },
+  {
+    id: 200,
+    categories: "macPro",
+    title: "Mac Pro (M3 Ultra, Max GPU)",
+    image:
+      "https://www.apple.com/newsroom/images/product/mac-pro/standard/mac-pro-m3-ultra-gpu_2024.jpg",
+    rating: 5.0,
+    price: 14000,
+    oldPrice: 15500,
+  },
+  {
+    id: 201,
+    categories: "macPro",
+    title: "Mac Pro (Afterburner Pro Edition)",
+    image:
+      "https://www.apple.com/newsroom/images/product/mac-pro/standard/mac-pro-afterburner-pro_2024.jpg",
+    rating: 4.7,
+    price: 12000,
+    oldPrice: 13500,
+  },
+  {
+    id: 202,
+    categories: "macPro",
+    title: "Mac Pro (High-Memory Config 1TB RAM)",
+    image:
+      "https://www.apple.com/newsroom/images/product/mac-pro/standard/mac-pro-1tb-ram_2024.jpg",
+    rating: 4.9,
+    price: 15000,
+    oldPrice: 16500,
+  },
+  {
+    id: 203,
+    categories: "macPro",
+    title: "Mac Pro (Dual GPU, AI Optimized)",
+    image:
+      "https://www.apple.com/newsroom/images/product/mac-pro/standard/mac-pro-ai-dual-gpu_2024.jpg",
+    rating: 4.8,
+    price: 13500,
+    oldPrice: 15000,
+  },
+  {
+    id: 204,
+    categories: "macPro",
+    title: "Mac Pro (Pro Studio Max Edition)",
+    image:
+      "https://www.apple.com/newsroom/images/product/mac-pro/standard/mac-pro-pro-studio_2024.jpg",
+    rating: 5.0,
+    price: 16000,
+    oldPrice: 17800,
+  },
+  {
+    id: 205,
+    categories: "macPro",
+    title: "Mac Pro (Entry-Level M3 Ultra)",
+    image:
+      "https://www.apple.com/newsroom/images/product/mac-pro/standard/mac-pro-entry-m3_2024.jpg",
+    rating: 4.6,
+    price: 8500,
+    oldPrice: 9500,
+  },
+  {
+    id: 206,
+    categories: "macPro",
+    title: "Mac Pro (High-Bandwidth Memory, AI Ready)",
+    image:
+      "https://www.apple.com/newsroom/images/product/mac-pro/standard/mac-pro-hbm-ai_2024.jpg",
+    rating: 4.9,
+    price: 12500,
+    oldPrice: 14000,
+  },
+  {
+    id: 207,
+    categories: "macPro",
+    title: "Mac Pro (ProRes X Workflow)",
+    image:
+      "https://www.apple.com/newsroom/images/product/mac-pro/standard/mac-pro-proresx_2024.jpg",
+    rating: 4.8,
+    price: 14500,
+    oldPrice: 16000,
+  },
+  {
+    id: 208,
+    categories: "macPro",
+    title: "Mac Pro (Scientific Research Edition)",
+    image:
+      "https://www.apple.com/newsroom/images/product/mac-pro/standard/mac-pro-scientific-2024.jpg",
+    rating: 4.7,
+    price: 17000,
+    oldPrice: 19000,
+  },
+  {
+    id: 209,
+    categories: "macPro",
+    title: "Mac Pro (Ultimate Config M3 Ultra)",
+    image:
+      "https://www.apple.com/newsroom/images/product/mac-pro/standard/mac-pro-ultimate-m3_2024.jpg",
+    rating: 5.0,
+    price: 20000,
+    oldPrice: 22000,
   },
 ];
