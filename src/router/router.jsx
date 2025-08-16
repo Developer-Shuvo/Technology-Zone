@@ -58,6 +58,10 @@ import AsusLaptop from "../Pages/2ndLayerPage/Laptop/AsusLaptop";
 import Acer from "../Pages/2ndLayerPage/Laptop/Acer";
 import BrandPc from "../Pages/2ndLayerPage/Desktop/BrandPc";
 import GamingPc from "../Pages/2ndLayerPage/Desktop/GamingPc";
+import Printer from "../Pages/2ndLayerPage/Accessories/Printer";
+import Accessories from "../Pages/2ndLayerPage/Accessories/Accessories";
+import Scanner from "../Pages/2ndLayerPage/Accessories/Scanner";
+import PowerSuply from "../Pages/2ndLayerPage/Accessories/PowerSupply";
 
 const router = createBrowserRouter([
   {
@@ -248,6 +252,49 @@ const router = createBrowserRouter([
         path: "/gamingPc",
         element: <GamingPc />,
       },
+      //Accessories
+      {
+        path: "/accessories",
+        element: <Accessories />,
+      },
+
+      {
+        path: "/printer",
+        element: <Printer />,
+      },
+      {
+        path: "/scanner",
+        element: <Scanner />,
+      },
+      {
+        path: "/powerSuply",
+        element: <PowerSuply />,
+      },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
       //Footer Pages...
       { path: "/regardingUs", element: <RegardingUs /> },
