@@ -47,6 +47,15 @@ import MacPro from "../Pages/2ndLayerPage/Mac/MacPro";
 import MacMini from "../Pages/2ndLayerPage/Mac/MacMini";
 import IMac from "../Pages/2ndLayerPage/Mac/iMac";
 import AppleTablet from "../Pages/2ndLayerPage/Tablet/AppleTablet";
+import SamsungTablet from "../Pages/2ndLayerPage/Tablet/SamsungTablet";
+import SonyTablet from "../Pages/2ndLayerPage/Tablet/SonyTablet";
+import Asus from "../Pages/2ndLayerPage/Laptop/Asus";
+import Dell from "../Pages/2ndLayerPage/Laptop/Dell";
+import Hp from "../Pages/2ndLayerPage/Laptop/Hp";
+import Lenovo from "../Pages/2ndLayerPage/Laptop/Lenovo";
+import Apple from "../Pages/2ndLayerPage/Laptop/Apple";
+import AsusLaptop from "../Pages/2ndLayerPage/Laptop/AsusLaptop";
+import Acer from "../Pages/2ndLayerPage/Laptop/Acer";
 
 const router = createBrowserRouter([
   {
@@ -174,6 +183,14 @@ const router = createBrowserRouter([
         element: <AppleTablet />,
       },
       {
+        path: "/samsungTablet",
+        element: <SamsungTablet />,
+      },
+      {
+        path: "/sonyTablet",
+        element: <SonyTablet />,
+      },
+      {
         path: "/mac",
         element: <Mac />,
       },
@@ -188,6 +205,36 @@ const router = createBrowserRouter([
       {
         path: "/macMini",
         element: <MacMini />,
+      },
+
+      // laptop
+      {
+        path: "/asus",
+        element: <Asus/>
+      },
+      {
+        path: "/dell",
+        element: <Dell/>
+      },
+      {
+        path: "/hp",
+        element: <Hp/>
+      },
+      {
+        path: "/lenovo",
+        element: <Lenovo/>
+      },
+      {
+        path: "/apple",
+        element: <Apple/>
+      },
+      {
+        path: "/asusLaptop",
+        element: <AsusLaptop/>
+      },
+      {
+        path: "/acer",
+        element: <Acer/>
       },
 
       //Footer Pages...

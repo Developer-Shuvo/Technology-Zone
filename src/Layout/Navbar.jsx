@@ -249,7 +249,7 @@ const Navbar = () => {
                       Apple
                     </Link>
                     <Link
-                      to="/tablet"
+                      to="/samsungTablet"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Samsung
@@ -257,7 +257,7 @@ const Navbar = () => {
                   </li>
                   <li>
                     <Link
-                      to="/tablet"
+                      to="/sonyTablet"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Sony
@@ -296,65 +296,64 @@ const Navbar = () => {
                       Mac Mini
                     </Link>
                   </li>
-             
                 </ul>
               </li>
 
               {/* Laptop */}
               <li className="relative group">
-                <a
+                <Link
                   to="#"
                   className="block px-6 py-4 text-sm font-semibold text-white hover:bg-cyan-800"
                 >
                   Laptop
-                </a>
+                </Link>
                 {/* Dropdown */}
                 <ul className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100 transform origin-top transition-all duration-300 ease-out flex flex-col bg-white border border-gray-300 shadow-lg z-10">
                   <li>
-                    <a
-                      to="#"
+                    <Link
+                      to="/asus"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Asus
-                    </a>
-                    <a
-                      to="#"
+                    </Link>
+                    <Link
+                      to="/dell"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Dell
-                    </a>
-                    <a
-                      to="#"
+                    </Link>
+                    <Link
+                      to="/hp"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Hp
-                    </a>
-                    <a
-                      to="#"
+                    </Link>
+                    <Link
+                      to="/lenovo"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Lenovo
-                    </a>
-                    <a
-                      to="#"
+                    </Link>
+                    <Link
+                      to="/apple"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Apple
-                    </a>
-                    <a
-                      to="#"
+                    </Link>
+                    <Link
+                      to="/asusLaptop"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Asus
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      to="#"
+                    <Link
+                      to="/acer"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Acer
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
