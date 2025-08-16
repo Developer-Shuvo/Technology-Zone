@@ -8,6 +8,7 @@ import trolley from "../assets/images/trolley.png";
 import profile from "../assets/images/user.png";
 import techZone from "../assets/images/favicon/tech-1.png";
 import { useState } from "react";
+import home from "../assets/images/favicon/home2.png";
 
 const Navbar = () => {
   const [searchField, setSearchField] = useState(false);
@@ -195,6 +196,22 @@ const Navbar = () => {
               id="desktop-nav"
               className="hidden md:flex justify-center space-x-6"
             >
+              <div className="flex items-center justify-center h-full">
+                <Link
+                  to="/"
+                  className="group flex items-center gap-2 px-6 py-4 rounded-md transition-transform duration-300 hover:scale-125"
+                >
+                  <img
+                    className="h-5 w-5 object-contain"
+                    src={home}
+                    alt="Back to home"
+                  />
+                  <span className="text-white font-medium text-sm group-hover:text-lime-400 ">
+                    Home
+                  </span>
+                </Link>
+              </div>
+
               {/* ________ Phone __________  */}
               <li className="relative group">
                 <Link
@@ -420,96 +437,55 @@ const Navbar = () => {
                 </ul>
               </li>
 
-              {/* Sound Appliance */}
-              <li className="relative group">
-                <a
-                  to="#"
-                  className="block px-6 py-4 text-sm font-semibold text-white hover:bg-cyan-800"
-                >
-                  Sound Appliance
-                </a>
-                {/* Dropdown */}
-                <ul className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100 transform origin-top transition-all duration-300 ease-out flex flex-col bg-white border border-gray-300 shadow-lg z-10">
-                  <li>
-                    <a
-                      to="#"
-                      className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
-                    >
-                      AirPods
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      to="#"
-                      className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
-                    >
-                      AirBuds
-                    </a>
-                    <a
-                      to="#"
-                      className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
-                    >
-                      Headphone
-                    </a>
-                    <a
-                      to="#"
-                      className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
-                    >
-                      Microphone
-                    </a>
-                  </li>
-                </ul>
-              </li>
-
               {/* Smart Gadget */}
               <li className="relative group">
-                <a
-                  to="#"
+                <Link
+                  to="/smartGadget"
                   className="block px-6 py-4 text-sm font-semibold text-white hover:bg-cyan-800"
                 >
                   Smart Gadget
-                </a>
+                </Link>
                 {/* Dropdown */}
                 <ul className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100 transform origin-top transition-all duration-300 ease-out flex flex-col bg-white border border-gray-300 shadow-lg z-10">
                   <li>
-                    <a
-                      to="#"
+                    <Link
+                      to="Gimbal"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Gimbal
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      to="#"
+                    <Link
+                      to="/deviceStand"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Device Stand
-                    </a>
-                    <a
-                      to="#"
+                    </Link>
+                    <Link
+                      to="/actionCamera"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Action Camera
-                    </a>
-                    <a
-                      to="#"
+                    </Link>
+                    <Link
+                      to="/droneGear"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Drone Gear
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
 
               {/* Smart Watch */}
               <li className="relative group">
-                <a
-                  to="#"
+                <Link
+                  to="/smartWatch"
                   className="block px-6 py-4 text-sm font-semibold text-white hover:bg-cyan-800"
                 >
                   Smart Watch
-                </a>
+                </Link>
                 {/* Dropdown */}
                 <ul className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100 transform origin-top transition-all duration-300 ease-out flex flex-col bg-white border border-gray-300 shadow-lg z-10">
                   <li>

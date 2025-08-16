@@ -62,6 +62,12 @@ import Printer from "../Pages/2ndLayerPage/Accessories/Printer";
 import Accessories from "../Pages/2ndLayerPage/Accessories/Accessories";
 import Scanner from "../Pages/2ndLayerPage/Accessories/Scanner";
 import PowerSuply from "../Pages/2ndLayerPage/Accessories/PowerSupply";
+import Gimbal from "../Pages/2ndLayerPage/SmartGadget/Gimbal";
+import SmartGadget from "../Pages/2ndLayerPage/SmartGadget/SmartGadget";
+import DeviceStand from "../Pages/2ndLayerPage/SmartGadget/DeviceStand";
+import ActionCamera from "../Pages/2ndLayerPage/SmartGadget/ActionCamera";
+import DroneGear from "../Pages/2ndLayerPage/SmartGadget/DroneGear";
+import SmartWatch from "../Pages/2ndLayerPage/SmartWatch/SmartWatch";
 
 const router = createBrowserRouter([
   {
@@ -270,6 +276,42 @@ const router = createBrowserRouter([
         path: "/powerSuply",
         element: <PowerSuply />,
       },
+
+      // Smart Gadget
+
+      {
+        path: "/smartGadget",
+        element: <SmartGadget />,
+      },
+
+      {
+        path: "/gimbal",
+        element: <Gimbal />,
+      },
+      {
+        path: "/deviceStand",
+        element: <DeviceStand />,
+      },
+      {
+        path: "/actionCamera",
+        element: <ActionCamera />,
+      },
+      {
+        path: "/droneGear",
+        element: <DroneGear />,
+      },
+
+      //Smart Watch
+      {
+        path: "/smartWatch",
+        element: <SmartWatch />,
+      },
+
+
+
+
+
+
 
 
 

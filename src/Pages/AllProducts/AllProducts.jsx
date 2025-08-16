@@ -550,11 +550,11 @@ export const AllProducts = [
     oldPrice: 1310,
   },
 
-  //  __________Smartwatch_____________
+  //  __________smart watch_____________
   {
     id: 59,
-    categories: "smartwatch",
-    title: "Smartwatch Model 1",
+    categories: "smart watch",
+    title: "smart watch Model 1",
     image:
       "https://i.postimg.cc/R0wNmBcL/david-svihovec-T49gx2umonk-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
@@ -563,8 +563,8 @@ export const AllProducts = [
   },
   {
     id: 60,
-    categories: "smartwatch",
-    title: "Smartwatch Model 2",
+    categories: "smart watch",
+    title: "smart watch Model 2",
     image:
       "https://i.postimg.cc/qR0gM5wV/david-svihovec-t-Mea-U53-Hn1-Y-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
@@ -573,8 +573,8 @@ export const AllProducts = [
   },
   {
     id: 61,
-    categories: "smartwatch",
-    title: "Smartwatch Model 3",
+    categories: "smart watch",
+    title: "smart watch Model 3",
     image:
       "https://i.postimg.cc/Zn5R6vXw/david-svihovec-E1-AMQ35pjw-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.5,
@@ -583,8 +583,8 @@ export const AllProducts = [
   },
   {
     id: 62,
-    categories: "smartwatch",
-    title: "Smartwatch Model 4",
+    categories: "smart watch",
+    title: "smart watch Model 4",
     image:
       "https://i.postimg.cc/t4WXZzYX/eric-yu-Jqo-CRk-MAct-Y-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.4,
@@ -593,8 +593,8 @@ export const AllProducts = [
   },
   {
     id: 63,
-    categories: "smartwatch",
-    title: "Smartwatch Model 5",
+    categories: "smart watch",
+    title: "smart watch Model 5",
     image:
       "https://i.postimg.cc/jj6d9hb8/fabrice-mommer-DGcrlw7mx-Wo-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
@@ -603,8 +603,8 @@ export const AllProducts = [
   },
   {
     id: 64,
-    categories: "smartwatch",
-    title: "Smartwatch Model 6",
+    categories: "smart watch",
+    title: "smart watch Model 6",
     image:
       "https://i.postimg.cc/WbQN1ypW/julen-rey-azcona-E0msw66-Zw-ZU-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.5,
@@ -613,8 +613,8 @@ export const AllProducts = [
   },
   {
     id: 65,
-    categories: "smartwatch",
-    title: "Smartwatch Model 7",
+    categories: "smart watch",
+    title: "smart watch Model 7",
     image:
       "https://i.postimg.cc/sD1xXSYX/kenny-eliason-cu-Ljt-Xvo5bw-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
@@ -623,8 +623,8 @@ export const AllProducts = [
   },
   {
     id: 66,
-    categories: "smartwatch",
-    title: "Smartwatch Model 8",
+    categories: "smart watch",
+    title: "smart watch Model 8",
     image:
       "https://i.postimg.cc/DwXzQTY3/klim-musalimov-m-LJNo6i4h-JI-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.4,
@@ -633,8 +633,8 @@ export const AllProducts = [
   },
   {
     id: 67,
-    categories: "smartwatch",
-    title: "Smartwatch Model 9",
+    categories: "smart watch",
+    title: "smart watch Model 9",
     image:
       "https://i.postimg.cc/yxx1D4S5/klim-musalimov-v-Rhb8b1-KW8-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.5,
@@ -643,8 +643,8 @@ export const AllProducts = [
   },
   {
     id: 68,
-    categories: "smartwatch",
-    title: "Smartwatch Model 10",
+    categories: "smart watch",
+    title: "smart watch Model 10",
     image:
       "https://i.postimg.cc/tTSyQSmz/lloyd-dirks-0vsk2-9dkqo-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
@@ -653,8 +653,8 @@ export const AllProducts = [
   },
   {
     id: 69,
-    categories: "smartwatch",
-    title: "Smartwatch Model 11",
+    categories: "smart watch",
+    title: "smart watch Model 11",
     image:
       "https://i.postimg.cc/QMqhSxQw/lloyd-dirks-qd-Y76g-IYbw8-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.5,
@@ -663,8 +663,8 @@ export const AllProducts = [
   },
   {
     id: 70,
-    categories: "smartwatch",
-    title: "Smartwatch Model 12",
+    categories: "smart watch",
+    title: "smart watch Model 12",
     image:
       "https://i.postimg.cc/7ZG5B7hc/luke-chesser-Jp-Y2r-PHFL8-E-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
@@ -673,8 +673,8 @@ export const AllProducts = [
   },
   {
     id: 71,
-    categories: "smartwatch",
-    title: "Smartwatch Model 13",
+    categories: "smart watch",
+    title: "smart watch Model 13",
     image:
       "https://i.postimg.cc/RFXCCVqK/nils-huenerfuerst-WO4f-N-Li-Nl0-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.4,
@@ -683,8 +683,8 @@ export const AllProducts = [
   },
   {
     id: 72,
-    categories: "smartwatch",
-    title: "Smartwatch Model 14",
+    categories: "smart watch",
+    title: "smart watch Model 14",
     image:
       "https://i.postimg.cc/KzNjKDpK/pablo-figueroa-No-UQt-qd-Kjg-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.5,
@@ -693,8 +693,8 @@ export const AllProducts = [
   },
   {
     id: 73,
-    categories: "smartwatch",
-    title: "Smartwatch Model 15",
+    categories: "smart watch",
+    title: "smart watch Model 15",
     image:
       "https://i.postimg.cc/gJkd7F4J/pratik-prasad-FPEBZJLD8-Rs-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
@@ -703,8 +703,8 @@ export const AllProducts = [
   },
   {
     id: 74,
-    categories: "smartwatch",
-    title: "Smartwatch Model 16",
+    categories: "smart watch",
+    title: "smart watch Model 16",
     image:
       "https://i.postimg.cc/5tJfwFC8/pratik-prasad-w-Cce-AAw-Xzz0-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
@@ -713,8 +713,8 @@ export const AllProducts = [
   },
   {
     id: 75,
-    categories: "smartwatch",
-    title: "Smartwatch Model 17",
+    categories: "smart watch",
+    title: "smart watch Model 17",
     image:
       "https://i.postimg.cc/HsJWHmm8/sabina-0z-AHo-J1gn-Gg-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.4,
@@ -723,8 +723,8 @@ export const AllProducts = [
   },
   {
     id: 76,
-    categories: "smartwatch",
-    title: "Smartwatch Model 18",
+    categories: "smart watch",
+    title: "smart watch Model 18",
     image:
       "https://i.postimg.cc/rsZpjFkM/shawn-rain-6-Im-W5-VCW-w-I-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.5,
@@ -733,8 +733,8 @@ export const AllProducts = [
   },
   {
     id: 77,
-    categories: "smartwatch",
-    title: "Smartwatch Model 19",
+    categories: "smart watch",
+    title: "smart watch Model 19",
     image:
       "https://i.postimg.cc/BZ7Zd6rG/taylor-beach-vy-Jr3-Oy-S4-V8-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
@@ -743,8 +743,8 @@ export const AllProducts = [
   },
   {
     id: 78,
-    categories: "smartwatch",
-    title: "Smartwatch Model 20",
+    categories: "smart watch",
+    title: "smart watch Model 20",
     image:
       "https://i.postimg.cc/ZnQT378q/viktor-bystrov-a-Lrr-M7-VRz5-Q-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
