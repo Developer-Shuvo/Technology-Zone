@@ -1,22 +1,22 @@
-import Sidebar from "./Sidebar/Sidebar";
-
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { AllProducts } from "../../AllProducts/AllProducts";
+import Sidebar from "./Sidebar/Sidebar"; // don't forget to import Sidebar
 
-const SmartPhone = () => {
-  // 2nd step
+const AllPhone = () => {
+  //Multiple Categories Added
   const [products, setProducts] = useState([]);
 
-  //  1st step
   useEffect(() => {
-    const smartPhone = AllProducts.filter(
-      (singleProduct) => singleProduct?.categories === "smartPhone"
+    const allCategories = ["smartPhone", "featuredPhone", "anotherCategory"];
+
+    const allPhone = AllProducts.filter((singleProduct) =>
+      allCategories.includes(singleProduct?.categories)
     );
 
-    // set here***
-    //3rd step
-    setProducts(smartPhone);
+    setProducts(allPhone);
   }, []);
+
+  //Multiple Categories Added
 
   return (
     <div className="mt-20 mb-40 max-w-[1400px] mx-auto px-4">
@@ -29,25 +29,26 @@ const SmartPhone = () => {
         {/*_________________ Card Section __________________ */}
         <div className="w-[70%] flex-1">
           <h1 className="text-3xl lg:text-4xl xl:text-5xl px-4 lg:px-2 xl:px-0 text-cyan-900 font-bold text-left flex items-center mb-8">
-            Smart Phone
+            All Phone
             <span className="text-5xl lg:text-6xl xl:text-6xl text-orange-600 font-serif pr-4">
               !
             </span>
           </h1>
+
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-x-6 gap-y-14 px-6 lg:px-2 xl:px-0">
             {products.map((product) => (
-              // Cards here *****
               <div
                 key={product.id}
                 className="relative w-full overflow-hidden rounded-lg bg-white shadow-md flex-col flex
            hover:shadow-lg hover:shadow-[#A4CCD9] transition transform ease-in-out duration-500 "
               >
+                {/* Image */}
                 <div className="relative overflow-hidden">
                   <a href="#">
                     <img
                       className="h-[192px] w-full object-cover rounded-t-lg transform transition-transform duration-500 hover:scale-125"
                       src={product.image}
-                      alt="product image"
+                      alt="product"
                     />
                   </a>
                   <span className="absolute top-0 left-0 w-24 translate-y-4 -translate-x-6 -rotate-45 bg-black text-center text-sm text-white">
@@ -55,6 +56,7 @@ const SmartPhone = () => {
                   </span>
                 </div>
 
+                {/* Card Body */}
                 <div className="flex flex-col justify-between flex-grow px-4 pb-5 pt-4">
                   <div>
                     <a href="#">
@@ -105,20 +107,6 @@ const SmartPhone = () => {
     hover:before:w-full hover:text-black z-10 before:z-0"
                     >
                       <span className="relative z-10 flex items-center gap-2 transition-all duration-300">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="h-5 w-5"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          strokeWidth={2}
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
-                          />
-                        </svg>
                         Add
                       </span>
                     </a>
@@ -127,6 +115,7 @@ const SmartPhone = () => {
               </div>
             ))}
           </div>
+
           <a href="#">
             <button
               className="bg-[#C4E1E6] text-base font-semibold py-2 px-4
@@ -142,4 +131,4 @@ const SmartPhone = () => {
   );
 };
 
-export default SmartPhone;
+export default AllPhone;

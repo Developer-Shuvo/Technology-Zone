@@ -195,10 +195,10 @@ const Navbar = () => {
               id="desktop-nav"
               className="hidden md:flex justify-center space-x-6"
             >
-              {/*Smart Phone */}
+             {/* ________ Phone __________  */}
               <li className="relative group">
                 <Link
-                  to="/smartPhone"
+                  to="/allPhone"
                   className="block px-6 py-4 text-sm font-semibold text-white hover:bg-cyan-800"
                 >
                   Phone
@@ -237,7 +237,7 @@ const Navbar = () => {
                 <ul className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100 transform origin-top transition-all duration-300 ease-out flex flex-col bg-white border border-gray-300 shadow-lg z-10">
                   <li>
                     <Link
-                      to="/tablet"
+                      to="/xiaomi"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Xiaomi

@@ -40,6 +40,8 @@ import Keyboard from "../Pages/2ndLayerPage/PcBuilder/Keyboard/Keyboard";
 import Speaker from "../Pages/2ndLayerPage/PcBuilder/Speaker/Speaker";
 import FeaturedPhone from "../Pages/2ndLayerPage/Phone/FeaturedPhone";
 import Tablet from "../Pages/2ndLayerPage/Tablet/Tablet";
+import AllPhone from "../Pages/2ndLayerPage/Phone/AllPhone";
+import Xiaomi from "../Pages/2ndLayerPage/Tablet/Xiaomi";
 
 const router = createBrowserRouter([
   {
@@ -143,6 +145,10 @@ const router = createBrowserRouter([
 
       // 2nd Navbar pages ...
       {
+        path: "/allPhone",
+        element: <AllPhone />,
+      },
+      {
         path: "/smartPhone",
         element: <SmartPhone />,
       },
@@ -153,6 +159,10 @@ const router = createBrowserRouter([
       {
         path: "/tablet",
         element: <Tablet />,
+      },
+      {
+        path: "/xiaomi",
+        element: <Xiaomi />,
       },
 
       //Footer Pages...
