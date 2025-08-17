@@ -16,7 +16,7 @@ const Tablet = () => {
   }, []);
 
   return (
-    <div className="mt-20 mb-40 max-w-[1400px] mx-auto px-4">
+    <div className="mt-5 mb-40 max-w-[1400px] mx-auto px-4">
       <div className="flex w-full">
         {/*___________ Sidebar___________ */}
         <div className="w-[30%] min-w-[220px] max-w-[350px] mr-6">

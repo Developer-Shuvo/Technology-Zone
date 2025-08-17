@@ -9,13 +9,13 @@ const AppleTablet = () => {
 
   useEffect(() => {
     const tablet = AllProducts.filter(
-      (singleProduct) => singleProduct?.categories === "tablet"
+      (singleProduct) => singleProduct?.categories === "iPad"
     );
 
     setProducts(tablet);
   }, []);
 
-  return <ProductCardMainStore title="Apple Tablet" products={products} />;
+  return <ProductCardMainStore title="i Pad" products={products} />;
 };
 
 export default AppleTablet;

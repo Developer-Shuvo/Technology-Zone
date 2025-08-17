@@ -263,7 +263,7 @@ const Navbar = () => {
                       to="/appleTablet"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
-                      Apple
+                      I Pad
                     </Link>
                     <Link
                       to="/samsungTablet"

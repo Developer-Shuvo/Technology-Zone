@@ -8,7 +8,7 @@ const IMac = () => {
 
   useEffect(() => {
     const tablet = AllProducts.filter(
-      (singleProduct) => singleProduct?.categories === "mac"
+      (singleProduct) => singleProduct?.categories === "iMac"
     );
 
     setProducts(tablet);

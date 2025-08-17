@@ -7,7 +7,7 @@ const Xiaomi = () => {
 
   useEffect(() => {
     const tablet = AllProducts.filter(
-      (singleProduct) => singleProduct?.categories === "tablet"
+      (singleProduct) => singleProduct?.categories === "xiaomiTablet"
     );
 
     setProducts(tablet);

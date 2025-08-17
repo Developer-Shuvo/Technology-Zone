@@ -9,7 +9,7 @@ const BrandPc = () => {
 
   useEffect(() => {
     const laptop = AllProducts.filter(
-      (singleProduct) => singleProduct?.categories === "brandPc"
+      (singleProduct) => singleProduct?.categories === "desktop"
     );
 
     setProducts(laptop);

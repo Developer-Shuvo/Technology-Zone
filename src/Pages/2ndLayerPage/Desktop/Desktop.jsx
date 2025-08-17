@@ -7,7 +7,7 @@ const Desktop = () => {
 
   useEffect(() => {
     const desktop = AllProducts.filter(
-      (singleProduct) => singleProduct?.categories === "brandPc"
+      (singleProduct) => singleProduct?.categories === "desktop"
     );
 
     setProducts(desktop);

@@ -46,7 +46,7 @@ import Mac from "../Pages/2ndLayerPage/Mac/Mac";
 import MacPro from "../Pages/2ndLayerPage/Mac/MacPro";
 import MacMini from "../Pages/2ndLayerPage/Mac/MacMini";
 import IMac from "../Pages/2ndLayerPage/Mac/iMac";
-import AppleTablet from "../Pages/2ndLayerPage/Tablet/AppleTablet";
+import AppleTablet from "../Pages/2ndLayerPage/Tablet/IPad";
 import SamsungTablet from "../Pages/2ndLayerPage/Tablet/SamsungTablet";
 import SonyTablet from "../Pages/2ndLayerPage/Tablet/SonyTablet";
 import Asus from "../Pages/2ndLayerPage/Laptop/Asus";
