@@ -319,7 +319,7 @@ const Navbar = () => {
               {/* Laptop */}
               <li className="relative group">
                 <Link
-                  to="#"
+                  to="/laptop"
                   className="block px-6 py-4 text-sm font-semibold text-white hover:bg-cyan-800"
                 >
                   Laptop
@@ -377,12 +377,12 @@ const Navbar = () => {
 
               {/* Desktop */}
               <li className="relative group">
-                <a
-                  to="#"
+                <Link
+                  to="/desktop"
                   className="block px-6 py-4 text-sm font-semibold text-white hover:bg-cyan-800"
                 >
                   Desktop
-                </a>
+                </Link>
                 {/* Dropdown */}
                 <ul className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100 transform origin-top transition-all duration-300 ease-out flex flex-col bg-white border border-gray-300 shadow-lg z-10">
                   <li>
@@ -489,85 +489,80 @@ const Navbar = () => {
                 {/* Dropdown */}
                 <ul className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100 transform origin-top transition-all duration-300 ease-out flex flex-col bg-white border border-gray-300 shadow-lg z-10">
                   <li>
-                    <a
-                      to="#"
+                    <Link
+                      to="/appleWatch"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Apple
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      to="#"
+                    <Link
+                      to="/xiaomiWatch"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Xiaomi
-                    </a>
-                    <a
-                      to="#"
-                      className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
-                    >
-                      Lenovo
-                    </a>
-                    <a
-                      to="#"
+                    </Link>
+
+                    <Link
+                      to="/onePlusWatch"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       One Plus
-                    </a>
-                    <a
-                      to="#"
+                    </Link>
+                    <Link
+                      to="/samsungWatch"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Samsung
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
 
               {/* Monitor */}
               <li className="relative group">
-                <a
-                  to="#"
+                <Link
+                  to="/monitorr"
                   className="block px-6 py-4 text-sm font-semibold text-white hover:bg-cyan-800"
                 >
                   Monitor
-                </a>
+                </Link>
                 {/* Dropdown */}
                 <ul className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100 transform origin-top transition-all duration-300 ease-out flex flex-col bg-white border border-gray-300 shadow-lg z-10">
                   <li>
-                    <a
-                      to="#"
+                    <Link
+                      to="/lg"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       LG
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      to="#"
+                    <Link
+                      to="/dellMonitor"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Dell
-                    </a>
-                    <a
-                      to="#"
+                    </Link>
+                    <Link
+                      to="/lenovoMonitor"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Lenovo
-                    </a>
-                    <a
-                      to="#"
+                    </Link>
+                    <Link
+                      to="/appleMonitor"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Apple
-                    </a>
-                    <a
-                      to="#"
+                    </Link>
+                    <Link
+                      to="/samsungMonitor"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Samsung
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>

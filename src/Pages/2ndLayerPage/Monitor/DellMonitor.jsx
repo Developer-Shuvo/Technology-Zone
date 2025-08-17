@@ -1,23 +1,23 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { AllProducts } from "../../AllProducts/AllProducts";
 import ProductCardMainStore from "../ProductCardMainStore/ProductCardMainStore";
 
-const Monitorr = () => {
+const DellMonitor = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    const monitor = AllProducts.filter(
+    const dellMonitor = AllProducts.filter(
       (singleProduct) => singleProduct?.categories === "monitor"
     );
 
-    setProducts(monitor);
+    setProducts(dellMonitor);
   }, []);
 
   return (
     <div>
-      <ProductCardMainStore title=" All Monitor " products={products} />
+      <ProductCardMainStore title=" Dell Monitor " products={products} />
     </div>
   );
 };
 
-export default Monitorr;
+export default DellMonitor;

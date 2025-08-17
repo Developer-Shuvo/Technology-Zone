@@ -7,9 +7,9 @@ const Footer = () => {
       <div className="container max-w-[1400px]  items-center  flex flex-col justify-between py-20 mx-auto  space-y-8 lg:flex-row lg:space-y-0">
         {/* Technology Zone */}
         <div className="lg:w-1/3">
-          <Link
+          <Link to="/"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 justify-center lg:justify-start"
+            className="flex items-center gap-2 justify-center lg:justify-start hover:text-sky-400 ease-in-out duration-500"
           >
             <div className="w-20 h-20 flex items-center justify-center rounded-full">
               <img

@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { AllProducts } from "../../AllProducts/AllProducts";
 import ProductCardMainStore from "../ProductCardMainStore/ProductCardMainStore";
 
-const Monitorr = () => {
+const SamsungMonitor = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
@@ -15,9 +15,9 @@ const Monitorr = () => {
 
   return (
     <div>
-      <ProductCardMainStore title=" All Monitor " products={products} />
+      <ProductCardMainStore title=" Samsung Monitor " products={products} />
     </div>
   );
 };
 
-export default Monitorr;
+export default SamsungMonitor;

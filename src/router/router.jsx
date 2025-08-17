@@ -68,6 +68,18 @@ import DeviceStand from "../Pages/2ndLayerPage/SmartGadget/DeviceStand";
 import ActionCamera from "../Pages/2ndLayerPage/SmartGadget/ActionCamera";
 import DroneGear from "../Pages/2ndLayerPage/SmartGadget/DroneGear";
 import SmartWatch from "../Pages/2ndLayerPage/SmartWatch/SmartWatch";
+import AppleWatch from "../Pages/2ndLayerPage/SmartWatch/AppleWatch";
+import XiaomiWatch from "../Pages/2ndLayerPage/SmartWatch/XiaomiWatch";
+import OnePlusWatch from "../Pages/2ndLayerPage/SmartWatch/OnePlusWatch";
+import SamsungWatch from "../Pages/2ndLayerPage/SmartWatch/SamsungWatch";
+import Monitorr from "../Pages/2ndLayerPage/Monitor/Monitor";
+import LgMonitor from "../Pages/2ndLayerPage/Monitor/LgMonitor";
+import DellMonitor from "../Pages/2ndLayerPage/Monitor/DellMonitor";
+import LenovoMonitor from "../Pages/2ndLayerPage/Monitor/LenovoMonitor";
+import AppleMonitor from "../Pages/2ndLayerPage/Monitor/AppleMonitor";
+import SamsungMonitor from "../Pages/2ndLayerPage/Monitor/SamsungMonitor";
+import Desktop from "../Pages/2ndLayerPage/Desktop/Desktop";
+import Laptop from "../Pages/2ndLayerPage/Laptop/Laptop";
 
 const router = createBrowserRouter([
   {
@@ -221,6 +233,10 @@ const router = createBrowserRouter([
 
       // laptop
       {
+        path: "/laptop",
+        element: <Laptop/>,
+      },
+      {
         path: "/asus",
         element: <Asus />,
       },
@@ -250,6 +266,7 @@ const router = createBrowserRouter([
       },
 
       // Desktop
+      { path: "/desktop", element: <Desktop /> },
       {
         path: "/brandPc",
         element: <BrandPc />,
@@ -306,37 +323,48 @@ const router = createBrowserRouter([
         path: "/smartWatch",
         element: <SmartWatch />,
       },
+      {
+        path: "/appleWatch",
+        element: <AppleWatch />,
+      },
+      {
+        path: "/xiaomiWatch",
+        element: <XiaomiWatch />,
+      },
+      {
+        path: "/onePlusWatch",
+        element: <OnePlusWatch />,
+      },
+      {
+        path: "/samsungWatch",
+        element: <SamsungWatch />,
+      },
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      //Monitor
+      {
+        path: "/monitorr",
+        element: <Monitorr />,
+      },
+      {
+        path: "/lg",
+        element: <LgMonitor />,
+      },
+      {
+        path: "/dellMonitor",
+        element: <DellMonitor />,
+      },
+      {
+        path: "/lenovoMonitor",
+        element: <LenovoMonitor />,
+      },
+      {
+        path: "/appleMonitor",
+        element: <AppleMonitor />,
+      },
+      {
+        path: "/samsungMonitor",
+        element: <SamsungMonitor />,
+      },
 
       //Footer Pages...
       { path: "/regardingUs", element: <RegardingUs /> },
