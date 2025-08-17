@@ -1,5 +1,6 @@
 import React from "react";
 import Sidebar from "../Phone/Sidebar/Sidebar";
+import { Link } from "react-router";
 
 const ProductCardMainStore = ({ products, title }) => {
   return (
@@ -12,13 +13,13 @@ const ProductCardMainStore = ({ products, title }) => {
 
         {/*_________________ Card Section __________________ */}
         <div className="w-[70%] flex-1">
-          <h1 className="text-3xl lg:text-4xl xl:text-5xl px-4 lg:px-2 xl:px-0 text-cyan-900 font-bold text-left flex items-center mb-8">
+          <h1 className=" text-3xl lg:text-4xl xl:text-5xl px-4 lg:px-2 xl:px-0 text-cyan-900 font-bold text-left flex items-center mb-8">
             {title}
             <span className="text-5xl lg:text-6xl xl:text-6xl text-orange-600 font-serif pr-4">
               !
             </span>
           </h1>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-x-6 gap-y-14 px-6 lg:px-2 xl:px-0">
+          <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-x-6 gap-y-14 px-6 lg:px-2 xl:px-0">
             {products.map((product) => (
               // Cards here *****
               <div
@@ -26,7 +27,7 @@ const ProductCardMainStore = ({ products, title }) => {
                 className="relative w-full overflow-hidden rounded-lg bg-white shadow-md flex-col flex
            hover:shadow-lg hover:shadow-[#A4CCD9] transition transform ease-in-out duration-500 "
               >
-                <div className="relative overflow-hidden">
+                <div className=" relative overflow-hidden">
                   <a href="#">
                     <img
                       className="h-[192px] w-full object-cover rounded-t-lg transform transition-transform duration-500 hover:scale-125"
@@ -41,11 +42,13 @@ const ProductCardMainStore = ({ products, title }) => {
 
                 <div className="flex flex-col justify-between flex-grow px-4 pb-5 pt-4">
                   <div>
-                    <a href="#">
-                      <h5 className="text-lg font-semibold tracking-tight text-slate-900">
+
+                    {/*Click & go to Details page */}
+                    <Link to="/detailsPage">
+                      <h5 className="borders text-lg font-semibold tracking-tight text-slate-900">
                         {product.title}
                       </h5>
-                    </a>
+                    </Link>
 
                     <div className="mt-2.5 mb-4 flex items-center">
                       <span className="mr-2 rounded bg-yellow-200 px-2 py-0.5 text-xs font-semibold">

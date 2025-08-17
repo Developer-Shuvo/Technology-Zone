@@ -81,6 +81,7 @@ import SamsungMonitor from "../Pages/2ndLayerPage/Monitor/SamsungMonitor";
 import Desktop from "../Pages/2ndLayerPage/Desktop/Desktop";
 import Laptop from "../Pages/2ndLayerPage/Laptop/Laptop";
 import Headphone from "../Pages/2ndLayerPage/Accessories/Headphone";
+import DetailsPage from "../Pages/2ndLayerPage/DetailsPage/DetailsPage";
 
 const router = createBrowserRouter([
   {
@@ -235,7 +236,7 @@ const router = createBrowserRouter([
       // laptop
       {
         path: "/laptop",
-        element: <Laptop/>,
+        element: <Laptop />,
       },
       {
         path: "/asus",
@@ -369,6 +370,12 @@ const router = createBrowserRouter([
       {
         path: "/samsungMonitor",
         element: <SamsungMonitor />,
+      },
+
+      // Product Details Page__________***
+      {
+        path: "/detailsPage",
+        element: <DetailsPage />,
       },
 
       //Footer Pages...
