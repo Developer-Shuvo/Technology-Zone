@@ -416,6 +416,12 @@ const Navbar = () => {
                 <ul className="absolute top-full right-0 w-40 opacity-0 scale-y-0 group-hover:opacity-100 group-hover:scale-y-100 transform origin-top transition-all duration-300 ease-out flex flex-col bg-white border border-gray-300 shadow-lg z-10">
                   <li>
                     <Link
+                      to="/headphone"
+                      className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
+                    >
+                      Headphone
+                    </Link>
+                    <Link
                       to="/printer"
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
@@ -426,12 +432,6 @@ const Navbar = () => {
                       className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
                     >
                       Scanner
-                    </Link>
-                    <Link
-                      to="/powerSuply"
-                      className="block w-full text-gray-700 font-semibold text-sm px-4 py-2 text-center hover:bg-cyan-100 transition-colors duration-300 hover:text-blue-900"
-                    >
-                      Power Supply
                     </Link>
                   </li>
                 </ul>

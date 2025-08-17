@@ -80,6 +80,7 @@ import AppleMonitor from "../Pages/2ndLayerPage/Monitor/AppleMonitor";
 import SamsungMonitor from "../Pages/2ndLayerPage/Monitor/SamsungMonitor";
 import Desktop from "../Pages/2ndLayerPage/Desktop/Desktop";
 import Laptop from "../Pages/2ndLayerPage/Laptop/Laptop";
+import Headphone from "../Pages/2ndLayerPage/Accessories/Headphone";
 
 const router = createBrowserRouter([
   {
@@ -275,10 +276,14 @@ const router = createBrowserRouter([
         path: "/gamingPc",
         element: <GamingPc />,
       },
-      //Accessories
+      // Accessories
       {
         path: "/accessories",
         element: <Accessories />,
+      },
+      {
+        path: "/headphone",
+        element: <Headphone />,
       },
 
       {

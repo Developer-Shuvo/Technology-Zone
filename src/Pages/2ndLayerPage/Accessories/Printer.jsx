@@ -7,7 +7,7 @@ const Printer = () => {
 
   useEffect(() => {
     const laptop = AllProducts.filter(
-      (singleProduct) => singleProduct?.categories === "accessories"
+      (singleProduct) => singleProduct?.categories === "printer"
     );
 
     setProducts(laptop);

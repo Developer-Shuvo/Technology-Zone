@@ -2,22 +2,22 @@ import { useEffect, useState } from "react";
 import { AllProducts } from "../../AllProducts/AllProducts";
 import ProductCardMainStore from "../ProductCardMainStore/ProductCardMainStore";
 
-const Scanner = () => {
+const Headphone = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    const laptop = AllProducts.filter(
-      (singleProduct) => singleProduct?.categories === "scanner"
+    const headphone = AllProducts.filter(
+      (singleProduct) => singleProduct?.categories === "headphone"
     );
 
-    setProducts(laptop);
+    setProducts(headphone);
   }, []);
 
   return (
     <div>
-      <ProductCardMainStore title=" Scanner" products={products} />
+      <ProductCardMainStore title=" Headphone " products={products} />
     </div>
   );
 };
 
-export default Scanner;
+export default Headphone;

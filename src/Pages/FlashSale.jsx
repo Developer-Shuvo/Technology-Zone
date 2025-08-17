@@ -37,7 +37,7 @@ const FlashSale = () => {
           >
             {[...Array(6)].map((_, index) => (
               <SwiperSlide key={index}>
-                <div className="flex flex-col overflow-hidden rounded-xl shadow-md bg-white">
+                <div className="flex flex-col overflow-hidden rounded-lg shadow-md bg-white border-2 border-black">
                   <img
                     src={[img1, img2, img3, img4, img5, img6][index % 5]}
                     className="h-44 sm:h-48 md:h-52 lg:h-56 w-full object-cover"
