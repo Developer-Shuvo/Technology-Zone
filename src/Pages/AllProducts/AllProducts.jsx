@@ -5,7 +5,7 @@ export const AllProducts = [
     categories: "smartPhone",
     title: "MacBook Pro 14-inch (M2)",
     image:
-      "https://i.postimg.cc/qqWgV087/1.jpg?w=300&format=webp&quality=80 ?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/qqWgV087/1.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80 ?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 1999,
     oldPrice: 2299,
@@ -15,7 +15,7 @@ export const AllProducts = [
     categories: "smartPhone",
     title: "Dell XPS 15",
     image:
-      "https://i.postimg.cc/J7FsB39W/2.jpg?w=300&format=webp&quality=80 ?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/J7FsB39W/2.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80 ?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 1499,
     oldPrice: 1699,
@@ -24,7 +24,8 @@ export const AllProducts = [
     id: 3,
     categories: "smartPhone",
     title: "iPhone 15 Pro Max",
-    image: "https://i.postimg.cc/x8ByJ5hG/1.jpg ?w=300&format=webp&quality=80",
+    image:
+      "https://i.postimg.cc/x8ByJ5hG/1.jpg?w=300&format=webp&quality=80 ?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 1199,
     oldPrice: 1399,
@@ -33,7 +34,8 @@ export const AllProducts = [
     id: 4,
     categories: "smartPhone",
     title: "Samsung Galaxy S24 Ultra",
-    image: "https://i.postimg.cc/BZ7hfcYn/2.jpg ?w=300&format=webp&quality=80",
+    image:
+      "https://i.postimg.cc/BZ7hfcYn/2.jpg?w=300&format=webp&quality=80 ?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 1099,
     oldPrice: 1299,
@@ -42,7 +44,8 @@ export const AllProducts = [
     id: 5,
     categories: "smartPhone",
     title: "Asus ROG Gaming Laptop",
-    image: "https://i.postimg.cc/pX9sWh4Y/3.jpg?w=300&format=webp&quality=80",
+    image:
+      "https://i.postimg.cc/pX9sWh4Y/3.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 1799,
     oldPrice: 1999,
@@ -51,7 +54,8 @@ export const AllProducts = [
     id: 6,
     categories: "smartPhone",
     title: "MSI Optix Gaming Monitor",
-    image: "https://i.postimg.cc/LsVTCzgR/4.jpg ?w=300&format=webp&quality=80",
+    image:
+      "https://i.postimg.cc/LsVTCzgR/4.jpg?w=300&format=webp&quality=80 ?w=300&format=webp&quality=80",
     rating: 4.4,
     price: 399,
     oldPrice: 499,
@@ -60,7 +64,8 @@ export const AllProducts = [
     id: 7,
     categories: "smartPhone",
     title: "LG UltraWide Monitor",
-    image: "https://i.postimg.cc/Px3MhTMR/5.jpg ?w=300&format=webp&quality=80",
+    image:
+      "https://i.postimg.cc/Px3MhTMR/5.jpg?w=300&format=webp&quality=80 ?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 699,
     oldPrice: 849,
@@ -69,7 +74,8 @@ export const AllProducts = [
     id: 8,
     categories: "smartPhone",
     title: "Logitech MX Master 3 Mouse",
-    image: "https://i.postimg.cc/prSkQRhF/6.jpg ?w=300&format=webp&quality=80",
+    image:
+      "https://i.postimg.cc/prSkQRhF/6.jpg?w=300&format=webp&quality=80 ?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 99,
     oldPrice: 129,
@@ -79,7 +85,7 @@ export const AllProducts = [
     categories: "smartPhone",
     title: "Razer BlackWidow V3 Keyboard",
     image:
-      "https://i.postimg.cc/6prLqd0R/7.jpg ?w=300&format=webp&quality=80  ",
+      "https://i.postimg.cc/6prLqd0R/7.jpg?w=300&format=webp&quality=80 ?w=300&format=webp&quality=80  ",
     rating: 4.6,
     price: 149,
     oldPrice: 179,
@@ -88,7 +94,8 @@ export const AllProducts = [
     id: 10,
     categories: "smartPhone",
     title: "Corsair K100 RGB Mechanical Keyboard",
-    image: "https://i.postimg.cc/vBN5kXYR/8.jpg?w=300&format=webp&quality=80 ",
+    image:
+      "https://i.postimg.cc/vBN5kXYR/8.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80 ",
     rating: 4.9,
     price: 199,
     oldPrice: 229,
@@ -97,7 +104,8 @@ export const AllProducts = [
     id: 11,
     categories: "smartPhone",
     title: "Sony WH-1000XM5 Headphones",
-    image: "https://i.postimg.cc/K4XBvz3J/9.jpg?w=300&format=webp&quality=80 ",
+    image:
+      "https://i.postimg.cc/K4XBvz3J/9.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80 ",
     rating: 4.8,
     price: 349,
     oldPrice: 399,
@@ -106,7 +114,8 @@ export const AllProducts = [
     id: 12,
     categories: "smartPhone",
     title: "AirPods Pro 2nd Gen",
-    image: "https://i.postimg.cc/XJ7gTp95/10.jpg?w=300&format=webp&quality=80 ",
+    image:
+      "https://i.postimg.cc/XJ7gTp95/10.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80 ",
     rating: 4.7,
     price: 249,
     oldPrice: 299,
@@ -115,7 +124,8 @@ export const AllProducts = [
     id: 13,
     categories: "smartPhone",
     title: "Anker 737 Power Bank (PowerCore 24K)",
-    image: "https://i.postimg.cc/cLyBdDQ0/11.jpg?w=300&format=webp&quality=80 ",
+    image:
+      "https://i.postimg.cc/cLyBdDQ0/11.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80 ",
     rating: 4.9,
     price: 149,
     oldPrice: 179,
@@ -124,7 +134,8 @@ export const AllProducts = [
     id: 14,
     categories: "smartPhone",
     title: "Canon EOS R6 Mark II",
-    image: "https://i.postimg.cc/kMHypMGV/12.jpg?w=300&format=webp&quality=80 ",
+    image:
+      "https://i.postimg.cc/kMHypMGV/12.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80 ",
     rating: 4.9,
     price: 2499,
     oldPrice: 2699,
@@ -133,7 +144,8 @@ export const AllProducts = [
     id: 15,
     categories: "smartPhone",
     title: "DJI Mavic Air 2 Drone",
-    image: "https://i.postimg.cc/65DYy6Ns/13.jpg?w=300&format=webp&quality=80 ",
+    image:
+      "https://i.postimg.cc/65DYy6Ns/13.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80 ",
     rating: 4.8,
     price: 799,
     oldPrice: 999,
@@ -142,7 +154,8 @@ export const AllProducts = [
     id: 16,
     categories: "smartPhone",
     title: "Xbox Series X Console",
-    image: "https://i.postimg.cc/bwkLbXzZ/14.jpg?w=300&format=webp&quality=80 ",
+    image:
+      "https://i.postimg.cc/bwkLbXzZ/14.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80 ",
     rating: 4.7,
     price: 499,
     oldPrice: 549,
@@ -151,7 +164,8 @@ export const AllProducts = [
     id: 17,
     categories: "smartPhone",
     title: "PlayStation 5",
-    image: "https://i.postimg.cc/prmJL4GX/15.jpg?w=300&format=webp&quality=80 ",
+    image:
+      "https://i.postimg.cc/prmJL4GX/15.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80 ",
     rating: 4.9,
     price: 499,
     oldPrice: 549,
@@ -160,7 +174,8 @@ export const AllProducts = [
     id: 18,
     categories: "smartPhone",
     title: "Elgato Stream Deck XL",
-    image: "https://i.postimg.cc/R0G7Q42Z/16.jpg?w=300&format=webp&quality=80 ",
+    image:
+      "https://i.postimg.cc/R0G7Q42Z/16.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80 ",
     rating: 4.7,
     price: 249,
     oldPrice: 299,
@@ -169,7 +184,8 @@ export const AllProducts = [
     id: 19,
     categories: "smartPhone",
     title: "GoPro HERO10 Black",
-    image: "https://i.postimg.cc/nr9qJ7rX/17.jpg?w=300&format=webp&quality=80 ",
+    image:
+      "https://i.postimg.cc/nr9qJ7rX/17.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80 ",
     rating: 4.6,
     price: 399,
     oldPrice: 499,
@@ -178,7 +194,8 @@ export const AllProducts = [
     id: 20,
     categories: "smartPhone",
     title: "Apple iPad Pro 12.9” (M2)",
-    image: "https://i.postimg.cc/YqmxKcLd/19.jpg?w=300&format=webp&quality=80 ",
+    image:
+      "https://i.postimg.cc/YqmxKcLd/19.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80 ",
     rating: 4.8,
     price: 1099,
     oldPrice: 1249,
@@ -189,7 +206,8 @@ export const AllProducts = [
     id: 21,
     categories: "featuredPhone",
     title: "featuredPhone Model 1",
-    image: "https://i.postimg.cc/90vm6wwF/1.jpg?w=300&format=webp&quality=80",
+    image:
+      "https://i.postimg.cc/90vm6wwF/1.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 59,
     oldPrice: 79,
@@ -198,7 +216,8 @@ export const AllProducts = [
     id: 22,
     categories: "featuredPhone",
     title: "featuredPhone Model 2",
-    image: "https://i.postimg.cc/g2pXj1rc/10.jpg?w=300&format=webp&quality=80",
+    image:
+      "https://i.postimg.cc/g2pXj1rc/10.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.4,
     price: 69,
     oldPrice: 89,
@@ -207,7 +226,8 @@ export const AllProducts = [
     id: 23,
     categories: "featuredPhone",
     title: "featuredPhone Model 3",
-    image: "https://i.postimg.cc/L4qZbzrS/11.jpg?w=300&format=webp&quality=80",
+    image:
+      "https://i.postimg.cc/L4qZbzrS/11.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 75,
     oldPrice: 95,
@@ -216,7 +236,8 @@ export const AllProducts = [
     id: 24,
     categories: "featuredPhone",
     title: "featuredPhone Model 4",
-    image: "https://i.postimg.cc/MKQKy5gc/12.jpg?w=300&format=webp&quality=80",
+    image:
+      "https://i.postimg.cc/MKQKy5gc/12.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.3,
     price: 65,
     oldPrice: 85,
@@ -225,7 +246,8 @@ export const AllProducts = [
     id: 25,
     categories: "featuredPhone",
     title: "featuredPhone Model 5",
-    image: "https://i.postimg.cc/RF2qBDjB/13.jpg?w=300&format=webp&quality=80",
+    image:
+      "https://i.postimg.cc/RF2qBDjB/13.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 79,
     oldPrice: 99,
@@ -234,7 +256,8 @@ export const AllProducts = [
     id: 26,
     categories: "featuredPhone",
     title: "featuredPhone Model 6",
-    image: "https://i.postimg.cc/x1Pkzgbv/14.jpg?w=300&format=webp&quality=80",
+    image:
+      "https://i.postimg.cc/x1Pkzgbv/14.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.4,
     price: 85,
     oldPrice: 105,
@@ -243,7 +266,8 @@ export const AllProducts = [
     id: 27,
     categories: "featuredPhone",
     title: "featuredPhone Model 7",
-    image: "https://i.postimg.cc/W4Wh938t/15.jpg?w=300&format=webp&quality=80",
+    image:
+      "https://i.postimg.cc/W4Wh938t/15.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 70,
     oldPrice: 90,
@@ -252,7 +276,8 @@ export const AllProducts = [
     id: 28,
     categories: "featuredPhone",
     title: "featuredPhone Model 8",
-    image: "https://i.postimg.cc/vmQYwsT9/16.jpg?w=300&format=webp&quality=80",
+    image:
+      "https://i.postimg.cc/vmQYwsT9/16.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.3,
     price: 55,
     oldPrice: 75,
@@ -261,7 +286,8 @@ export const AllProducts = [
     id: 29,
     categories: "featuredPhone",
     title: "featuredPhone Model 9",
-    image: "https://i.postimg.cc/N0pggz2n/17.jpg?w=300&format=webp&quality=80",
+    image:
+      "https://i.postimg.cc/N0pggz2n/17.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.2,
     price: 65,
     oldPrice: 85,
@@ -270,7 +296,8 @@ export const AllProducts = [
     id: 30,
     categories: "featuredPhone",
     title: "featuredPhone Model 10",
-    image: "https://i.postimg.cc/d13JDj8V/18.jpg?w=300&format=webp&quality=80",
+    image:
+      "https://i.postimg.cc/d13JDj8V/18.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.4,
     price: 75,
     oldPrice: 95,
@@ -279,7 +306,8 @@ export const AllProducts = [
     id: 31,
     categories: "featuredPhone",
     title: "featuredPhone Model 11",
-    image: "https://i.postimg.cc/7Z1HR6Hw/2.jpg?w=300&format=webp&quality=80",
+    image:
+      "https://i.postimg.cc/7Z1HR6Hw/2.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.3,
     price: 60,
     oldPrice: 80,
@@ -288,7 +316,8 @@ export const AllProducts = [
     id: 32,
     categories: "featuredPhone",
     title: "featuredPhone Model 12",
-    image: "https://i.postimg.cc/nhfVT7t3/3.jpg?w=300&format=webp&quality=80",
+    image:
+      "https://i.postimg.cc/nhfVT7t3/3.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 65,
     oldPrice: 85,
@@ -297,7 +326,8 @@ export const AllProducts = [
     id: 33,
     categories: "featuredPhone",
     title: "featuredPhone Model 13",
-    image: "https://i.postimg.cc/gJ7mhLDq/4.jpg?w=300&format=webp&quality=80",
+    image:
+      "https://i.postimg.cc/gJ7mhLDq/4.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.4,
     price: 72,
     oldPrice: 92,
@@ -306,7 +336,8 @@ export const AllProducts = [
     id: 34,
     categories: "featuredPhone",
     title: "featuredPhone Model 14",
-    image: "https://i.postimg.cc/T1WGJ2N8/5.jpg?w=300&format=webp&quality=80",
+    image:
+      "https://i.postimg.cc/T1WGJ2N8/5.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 68,
     oldPrice: 88,
@@ -315,7 +346,8 @@ export const AllProducts = [
     id: 35,
     categories: "featuredPhone",
     title: "featuredPhone Model 15",
-    image: "https://i.postimg.cc/1z58c6pL/6.jpg?w=300&format=webp&quality=80",
+    image:
+      "https://i.postimg.cc/1z58c6pL/6.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.3,
     price: 66,
     oldPrice: 86,
@@ -324,7 +356,8 @@ export const AllProducts = [
     id: 36,
     categories: "featuredPhone",
     title: "featuredPhone Model 16",
-    image: "https://i.postimg.cc/PrYvtdXF/7.jpg?w=300&format=webp&quality=80",
+    image:
+      "https://i.postimg.cc/PrYvtdXF/7.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 80,
     oldPrice: 100,
@@ -333,7 +366,8 @@ export const AllProducts = [
     id: 37,
     categories: "featuredPhone",
     title: "featuredPhone Model 17",
-    image: "https://i.postimg.cc/kMkt32mb/8.jpg?w=300&format=webp&quality=80",
+    image:
+      "https://i.postimg.cc/kMkt32mb/8.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.4,
     price: 70,
     oldPrice: 90,
@@ -342,7 +376,8 @@ export const AllProducts = [
     id: 38,
     categories: "featuredPhone",
     title: "featuredPhone Model 18",
-    image: "https://i.postimg.cc/8sQGK8x7/9.jpg?w=300&format=webp&quality=80",
+    image:
+      "https://i.postimg.cc/8sQGK8x7/9.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.3,
     price: 69,
     oldPrice: 89,
@@ -354,7 +389,7 @@ export const AllProducts = [
     categories: "laptop",
     title: "Laptop Model 1",
     image:
-      "https://i.postimg.cc/2SmQM0pJ/alex-knight-j4uu-Kn-N43-M-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/2SmQM0pJ/alex-knight-j4uu-Kn-N43-M-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 899,
     oldPrice: 1099,
@@ -364,7 +399,7 @@ export const AllProducts = [
     categories: "laptop",
     title: "Laptop Model 2",
     image:
-      "https://i.postimg.cc/P54Wj1Tq/andras-vas-Bd7g-Nn-WJBk-U-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/P54Wj1Tq/andras-vas-Bd7g-Nn-WJBk-U-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 999,
     oldPrice: 1199,
@@ -374,7 +409,7 @@ export const AllProducts = [
     categories: "laptop",
     title: "Laptop Model 3",
     image:
-      "https://i.postimg.cc/SsjRMhW8/ben-kolde-bs2-Ba7t69m-M-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/SsjRMhW8/ben-kolde-bs2-Ba7t69m-M-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 899,
     oldPrice: 1049,
@@ -384,7 +419,7 @@ export const AllProducts = [
     categories: "laptop",
     title: "Laptop Model 4",
     image:
-      "https://i.postimg.cc/GpXxkG5f/ben-kolde-t9-Dooibg-MEk-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/GpXxkG5f/ben-kolde-t9-Dooibg-MEk-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 1099,
     oldPrice: 1299,
@@ -394,7 +429,7 @@ export const AllProducts = [
     categories: "laptop",
     title: "Laptop Model 5",
     image:
-      "https://i.postimg.cc/QVZdwKvk/bram-naus-N1g-UD-d-Cv-JE-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/QVZdwKvk/bram-naus-N1g-UD-d-Cv-JE-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.4,
     price: 949,
     oldPrice: 1099,
@@ -404,7 +439,7 @@ export const AllProducts = [
     categories: "laptop",
     title: "Laptop Model 6",
     image:
-      "https://i.postimg.cc/jSrcKsfM/bram-naus-n8-Qb1-ZAk-K88-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/jSrcKsfM/bram-naus-n8-Qb1-ZAk-K88-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 999,
     oldPrice: 1199,
@@ -414,7 +449,7 @@ export const AllProducts = [
     categories: "laptop",
     title: "Laptop Model 7",
     image:
-      "https://i.postimg.cc/ncm26sXs/carlos-muza-hpj-Sk-U2-UYSU-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/ncm26sXs/carlos-muza-hpj-Sk-U2-UYSU-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 1050,
     oldPrice: 1249,
@@ -424,7 +459,7 @@ export const AllProducts = [
     categories: "laptop",
     title: "Laptop Model 8",
     image:
-      "https://i.postimg.cc/YqQNdJPY/christin-hume-mf-B1-B1s4s-Mc-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/YqQNdJPY/christin-hume-mf-B1-B1s4s-Mc-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 1150,
     oldPrice: 1349,
@@ -434,7 +469,7 @@ export const AllProducts = [
     categories: "laptop",
     title: "Laptop Model 9",
     image:
-      "https://i.postimg.cc/LX7kWRRB/christopher-gower-m-HRf-Lhg-ABo-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/LX7kWRRB/christopher-gower-m-HRf-Lhg-ABo-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 1025,
     oldPrice: 1199,
@@ -444,7 +479,7 @@ export const AllProducts = [
     categories: "laptop",
     title: "Laptop Model 10",
     image:
-      "https://i.postimg.cc/DZmd5mVw/crew-4-Hg8-LH9-Hoxc-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/DZmd5mVw/crew-4-Hg8-LH9-Hoxc-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.4,
     price: 975,
     oldPrice: 1150,
@@ -454,7 +489,7 @@ export const AllProducts = [
     categories: "laptop",
     title: "Laptop Model 11",
     image:
-      "https://i.postimg.cc/cJF6CH80/daniel-korpai-Hy-Twtsk8-Xq-A-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/cJF6CH80/daniel-korpai-Hy-Twtsk8-Xq-A-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 1100,
     oldPrice: 1299,
@@ -464,7 +499,7 @@ export const AllProducts = [
     categories: "laptop",
     title: "Laptop Model 12",
     image:
-      "https://i.postimg.cc/XvjgGQQF/dell-8pb7-Hq539-Zw-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/XvjgGQQF/dell-8pb7-Hq539-Zw-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 1250,
     oldPrice: 1450,
@@ -474,7 +509,7 @@ export const AllProducts = [
     categories: "laptop",
     title: "Laptop Model 13",
     image:
-      "https://i.postimg.cc/ZndPtg5k/glenn-carstens-peters-npx-XWg-Q33-ZQ-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/ZndPtg5k/glenn-carstens-peters-npx-XWg-Q33-ZQ-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 950,
     oldPrice: 1099,
@@ -484,7 +519,7 @@ export const AllProducts = [
     categories: "laptop",
     title: "Laptop Model 14",
     image:
-      "https://i.postimg.cc/qBhx3tXm/howard-bouchevereau-RSCir-J70-NDM-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/qBhx3tXm/howard-bouchevereau-RSCir-J70-NDM-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.4,
     price: 899,
     oldPrice: 1049,
@@ -494,7 +529,7 @@ export const AllProducts = [
     categories: "laptop",
     title: "Laptop Model 15",
     image:
-      "https://i.postimg.cc/7LZgYbZn/kari-shea-1-SAnr-Ixw5-OY-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/7LZgYbZn/kari-shea-1-SAnr-Ixw5-OY-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 970,
     oldPrice: 1120,
@@ -504,7 +539,7 @@ export const AllProducts = [
     categories: "laptop",
     title: "Laptop Model 16",
     image:
-      "https://i.postimg.cc/v8JLLQ0G/maxim-hopman-Hin-rzh-Od-Ws-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/v8JLLQ0G/maxim-hopman-Hin-rzh-Od-Ws-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 1000,
     oldPrice: 1180,
@@ -514,7 +549,7 @@ export const AllProducts = [
     categories: "laptop",
     title: "Laptop Model 17",
     image:
-      "https://i.postimg.cc/G3Vz7Pmw/nordwood-themes-sg8n-Xmp-WDM-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/G3Vz7Pmw/nordwood-themes-sg8n-Xmp-WDM-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 1080,
     oldPrice: 1270,
@@ -524,7 +559,7 @@ export const AllProducts = [
     categories: "laptop",
     title: "Laptop Model 18",
     image:
-      "https://i.postimg.cc/0ydfyLdP/samantha-borges-g-Xs-J9-Ywb5as-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/0ydfyLdP/samantha-borges-g-Xs-J9-Ywb5as-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 920,
     oldPrice: 1040,
@@ -534,7 +569,7 @@ export const AllProducts = [
     categories: "laptop",
     title: "Laptop Model 19",
     image:
-      "https://i.postimg.cc/wvPv5GVr/sincerely-media-ylve-Rp-Z8-L1s-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/wvPv5GVr/sincerely-media-ylve-Rp-Z8-L1s-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 960,
     oldPrice: 1100,
@@ -544,7 +579,7 @@ export const AllProducts = [
     categories: "laptop",
     title: "Laptop Model 20",
     image:
-      "https://i.postimg.cc/J0khp5Yz/unsplash-Nu-FUbft-Uu-s-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/J0khp5Yz/unsplash-Nu-FUbft-Uu-s-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 1120,
     oldPrice: 1310,
@@ -556,7 +591,7 @@ export const AllProducts = [
     categories: "smart watch",
     title: "smart watch Model 1",
     image:
-      "https://i.postimg.cc/R0wNmBcL/david-svihovec-T49gx2umonk-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/R0wNmBcL/david-svihovec-T49gx2umonk-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 799,
     oldPrice: 899,
@@ -566,7 +601,7 @@ export const AllProducts = [
     categories: "smart watch",
     title: "smart watch Model 2",
     image:
-      "https://i.postimg.cc/qR0gM5wV/david-svihovec-t-Mea-U53-Hn1-Y-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/qR0gM5wV/david-svihovec-t-Mea-U53-Hn1-Y-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 850,
     oldPrice: 950,
@@ -576,7 +611,7 @@ export const AllProducts = [
     categories: "smart watch",
     title: "smart watch Model 3",
     image:
-      "https://i.postimg.cc/Zn5R6vXw/david-svihovec-E1-AMQ35pjw-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/Zn5R6vXw/david-svihovec-E1-AMQ35pjw-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 780,
     oldPrice: 880,
@@ -586,7 +621,7 @@ export const AllProducts = [
     categories: "smart watch",
     title: "smart watch Model 4",
     image:
-      "https://i.postimg.cc/t4WXZzYX/eric-yu-Jqo-CRk-MAct-Y-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/t4WXZzYX/eric-yu-Jqo-CRk-MAct-Y-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.4,
     price: 720,
     oldPrice: 820,
@@ -596,7 +631,7 @@ export const AllProducts = [
     categories: "smart watch",
     title: "smart watch Model 5",
     image:
-      "https://i.postimg.cc/jj6d9hb8/fabrice-mommer-DGcrlw7mx-Wo-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/jj6d9hb8/fabrice-mommer-DGcrlw7mx-Wo-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 890,
     oldPrice: 990,
@@ -606,7 +641,7 @@ export const AllProducts = [
     categories: "smart watch",
     title: "smart watch Model 6",
     image:
-      "https://i.postimg.cc/WbQN1ypW/julen-rey-azcona-E0msw66-Zw-ZU-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/WbQN1ypW/julen-rey-azcona-E0msw66-Zw-ZU-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 760,
     oldPrice: 860,
@@ -616,7 +651,7 @@ export const AllProducts = [
     categories: "smart watch",
     title: "smart watch Model 7",
     image:
-      "https://i.postimg.cc/sD1xXSYX/kenny-eliason-cu-Ljt-Xvo5bw-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/sD1xXSYX/kenny-eliason-cu-Ljt-Xvo5bw-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 920,
     oldPrice: 1020,
@@ -626,7 +661,7 @@ export const AllProducts = [
     categories: "smart watch",
     title: "smart watch Model 8",
     image:
-      "https://i.postimg.cc/DwXzQTY3/klim-musalimov-m-LJNo6i4h-JI-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/DwXzQTY3/klim-musalimov-m-LJNo6i4h-JI-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.4,
     price: 740,
     oldPrice: 840,
@@ -636,7 +671,7 @@ export const AllProducts = [
     categories: "smart watch",
     title: "smart watch Model 9",
     image:
-      "https://i.postimg.cc/yxx1D4S5/klim-musalimov-v-Rhb8b1-KW8-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/yxx1D4S5/klim-musalimov-v-Rhb8b1-KW8-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 800,
     oldPrice: 900,
@@ -646,7 +681,7 @@ export const AllProducts = [
     categories: "smart watch",
     title: "smart watch Model 10",
     image:
-      "https://i.postimg.cc/tTSyQSmz/lloyd-dirks-0vsk2-9dkqo-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/tTSyQSmz/lloyd-dirks-0vsk2-9dkqo-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 850,
     oldPrice: 950,
@@ -656,7 +691,7 @@ export const AllProducts = [
     categories: "smart watch",
     title: "smart watch Model 11",
     image:
-      "https://i.postimg.cc/QMqhSxQw/lloyd-dirks-qd-Y76g-IYbw8-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/QMqhSxQw/lloyd-dirks-qd-Y76g-IYbw8-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 770,
     oldPrice: 870,
@@ -666,7 +701,7 @@ export const AllProducts = [
     categories: "smart watch",
     title: "smart watch Model 12",
     image:
-      "https://i.postimg.cc/7ZG5B7hc/luke-chesser-Jp-Y2r-PHFL8-E-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/7ZG5B7hc/luke-chesser-Jp-Y2r-PHFL8-E-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 900,
     oldPrice: 1000,
@@ -676,7 +711,7 @@ export const AllProducts = [
     categories: "smart watch",
     title: "smart watch Model 13",
     image:
-      "https://i.postimg.cc/RFXCCVqK/nils-huenerfuerst-WO4f-N-Li-Nl0-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/RFXCCVqK/nils-huenerfuerst-WO4f-N-Li-Nl0-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.4,
     price: 720,
     oldPrice: 820,
@@ -686,7 +721,7 @@ export const AllProducts = [
     categories: "smart watch",
     title: "smart watch Model 14",
     image:
-      "https://i.postimg.cc/KzNjKDpK/pablo-figueroa-No-UQt-qd-Kjg-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/KzNjKDpK/pablo-figueroa-No-UQt-qd-Kjg-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 760,
     oldPrice: 860,
@@ -696,7 +731,7 @@ export const AllProducts = [
     categories: "smart watch",
     title: "smart watch Model 15",
     image:
-      "https://i.postimg.cc/gJkd7F4J/pratik-prasad-FPEBZJLD8-Rs-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/gJkd7F4J/pratik-prasad-FPEBZJLD8-Rs-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 840,
     oldPrice: 940,
@@ -706,7 +741,7 @@ export const AllProducts = [
     categories: "smart watch",
     title: "smart watch Model 16",
     image:
-      "https://i.postimg.cc/5tJfwFC8/pratik-prasad-w-Cce-AAw-Xzz0-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/5tJfwFC8/pratik-prasad-w-Cce-AAw-Xzz0-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 890,
     oldPrice: 990,
@@ -716,7 +751,7 @@ export const AllProducts = [
     categories: "smart watch",
     title: "smart watch Model 17",
     image:
-      "https://i.postimg.cc/HsJWHmm8/sabina-0z-AHo-J1gn-Gg-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/HsJWHmm8/sabina-0z-AHo-J1gn-Gg-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.4,
     price: 700,
     oldPrice: 800,
@@ -726,7 +761,7 @@ export const AllProducts = [
     categories: "smart watch",
     title: "smart watch Model 18",
     image:
-      "https://i.postimg.cc/rsZpjFkM/shawn-rain-6-Im-W5-VCW-w-I-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/rsZpjFkM/shawn-rain-6-Im-W5-VCW-w-I-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 760,
     oldPrice: 860,
@@ -736,7 +771,7 @@ export const AllProducts = [
     categories: "smart watch",
     title: "smart watch Model 19",
     image:
-      "https://i.postimg.cc/BZ7Zd6rG/taylor-beach-vy-Jr3-Oy-S4-V8-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/BZ7Zd6rG/taylor-beach-vy-Jr3-Oy-S4-V8-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 850,
     oldPrice: 950,
@@ -746,7 +781,7 @@ export const AllProducts = [
     categories: "smart watch",
     title: "smart watch Model 20",
     image:
-      "https://i.postimg.cc/ZnQT378q/viktor-bystrov-a-Lrr-M7-VRz5-Q-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/ZnQT378q/viktor-bystrov-a-Lrr-M7-VRz5-Q-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 920,
     oldPrice: 1020,
@@ -757,7 +792,7 @@ export const AllProducts = [
     categories: "tablet",
     title: "Tablet Model 1",
     image:
-      "https://i.postimg.cc/JngGb5CP/brandon-romanchuk-qlyo-C7-Tz-Do-E-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/JngGb5CP/brandon-romanchuk-qlyo-C7-Tz-Do-E-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 500,
     oldPrice: 550,
@@ -767,7 +802,7 @@ export const AllProducts = [
     categories: "tablet",
     title: "Tablet Model 2",
     image:
-      "https://i.postimg.cc/FF7WbyLc/daniel-romero-B4hnt-JMwyu-M-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/FF7WbyLc/daniel-romero-B4hnt-JMwyu-M-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.4,
     price: 520,
     oldPrice: 580,
@@ -777,7 +812,7 @@ export const AllProducts = [
     categories: "tablet",
     title: "Tablet Model 3",
     image:
-      "https://i.postimg.cc/sX1cczvy/david-svihovec-p1-B6-G7acv-Z8-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/sX1cczvy/david-svihovec-p1-B6-G7acv-Z8-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 540,
     oldPrice: 590,
@@ -787,7 +822,7 @@ export const AllProducts = [
     categories: "tablet",
     title: "Tablet Model 4",
     image:
-      "https://i.postimg.cc/QtVF9nwF/david-svihovec-pb-s0-FYQZOo-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/QtVF9nwF/david-svihovec-pb-s0-FYQZOo-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.3,
     price: 560,
     oldPrice: 610,
@@ -797,7 +832,7 @@ export const AllProducts = [
     categories: "tablet",
     title: "Tablet Model 5",
     image:
-      "https://i.postimg.cc/zXhx6qpG/dmitry-mashkin-p-NTL3r-OTH-E-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/zXhx6qpG/dmitry-mashkin-p-NTL3r-OTH-E-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 580,
     oldPrice: 630,
@@ -807,7 +842,7 @@ export const AllProducts = [
     categories: "tablet",
     title: "Tablet Model 6",
     image:
-      "https://i.postimg.cc/j59h317f/henry-ascroft-7-OFnb7-NOvjw-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/j59h317f/henry-ascroft-7-OFnb7-NOvjw-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.2,
     price: 600,
     oldPrice: 650,
@@ -817,7 +852,7 @@ export const AllProducts = [
     categories: "tablet",
     title: "Tablet Model 7",
     image:
-      "https://i.postimg.cc/Hj1nNWxM/henry-ascroft-as-RF73-W3fd-Y-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/Hj1nNWxM/henry-ascroft-as-RF73-W3fd-Y-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 620,
     oldPrice: 670,
@@ -827,7 +862,7 @@ export const AllProducts = [
     categories: "tablet",
     title: "Tablet Model 8",
     image:
-      "https://i.postimg.cc/2SF2jTsp/jakub-zerdzicki-68-ITk-Ii-VOHs-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/2SF2jTsp/jakub-zerdzicki-68-ITk-Ii-VOHs-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.4,
     price: 640,
     oldPrice: 690,
@@ -837,7 +872,7 @@ export const AllProducts = [
     categories: "tablet",
     title: "Tablet Model 9",
     image:
-      "https://i.postimg.cc/PrD8Q9xZ/jakub-zerdzicki-i-Mre-BZE9n4k-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/PrD8Q9xZ/jakub-zerdzicki-i-Mre-BZE9n4k-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 660,
     oldPrice: 710,
@@ -847,7 +882,7 @@ export const AllProducts = [
     categories: "tablet",
     title: "Tablet Model 10",
     image:
-      "https://i.postimg.cc/vm0hfT83/jonas-leupe-Wmauj-u-L1c8-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/vm0hfT83/jonas-leupe-Wmauj-u-L1c8-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.3,
     price: 680,
     oldPrice: 730,
@@ -857,7 +892,7 @@ export const AllProducts = [
     categories: "tablet",
     title: "Tablet Model 11",
     image:
-      "https://i.postimg.cc/HWRy5dpd/marek-levak-KOID4ns1-Ii4-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/HWRy5dpd/marek-levak-KOID4ns1-Ii4-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 700,
     oldPrice: 750,
@@ -867,7 +902,7 @@ export const AllProducts = [
     categories: "tablet",
     title: "Tablet Model 12",
     image:
-      "https://i.postimg.cc/yN1gBNTX/marek-levak-Rz3-Cm-Jpc-Lew-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/yN1gBNTX/marek-levak-Rz3-Cm-Jpc-Lew-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 720,
     oldPrice: 770,
@@ -877,7 +912,7 @@ export const AllProducts = [
     categories: "tablet",
     title: "Tablet Model 13",
     image:
-      "https://i.postimg.cc/59TPsXBr/matoo-studio-7-P2e-ZVar0-Nw-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/59TPsXBr/matoo-studio-7-P2e-ZVar0-Nw-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.4,
     price: 740,
     oldPrice: 790,
@@ -887,7 +922,7 @@ export const AllProducts = [
     categories: "tablet",
     title: "Tablet Model 14",
     image:
-      "https://i.postimg.cc/7LKCLysv/max-schneider-5-Ja-N7r-Zh1ik-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/7LKCLysv/max-schneider-5-Ja-N7r-Zh1ik-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.3,
     price: 760,
     oldPrice: 810,
@@ -897,7 +932,7 @@ export const AllProducts = [
     categories: "tablet",
     title: "Tablet Model 15",
     image:
-      "https://i.postimg.cc/T3qLZbn3/maxx-foto-2-Yp-Pzj8gn1-E-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/T3qLZbn3/maxx-foto-2-Yp-Pzj8gn1-E-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 780,
     oldPrice: 830,
@@ -907,7 +942,7 @@ export const AllProducts = [
     categories: "tablet",
     title: "Tablet Model 16",
     image:
-      "https://i.postimg.cc/ZqbjWpmW/roberto-nickson-h-Lg-Yt-X0r-Pgw-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/ZqbjWpmW/roberto-nickson-h-Lg-Yt-X0r-Pgw-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 800,
     oldPrice: 850,
@@ -917,7 +952,7 @@ export const AllProducts = [
     categories: "tablet",
     title: "Tablet Model 17",
     image:
-      "https://i.postimg.cc/hvdhMQSg/samsung-memory-JDFtu-XWnz-AY-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/hvdhMQSg/samsung-memory-JDFtu-XWnz-AY-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.4,
     price: 820,
     oldPrice: 870,
@@ -927,7 +962,7 @@ export const AllProducts = [
     categories: "tablet",
     title: "Tablet Model 18",
     image:
-      "https://i.postimg.cc/PJwQgMWR/samsung-memory-o9zg-Emlbq-BY-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/PJwQgMWR/samsung-memory-o9zg-Emlbq-BY-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 840,
     oldPrice: 890,
@@ -937,7 +972,7 @@ export const AllProducts = [
     categories: "tablet",
     title: "Tablet Model 19",
     image:
-      "https://i.postimg.cc/fWtCSMGf/surface-F4ott-WBn-Cp-M-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/fWtCSMGf/surface-F4ott-WBn-Cp-M-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 860,
     oldPrice: 910,
@@ -947,7 +982,7 @@ export const AllProducts = [
     categories: "tablet",
     title: "Tablet Model 20",
     image:
-      "https://i.postimg.cc/HkC8ZzcN/tron-le-Dpz-LVRMNwc-Y-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/HkC8ZzcN/tron-le-Dpz-LVRMNwc-Y-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 880,
     oldPrice: 930,
@@ -958,7 +993,7 @@ export const AllProducts = [
     categories: "mac",
     title: "Mac Model 1",
     image:
-      "https://i.postimg.cc/MTZLnyNK/aidan-hancock-Xd7-Sy-Zc-H1s-A-unsplash.jpg",
+      "https://i.postimg.cc/MTZLnyNK/aidan-hancock-Xd7-Sy-Zc-H1s-A-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 2200,
     oldPrice: 2400,
@@ -968,7 +1003,7 @@ export const AllProducts = [
     categories: "mac",
     title: "Mac Model 2",
     image:
-      "https://i.postimg.cc/3RbtWz2n/omar-al-ghosson-ZOXo-Ew-C9-D4-U-unsplash.jpg",
+      "https://i.postimg.cc/3RbtWz2n/omar-al-ghosson-ZOXo-Ew-C9-D4-U-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 2100,
     oldPrice: 2300,
@@ -977,7 +1012,7 @@ export const AllProducts = [
     id: 101,
     categories: "mac",
     title: "Mac Model 3",
-    image: "https://i.postimg.cc/T2bRfxV7/1.jpg",
+    image: "https://i.postimg.cc/T2bRfxV7/1.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 2500,
     oldPrice: 2700,
@@ -986,7 +1021,7 @@ export const AllProducts = [
     id: 102,
     categories: "mac",
     title: "Mac Model 4",
-    image: "https://i.postimg.cc/vZhYkvrG/10.jpg",
+    image: "https://i.postimg.cc/vZhYkvrG/10.jpg?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 2600,
     oldPrice: 2800,
@@ -995,7 +1030,7 @@ export const AllProducts = [
     id: 103,
     categories: "mac",
     title: "Mac Model 5",
-    image: "https://i.postimg.cc/qv4B1FCm/11.jpg",
+    image: "https://i.postimg.cc/qv4B1FCm/11.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 2300,
     oldPrice: 2500,
@@ -1004,7 +1039,7 @@ export const AllProducts = [
     id: 104,
     categories: "mac",
     title: "Mac Model 6",
-    image: "https://i.postimg.cc/43FJNN2M/12.jpg",
+    image: "https://i.postimg.cc/43FJNN2M/12.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 2400,
     oldPrice: 2600,
@@ -1013,7 +1048,7 @@ export const AllProducts = [
     id: 105,
     categories: "mac",
     title: "Mac Model 7",
-    image: "https://i.postimg.cc/vmmYs6hf/13.jpg",
+    image: "https://i.postimg.cc/vmmYs6hf/13.jpg?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 2800,
     oldPrice: 3000,
@@ -1022,7 +1057,7 @@ export const AllProducts = [
     id: 106,
     categories: "mac",
     title: "Mac Model 8",
-    image: "https://i.postimg.cc/sXQ3Bdt2/14.jpg",
+    image: "https://i.postimg.cc/sXQ3Bdt2/14.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 2100,
     oldPrice: 2300,
@@ -1031,7 +1066,7 @@ export const AllProducts = [
     id: 107,
     categories: "mac",
     title: "Mac Model 9",
-    image: "https://i.postimg.cc/KvymYWQZ/15.jpg",
+    image: "https://i.postimg.cc/KvymYWQZ/15.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 2600,
     oldPrice: 2800,
@@ -1040,7 +1075,7 @@ export const AllProducts = [
     id: 108,
     categories: "mac",
     title: "Mac Model 10",
-    image: "https://i.postimg.cc/kGW9cNM3/2.jpg",
+    image: "https://i.postimg.cc/kGW9cNM3/2.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 2400,
     oldPrice: 2600,
@@ -1049,7 +1084,7 @@ export const AllProducts = [
     id: 109,
     categories: "mac",
     title: "Mac Model 11",
-    image: "https://i.postimg.cc/bJ7pkVh9/3.jpg",
+    image: "https://i.postimg.cc/bJ7pkVh9/3.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 2500,
     oldPrice: 2700,
@@ -1058,7 +1093,7 @@ export const AllProducts = [
     id: 110,
     categories: "mac",
     title: "Mac Model 12",
-    image: "https://i.postimg.cc/YqfMLxyQ/4.jpg",
+    image: "https://i.postimg.cc/YqfMLxyQ/4.jpg?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 2700,
     oldPrice: 2900,
@@ -1067,7 +1102,7 @@ export const AllProducts = [
     id: 111,
     categories: "mac",
     title: "Mac Model 13",
-    image: "https://i.postimg.cc/Mp6x7jhN/6.jpg",
+    image: "https://i.postimg.cc/Mp6x7jhN/6.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 2300,
     oldPrice: 2500,
@@ -1076,7 +1111,7 @@ export const AllProducts = [
     id: 112,
     categories: "mac",
     title: "Mac Model 14",
-    image: "https://i.postimg.cc/SN0xMRQb/7.jpg",
+    image: "https://i.postimg.cc/SN0xMRQb/7.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 2600,
     oldPrice: 2800,
@@ -1085,7 +1120,7 @@ export const AllProducts = [
     id: 113,
     categories: "mac",
     title: "Mac Model 15",
-    image: "https://i.postimg.cc/J0X7FVqF/8.jpg",
+    image: "https://i.postimg.cc/J0X7FVqF/8.jpg?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 2800,
     oldPrice: 3000,
@@ -1094,7 +1129,7 @@ export const AllProducts = [
     id: 114,
     categories: "mac",
     title: "Mac Model 16",
-    image: "https://i.postimg.cc/QNKMC13q/9.jpg",
+    image: "https://i.postimg.cc/QNKMC13q/9.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 2200,
     oldPrice: 2400,
@@ -1104,7 +1139,7 @@ export const AllProducts = [
     categories: "mac",
     title: "Mac Model 17",
     image:
-      "https://i.postimg.cc/j55rp0sX/aidan-hancock-8-RU4-Ou-A6-Yug-unsplash.jpg",
+      "https://i.postimg.cc/j55rp0sX/aidan-hancock-8-RU4-Ou-A6-Yug-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 2500,
     oldPrice: 2700,
@@ -1114,7 +1149,7 @@ export const AllProducts = [
     categories: "mac",
     title: "Mac Model 18",
     image:
-      "https://i.postimg.cc/9MrQGqqC/anthony-choren-v-Thmud-CFS-A-unsplash.jpg",
+      "https://i.postimg.cc/9MrQGqqC/anthony-choren-v-Thmud-CFS-A-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 2300,
     oldPrice: 2500,
@@ -1124,7 +1159,7 @@ export const AllProducts = [
     categories: "mac",
     title: "Mac Model 19",
     image:
-      "https://i.postimg.cc/wBxvjrqt/daniel-romero-K-a-NRqk-OTH0-unsplash.jpg",
+      "https://i.postimg.cc/wBxvjrqt/daniel-romero-K-a-NRqk-OTH0-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 2800,
     oldPrice: 3000,
@@ -1136,7 +1171,7 @@ export const AllProducts = [
     categories: "accessories",
     title: "Accessory Model 1",
     image:
-      "https://i.postimg.cc/q7Xj1QJB/6-9-oa-EKRUc-N5-V8-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/q7Xj1QJB/6-9-oa-EKRUc-N5-V8-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 150,
     oldPrice: 180,
@@ -1146,7 +1181,7 @@ export const AllProducts = [
     categories: "accessories",
     title: "Accessory Model 2",
     image:
-      "https://i.postimg.cc/8zdRG5qt/aditya-sethia-oe-S2-Rtrc4-Oc-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/8zdRG5qt/aditya-sethia-oe-S2-Rtrc4-Oc-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 140,
     oldPrice: 170,
@@ -1156,7 +1191,7 @@ export const AllProducts = [
     categories: "accessories",
     title: "Accessory Model 3",
     image:
-      "https://i.postimg.cc/65vVHzzs/andrey-matveev-GQ-r-HFe-WUI-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/65vVHzzs/andrey-matveev-GQ-r-HFe-WUI-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 160,
     oldPrice: 190,
@@ -1166,7 +1201,7 @@ export const AllProducts = [
     categories: "accessories",
     title: "Accessory Model 4",
     image:
-      "https://i.postimg.cc/3R89VpNX/anthony-roberts-W-DCDWCL3-Wo-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/3R89VpNX/anthony-roberts-W-DCDWCL3-Wo-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 170,
     oldPrice: 200,
@@ -1176,7 +1211,7 @@ export const AllProducts = [
     categories: "accessories",
     title: "Accessory Model 5",
     image:
-      "https://i.postimg.cc/vHghJGYN/david-griffiths-v7v-DNSt-U2-Ak-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/vHghJGYN/david-griffiths-v7v-DNSt-U2-Ak-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 180,
     oldPrice: 210,
@@ -1186,7 +1221,7 @@ export const AllProducts = [
     categories: "accessories",
     title: "Accessory Model 6",
     image:
-      "https://i.postimg.cc/tg2F1cR6/declan-sun-6-S7-SY2p-c-As-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/tg2F1cR6/declan-sun-6-S7-SY2p-c-As-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 150,
     oldPrice: 180,
@@ -1196,7 +1231,7 @@ export const AllProducts = [
     categories: "accessories",
     title: "Accessory Model 7",
     image:
-      "https://i.postimg.cc/T1yjvc6D/filtergrade-o-Py-Acpk-Qch0-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/T1yjvc6D/filtergrade-o-Py-Acpk-Qch0-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 160,
     oldPrice: 190,
@@ -1206,7 +1241,7 @@ export const AllProducts = [
     categories: "accessories",
     title: "Accessory Model 8",
     image:
-      "https://i.postimg.cc/Bvqxn33s/homemade-media-6l5z2-EPrn-Fc-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/Bvqxn33s/homemade-media-6l5z2-EPrn-Fc-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 170,
     oldPrice: 200,
@@ -1216,7 +1251,7 @@ export const AllProducts = [
     categories: "accessories",
     title: "Accessory Model 9",
     image:
-      "https://i.postimg.cc/mg7wrVF3/joseph-greve-BPJKc4r7-eo-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/mg7wrVF3/joseph-greve-BPJKc4r7-eo-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 180,
     oldPrice: 210,
@@ -1226,7 +1261,7 @@ export const AllProducts = [
     categories: "accessories",
     title: "Accessory Model 10",
     image:
-      "https://i.postimg.cc/hPksgNhP/joseph-greve-rst3-YOh6-LXA-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/hPksgNhP/joseph-greve-rst3-YOh6-LXA-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 150,
     oldPrice: 180,
@@ -1236,7 +1271,7 @@ export const AllProducts = [
     categories: "accessories",
     title: "Accessory Model 11",
     image:
-      "https://i.postimg.cc/Kz0Q2z3d/karmishth-tandel-Yh3-PGpkwk-g-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/Kz0Q2z3d/karmishth-tandel-Yh3-PGpkwk-g-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 160,
     oldPrice: 190,
@@ -1246,7 +1281,7 @@ export const AllProducts = [
     categories: "accessories",
     title: "Accessory Model 12",
     image:
-      "https://i.postimg.cc/QMsqK5p2/luke-hodde-Z-Uu-XG6ia-A8-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/QMsqK5p2/luke-hodde-Z-Uu-XG6ia-A8-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 170,
     oldPrice: 200,
@@ -1256,7 +1291,7 @@ export const AllProducts = [
     categories: "accessories",
     title: "Accessory Model 13",
     image:
-      "https://i.postimg.cc/dQXmmg2m/mahrous-houses-5-Ao-Oejj-RUr-A-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/dQXmmg2m/mahrous-houses-5-Ao-Oejj-RUr-A-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 180,
     oldPrice: 210,
@@ -1266,7 +1301,7 @@ export const AllProducts = [
     categories: "accessories",
     title: "Accessory Model 14",
     image:
-      "https://i.postimg.cc/nzhY0JST/mahrous-houses-d-Xk-Nl-C5wyk-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/nzhY0JST/mahrous-houses-d-Xk-Nl-C5wyk-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 150,
     oldPrice: 180,
@@ -1276,7 +1311,7 @@ export const AllProducts = [
     categories: "accessories",
     title: "Accessory Model 15",
     image:
-      "https://i.postimg.cc/6qDrWGW1/markus-spiske-i-ABDzn-UDy6c-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/6qDrWGW1/markus-spiske-i-ABDzn-UDy6c-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 160,
     oldPrice: 190,
@@ -1286,7 +1321,7 @@ export const AllProducts = [
     categories: "accessories",
     title: "Accessory Model 16",
     image:
-      "https://i.postimg.cc/131Gb6Y8/rezwan-ahmed-CXzn-HE1p-Kx-E-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/131Gb6Y8/rezwan-ahmed-CXzn-HE1p-Kx-E-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 170,
     oldPrice: 200,
@@ -1296,7 +1331,7 @@ export const AllProducts = [
     categories: "accessories",
     title: "Accessory Model 17",
     image:
-      "https://i.postimg.cc/FRCb6B2v/simon-kadula-gknd-M1-Gv-SA-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/FRCb6B2v/simon-kadula-gknd-M1-Gv-SA-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 180,
     oldPrice: 210,
@@ -1306,7 +1341,7 @@ export const AllProducts = [
     categories: "accessories",
     title: "Accessory Model 18",
     image:
-      "https://i.postimg.cc/0NqVGhqH/tai-bui-Q-x-Gz9-NOVOE-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/0NqVGhqH/tai-bui-Q-x-Gz9-NOVOE-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 150,
     oldPrice: 180,
@@ -1316,7 +1351,7 @@ export const AllProducts = [
     categories: "accessories",
     title: "Accessory Model 19",
     image:
-      "https://i.postimg.cc/WbhYsMnS/tao-yuan-p-Zvd-CAc2-M-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/WbhYsMnS/tao-yuan-p-Zvd-CAc2-M-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 160,
     oldPrice: 190,
@@ -1326,7 +1361,7 @@ export const AllProducts = [
     categories: "accessories",
     title: "Accessory Model 20",
     image:
-      "https://i.postimg.cc/0Nf0YQnb/ty-feague-zc-Ra-KHDP83-I-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/0Nf0YQnb/ty-feague-zc-Ra-KHDP83-I-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 170,
     oldPrice: 200,
@@ -1338,7 +1373,7 @@ export const AllProducts = [
     categories: "soundbox",
     title: "Soundbox Model 1",
     image:
-      "https://i.postimg.cc/qBjnjS2Z/2h-media-mv-Oh-QZX-LBk-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/qBjnjS2Z/2h-media-mv-Oh-QZX-LBk-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 350,
     oldPrice: 400,
@@ -1348,7 +1383,7 @@ export const AllProducts = [
     categories: "soundbox",
     title: "Soundbox Model 2",
     image:
-      "https://i.postimg.cc/KzQKp33g/adam-birkett-v-ISNAATFXl-E-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/KzQKp33g/adam-birkett-v-ISNAATFXl-E-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 320,
     oldPrice: 370,
@@ -1358,7 +1393,7 @@ export const AllProducts = [
     categories: "soundbox",
     title: "Soundbox Model 3",
     image:
-      "https://i.postimg.cc/vTQrcdf5/andrey-matveev-sozo-YOGrb-Xg-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/vTQrcdf5/andrey-matveev-sozo-YOGrb-Xg-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 300,
     oldPrice: 350,
@@ -1368,7 +1403,7 @@ export const AllProducts = [
     categories: "soundbox",
     title: "Soundbox Model 4",
     image:
-      "https://i.postimg.cc/BvKczpJP/arthur-a-Zp-QTAz0-Jc2-E-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/BvKczpJP/arthur-a-Zp-QTAz0-Jc2-E-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 380,
     oldPrice: 430,
@@ -1378,7 +1413,7 @@ export const AllProducts = [
     categories: "soundbox",
     title: "Soundbox Model 5",
     image:
-      "https://i.postimg.cc/5tdFXVMj/c-d-x-d-Bwadh-Wa-l-I-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/5tdFXVMj/c-d-x-d-Bwadh-Wa-l-I-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 340,
     oldPrice: 390,
@@ -1388,7 +1423,7 @@ export const AllProducts = [
     categories: "soundbox",
     title: "Soundbox Model 6",
     image:
-      "https://i.postimg.cc/g26Zc0Qf/dan-farrell-Fn-R2-U1l-Xs-BQ-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/g26Zc0Qf/dan-farrell-Fn-R2-U1l-Xs-BQ-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 310,
     oldPrice: 360,
@@ -1398,7 +1433,7 @@ export const AllProducts = [
     categories: "soundbox",
     title: "Soundbox Model 7",
     image:
-      "https://i.postimg.cc/sX3QJ4xr/ervo-rocks-Zam8-Tv-Eg-N5o-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/sX3QJ4xr/ervo-rocks-Zam8-Tv-Eg-N5o-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 300,
     oldPrice: 350,
@@ -1408,7 +1443,7 @@ export const AllProducts = [
     categories: "soundbox",
     title: "Soundbox Model 8",
     image:
-      "https://i.postimg.cc/wjSDDNDq/howard-bouchevereau-5ba6j8d-o-XY-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/wjSDDNDq/howard-bouchevereau-5ba6j8d-o-XY-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 390,
     oldPrice: 440,
@@ -1418,7 +1453,7 @@ export const AllProducts = [
     categories: "soundbox",
     title: "Soundbox Model 9",
     image:
-      "https://i.postimg.cc/xCGGfdJ0/kreeson-naraidoo-Dwz-Cmllk3w-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/xCGGfdJ0/kreeson-naraidoo-Dwz-Cmllk3w-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 350,
     oldPrice: 400,
@@ -1428,7 +1463,7 @@ export const AllProducts = [
     categories: "soundbox",
     title: "Soundbox Model 10",
     image:
-      "https://i.postimg.cc/x8CXwjLp/luke-peterson-l-UMj2-Zv5-HUE-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/x8CXwjLp/luke-peterson-l-UMj2-Zv5-HUE-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 320,
     oldPrice: 370,
@@ -1438,7 +1473,7 @@ export const AllProducts = [
     categories: "soundbox",
     title: "Soundbox Model 11",
     image:
-      "https://i.postimg.cc/JhZZxhQb/omid-armin-g-SZCLs-E7ysc-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/JhZZxhQb/omid-armin-g-SZCLs-E7ysc-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 300,
     oldPrice: 350,
@@ -1448,7 +1483,7 @@ export const AllProducts = [
     categories: "soundbox",
     title: "Soundbox Model 12",
     image:
-      "https://i.postimg.cc/52HwHgYK/omid-armin-G-GFA2grq-k-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/52HwHgYK/omid-armin-G-GFA2grq-k-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 380,
     oldPrice: 430,
@@ -1458,7 +1493,7 @@ export const AllProducts = [
     categories: "soundbox",
     title: "Soundbox Model 13",
     image:
-      "https://i.postimg.cc/Fs6SQSWy/petri-r-Qsj-Lj-Efhl-Zg-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/Fs6SQSWy/petri-r-Qsj-Lj-Efhl-Zg-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 340,
     oldPrice: 390,
@@ -1468,7 +1503,7 @@ export const AllProducts = [
     categories: "soundbox",
     title: "Soundbox Model 14",
     image:
-      "https://i.postimg.cc/yY8hKsVH/phuc-khang-mobile-fq6-KYq6-Q16o-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/yY8hKsVH/phuc-khang-mobile-fq6-KYq6-Q16o-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 310,
     oldPrice: 360,
@@ -1478,7 +1513,7 @@ export const AllProducts = [
     categories: "soundbox",
     title: "Soundbox Model 15",
     image:
-      "https://i.postimg.cc/T1CrbHJF/prashant-Jm-pr52-Rl7-Y-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/T1CrbHJF/prashant-Jm-pr52-Rl7-Y-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 300,
     oldPrice: 350,
@@ -1488,7 +1523,7 @@ export const AllProducts = [
     categories: "soundbox",
     title: "Soundbox Model 16",
     image:
-      "https://i.postimg.cc/02jS3nf5/sam-grozyan-P7-KF3c-TRKc-E-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/02jS3nf5/sam-grozyan-P7-KF3c-TRKc-E-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 390,
     oldPrice: 440,
@@ -1498,7 +1533,7 @@ export const AllProducts = [
     categories: "soundbox",
     title: "Soundbox Model 17",
     image:
-      "https://i.postimg.cc/4dGtST8j/sasun-bughdaryan-y2bp-SSu-GR98-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/4dGtST8j/sasun-bughdaryan-y2bp-SSu-GR98-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 350,
     oldPrice: 400,
@@ -1508,7 +1543,7 @@ export const AllProducts = [
     categories: "soundbox",
     title: "Soundbox Model 18",
     image:
-      "https://i.postimg.cc/wT4XTZvs/servet-photograph-vya2wf-Wcizo-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/wT4XTZvs/servet-photograph-vya2wf-Wcizo-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 320,
     oldPrice: 370,
@@ -1518,7 +1553,7 @@ export const AllProducts = [
     categories: "soundbox",
     title: "Soundbox Model 19",
     image:
-      "https://i.postimg.cc/VNq0MVYg/tomasz-gawlowski-YDZPdqv3-Fc-A-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/VNq0MVYg/tomasz-gawlowski-YDZPdqv3-Fc-A-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 300,
     oldPrice: 350,
@@ -1530,7 +1565,7 @@ export const AllProducts = [
     categories: "smart gadget",
     title: "Smart Gadget Model 1",
     image:
-      "https://i.postimg.cc/4Nx0SDqK/aaron-burden-y-Fn-X8-Da-C3-UM-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/4Nx0SDqK/aaron-burden-y-Fn-X8-Da-C3-UM-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 520,
     oldPrice: 600,
@@ -1540,7 +1575,7 @@ export const AllProducts = [
     categories: "smart gadget",
     title: "Smart Gadget Model 2",
     image:
-      "https://i.postimg.cc/FFWp77CR/charlie-firth-e8dgy7h-G6-C8-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/FFWp77CR/charlie-firth-e8dgy7h-G6-C8-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 450,
     oldPrice: 500,
@@ -1550,7 +1585,7 @@ export const AllProducts = [
     categories: "smart gadget",
     title: "Smart Gadget Model 3",
     image:
-      "https://i.postimg.cc/tR5fDqSQ/diana-macesanu-3ci-Hxbx9-H0-U-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/tR5fDqSQ/diana-macesanu-3ci-Hxbx9-H0-U-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 390,
     oldPrice: 450,
@@ -1560,7 +1595,7 @@ export const AllProducts = [
     categories: "smart gadget",
     title: "Smart Gadget Model 4",
     image:
-      "https://i.postimg.cc/BvH7F4Lz/dose-media-KFWCjf-KIQag-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/BvH7F4Lz/dose-media-KFWCjf-KIQag-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 340,
     oldPrice: 400,
@@ -1570,7 +1605,7 @@ export const AllProducts = [
     categories: "smart gadget",
     title: "Smart Gadget Model 5",
     image:
-      "https://i.postimg.cc/kXHThBWZ/girl-with-red-hat-e60zb-IILCnk-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/kXHThBWZ/girl-with-red-hat-e60zb-IILCnk-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 600,
     oldPrice: 670,
@@ -1580,7 +1615,7 @@ export const AllProducts = [
     categories: "smart gadget",
     title: "Smart Gadget Model 6",
     image:
-      "https://i.postimg.cc/X71PS26s/ian-baldwin-Cfu0m-T9b-RJw-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/X71PS26s/ian-baldwin-Cfu0m-T9b-RJw-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.4,
     price: 310,
     oldPrice: 360,
@@ -1590,7 +1625,7 @@ export const AllProducts = [
     categories: "smart gadget",
     title: "Smart Gadget Model 7",
     image:
-      "https://i.postimg.cc/LsKN2wC3/insung-yoon-HMo-Leq-W-YQ-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/LsKN2wC3/insung-yoon-HMo-Leq-W-YQ-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 480,
     oldPrice: 530,
@@ -1600,7 +1635,7 @@ export const AllProducts = [
     categories: "smart gadget",
     title: "Smart Gadget Model 8",
     image:
-      "https://i.postimg.cc/3rnSmLN3/insung-yoon-l-Qa54-NKmg-JQ-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/3rnSmLN3/insung-yoon-l-Qa54-NKmg-JQ-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 420,
     oldPrice: 490,
@@ -1610,7 +1645,7 @@ export const AllProducts = [
     categories: "smart gadget",
     title: "Smart Gadget Model 9",
     image:
-      "https://i.postimg.cc/GmZS9H2Y/jared-brashier-du-NHkm-Sk-W6-M-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/GmZS9H2Y/jared-brashier-du-NHkm-Sk-W6-M-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 350,
     oldPrice: 400,
@@ -1620,7 +1655,7 @@ export const AllProducts = [
     categories: "smart gadget",
     title: "Smart Gadget Model 10",
     image:
-      "https://i.postimg.cc/HkJhpQpd/jonathan-lampel-L9wr-EGJj-Rdo-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/HkJhpQpd/jonathan-lampel-L9wr-EGJj-Rdo-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 650,
     oldPrice: 720,
@@ -1630,7 +1665,7 @@ export const AllProducts = [
     categories: "smart gadget",
     title: "Smart Gadget Model 11",
     image:
-      "https://i.postimg.cc/NfFN412m/krishna-dev-II8b68-NHZk-Y-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/NfFN412m/krishna-dev-II8b68-NHZk-Y-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 570,
     oldPrice: 640,
@@ -1640,7 +1675,7 @@ export const AllProducts = [
     categories: "smart gadget",
     title: "Smart Gadget Model 12",
     image:
-      "https://i.postimg.cc/d3H5F0ph/lana-mattice-8-L044-OEc-GDY-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/d3H5F0ph/lana-mattice-8-L044-OEc-GDY-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 310,
     oldPrice: 370,
@@ -1650,7 +1685,7 @@ export const AllProducts = [
     categories: "smart gadget",
     title: "Smart Gadget Model 13",
     image:
-      "https://i.postimg.cc/sxDTbW6F/lana-mattice-mo-Lwa-Yt9-E0-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/sxDTbW6F/lana-mattice-mo-Lwa-Yt9-E0-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 360,
     oldPrice: 420,
@@ -1660,7 +1695,7 @@ export const AllProducts = [
     categories: "smart gadget",
     title: "Smart Gadget Model 14",
     image:
-      "https://i.postimg.cc/bvxLJg4c/leonard-reeb-Ed-Gi-Mi-Rvoro-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/bvxLJg4c/leonard-reeb-Ed-Gi-Mi-Rvoro-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 410,
     oldPrice: 480,
@@ -1670,7 +1705,7 @@ export const AllProducts = [
     categories: "smart gadget",
     title: "Smart Gadget Model 15",
     image:
-      "https://i.postimg.cc/Y09xdH0M/logan-weaver-lgnwvr-gb-Wf-Ge1-Dm-Dw-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/Y09xdH0M/logan-weaver-lgnwvr-gb-Wf-Ge1-Dm-Dw-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 680,
     oldPrice: 750,
@@ -1680,7 +1715,7 @@ export const AllProducts = [
     categories: "smart gadget",
     title: "Smart Gadget Model 16",
     image:
-      "https://i.postimg.cc/P58SGT4q/logan-weaver-lgnwvr-s-Vwu-CEJp-Jo-A-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/P58SGT4q/logan-weaver-lgnwvr-s-Vwu-CEJp-Jo-A-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 530,
     oldPrice: 600,
@@ -1690,7 +1725,7 @@ export const AllProducts = [
     categories: "smart gadget",
     title: "Smart Gadget Model 17",
     image:
-      "https://i.postimg.cc/DZcCC6cd/matteo-bernardis-QKp-Q40ai-Tj0-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/DZcCC6cd/matteo-bernardis-QKp-Q40ai-Tj0-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 360,
     oldPrice: 420,
@@ -1700,7 +1735,7 @@ export const AllProducts = [
     categories: "smart gadget",
     title: "Smart Gadget Model 18",
     image:
-      "https://i.postimg.cc/RhXD0d6V/mitch-nielsen-p-Wt-NPCpv-VA8-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/RhXD0d6V/mitch-nielsen-p-Wt-NPCpv-VA8-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 340,
     oldPrice: 390,
@@ -1710,7 +1745,7 @@ export const AllProducts = [
     categories: "smart gadget",
     title: "Smart Gadget Model 19",
     image:
-      "https://i.postimg.cc/T1RsGFP4/ricardo-gomez-angel-d8dn-BSJWdk4-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/T1RsGFP4/ricardo-gomez-angel-d8dn-BSJWdk4-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 430,
     oldPrice: 500,
@@ -1720,7 +1755,7 @@ export const AllProducts = [
     categories: "smart gadget",
     title: "Smart Gadget Model 20",
     image:
-      "https://i.postimg.cc/hjKs7xqJ/yunfan-xu-50g-Vhy-Mj9z-Q-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/hjKs7xqJ/yunfan-xu-50g-Vhy-Mj9z-Q-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 560,
     oldPrice: 630,
@@ -1732,7 +1767,7 @@ export const AllProducts = [
     categories: "monitor",
     title: "Monitor Model 1",
     image:
-      "https://i.postimg.cc/Qtpg8JY9/carl-heyerdahl-KE0n-C8-58-MQ-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/Qtpg8JY9/carl-heyerdahl-KE0n-C8-58-MQ-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 850,
     oldPrice: 920,
@@ -1742,7 +1777,7 @@ export const AllProducts = [
     categories: "monitor",
     title: "Monitor Model 2",
     image:
-      "https://i.postimg.cc/G3Fzdd67/charles-patterson-5-LWQapj-G-Q-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/G3Fzdd67/charles-patterson-5-LWQapj-G-Q-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 780,
     oldPrice: 850,
@@ -1752,7 +1787,7 @@ export const AllProducts = [
     categories: "monitor",
     title: "Monitor Model 3",
     image:
-      "https://i.postimg.cc/7hw3fJjB/daniel-korpai-8-GDCz-Wrc-E3-M-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/7hw3fJjB/daniel-korpai-8-GDCz-Wrc-E3-M-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 960,
     oldPrice: 1040,
@@ -1762,7 +1797,7 @@ export const AllProducts = [
     categories: "monitor",
     title: "Monitor Model 4",
     image:
-      "https://i.postimg.cc/Bnk22VdP/daniel-korpai-iop-ITwy-Uc-TA-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/Bnk22VdP/daniel-korpai-iop-ITwy-Uc-TA-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 720,
     oldPrice: 800,
@@ -1772,7 +1807,7 @@ export const AllProducts = [
     categories: "monitor",
     title: "Monitor Model 5",
     image:
-      "https://i.postimg.cc/RZDLXFnF/danny-feng-3-En7-Aaqiw8-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/RZDLXFnF/danny-feng-3-En7-Aaqiw8-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 1100,
     oldPrice: 1180,
@@ -1782,7 +1817,7 @@ export const AllProducts = [
     categories: "monitor",
     title: "Monitor Model 6",
     image:
-      "https://i.postimg.cc/wBRcPphk/jorge-ramirez-SVp-Wtj-Xm-LZg-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/wBRcPphk/jorge-ramirez-SVp-Wtj-Xm-LZg-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 890,
     oldPrice: 970,
@@ -1792,7 +1827,7 @@ export const AllProducts = [
     categories: "monitor",
     title: "Monitor Model 7",
     image:
-      "https://i.postimg.cc/SxJW2htp/kitai-zhvaeh-R9r-A-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/SxJW2htp/kitai-zhvaeh-R9r-A-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 940,
     oldPrice: 1010,
@@ -1802,7 +1837,7 @@ export const AllProducts = [
     categories: "monitor",
     title: "Monitor Model 8",
     image:
-      "https://i.postimg.cc/gJqRFkr3/linus-mimietz-gvpt-Kmonylk-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/gJqRFkr3/linus-mimietz-gvpt-Kmonylk-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 990,
     oldPrice: 1070,
@@ -1812,7 +1847,7 @@ export const AllProducts = [
     categories: "monitor",
     title: "Monitor Model 9",
     image:
-      "https://i.postimg.cc/wMQkVQh8/mediamodifier-qz-Y7-Ca0yrm4-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/wMQkVQh8/mediamodifier-qz-Y7-Ca0yrm4-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 880,
     oldPrice: 950,
@@ -1822,7 +1857,7 @@ export const AllProducts = [
     categories: "monitor",
     title: "Monitor Model 10",
     image:
-      "https://i.postimg.cc/j5VQYFcY/niclas-illg-wz-VQp-NRIHg-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/j5VQYFcY/niclas-illg-wz-VQp-NRIHg-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 1020,
     oldPrice: 1100,
@@ -1832,7 +1867,7 @@ export const AllProducts = [
     categories: "monitor",
     title: "Monitor Model 11",
     image:
-      "https://i.postimg.cc/NGk8ZbrZ/niclas-illg-z-EBq-F-E2-FIY-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/NGk8ZbrZ/niclas-illg-z-EBq-F-E2-FIY-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 950,
     oldPrice: 1030,
@@ -1842,7 +1877,7 @@ export const AllProducts = [
     categories: "monitor",
     title: "Monitor Model 12",
     image:
-      "https://i.postimg.cc/k5SKsym1/nicolas-gonzalez-183-F-v-Na-N8-A-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/k5SKsym1/nicolas-gonzalez-183-F-v-Na-N8-A-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 910,
     oldPrice: 990,
@@ -1852,7 +1887,7 @@ export const AllProducts = [
     categories: "monitor",
     title: "Monitor Model 13",
     image:
-      "https://i.postimg.cc/zXq7f4rJ/nubelson-fernandes-Az-HPen-cymc-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/zXq7f4rJ/nubelson-fernandes-Az-HPen-cymc-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 1000,
     oldPrice: 1080,
@@ -1862,7 +1897,7 @@ export const AllProducts = [
     categories: "monitor",
     title: "Monitor Model 14",
     image:
-      "https://i.postimg.cc/TYQ95Qdn/personalgraphic-com-uqd-EKKUh-Pf-Q-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/TYQ95Qdn/personalgraphic-com-uqd-EKKUh-Pf-Q-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 970,
     oldPrice: 1050,
@@ -1872,7 +1907,7 @@ export const AllProducts = [
     categories: "monitor",
     title: "Monitor Model 15",
     image:
-      "https://i.postimg.cc/zXdCGB7j/polina-kuzovkova-M9-d-SG3-Iswg-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/zXdCGB7j/polina-kuzovkova-M9-d-SG3-Iswg-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 890,
     oldPrice: 960,
@@ -1882,7 +1917,7 @@ export const AllProducts = [
     categories: "monitor",
     title: "Monitor Model 16",
     image:
-      "https://i.postimg.cc/vBd9N68Q/quaritsch-photography-m2zu-B8-Dqwy-M-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/vBd9N68Q/quaritsch-photography-m2zu-B8-Dqwy-M-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 930,
     oldPrice: 1010,
@@ -1892,7 +1927,7 @@ export const AllProducts = [
     categories: "monitor",
     title: "Monitor Model 17",
     image:
-      "https://i.postimg.cc/Hkxtw5nR/radoslav-bali-tk-Rrm-Yo-N2to-unsplash.jpg?w=300&format=webp&quality=80",
+      "https://i.postimg.cc/Hkxtw5nR/radoslav-bali-tk-Rrm-Yo-N2to-unsplash.jpg?w=300&format=webp&quality=80?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 960,
     oldPrice: 1040,
@@ -1901,7 +1936,8 @@ export const AllProducts = [
     id: 195,
     categories: "monitor",
     title: "Monitor Model 18",
-    image: "https://i.postimg.cc/7YP1473h/rohit-KZnfwqi-B0-U-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/7YP1473h/rohit-KZnfwqi-B0-U-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 910,
     oldPrice: 980,
@@ -1910,7 +1946,8 @@ export const AllProducts = [
     id: 196,
     categories: "monitor",
     title: "Monitor Model 19",
-    image: "https://i.postimg.cc/C5gNkQns/sameer-BOy-Su9-Zf-Fp-I-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/C5gNkQns/sameer-BOy-Su9-Zf-Fp-I-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 1050,
     oldPrice: 1130,
@@ -1920,7 +1957,7 @@ export const AllProducts = [
     categories: "monitor",
     title: "Monitor Model 20",
     image:
-      "https://i.postimg.cc/vThW9HsG/seyed-sina-fazeli-XP9-JF6jy-RGc-unsplash.jpg",
+      "https://i.postimg.cc/vThW9HsG/seyed-sina-fazeli-XP9-JF6jy-RGc-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 980,
     oldPrice: 1060,
@@ -1931,7 +1968,7 @@ export const AllProducts = [
     categories: "macPro",
     title: "Mac Pro 2024 (M3 Ultra)",
     image:
-      "https://i.postimg.cc/MTZLnyNK/aidan-hancock-Xd7-Sy-Zc-H1s-A-unsplash.jpg",
+      "https://i.postimg.cc/MTZLnyNK/aidan-hancock-Xd7-Sy-Zc-H1s-A-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 9500,
     oldPrice: 10500,
@@ -1940,7 +1977,8 @@ export const AllProducts = [
     id: 199,
     categories: "macPro",
     title: "Mac Pro Rack Edition (M3)",
-    image: "https://i.postimg.cc/GtVgg62H/ana-gavras-Q-Vp-Pqz3t8o-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/GtVgg62H/ana-gavras-Q-Vp-Pqz3t8o-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 11500,
     oldPrice: 13000,
@@ -1950,7 +1988,7 @@ export const AllProducts = [
     categories: "macPro",
     title: "Mac Pro (M3 Ultra, Max GPU)",
     image:
-      "https://i.postimg.cc/fbC2QVy4/austin-poon-JO-S6ew-Bq-Ak-unsplash.jpg",
+      "https://i.postimg.cc/fbC2QVy4/austin-poon-JO-S6ew-Bq-Ak-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 5.0,
     price: 14000,
     oldPrice: 15500,
@@ -1960,7 +1998,7 @@ export const AllProducts = [
     categories: "macPro",
     title: "Mac Pro (Afterburner Pro Edition)",
     image:
-      "https://i.postimg.cc/VkjZ4Gck/dlxmedia-hu-Ukp-TGYox6-RM-unsplash.jpg",
+      "https://i.postimg.cc/VkjZ4Gck/dlxmedia-hu-Ukp-TGYox6-RM-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 12000,
     oldPrice: 13500,
@@ -1970,7 +2008,7 @@ export const AllProducts = [
     categories: "macPro",
     title: "Mac Pro (High-Memory Config 1TB RAM)",
     image:
-      "https://i.postimg.cc/cJ09zRsM/howard-bouchevereau-RSCir-J70-NDM-unsplash.jpg",
+      "https://i.postimg.cc/cJ09zRsM/howard-bouchevereau-RSCir-J70-NDM-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 15000,
     oldPrice: 16500,
@@ -1980,7 +2018,7 @@ export const AllProducts = [
     categories: "macPro",
     title: "Mac Pro (Dual GPU, AI Optimized)",
     image:
-      "https://i.postimg.cc/ZRqfbJvW/marcin-nowak-0l1-Quxk-BDUw-unsplash.jpg",
+      "https://i.postimg.cc/ZRqfbJvW/marcin-nowak-0l1-Quxk-BDUw-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 13500,
     oldPrice: 15000,
@@ -1990,7 +2028,7 @@ export const AllProducts = [
     categories: "macPro",
     title: "Mac Pro (Pro Studio Max Edition)",
     image:
-      "https://i.postimg.cc/BZVzvPg4/moritz-kindler-j-Li-Dlcm-wq-A-unsplash.jpg",
+      "https://i.postimg.cc/BZVzvPg4/moritz-kindler-j-Li-Dlcm-wq-A-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 5.0,
     price: 16000,
     oldPrice: 17800,
@@ -2000,7 +2038,7 @@ export const AllProducts = [
     categories: "macPro",
     title: "Mac Pro (Entry-Level M3 Ultra)",
     image:
-      "https://i.postimg.cc/L5YNPvTR/omar-al-ghosson-4r-Zn-SZSK-Ps-unsplash.jpg",
+      "https://i.postimg.cc/L5YNPvTR/omar-al-ghosson-4r-Zn-SZSK-Ps-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 8500,
     oldPrice: 9500,
@@ -2010,7 +2048,7 @@ export const AllProducts = [
     categories: "macPro",
     title: "Mac Pro (High-Bandwidth Memory, AI Ready)",
     image:
-      "https://i.postimg.cc/3RbtWz2n/omar-al-ghosson-ZOXo-Ew-C9-D4-U-unsplash.jpg",
+      "https://i.postimg.cc/3RbtWz2n/omar-al-ghosson-ZOXo-Ew-C9-D4-U-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 12500,
     oldPrice: 14000,
@@ -2020,7 +2058,7 @@ export const AllProducts = [
     categories: "macPro",
     title: "Mac Pro (ProRes X Workflow)",
     image:
-      "https://i.postimg.cc/50PRLXW5/raul-varzar-UGq-Vvb-Rf-Ag-I-unsplash.jpg",
+      "https://i.postimg.cc/50PRLXW5/raul-varzar-UGq-Vvb-Rf-Ag-I-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 14500,
     oldPrice: 16000,
@@ -2030,7 +2068,7 @@ export const AllProducts = [
     categories: "macPro",
     title: "Mac Pro (Scientific Research Edition)",
     image:
-      "https://i.postimg.cc/W1RfGRCy/sahej-brar-U6-UG7-CPZM80-unsplash.jpg",
+      "https://i.postimg.cc/W1RfGRCy/sahej-brar-U6-UG7-CPZM80-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 17000,
     oldPrice: 19000,
@@ -2040,7 +2078,7 @@ export const AllProducts = [
     categories: "macPro",
     title: "Mac Pro (Ultimate Config M3 Ultra)",
     image:
-      "https://i.postimg.cc/hvf3rKKk/thai-nguyen-ylqe-Fa-Pv-A-unsplash.jpg",
+      "https://i.postimg.cc/hvf3rKKk/thai-nguyen-ylqe-Fa-Pv-A-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 5.0,
     price: 20000,
     oldPrice: 22000,
@@ -2246,7 +2284,8 @@ export const AllProducts = [
     id: 230,
     categories: "gamingPc",
     title: "Alienware Aurora R15",
-    image: "https://i.postimg.cc/J0TtwVHc/6-9-Xk5rd-Mxpf-Lg-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/J0TtwVHc/6-9-Xk5rd-Mxpf-Lg-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 3200,
     oldPrice: 3500,
@@ -2256,7 +2295,7 @@ export const AllProducts = [
     categories: "gamingPc",
     title: "ASUS ROG Strix G16",
     image:
-      "https://i.postimg.cc/6QsqxhqS/amiel-d-hechanova-Xzn-GSZ9-Dtp-Q-unsplash.jpg",
+      "https://i.postimg.cc/6QsqxhqS/amiel-d-hechanova-Xzn-GSZ9-Dtp-Q-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 2800,
     oldPrice: 3100,
@@ -2266,7 +2305,7 @@ export const AllProducts = [
     categories: "gamingPc",
     title: "MSI MEG Trident X2",
     image:
-      "https://i.postimg.cc/fTpTYvcL/amine-mouzaoui-qoe-U4a6psa-Q-unsplash.jpg",
+      "https://i.postimg.cc/fTpTYvcL/amine-mouzaoui-qoe-U4a6psa-Q-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 3400,
     oldPrice: 3700,
@@ -2275,7 +2314,8 @@ export const AllProducts = [
     id: 233,
     categories: "gamingPc",
     title: "HP Omen 45L",
-    image: "https://i.postimg.cc/MTSnVY8R/amr-taha-a-GQigjc-5-TA-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/MTSnVY8R/amr-taha-a-GQigjc-5-TA-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 3000,
     oldPrice: 3300,
@@ -2285,7 +2325,7 @@ export const AllProducts = [
     categories: "gamingPc",
     title: "Lenovo Legion Tower 7i",
     image:
-      "https://i.postimg.cc/6qQ5fjb7/andre-tan-f-GEEJ7-Z8c-IA-unsplash.jpg",
+      "https://i.postimg.cc/6qQ5fjb7/andre-tan-f-GEEJ7-Z8c-IA-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 2900,
     oldPrice: 3200,
@@ -2295,7 +2335,7 @@ export const AllProducts = [
     categories: "gamingPc",
     title: "Acer Predator Orion 7000",
     image:
-      "https://i.postimg.cc/wxb6dkbV/andy-holmes-x-A26xeb-Y3dw-unsplash.jpg",
+      "https://i.postimg.cc/wxb6dkbV/andy-holmes-x-A26xeb-Y3dw-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 3100,
     oldPrice: 3400,
@@ -2305,7 +2345,7 @@ export const AllProducts = [
     categories: "gamingPc",
     title: "Corsair Vengeance i7400",
     image:
-      "https://i.postimg.cc/Nf5jynrS/arto-suraj-c-Ix-E9fk7-B2c-unsplash.jpg",
+      "https://i.postimg.cc/Nf5jynrS/arto-suraj-c-Ix-E9fk7-B2c-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 3300,
     oldPrice: 3600,
@@ -2315,7 +2355,7 @@ export const AllProducts = [
     categories: "gamingPc",
     title: "NZXT Player Two Prime",
     image:
-      "https://i.postimg.cc/XJkp8yVP/bhautik-patel-GYj9ts-qvl-Q-unsplash.jpg",
+      "https://i.postimg.cc/XJkp8yVP/bhautik-patel-GYj9ts-qvl-Q-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 2600,
     oldPrice: 2900,
@@ -2325,7 +2365,7 @@ export const AllProducts = [
     categories: "gamingPc",
     title: "Alienware Aurora R16",
     image:
-      "https://i.postimg.cc/L8P4DZDV/christian-wiediger-KV2v-FOYItc-Y-unsplash.jpg",
+      "https://i.postimg.cc/L8P4DZDV/christian-wiediger-KV2v-FOYItc-Y-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 5.0,
     price: 3500,
     oldPrice: 3800,
@@ -2334,7 +2374,8 @@ export const AllProducts = [
     id: 239,
     categories: "gamingPc",
     title: "ASUS ROG Huracan G21",
-    image: "https://i.postimg.cc/j29KQsJ9/ella-don-0oq-Mvhc1ntw-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/j29KQsJ9/ella-don-0oq-Mvhc1ntw-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 2700,
     oldPrice: 3000,
@@ -2343,7 +2384,8 @@ export const AllProducts = [
     id: 240,
     categories: "gamingPc",
     title: "MSI Infinite RS 13th",
-    image: "https://i.postimg.cc/mrQDLFFr/ella-don-hm-BTH6h-Iyw8-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/mrQDLFFr/ella-don-hm-BTH6h-Iyw8-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 2800,
     oldPrice: 3100,
@@ -2352,7 +2394,8 @@ export const AllProducts = [
     id: 241,
     categories: "gamingPc",
     title: "HP Omen 25L",
-    image: "https://i.postimg.cc/nz2h7b2b/ella-don-Ie9-Bek-Ww-Uk-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/nz2h7b2b/ella-don-Ie9-Bek-Ww-Uk-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 2000,
     oldPrice: 2300,
@@ -2361,7 +2404,8 @@ export const AllProducts = [
     id: 242,
     categories: "gamingPc",
     title: "Lenovo Legion Tower 5i",
-    image: "https://i.postimg.cc/TwdRTN6k/jack-b-fewhf-Xb-CUz-I-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/TwdRTN6k/jack-b-fewhf-Xb-CUz-I-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 1900,
     oldPrice: 2200,
@@ -2371,7 +2415,7 @@ export const AllProducts = [
     categories: "gamingPc",
     title: "Acer Nitro 50",
     image:
-      "https://i.postimg.cc/hv34yLN2/joshua-kettle-LS-Be4r-Uj-Fo-unsplash.jpg",
+      "https://i.postimg.cc/hv34yLN2/joshua-kettle-LS-Be4r-Uj-Fo-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 1500,
     oldPrice: 1800,
@@ -2381,7 +2425,7 @@ export const AllProducts = [
     categories: "gamingPc",
     title: "Corsair Vengeance a7200",
     image:
-      "https://i.postimg.cc/65mTYKXB/kirill-martynov-x-Zo-NX2slte-U-unsplash.jpg",
+      "https://i.postimg.cc/65mTYKXB/kirill-martynov-x-Zo-NX2slte-U-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 2800,
     oldPrice: 3100,
@@ -2391,7 +2435,7 @@ export const AllProducts = [
     categories: "gamingPc",
     title: "NZXT Player Three",
     image:
-      "https://i.postimg.cc/nrVMwcrh/martin-katler-PAB8jx-Mbc-Ng-unsplash.jpg",
+      "https://i.postimg.cc/nrVMwcrh/martin-katler-PAB8jx-Mbc-Ng-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 2900,
     oldPrice: 3200,
@@ -2401,7 +2445,7 @@ export const AllProducts = [
     categories: "gamingPc",
     title: "Alienware Aurora Ryzen R14",
     image:
-      "https://i.postimg.cc/qR1pqcBp/matthew-osborn-nr-Ay-Yzi-Rzn8-unsplash.jpg",
+      "https://i.postimg.cc/qR1pqcBp/matthew-osborn-nr-Ay-Yzi-Rzn8-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 3100,
     oldPrice: 3400,
@@ -2411,7 +2455,7 @@ export const AllProducts = [
     categories: "gamingPc",
     title: "ASUS ROG Strix G35",
     image:
-      "https://i.postimg.cc/J0tMkytZ/maverick-timotius-q-Ag-ZDCgb7go-unsplash.jpg",
+      "https://i.postimg.cc/J0tMkytZ/maverick-timotius-q-Ag-ZDCgb7go-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 3000,
     oldPrice: 3300,
@@ -2421,7 +2465,7 @@ export const AllProducts = [
     categories: "gamingPc",
     title: "MSI Aegis RS 13NUE",
     image:
-      "https://i.postimg.cc/RVFN7F2P/redd-francisco-3m-Wx-Knq-ET3-E-unsplash.jpg",
+      "https://i.postimg.cc/RVFN7F2P/redd-francisco-3m-Wx-Knq-ET3-E-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 2600,
     oldPrice: 2900,
@@ -2431,7 +2475,7 @@ export const AllProducts = [
     categories: "gamingPc",
     title: "HP Victus 15L",
     image:
-      "https://i.postimg.cc/jdwRqJpr/resul-kaya-xx-L1-Fav-YOh0-unsplash.jpg",
+      "https://i.postimg.cc/jdwRqJpr/resul-kaya-xx-L1-Fav-YOh0-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 1400,
     oldPrice: 1650,
@@ -2443,7 +2487,7 @@ export const AllProducts = [
     categories: "iMac",
     title: "iMac Model 1",
     image:
-      "https://i.postimg.cc/MTZLnyNK/aidan-hancock-Xd7-Sy-Zc-H1s-A-unsplash.jpg",
+      "https://i.postimg.cc/MTZLnyNK/aidan-hancock-Xd7-Sy-Zc-H1s-A-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 1800,
     oldPrice: 2000,
@@ -2453,7 +2497,7 @@ export const AllProducts = [
     categories: "iMac",
     title: "iMac Model 2",
     image:
-      "https://i.postimg.cc/3RbtWz2n/omar-al-ghosson-ZOXo-Ew-C9-D4-U-unsplash.jpg",
+      "https://i.postimg.cc/3RbtWz2n/omar-al-ghosson-ZOXo-Ew-C9-D4-U-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 1900,
     oldPrice: 2100,
@@ -2462,7 +2506,7 @@ export const AllProducts = [
     id: 252,
     categories: "iMac",
     title: "iMac Model 3",
-    image: "https://i.postimg.cc/T2bRfxV7/1.jpg",
+    image: "https://i.postimg.cc/T2bRfxV7/1.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 2000,
     oldPrice: 2200,
@@ -2471,7 +2515,7 @@ export const AllProducts = [
     id: 253,
     categories: "iMac",
     title: "iMac Model 4",
-    image: "https://i.postimg.cc/vZhYkvrG/10.jpg",
+    image: "https://i.postimg.cc/vZhYkvrG/10.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 2100,
     oldPrice: 2300,
@@ -2480,7 +2524,7 @@ export const AllProducts = [
     id: 254,
     categories: "iMac",
     title: "iMac Model 5",
-    image: "https://i.postimg.cc/qv4B1FCm/11.jpg",
+    image: "https://i.postimg.cc/qv4B1FCm/11.jpg?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 2200,
     oldPrice: 2400,
@@ -2489,7 +2533,7 @@ export const AllProducts = [
     id: 255,
     categories: "iMac",
     title: "iMac Model 6",
-    image: "https://i.postimg.cc/43FJNN2M/12.jpg",
+    image: "https://i.postimg.cc/43FJNN2M/12.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 2300,
     oldPrice: 2500,
@@ -2498,7 +2542,7 @@ export const AllProducts = [
     id: 256,
     categories: "iMac",
     title: "iMac Model 7",
-    image: "https://i.postimg.cc/vmmYs6hf/13.jpg",
+    image: "https://i.postimg.cc/vmmYs6hf/13.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 2400,
     oldPrice: 2600,
@@ -2507,7 +2551,7 @@ export const AllProducts = [
     id: 257,
     categories: "iMac",
     title: "iMac Model 8",
-    image: "https://i.postimg.cc/sXQ3Bdt2/14.jpg",
+    image: "https://i.postimg.cc/sXQ3Bdt2/14.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 2500,
     oldPrice: 2700,
@@ -2516,7 +2560,7 @@ export const AllProducts = [
     id: 258,
     categories: "iMac",
     title: "iMac Model 9",
-    image: "https://i.postimg.cc/KvymYWQZ/15.jpg",
+    image: "https://i.postimg.cc/KvymYWQZ/15.jpg?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 2600,
     oldPrice: 2800,
@@ -2525,7 +2569,7 @@ export const AllProducts = [
     id: 259,
     categories: "iMac",
     title: "iMac Model 10",
-    image: "https://i.postimg.cc/kGW9cNM3/2.jpg",
+    image: "https://i.postimg.cc/kGW9cNM3/2.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 2700,
     oldPrice: 2900,
@@ -2534,7 +2578,7 @@ export const AllProducts = [
     id: 260,
     categories: "iMac",
     title: "iMac Model 11",
-    image: "https://i.postimg.cc/bJ7pkVh9/3.jpg",
+    image: "https://i.postimg.cc/bJ7pkVh9/3.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 2800,
     oldPrice: 3000,
@@ -2543,7 +2587,7 @@ export const AllProducts = [
     id: 261,
     categories: "iMac",
     title: "iMac Model 12",
-    image: "https://i.postimg.cc/YqfMLxyQ/4.jpg",
+    image: "https://i.postimg.cc/YqfMLxyQ/4.jpg?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 2900,
     oldPrice: 3100,
@@ -2552,7 +2596,7 @@ export const AllProducts = [
     id: 262,
     categories: "iMac",
     title: "iMac Model 13",
-    image: "https://i.postimg.cc/Mp6x7jhN/6.jpg",
+    image: "https://i.postimg.cc/Mp6x7jhN/6.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 3000,
     oldPrice: 3200,
@@ -2561,7 +2605,7 @@ export const AllProducts = [
     id: 263,
     categories: "iMac",
     title: "iMac Model 14",
-    image: "https://i.postimg.cc/SN0xMRQb/7.jpg",
+    image: "https://i.postimg.cc/SN0xMRQb/7.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 3100,
     oldPrice: 3300,
@@ -2570,7 +2614,7 @@ export const AllProducts = [
     id: 264,
     categories: "iMac",
     title: "iMac Model 15",
-    image: "https://i.postimg.cc/J0X7FVqF/8.jpg",
+    image: "https://i.postimg.cc/J0X7FVqF/8.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 3200,
     oldPrice: 3400,
@@ -2579,7 +2623,7 @@ export const AllProducts = [
     id: 265,
     categories: "iMac",
     title: "iMac Model 16",
-    image: "https://i.postimg.cc/QNKMC13q/9.jpg",
+    image: "https://i.postimg.cc/QNKMC13q/9.jpg?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 3300,
     oldPrice: 3500,
@@ -2589,7 +2633,7 @@ export const AllProducts = [
     categories: "iMac",
     title: "iMac Model 17",
     image:
-      "https://i.postimg.cc/j55rp0sX/aidan-hancock-8-RU4-Ou-A6-Yug-unsplash.jpg",
+      "https://i.postimg.cc/j55rp0sX/aidan-hancock-8-RU4-Ou-A6-Yug-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 3400,
     oldPrice: 3600,
@@ -2599,7 +2643,7 @@ export const AllProducts = [
     categories: "iMac",
     title: "iMac Model 18",
     image:
-      "https://i.postimg.cc/9MrQGqqC/anthony-choren-v-Thmud-CFS-A-unsplash.jpg",
+      "https://i.postimg.cc/9MrQGqqC/anthony-choren-v-Thmud-CFS-A-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 3500,
     oldPrice: 3700,
@@ -2609,7 +2653,7 @@ export const AllProducts = [
     categories: "iMac",
     title: "iMac Model 19",
     image:
-      "https://i.postimg.cc/wBxvjrqt/daniel-romero-K-a-NRqk-OTH0-unsplash.jpg",
+      "https://i.postimg.cc/wBxvjrqt/daniel-romero-K-a-NRqk-OTH0-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 3600,
     oldPrice: 3800,
@@ -2619,7 +2663,7 @@ export const AllProducts = [
     categories: "iMac",
     title: "iMac Model 20",
     image:
-      "https://i.postimg.cc/6QBKh4gF/design-deck-nz-IMNRAB-TI-unsplash.jpg",
+      "https://i.postimg.cc/6QBKh4gF/design-deck-nz-IMNRAB-TI-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 5.0,
     price: 3700,
     oldPrice: 3900,
@@ -2630,7 +2674,8 @@ export const AllProducts = [
     id: 270,
     categories: "xiaomiTablet",
     title: "Xiaomi Tablet Model 1",
-    image: "https://i.postimg.cc/B6fbTvsz/amanz-k-D2-R5-A9-QWc-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/B6fbTvsz/amanz-k-D2-R5-A9-QWc-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 520,
     oldPrice: 650,
@@ -2639,7 +2684,8 @@ export const AllProducts = [
     id: 271,
     categories: "xiaomiTablet",
     title: "Xiaomi Tablet Model 2",
-    image: "https://i.postimg.cc/nhshNmh5/amanz-J1-Nx-Rqa-Npd-Q-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/nhshNmh5/amanz-J1-Nx-Rqa-Npd-Q-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 560,
     oldPrice: 690,
@@ -2648,7 +2694,8 @@ export const AllProducts = [
     id: 272,
     categories: "xiaomiTablet",
     title: "Xiaomi Tablet Model 3",
-    image: "https://i.postimg.cc/mk8rWNMx/amanz-O2-AWxnpq1ic-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/mk8rWNMx/amanz-O2-AWxnpq1ic-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 600,
     oldPrice: 720,
@@ -2658,7 +2705,7 @@ export const AllProducts = [
     categories: "xiaomiTablet",
     title: "Xiaomi Tablet Model 4",
     image:
-      "https://i.postimg.cc/yNcY8z9y/andrey-matveev-sn-SCyh-Ho-CLY-unsplash.jpg",
+      "https://i.postimg.cc/yNcY8z9y/andrey-matveev-sn-SCyh-Ho-CLY-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 480,
     oldPrice: 590,
@@ -2668,7 +2715,7 @@ export const AllProducts = [
     categories: "xiaomiTablet",
     title: "Xiaomi Tablet Model 5",
     image:
-      "https://i.postimg.cc/6pT8wSYM/daniel-romero-6e9-EOslc-BIs-unsplash.jpg",
+      "https://i.postimg.cc/6pT8wSYM/daniel-romero-6e9-EOslc-BIs-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 640,
     oldPrice: 760,
@@ -2678,7 +2725,7 @@ export const AllProducts = [
     categories: "xiaomiTablet",
     title: "Xiaomi Tablet Model 6",
     image:
-      "https://i.postimg.cc/pVZrjxS0/daniel-romero-B4hnt-JMwyu-M-unsplash.jpg",
+      "https://i.postimg.cc/pVZrjxS0/daniel-romero-B4hnt-JMwyu-M-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 550,
     oldPrice: 670,
@@ -2688,7 +2735,7 @@ export const AllProducts = [
     categories: "xiaomiTablet",
     title: "Xiaomi Tablet Model 7",
     image:
-      "https://i.postimg.cc/Z5gCqcQ4/daniel-romero-mn-Rr8o5jgk-unsplash.jpg",
+      "https://i.postimg.cc/Z5gCqcQ4/daniel-romero-mn-Rr8o5jgk-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 620,
     oldPrice: 730,
@@ -2698,7 +2745,7 @@ export const AllProducts = [
     categories: "xiaomiTablet",
     title: "Xiaomi Tablet Model 8",
     image:
-      "https://i.postimg.cc/d19sGm57/david-svihovec-MEYLz0o9bu-I-unsplash.jpg",
+      "https://i.postimg.cc/d19sGm57/david-svihovec-MEYLz0o9bu-I-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 510,
     oldPrice: 640,
@@ -2708,7 +2755,7 @@ export const AllProducts = [
     categories: "xiaomiTablet",
     title: "Xiaomi Tablet Model 9",
     image:
-      "https://i.postimg.cc/85d5tVzz/francois-hoang-g-YVNv-Ryg-CUw-unsplash.jpg",
+      "https://i.postimg.cc/85d5tVzz/francois-hoang-g-YVNv-Ryg-CUw-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 700,
     oldPrice: 820,
@@ -2718,7 +2765,7 @@ export const AllProducts = [
     categories: "xiaomiTablet",
     title: "Xiaomi Tablet Model 10",
     image:
-      "https://i.postimg.cc/g2f2p0w0/lee-luis-f8-Tr-ZOu-Jp6-U-unsplash.jpg",
+      "https://i.postimg.cc/g2f2p0w0/lee-luis-f8-Tr-ZOu-Jp6-U-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 560,
     oldPrice: 680,
@@ -2728,7 +2775,7 @@ export const AllProducts = [
     categories: "xiaomiTablet",
     title: "Xiaomi Tablet Model 11",
     image:
-      "https://i.postimg.cc/d1FQ7SjP/lluvia-morales-1-Gpp-UFzh-T24-unsplash.jpg",
+      "https://i.postimg.cc/d1FQ7SjP/lluvia-morales-1-Gpp-UFzh-T24-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 590,
     oldPrice: 710,
@@ -2737,7 +2784,8 @@ export const AllProducts = [
     id: 281,
     categories: "xiaomiTablet",
     title: "Xiaomi Tablet Model 12",
-    image: "https://i.postimg.cc/SRTmvQFk/max-bvp-y-Evyu-W-Xqu0-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/SRTmvQFk/max-bvp-y-Evyu-W-Xqu0-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 520,
     oldPrice: 640,
@@ -2747,7 +2795,7 @@ export const AllProducts = [
     categories: "xiaomiTablet",
     title: "Xiaomi Tablet Model 13",
     image:
-      "https://i.postimg.cc/X7srR3cZ/max-schneider-5-Ja-N7r-Zh1ik-unsplash.jpg",
+      "https://i.postimg.cc/X7srR3cZ/max-schneider-5-Ja-N7r-Zh1ik-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 550,
     oldPrice: 670,
@@ -2757,7 +2805,7 @@ export const AllProducts = [
     categories: "xiaomiTablet",
     title: "Xiaomi Tablet Model 14",
     image:
-      "https://i.postimg.cc/sxDVmQLT/miguel-tomas-As-Tr-XHXDWKw-unsplash.jpg",
+      "https://i.postimg.cc/sxDVmQLT/miguel-tomas-As-Tr-XHXDWKw-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 690,
     oldPrice: 810,
@@ -2766,7 +2814,8 @@ export const AllProducts = [
     id: 284,
     categories: "xiaomiTablet",
     title: "Xiaomi Tablet Model 15",
-    image: "https://i.postimg.cc/Bbqvzwjc/onur-binay-WJQYRbg-RLk-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/Bbqvzwjc/onur-binay-WJQYRbg-RLk-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 560,
     oldPrice: 680,
@@ -2776,7 +2825,7 @@ export const AllProducts = [
     categories: "xiaomiTablet",
     title: "Xiaomi Tablet Model 16",
     image:
-      "https://i.postimg.cc/NfsyCLTq/roberto-nickson-h-Lg-Yt-X0r-Pgw-unsplash.jpg",
+      "https://i.postimg.cc/NfsyCLTq/roberto-nickson-h-Lg-Yt-X0r-Pgw-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 620,
     oldPrice: 740,
@@ -2786,7 +2835,7 @@ export const AllProducts = [
     categories: "xiaomiTablet",
     title: "Xiaomi Tablet Model 17",
     image:
-      "https://i.postimg.cc/fTqbHCDm/samsung-memory-JDFtu-XWnz-AY-unsplash.jpg",
+      "https://i.postimg.cc/fTqbHCDm/samsung-memory-JDFtu-XWnz-AY-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 530,
     oldPrice: 650,
@@ -2796,7 +2845,7 @@ export const AllProducts = [
     categories: "xiaomiTablet",
     title: "Xiaomi Tablet Model 18",
     image:
-      "https://i.postimg.cc/bNwJHWcq/sanjeev-mohindra-ae-SSYYWY27w-unsplash.jpg",
+      "https://i.postimg.cc/bNwJHWcq/sanjeev-mohindra-ae-SSYYWY27w-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 560,
     oldPrice: 690,
@@ -2805,7 +2854,8 @@ export const AllProducts = [
     id: 288,
     categories: "xiaomiTablet",
     title: "Xiaomi Tablet Model 19",
-    image: "https://i.postimg.cc/tgx7n60P/tron-le-Dpz-LVRMNwc-Y-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/tgx7n60P/tron-le-Dpz-LVRMNwc-Y-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 610,
     oldPrice: 740,
@@ -2817,7 +2867,7 @@ export const AllProducts = [
     categories: "iPad",
     title: "iPad Model 1",
     image:
-      "https://i.postimg.cc/Pf4cnFLp/ayush-kumar-be-Jx-O3-Rk4-A4-unsplash.jpg",
+      "https://i.postimg.cc/Pf4cnFLp/ayush-kumar-be-Jx-O3-Rk4-A4-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 890,
     oldPrice: 990,
@@ -2827,7 +2877,7 @@ export const AllProducts = [
     categories: "iPad",
     title: "iPad Model 2",
     image:
-      "https://i.postimg.cc/3xybp8tm/ayush-kumar-OLm77n-Xl-e-I-unsplash.jpg",
+      "https://i.postimg.cc/3xybp8tm/ayush-kumar-OLm77n-Xl-e-I-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 920,
     oldPrice: 1040,
@@ -2837,7 +2887,7 @@ export const AllProducts = [
     categories: "iPad",
     title: "iPad Model 3",
     image:
-      "https://i.postimg.cc/JhkvwrJM/christine-sandu-9jzojl-OBg-Ro-unsplash.jpg",
+      "https://i.postimg.cc/JhkvwrJM/christine-sandu-9jzojl-OBg-Ro-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 880,
     oldPrice: 970,
@@ -2847,7 +2897,7 @@ export const AllProducts = [
     categories: "iPad",
     title: "iPad Model 4",
     image:
-      "https://i.postimg.cc/NM8nMdpn/collin-wigger-d-Ytht8-Z6aq-U-unsplash.jpg",
+      "https://i.postimg.cc/NM8nMdpn/collin-wigger-d-Ytht8-Z6aq-U-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 950,
     oldPrice: 1080,
@@ -2857,7 +2907,7 @@ export const AllProducts = [
     categories: "iPad",
     title: "iPad Model 5",
     image:
-      "https://i.postimg.cc/WbNBDPRw/danett-cansino-jn-KKJz-M9-FFI-unsplash.jpg",
+      "https://i.postimg.cc/WbNBDPRw/danett-cansino-jn-KKJz-M9-FFI-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 910,
     oldPrice: 1030,
@@ -2867,7 +2917,7 @@ export const AllProducts = [
     categories: "iPad",
     title: "iPad Model 6",
     image:
-      "https://i.postimg.cc/br8KH7Z8/daniel-romero-4-4i8-Je-IXI-unsplash.jpg",
+      "https://i.postimg.cc/br8KH7Z8/daniel-romero-4-4i8-Je-IXI-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 870,
     oldPrice: 960,
@@ -2877,7 +2927,7 @@ export const AllProducts = [
     categories: "iPad",
     title: "iPad Model 7",
     image:
-      "https://i.postimg.cc/50JPZwbS/daniel-romero-d-Ct-BE8h7l-ZY-unsplash.jpg",
+      "https://i.postimg.cc/50JPZwbS/daniel-romero-d-Ct-BE8h7l-ZY-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 940,
     oldPrice: 1060,
@@ -2887,7 +2937,7 @@ export const AllProducts = [
     categories: "iPad",
     title: "iPad Model 8",
     image:
-      "https://i.postimg.cc/YqCPrfgX/daniel-romero-kp9-L5wv9z1-A-unsplash.jpg",
+      "https://i.postimg.cc/YqCPrfgX/daniel-romero-kp9-L5wv9z1-A-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 930,
     oldPrice: 1050,
@@ -2897,7 +2947,7 @@ export const AllProducts = [
     categories: "iPad",
     title: "iPad Model 9",
     image:
-      "https://i.postimg.cc/8zsxHBzF/devon-janse-van-rensburg-q2ov6-QBml-Bc-unsplash.jpg",
+      "https://i.postimg.cc/8zsxHBzF/devon-janse-van-rensburg-q2ov6-QBml-Bc-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 900,
     oldPrice: 1000,
@@ -2907,7 +2957,7 @@ export const AllProducts = [
     categories: "iPad",
     title: "iPad Model 10",
     image:
-      "https://i.postimg.cc/xT6WMFnD/i-m-zion-y-Yd-R7-JV9-IL4-unsplash.jpg",
+      "https://i.postimg.cc/xT6WMFnD/i-m-zion-y-Yd-R7-JV9-IL4-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 960,
     oldPrice: 1100,
@@ -2917,7 +2967,7 @@ export const AllProducts = [
     categories: "iPad",
     title: "iPad Model 11",
     image:
-      "https://i.postimg.cc/hvP2GcJJ/jaime-marrero-z-Ix-U7-Oh-YL-s-unsplash.jpg",
+      "https://i.postimg.cc/hvP2GcJJ/jaime-marrero-z-Ix-U7-Oh-YL-s-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 980,
     oldPrice: 1120,
@@ -2927,7 +2977,7 @@ export const AllProducts = [
     categories: "iPad",
     title: "iPad Model 12",
     image:
-      "https://i.postimg.cc/Y9xXkhSK/jaime-marrero-z-Ix-U7-Oh-YL-s-unsplash-1.jpg",
+      "https://i.postimg.cc/Y9xXkhSK/jaime-marrero-z-Ix-U7-Oh-YL-s-unsplash-1.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 970,
     oldPrice: 1090,
@@ -2937,7 +2987,7 @@ export const AllProducts = [
     categories: "iPad",
     title: "iPad Model 13",
     image:
-      "https://i.postimg.cc/zvj4dxhh/kerde-severin-2-EPBih-Fo-WW8-unsplash.jpg",
+      "https://i.postimg.cc/zvj4dxhh/kerde-severin-2-EPBih-Fo-WW8-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 890,
     oldPrice: 980,
@@ -2946,7 +2996,8 @@ export const AllProducts = [
     id: 302,
     categories: "iPad",
     title: "iPad Model 14",
-    image: "https://i.postimg.cc/tgWSSrQg/macro-jr-6jfpu-C5d9-Js-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/tgWSSrQg/macro-jr-6jfpu-C5d9-Js-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 860,
     oldPrice: 940,
@@ -2956,7 +3007,7 @@ export const AllProducts = [
     categories: "iPad",
     title: "iPad Model 15",
     image:
-      "https://i.postimg.cc/L5CNYwfx/mukul-wadhwa-Uq8wqsbd7-Wk-unsplash.jpg",
+      "https://i.postimg.cc/L5CNYwfx/mukul-wadhwa-Uq8wqsbd7-Wk-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 990,
     oldPrice: 1150,
@@ -2966,7 +3017,7 @@ export const AllProducts = [
     categories: "iPad",
     title: "iPad Model 16",
     image:
-      "https://i.postimg.cc/y8wpyMG5/mukul-wadhwa-Xqq-Pay45gh-Y-unsplash.jpg",
+      "https://i.postimg.cc/y8wpyMG5/mukul-wadhwa-Xqq-Pay45gh-Y-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 940,
     oldPrice: 1060,
@@ -2976,7 +3027,7 @@ export const AllProducts = [
     categories: "iPad",
     title: "iPad Model 17",
     image:
-      "https://i.postimg.cc/RFwktSVX/oguz-yagiz-kara-DDDILp-SLl-NY-unsplash.jpg",
+      "https://i.postimg.cc/RFwktSVX/oguz-yagiz-kara-DDDILp-SLl-NY-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 950,
     oldPrice: 1070,
@@ -2986,7 +3037,7 @@ export const AllProducts = [
     categories: "iPad",
     title: "iPad Model 18",
     image:
-      "https://i.postimg.cc/1X9jNDd3/oleg-ivanov-OZt-ZJce-FLr-E-unsplash.jpg",
+      "https://i.postimg.cc/1X9jNDd3/oleg-ivanov-OZt-ZJce-FLr-E-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 970,
     oldPrice: 1100,
@@ -2996,7 +3047,7 @@ export const AllProducts = [
     categories: "iPad",
     title: "iPad Model 19",
     image:
-      "https://i.postimg.cc/QxC6GNGw/onur-binay-t-VYUBke-PQcc-unsplash.jpg",
+      "https://i.postimg.cc/QxC6GNGw/onur-binay-t-VYUBke-PQcc-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 960,
     oldPrice: 1080,
@@ -3006,7 +3057,7 @@ export const AllProducts = [
     categories: "iPad",
     title: "iPad Model 20",
     image:
-      "https://i.postimg.cc/BZBWQnzv/rafael-martins-rc-Ac8-Lmr3-Fg-unsplash.jpg",
+      "https://i.postimg.cc/BZBWQnzv/rafael-martins-rc-Ac8-Lmr3-Fg-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 5.0,
     price: 1000,
     oldPrice: 1150,
@@ -3016,7 +3067,7 @@ export const AllProducts = [
     categories: "iPad",
     title: "iPad Model 21",
     image:
-      "https://i.postimg.cc/8PX0jJmT/sanjeev-mohindra-ADilx-PQe-Wc-I-unsplash.jpg",
+      "https://i.postimg.cc/8PX0jJmT/sanjeev-mohindra-ADilx-PQe-Wc-I-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 930,
     oldPrice: 1040,
@@ -3026,7 +3077,7 @@ export const AllProducts = [
     categories: "iPad",
     title: "iPad Model 22",
     image:
-      "https://i.postimg.cc/BZMhVLy2/sebastiaan-chia-hvv-IPE-b-Oa-U-unsplash.jpg",
+      "https://i.postimg.cc/BZMhVLy2/sebastiaan-chia-hvv-IPE-b-Oa-U-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 980,
     oldPrice: 1110,
@@ -3036,7 +3087,7 @@ export const AllProducts = [
     categories: "iPad",
     title: "iPad Model 23",
     image:
-      "https://i.postimg.cc/BbMw5XWc/triyansh-gill-RE5-7-Z8f-Xo-E-unsplash.jpg",
+      "https://i.postimg.cc/BbMw5XWc/triyansh-gill-RE5-7-Z8f-Xo-E-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 990,
     oldPrice: 1120,
@@ -3046,7 +3097,7 @@ export const AllProducts = [
     categories: "iPad",
     title: "iPad Model 24",
     image:
-      "https://i.postimg.cc/Z5g2DBWw/varun-yadav-q-KTyx4-YT-YM-unsplash.jpg",
+      "https://i.postimg.cc/Z5g2DBWw/varun-yadav-q-KTyx4-YT-YM-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 5.0,
     price: 1050,
     oldPrice: 1180,
@@ -3058,7 +3109,7 @@ export const AllProducts = [
     categories: "desktop",
     title: "Desktop Model 1",
     image:
-      "https://i.postimg.cc/QCFWSdHZ/annie-spratt-Bgft5-KNieb-U-unsplash.jpg",
+      "https://i.postimg.cc/QCFWSdHZ/annie-spratt-Bgft5-KNieb-U-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 950,
     oldPrice: 1100,
@@ -3068,7 +3119,7 @@ export const AllProducts = [
     categories: "desktop",
     title: "Desktop Model 2",
     image:
-      "https://i.postimg.cc/Dz5JTXGK/annie-spratt-HQELjyw-FAok-unsplash.jpg",
+      "https://i.postimg.cc/Dz5JTXGK/annie-spratt-HQELjyw-FAok-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 1020,
     oldPrice: 1170,
@@ -3078,7 +3129,7 @@ export const AllProducts = [
     categories: "desktop",
     title: "Desktop Model 3",
     image:
-      "https://i.postimg.cc/q7HXRygh/annie-spratt-Iahd-FWp1-BJI-unsplash.jpg",
+      "https://i.postimg.cc/q7HXRygh/annie-spratt-Iahd-FWp1-BJI-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 980,
     oldPrice: 1120,
@@ -3088,7 +3139,7 @@ export const AllProducts = [
     categories: "desktop",
     title: "Desktop Model 4",
     image:
-      "https://i.postimg.cc/KYmkwNRN/annie-spratt-JTXzw8-oc-P4-unsplash.jpg",
+      "https://i.postimg.cc/KYmkwNRN/annie-spratt-JTXzw8-oc-P4-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 5.0,
     price: 1250,
     oldPrice: 1390,
@@ -3098,7 +3149,7 @@ export const AllProducts = [
     categories: "desktop",
     title: "Desktop Model 5",
     image:
-      "https://i.postimg.cc/vBcW2zNK/annie-spratt-Lkatwszb-Yj-A-unsplash.jpg",
+      "https://i.postimg.cc/vBcW2zNK/annie-spratt-Lkatwszb-Yj-A-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 890,
     oldPrice: 1020,
@@ -3108,7 +3159,7 @@ export const AllProducts = [
     categories: "desktop",
     title: "Desktop Model 6",
     image:
-      "https://i.postimg.cc/G3fDtG5L/annie-spratt-u-M4-B3na-HEo-unsplash.jpg",
+      "https://i.postimg.cc/G3fDtG5L/annie-spratt-u-M4-B3na-HEo-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 970,
     oldPrice: 1080,
@@ -3118,7 +3169,7 @@ export const AllProducts = [
     categories: "desktop",
     title: "Desktop Model 7",
     image:
-      "https://i.postimg.cc/CKMCkYHS/carl-heyerdahl-KE0n-C8-58-MQ-unsplash.jpg",
+      "https://i.postimg.cc/CKMCkYHS/carl-heyerdahl-KE0n-C8-58-MQ-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 1190,
     oldPrice: 1320,
@@ -3128,7 +3179,7 @@ export const AllProducts = [
     categories: "desktop",
     title: "Desktop Model 8",
     image:
-      "https://i.postimg.cc/wBWXkP0J/daniel-eliashevskyi-a-Tg26-S0-OC0-unsplash.jpg",
+      "https://i.postimg.cc/wBWXkP0J/daniel-eliashevskyi-a-Tg26-S0-OC0-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 1050,
     oldPrice: 1180,
@@ -3138,7 +3189,7 @@ export const AllProducts = [
     categories: "desktop",
     title: "Desktop Model 9",
     image:
-      "https://i.postimg.cc/MKcymdQf/domenico-loia-h-GV2-Tf-Oh0ns-unsplash.jpg",
+      "https://i.postimg.cc/MKcymdQf/domenico-loia-h-GV2-Tf-Oh0ns-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 1120,
     oldPrice: 1260,
@@ -3147,7 +3198,8 @@ export const AllProducts = [
     id: 322,
     categories: "desktop",
     title: "Desktop Model 10",
-    image: "https://i.postimg.cc/qMYxP9TG/hana-4mpn4-AWt7-SM-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/qMYxP9TG/hana-4mpn4-AWt7-SM-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 940,
     oldPrice: 1060,
@@ -3157,7 +3209,7 @@ export const AllProducts = [
     categories: "desktop",
     title: "Desktop Model 11",
     image:
-      "https://i.postimg.cc/gcsMTSjM/hillary-black-Pd1-QMqk-GPXU-unsplash.jpg",
+      "https://i.postimg.cc/gcsMTSjM/hillary-black-Pd1-QMqk-GPXU-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 990,
     oldPrice: 1130,
@@ -3167,7 +3219,7 @@ export const AllProducts = [
     categories: "desktop",
     title: "Desktop Model 12",
     image:
-      "https://i.postimg.cc/GtmjRRtX/jay-wennington-0r1o-Tvx3d-TY-unsplash.jpg",
+      "https://i.postimg.cc/GtmjRRtX/jay-wennington-0r1o-Tvx3d-TY-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 5.0,
     price: 1300,
     oldPrice: 1450,
@@ -3177,7 +3229,7 @@ export const AllProducts = [
     categories: "desktop",
     title: "Desktop Model 13",
     image:
-      "https://i.postimg.cc/Vs2FTx1W/john-wayne-hill-0v-OJEe-BH9bs-unsplash.jpg",
+      "https://i.postimg.cc/Vs2FTx1W/john-wayne-hill-0v-OJEe-BH9bs-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 1080,
     oldPrice: 1210,
@@ -3187,7 +3239,7 @@ export const AllProducts = [
     categories: "desktop",
     title: "Desktop Model 14",
     image:
-      "https://i.postimg.cc/L4gtzxfY/linus-mimietz-gvpt-Kmonylk-unsplash.jpg",
+      "https://i.postimg.cc/L4gtzxfY/linus-mimietz-gvpt-Kmonylk-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 1220,
     oldPrice: 1360,
@@ -3196,7 +3248,8 @@ export const AllProducts = [
     id: 327,
     categories: "desktop",
     title: "Desktop Model 15",
-    image: "https://i.postimg.cc/j5ZzZ1cP/max-andrey-8-2-YWKt8-Ag-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/j5ZzZ1cP/max-andrey-8-2-YWKt8-Ag-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 980,
     oldPrice: 1100,
@@ -3206,7 +3259,7 @@ export const AllProducts = [
     categories: "desktop",
     title: "Desktop Model 16",
     image:
-      "https://i.postimg.cc/Gh9jSbZ2/pew-nguyen-l9-KXKu-XSXRc-unsplash.jpg",
+      "https://i.postimg.cc/Gh9jSbZ2/pew-nguyen-l9-KXKu-XSXRc-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 1150,
     oldPrice: 1280,
@@ -3216,7 +3269,7 @@ export const AllProducts = [
     categories: "desktop",
     title: "Desktop Model 17",
     image:
-      "https://i.postimg.cc/cL2kcvC0/sora-sagano-k-Nqe-QAt-Qaf-E-unsplash.jpg",
+      "https://i.postimg.cc/cL2kcvC0/sora-sagano-k-Nqe-QAt-Qaf-E-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 930,
     oldPrice: 1050,
@@ -3226,7 +3279,7 @@ export const AllProducts = [
     categories: "desktop",
     title: "Desktop Model 18",
     image:
-      "https://i.postimg.cc/ncLdb4Qn/unseen-studio-Wvu-Tn-Xz1h-Sc-unsplash.jpg",
+      "https://i.postimg.cc/ncLdb4Qn/unseen-studio-Wvu-Tn-Xz1h-Sc-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 1010,
     oldPrice: 1150,
@@ -3236,7 +3289,8 @@ export const AllProducts = [
     id: 331,
     categories: "headphone",
     title: "Headphone Model 1",
-    image: "https://i.postimg.cc/XJTpcZzM/2h-media-mv-Oh-QZX-LBk-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/XJTpcZzM/2h-media-mv-Oh-QZX-LBk-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 210,
     oldPrice: 260,
@@ -3246,7 +3300,7 @@ export const AllProducts = [
     categories: "headphone",
     title: "Headphone Model 2",
     image:
-      "https://i.postimg.cc/K8JjppHD/adam-birkett-v-ISNAATFXl-E-unsplash.jpg",
+      "https://i.postimg.cc/K8JjppHD/adam-birkett-v-ISNAATFXl-E-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 190,
     oldPrice: 240,
@@ -3256,7 +3310,7 @@ export const AllProducts = [
     categories: "headphone",
     title: "Headphone Model 3",
     image:
-      "https://i.postimg.cc/zB3JQJgJ/andrey-matveev-sozo-YOGrb-Xg-unsplash.jpg",
+      "https://i.postimg.cc/zB3JQJgJ/andrey-matveev-sozo-YOGrb-Xg-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 250,
     oldPrice: 300,
@@ -3265,7 +3319,8 @@ export const AllProducts = [
     id: 334,
     categories: "headphone",
     title: "Headphone Model 4",
-    image: "https://i.postimg.cc/mrmLVchX/arthur-a-Zp-QTAz0-Jc2-E-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/mrmLVchX/arthur-a-Zp-QTAz0-Jc2-E-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 280,
     oldPrice: 330,
@@ -3274,7 +3329,8 @@ export const AllProducts = [
     id: 335,
     categories: "headphone",
     title: "Headphone Model 5",
-    image: "https://i.postimg.cc/kGKDjn02/c-d-x-d-Bwadh-Wa-l-I-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/kGKDjn02/c-d-x-d-Bwadh-Wa-l-I-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 200,
     oldPrice: 240,
@@ -3284,7 +3340,7 @@ export const AllProducts = [
     categories: "headphone",
     title: "Headphone Model 6",
     image:
-      "https://i.postimg.cc/Y2W423vt/dan-farrell-Fn-R2-U1l-Xs-BQ-unsplash.jpg",
+      "https://i.postimg.cc/Y2W423vt/dan-farrell-Fn-R2-U1l-Xs-BQ-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.4,
     price: 175,
     oldPrice: 220,
@@ -3294,7 +3350,7 @@ export const AllProducts = [
     categories: "headphone",
     title: "Headphone Model 7",
     image:
-      "https://i.postimg.cc/vH7cfZ7j/ervo-rocks-Zam8-Tv-Eg-N5o-unsplash.jpg",
+      "https://i.postimg.cc/vH7cfZ7j/ervo-rocks-Zam8-Tv-Eg-N5o-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 320,
     oldPrice: 380,
@@ -3304,7 +3360,7 @@ export const AllProducts = [
     categories: "headphone",
     title: "Headphone Model 8",
     image:
-      "https://i.postimg.cc/yY0SjPKL/howard-bouchevereau-5ba6j8d-o-XY-unsplash.jpg",
+      "https://i.postimg.cc/yY0SjPKL/howard-bouchevereau-5ba6j8d-o-XY-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 260,
     oldPrice: 310,
@@ -3314,7 +3370,7 @@ export const AllProducts = [
     categories: "headphone",
     title: "Headphone Model 9",
     image:
-      "https://i.postimg.cc/XqCnVQLm/kreeson-naraidoo-Dwz-Cmllk3w-unsplash.jpg",
+      "https://i.postimg.cc/XqCnVQLm/kreeson-naraidoo-Dwz-Cmllk3w-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 295,
     oldPrice: 340,
@@ -3324,7 +3380,7 @@ export const AllProducts = [
     categories: "headphone",
     title: "Headphone Model 10",
     image:
-      "https://i.postimg.cc/Hkpj21BL/luke-peterson-l-UMj2-Zv5-HUE-unsplash.jpg",
+      "https://i.postimg.cc/Hkpj21BL/luke-peterson-l-UMj2-Zv5-HUE-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 230,
     oldPrice: 280,
@@ -3334,7 +3390,7 @@ export const AllProducts = [
     categories: "headphone",
     title: "Headphone Model 11",
     image:
-      "https://i.postimg.cc/vZzxFZc9/omid-armin-g-SZCLs-E7ysc-unsplash.jpg",
+      "https://i.postimg.cc/vZzxFZc9/omid-armin-g-SZCLs-E7ysc-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 310,
     oldPrice: 360,
@@ -3343,7 +3399,8 @@ export const AllProducts = [
     id: 342,
     categories: "headphone",
     title: "Headphone Model 12",
-    image: "https://i.postimg.cc/gcCZ37Cw/omid-armin-G-GFA2grq-k-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/gcCZ37Cw/omid-armin-G-GFA2grq-k-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 185,
     oldPrice: 230,
@@ -3352,7 +3409,8 @@ export const AllProducts = [
     id: 343,
     categories: "headphone",
     title: "Headphone Model 13",
-    image: "https://i.postimg.cc/XJZrCKxc/petri-r-Qsj-Lj-Efhl-Zg-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/XJZrCKxc/petri-r-Qsj-Lj-Efhl-Zg-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 240,
     oldPrice: 290,
@@ -3362,7 +3420,7 @@ export const AllProducts = [
     categories: "headphone",
     title: "Headphone Model 14",
     image:
-      "https://i.postimg.cc/BZLFL3V9/phuc-khang-mobile-fq6-KYq6-Q16o-unsplash.jpg",
+      "https://i.postimg.cc/BZLFL3V9/phuc-khang-mobile-fq6-KYq6-Q16o-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 225,
     oldPrice: 270,
@@ -3371,7 +3429,8 @@ export const AllProducts = [
     id: 345,
     categories: "headphone",
     title: "Headphone Model 15",
-    image: "https://i.postimg.cc/RF8M5j7w/prashant-Jm-pr52-Rl7-Y-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/RF8M5j7w/prashant-Jm-pr52-Rl7-Y-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.9,
     price: 350,
     oldPrice: 410,
@@ -3381,7 +3440,7 @@ export const AllProducts = [
     categories: "headphone",
     title: "Headphone Model 16",
     image:
-      "https://i.postimg.cc/pdLh2MFS/sam-grozyan-P7-KF3c-TRKc-E-unsplash.jpg",
+      "https://i.postimg.cc/pdLh2MFS/sam-grozyan-P7-KF3c-TRKc-E-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 205,
     oldPrice: 250,
@@ -3391,7 +3450,7 @@ export const AllProducts = [
     categories: "headphone",
     title: "Headphone Model 17",
     image:
-      "https://i.postimg.cc/6Qb7qbVp/sasun-bughdaryan-y2bp-SSu-GR98-unsplash.jpg",
+      "https://i.postimg.cc/6Qb7qbVp/sasun-bughdaryan-y2bp-SSu-GR98-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 270,
     oldPrice: 320,
@@ -3401,7 +3460,7 @@ export const AllProducts = [
     categories: "headphone",
     title: "Headphone Model 18",
     image:
-      "https://i.postimg.cc/NjY2zHfB/servet-photograph-vya2wf-Wcizo-unsplash.jpg",
+      "https://i.postimg.cc/NjY2zHfB/servet-photograph-vya2wf-Wcizo-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 195,
     oldPrice: 240,
@@ -3411,7 +3470,7 @@ export const AllProducts = [
     categories: "headphone",
     title: "Headphone Model 19",
     image:
-      "https://i.postimg.cc/VLPJJCtn/tomasz-gawlowski-YDZPdqv3-Fc-A-unsplash.jpg",
+      "https://i.postimg.cc/VLPJJCtn/tomasz-gawlowski-YDZPdqv3-Fc-A-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 330,
     oldPrice: 390,
@@ -3421,7 +3480,7 @@ export const AllProducts = [
     categories: "headphone",
     title: "Headphone Model 20",
     image:
-      "https://i.postimg.cc/c6G06w5H/yurii-stupen-3t-Gnw-VC7-Cjk-unsplash.jpg",
+      "https://i.postimg.cc/c6G06w5H/yurii-stupen-3t-Gnw-VC7-Cjk-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 300,
     oldPrice: 360,
@@ -3432,7 +3491,7 @@ export const AllProducts = [
     categories: "printer",
     title: "Printer Model 1",
     image:
-      "https://i.postimg.cc/fbvnDkdc/emiliano-vittoriosi-I8s-Wa-XL5ezo-unsplash.jpg",
+      "https://i.postimg.cc/fbvnDkdc/emiliano-vittoriosi-I8s-Wa-XL5ezo-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 480,
     oldPrice: 550,
@@ -3442,7 +3501,7 @@ export const AllProducts = [
     categories: "printer",
     title: "Printer Model 2",
     image:
-      "https://i.postimg.cc/Jh8Vfjs7/filtergrade-o-Py-Acpk-Qch0-unsplash.jpg",
+      "https://i.postimg.cc/Jh8Vfjs7/filtergrade-o-Py-Acpk-Qch0-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 450,
     oldPrice: 520,
@@ -3452,7 +3511,7 @@ export const AllProducts = [
     categories: "printer",
     title: "Printer Model 3",
     image:
-      "https://i.postimg.cc/j58pn9ZC/jakub-zerdzicki-Da9qsu-0a00-unsplash.jpg",
+      "https://i.postimg.cc/j58pn9ZC/jakub-zerdzicki-Da9qsu-0a00-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 500,
     oldPrice: 590,
@@ -3462,7 +3521,7 @@ export const AllProducts = [
     categories: "printer",
     title: "Printer Model 4",
     image:
-      "https://i.postimg.cc/HnVfw2hz/joonas-sild-Qb-On-QQebbj-U-unsplash.jpg",
+      "https://i.postimg.cc/HnVfw2hz/joonas-sild-Qb-On-QQebbj-U-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 420,
     oldPrice: 490,
@@ -3472,7 +3531,7 @@ export const AllProducts = [
     categories: "printer",
     title: "Printer Model 5",
     image:
-      "https://i.postimg.cc/L6rMVcR1/mahrous-houses-5-Ao-Oejj-RUr-A-unsplash.jpg",
+      "https://i.postimg.cc/L6rMVcR1/mahrous-houses-5-Ao-Oejj-RUr-A-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 530,
     oldPrice: 610,
@@ -3482,7 +3541,7 @@ export const AllProducts = [
     categories: "printer",
     title: "Printer Model 6",
     image:
-      "https://i.postimg.cc/65T9cVvD/markus-winkler-l-Xx-Pqwo-Rk-K0-unsplash.jpg",
+      "https://i.postimg.cc/65T9cVvD/markus-winkler-l-Xx-Pqwo-Rk-K0-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 470,
     oldPrice: 540,
@@ -3492,7 +3551,7 @@ export const AllProducts = [
     categories: "printer",
     title: "Printer Model 7",
     image:
-      "https://i.postimg.cc/tJJHryYh/mezidi-zineb-o-u-Kiu-PSnl-Y-unsplash.jpg",
+      "https://i.postimg.cc/tJJHryYh/mezidi-zineb-o-u-Kiu-PSnl-Y-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 600,
     oldPrice: 690,
@@ -3502,7 +3561,7 @@ export const AllProducts = [
     categories: "printer",
     title: "Printer Model 8",
     image:
-      "https://i.postimg.cc/GpndbZ5C/mezidi-zineb-SIPRLRj-Nx94-unsplash.jpg",
+      "https://i.postimg.cc/GpndbZ5C/mezidi-zineb-SIPRLRj-Nx94-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 580,
     oldPrice: 660,
@@ -3512,7 +3571,7 @@ export const AllProducts = [
     categories: "printer",
     title: "Printer Model 9",
     image:
-      "https://i.postimg.cc/RV3BKSrm/national-cancer-institute-KVKz-V0a-Gv2s-unsplash.jpg",
+      "https://i.postimg.cc/RV3BKSrm/national-cancer-institute-KVKz-V0a-Gv2s-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 490,
     oldPrice: 560,
@@ -3521,7 +3580,8 @@ export const AllProducts = [
     id: 360,
     categories: "printer",
     title: "Printer Model 10",
-    image: "https://i.postimg.cc/5t51ynhF/nik-0f-ZGvlq-UBYM-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/5t51ynhF/nik-0f-ZGvlq-UBYM-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 510,
     oldPrice: 580,
@@ -3531,7 +3591,7 @@ export const AllProducts = [
     categories: "printer",
     title: "Printer Model 11",
     image:
-      "https://i.postimg.cc/W1gcY5bf/prasopchok-QH-SAEYJW8-Y-unsplash-1.jpg",
+      "https://i.postimg.cc/W1gcY5bf/prasopchok-QH-SAEYJW8-Y-unsplash-1.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 550,
     oldPrice: 630,
@@ -3541,7 +3601,7 @@ export const AllProducts = [
     categories: "printer",
     title: "Printer Model 12",
     image:
-      "https://i.postimg.cc/Qt03kVx8/projector1-n-BFQcn-Bqeq-Q-unsplash.jpg",
+      "https://i.postimg.cc/Qt03kVx8/projector1-n-BFQcn-Bqeq-Q-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 460,
     oldPrice: 520,
@@ -3551,7 +3611,7 @@ export const AllProducts = [
     categories: "printer",
     title: "Printer Model 13",
     image:
-      "https://i.postimg.cc/3rfhkyc9/stanislav-staritsyn-j7c-Od-Wrb-KUI-unsplash-1.jpg",
+      "https://i.postimg.cc/3rfhkyc9/stanislav-staritsyn-j7c-Od-Wrb-KUI-unsplash-1.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 620,
     oldPrice: 700,
@@ -3560,18 +3620,20 @@ export const AllProducts = [
     id: 364,
     categories: "printer",
     title: "Printer Model 14",
-    image: "https://i.postimg.cc/PxtHw1HV/sumup-f-W0-Tfe-MWsi0-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/PxtHw1HV/sumup-f-W0-Tfe-MWsi0-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 575,
     oldPrice: 650,
   },
 
   // ______________ Scanner __________________
-{
+  {
     id: 365,
     categories: "scanner",
     title: "Scanner Model 1",
-    image: "https://i.postimg.cc/Rq5FHNZP/al-amin-mir-s-UY-XCk-KBzg-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/Rq5FHNZP/al-amin-mir-s-UY-XCk-KBzg-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 420,
     oldPrice: 490,
@@ -3580,7 +3642,8 @@ export const AllProducts = [
     id: 366,
     categories: "scanner",
     title: "Scanner Model 2",
-    image: "https://i.postimg.cc/MZhbD5cL/alan-w-4-Sv-E8x-UKC-4-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/MZhbD5cL/alan-w-4-Sv-E8x-UKC-4-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 400,
     oldPrice: 470,
@@ -3589,7 +3652,8 @@ export const AllProducts = [
     id: 367,
     categories: "scanner",
     title: "Scanner Model 3",
-    image: "https://i.postimg.cc/7Z41vLnM/eduardo-soares-YPo9fd-RM2z8-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/7Z41vLnM/eduardo-soares-YPo9fd-RM2z8-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 450,
     oldPrice: 520,
@@ -3598,7 +3662,8 @@ export const AllProducts = [
     id: 368,
     categories: "scanner",
     title: "Scanner Model 4",
-    image: "https://i.postimg.cc/C5f55jSB/rebalanse-health-devices-OU4nid-Mr-On-I-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/C5f55jSB/rebalanse-health-devices-OU4nid-Mr-On-I-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 480,
     oldPrice: 550,
@@ -3607,7 +3672,8 @@ export const AllProducts = [
     id: 369,
     categories: "scanner",
     title: "Scanner Model 5",
-    image: "https://i.postimg.cc/QdqQjr6L/vagaro-NPq-KSDyd-Y0-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/QdqQjr6L/vagaro-NPq-KSDyd-Y0-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 500,
     oldPrice: 580,
@@ -3616,7 +3682,8 @@ export const AllProducts = [
     id: 370,
     categories: "scanner",
     title: "Scanner Model 6",
-    image: "https://i.postimg.cc/fLPkMHnQ/vecteezy-document-scanner-office-scanner-office-equipment-14538140.jpg",
+    image:
+      "https://i.postimg.cc/fLPkMHnQ/vecteezy-document-scanner-office-scanner-office-equipment-14538140.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 530,
     oldPrice: 600,
@@ -3625,7 +3692,8 @@ export const AllProducts = [
     id: 371,
     categories: "scanner",
     title: "Scanner Model 7",
-    image: "https://i.postimg.cc/rFxGY4xw/vecteezy-document-scanner-office-scanner-office-equipment-14538149.jpg",
+    image:
+      "https://i.postimg.cc/rFxGY4xw/vecteezy-document-scanner-office-scanner-office-equipment-14538149.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 510,
     oldPrice: 590,
@@ -3634,7 +3702,8 @@ export const AllProducts = [
     id: 372,
     categories: "scanner",
     title: "Scanner Model 8",
-    image: "https://i.postimg.cc/3ryFmVwp/wim-van-t-einde-Iq-W4s-XUPu-A-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/3ryFmVwp/wim-van-t-einde-Iq-W4s-XUPu-A-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 550,
     oldPrice: 620,
@@ -3643,7 +3712,8 @@ export const AllProducts = [
     id: 373,
     categories: "scanner",
     title: "Scanner Model 9",
-    image: "https://i.postimg.cc/RV3BKSrm/national-cancer-institute-KVKz-V0a-Gv2s-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/RV3BKSrm/national-cancer-institute-KVKz-V0a-Gv2s-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.5,
     price: 470,
     oldPrice: 540,
@@ -3652,7 +3722,8 @@ export const AllProducts = [
     id: 374,
     categories: "scanner",
     title: "Scanner Model 10",
-    image: "https://i.postimg.cc/5t51ynhF/nik-0f-ZGvlq-UBYM-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/5t51ynhF/nik-0f-ZGvlq-UBYM-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.8,
     price: 520,
     oldPrice: 600,
@@ -3661,7 +3732,8 @@ export const AllProducts = [
     id: 375,
     categories: "scanner",
     title: "Scanner Model 11",
-    image: "https://i.postimg.cc/W1gcY5bf/prasopchok-QH-SAEYJW8-Y-unsplash-1.jpg",
+    image:
+      "https://i.postimg.cc/W1gcY5bf/prasopchok-QH-SAEYJW8-Y-unsplash-1.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 495,
     oldPrice: 560,
@@ -3670,7 +3742,8 @@ export const AllProducts = [
     id: 376,
     categories: "scanner",
     title: "Scanner Model 12",
-    image: "https://i.postimg.cc/Qt03kVx8/projector1-n-BFQcn-Bqeq-Q-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/Qt03kVx8/projector1-n-BFQcn-Bqeq-Q-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 540,
     oldPrice: 620,
@@ -3679,7 +3752,8 @@ export const AllProducts = [
     id: 377,
     categories: "scanner",
     title: "Scanner Model 13",
-    image: "https://i.postimg.cc/3rfhkyc9/stanislav-staritsyn-j7c-Od-Wrb-KUI-unsplash-1.jpg",
+    image:
+      "https://i.postimg.cc/3rfhkyc9/stanislav-staritsyn-j7c-Od-Wrb-KUI-unsplash-1.jpg?w=300&format=webp&quality=80",
     rating: 4.6,
     price: 560,
     oldPrice: 640,
@@ -3688,11 +3762,10 @@ export const AllProducts = [
     id: 378,
     categories: "scanner",
     title: "Scanner Model 14",
-    image: "https://i.postimg.cc/PxtHw1HV/sumup-f-W0-Tfe-MWsi0-unsplash.jpg",
+    image:
+      "https://i.postimg.cc/PxtHw1HV/sumup-f-W0-Tfe-MWsi0-unsplash.jpg?w=300&format=webp&quality=80",
     rating: 4.7,
     price: 580,
     oldPrice: 660,
   },
-
-
 ];

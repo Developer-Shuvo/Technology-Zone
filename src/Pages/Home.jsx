@@ -14,6 +14,7 @@ import FavoriteBrands from "./FavoriteBrands";
 import NewArrival from "./NewArrival";
 import Shop from "./Shop";
 import Banner from "./Banner";
+import { Link } from "react-router";
 
 const Home = () => {
   return (
@@ -21,8 +22,8 @@ const Home = () => {
       {/* ________________Categories Cart____________________ */}
       <section className=" px-4 ">
         <div className="mx-auto mt-8  max-w-screen-xl px-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-4 justify-center items-center text-center">
-          {/* Example Card 1 */}
-          <a
+          {/* Smartphone */}
+          <Link to="/smartPhone"
             className="group bg-white border border-gray-200 shadow-md hover:shadow-lg
              hover:shadow-[#A4CCD9] rounded-lg 
               transition-shadow duration-300 flex flex-col items-center "
@@ -40,10 +41,10 @@ const Home = () => {
             <h1 className="mt-2 mb-3 text-center text-gray-700 font-semibold text-sm ">
               iPhone
             </h1>
-          </a>
+          </Link>
 
-          {/* Example Card 2 */}
-          <a
+          {/* Tablet */}
+          <Link to ="/tablet"
             className="group bg-white border border-gray-200 shadow-md hover:shadow-lg
              hover:shadow-[#A4CCD9] rounded-lg 
               transition-shadow duration-300 flex flex-col items-center "
@@ -61,9 +62,9 @@ const Home = () => {
             <h1 className="mt-2 mb-3 text-center text-gray-700 font-semibold text-sm ">
               Tablet
             </h1>
-          </a>
-          {/* Example Card 3*/}
-          <a
+          </Link>
+          {/* Mac*/}
+          <Link to ="/mac"
             className="group bg-white border border-gray-200 shadow-md hover:shadow-lg
              hover:shadow-[#A4CCD9] rounded-lg 
               transition-shadow duration-300 flex flex-col items-center "
@@ -81,9 +82,9 @@ const Home = () => {
             <h1 className="mt-2 mb-3 text-center text-gray-700 font-semibold text-sm ">
               Mac
             </h1>
-          </a>
-          {/* Example Card 4 */}
-          <a
+          </Link>
+          {/* Laptop */}
+          <Link to ="/laptop"
             className="group bg-white border border-gray-200 shadow-md hover:shadow-lg
              hover:shadow-[#A4CCD9] rounded-lg 
               transition-shadow duration-300 flex flex-col items-center "
@@ -101,9 +102,9 @@ const Home = () => {
             <h1 className="mt-2 mb-3 text-center text-gray-700 font-semibold text-sm ">
               Laptop
             </h1>
-          </a>
-          {/* Example Card 5*/}
-          <a
+          </Link>
+          {/* Smart Watch*/}
+          <Link to ="/smartWatch"
             className="group bg-white border border-gray-200 shadow-md hover:shadow-lg
              hover:shadow-[#A4CCD9] rounded-lg 
               transition-shadow duration-300 flex flex-col items-center "
@@ -121,9 +122,9 @@ const Home = () => {
             <h1 className="mt-2 mb-3 text-center text-gray-700 font-semibold text-sm ">
               Smart Watch
             </h1>
-          </a>
-          {/* Example Card 6*/}
-          <a
+          </Link>
+          {/* Monitor*/}
+          <Link to ="/monitorr"
             className="group bg-white border border-gray-200 shadow-md hover:shadow-lg
              hover:shadow-[#A4CCD9] rounded-lg 
               transition-shadow duration-300 flex flex-col items-center "
@@ -141,9 +142,9 @@ const Home = () => {
             <h1 className="mt-2 mb-3 text-center text-gray-700 font-semibold text-sm ">
               Monitor
             </h1>
-          </a>
-          {/* Example Card 7*/}
-          <a
+          </Link>
+          {/* Headphone*/}
+          <Link to="/headphone"
             className="group bg-white border border-gray-200 shadow-md hover:shadow-lg
              hover:shadow-[#A4CCD9] rounded-lg 
               transition-shadow duration-300 flex flex-col items-center "
@@ -161,9 +162,9 @@ const Home = () => {
             <h1 className="mt-2 mb-3 text-center text-gray-700 font-semibold text-sm ">
               Headphone
             </h1>
-          </a>
-          {/* Example Card 8 */}
-          <a
+          </Link>
+          {/* Accessories */}
+          <Link to="/accessories"
             className="group bg-white border border-gray-200 shadow-md hover:shadow-lg
              hover:shadow-[#A4CCD9] rounded-lg 
               transition-shadow duration-300 flex flex-col items-center "
@@ -181,7 +182,7 @@ const Home = () => {
             <h1 className="mt-2 mb-3 text-center text-gray-700 font-semibold text-sm ">
               Accessories
             </h1>
-          </a>
+          </Link>
         </div>
       </section>
 

@@ -102,7 +102,7 @@ const Sidebar = () => {
   return (
     <div>
       <div class="w-screen ">
-        <div class=" w-80 pb-10">
+        <div class=" w-90 pb-10 ">
           <div class="flex h-full flex-grow flex-col overflow-y-auto ">
             {/* Price Range Field*/}
             <div className="space-y-4 p-4 max-w-sm mx-auto ">
@@ -112,7 +112,7 @@ const Sidebar = () => {
                   <h2 className="font-bold text-gray-700">Price Range</h2>
                   <button className="text-lg">−</button>
                 </div>
-                <div className="p-4">
+                <div className="p-4 ">
                   {/* Range Slider Container */}
                   <div className="relative w-full h-4 flex items-center">
                     {/* Track Background */}

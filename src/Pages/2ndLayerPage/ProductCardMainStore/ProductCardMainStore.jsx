@@ -4,10 +4,10 @@ import { Link } from "react-router";
 
 const ProductCardMainStore = ({ products, title }) => {
   return (
-    <div className="mt-5 mb-40 max-w-[1400px] mx-auto px-4">
+    <div className="mt-5 mb-40 max-w-[1400px] mx-auto px-6">
       <div className="flex w-full">
         {/*___________ Sidebar___________ */}
-        <div className="w-[30%] min-w-[220px] max-w-[350px] mr-6">
+        <div className="w-[30%] min-w-[220px] max-w-[350px]">
           <Sidebar />
         </div>
 
@@ -27,14 +27,17 @@ const ProductCardMainStore = ({ products, title }) => {
                 className="relative w-full overflow-hidden rounded-lg bg-white shadow-md flex-col flex
            hover:shadow-lg hover:shadow-[#A4CCD9] transition transform ease-in-out duration-500 "
               >
-                <div className=" relative overflow-hidden">
-                  <a href="#">
+                {/* Image */}
+                <div className=" relative overflow-hidden ">
+                  <Link to="/detailsPage">
                     <img
                       className="h-[192px] w-full object-cover rounded-t-lg transform transition-transform duration-500 hover:scale-125"
                       src={product.image}
+                      srcSet={`${product.image}?w=300 300w, ${product.image}?w=600 600w, ${product.image}?w=1200 1200w`}
+                      sizes="(max-width: 768px) 300px, (max-width: 1024px) 600px, 1200px"
                       alt="product image"
                     />
-                  </a>
+                  </Link>
                   <span className="absolute top-0 left-0 w-24 translate-y-4 -translate-x-6 -rotate-45 bg-black text-center text-sm text-white">
                     Sale
                   </span>
@@ -42,10 +45,9 @@ const ProductCardMainStore = ({ products, title }) => {
 
                 <div className="flex flex-col justify-between flex-grow px-4 pb-5 pt-4">
                   <div>
-
                     {/*Click & go to Details page */}
                     <Link to="/detailsPage">
-                      <h5 className="borders text-lg font-semibold tracking-tight text-slate-900">
+                      <h5 className=" text-lg font-semibold tracking-tight text-slate-900">
                         {product.title}
                       </h5>
                     </Link>
