@@ -183,10 +183,9 @@ const Shop = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-6 gap-y-14 px-6 lg:px-2 xl:px-0">
         {products.map((product) => (
           // Cards here *****
-
           <div
             key={product.id}
-            className="relative  w-full overflow-hidden rounded-lg bg-white shadow-md flex-col flex
+            className="relative w-full overflow-hidden rounded-lg bg-white shadow-md flex-col flex
            hover:shadow-lg hover:shadow-[#A4CCD9] transition transform ease-in-out duration-500 "
           >
             <div className="relative overflow-hidden">
@@ -205,7 +204,7 @@ const Shop = () => {
             <div className="flex flex-col justify-between flex-grow px-4 pb-5 pt-4">
               <div>
                 <a href="#">
-                  <h5 className="text-lg font-semibold tracking-tight text-slate-900">
+                  <h5 className="text-sm sm:text-lg font-semibold tracking-tight text-slate-900">
                     {product.title}
                   </h5>
                 </a>
@@ -217,7 +216,7 @@ const Shop = () => {
                   {[...Array(5)].map((_, i) => (
                     <svg
                       key={i}
-                      className={`h-4 w-4 ${
+                      className={`h-3 w-3 sm:h-4 sm:w-4 ${
                         i < Math.round(product.rating)
                           ? "text-yellow-300"
                           : "text-gray-300"
@@ -233,18 +232,18 @@ const Shop = () => {
 
               <div className="flex items-center justify-between mt-auto">
                 <p>
-                  <span className="text-xl font-bold text-slate-900">
+                  <span className="text-base sm:text-xl font-bold text-slate-900">
                     ${product.price}
                   </span>
-                  <span className="text-sm text-slate-900 line-through ml-2">
+                  <span className="text-xs sm:text-sm text-slate-900 line-through ml-2">
                     ${product.oldPrice}
                   </span>
                 </p>
                 {/* button */}
                 <a
                   href="#"
-                  className="relative inline-flex items-center text-gray-700 font-semibold text-lg 
-    border border-gray-300 rounded px-4 py-1 overflow-hidden
+                  className="relative inline-flex items-center text-gray-700 font-semibold text-sm sm:text-lg 
+    border border-gray-300 rounded px-2 sm:px-4 py-1 overflow-hidden
     transition-colors duration-[800ms] ease-[cubic-bezier(0.25,1,0.5,1)]
     before:absolute before:top-0 before:left-0 before:h-full before:w-0 
     before:bg-gradient-to-r before:from-pink-100 before:to-purple-500 
@@ -254,7 +253,7 @@ const Shop = () => {
                   <span className="relative z-10 flex items-center gap-2 transition-all duration-300">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5"
+                      className="h-4 w-4 sm:h-5 sm:w-5"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -275,9 +274,11 @@ const Shop = () => {
         ))}
       </div>
       <a href="#">
-        <button className="bg-[#C4E1E6] text-base font-semibold py-2 px-4
+        <button
+          className="bg-[#C4E1E6] text-base font-semibold py-2 px-4
          text-gray-700 rounded-lg mt-12 transition transform 
-         ease-in-out duration-700 hover:bg-[#8DBCC7]">
+         ease-in-out duration-700 hover:bg-[#8DBCC7]"
+        >
           View More
         </button>
       </a>

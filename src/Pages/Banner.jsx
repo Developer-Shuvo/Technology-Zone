@@ -13,7 +13,6 @@ import banner14 from "../assets/images/banner-image/banner-14.jpg?w=800&format=w
 import banner15 from "../assets/images/banner-image/banner-15.jpg?w=800&format=webp&quality=75";
 
 const Banner = () => {
-  // Just put all your middle slider images here
   const middleImages = [
     banner6,
     banner8,
@@ -37,21 +36,11 @@ const Banner = () => {
 
   return (
     <section className="max-w-[1300px] mx-auto py-20 px-4 flex items-center justify-center text-center">
+      {/* Grid Layout */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-        {/* Left Image */}
-        <div className="col-span-1 md:col-span-1 h-[320px]">
-          <img
-            src={banner5}
-            alt="Banner Left"
-            className="w-[300px] lg:w-full xl:w-full h-full object-cover rounded-lg shadow-lg 
-              transition-all duration-300 ease-in-out 
-              transform hover:scale-110 hover:-rotate-2 
-              hover:shadow-2xl hover:shadow-purple-500"
-          />
-        </div>
-
-        {/* Middle Auto Slider */}
-        <div className="col-span-1 sm:col-span-2 md:col-span-2 h-[320px] relative overflow-hidden rounded-lg shadow-lg">
+        
+        {/* Slider Image (always on top for sm, middle for md+) */}
+        <div className="order-1 sm:order-1 md:order-2 col-span-1 sm:col-span-2 md:col-span-2 h-[220px] sm:h-[280px] md:h-[320px] relative overflow-hidden rounded-lg shadow-lg">
           <div
             key={currentIndex}
             className="w-full h-full transition-transform duration-700 ease-in-out"
@@ -62,14 +51,13 @@ const Banner = () => {
             <img
               src={middleImages[currentIndex]}
               alt={`Banner ${currentIndex + 1}`}
-              className="w-[300px] lg:w-full xl:w-full h-full object-cover 
+              className="w-full h-full object-cover 
                 transform transition-transform duration-700 ease-in-out
                 hover:scale-125 hover:rotate-0
                 hover:shadow-2xl hover:shadow-cyan-800"
             />
           </div>
 
-          {/* Slide Animation */}
           <style jsx>{`
             @keyframes slideIn {
               from {
@@ -82,12 +70,24 @@ const Banner = () => {
           `}</style>
         </div>
 
+        {/* Left Image */}
+        <div className="order-2 sm:order-2 md:order-1 col-span-1 h-[220px] sm:h-[280px] md:h-[320px]">
+          <img
+            src={banner5}
+            alt="Banner Left"
+            className="w-full h-full object-cover rounded-lg shadow-lg 
+              transition-all duration-300 ease-in-out 
+              transform hover:scale-110 hover:-rotate-2 
+              hover:shadow-2xl hover:shadow-purple-500"
+          />
+        </div>
+
         {/* Right Image */}
-        <div className="col-span-1 md:col-span-1 h-[320px]">
+        <div className="order-3 sm:order-3 md:order-3 col-span-1 h-[220px] sm:h-[280px] md:h-[320px]">
           <img
             src={banner7}
             alt="Banner Right"
-            className="w-[300px] lg:w-full xl:w-full h-full object-cover rounded-lg shadow-lg 
+            className="w-full h-full object-cover rounded-lg shadow-lg 
               transition-all duration-300 ease-in-out 
               transform hover:scale-110 hover:rotate-2 
               hover:shadow-2xl hover:shadow-[#113F67]"
