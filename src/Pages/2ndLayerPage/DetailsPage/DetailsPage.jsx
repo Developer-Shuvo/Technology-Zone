@@ -17,7 +17,7 @@ import shareItem from "../../../assets/images/social-icons/social-media.png";
 const DetailsPage = () => {
   const { id } = useParams();
 
-  const [quantity, setQuantity] = useState(5);
+  const [quantity, setQuantity] = useState(1);
 
   const increase = () => setQuantity((prev) => prev + 1);
   const decrease = () => setQuantity((prev) => (prev > 1 ? prev - 1 : 1));

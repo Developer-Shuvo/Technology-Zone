@@ -1,15 +1,19 @@
-
 import Sidebar from "../Phone/Sidebar/Sidebar";
 import { Link } from "react-router";
 import { AllProducts } from "../../AllProducts/AllProducts";
 
-const ProductCardMainStore = ({ products, title }) => {
+const ProductCardMainStore = ({ products, title, hideSidebar }) => {
   return (
     <div className="mt-5 mb-40 max-w-[1400px] mx-auto px-6">
       <div className="flex w-full">
         {/*___________ Sidebar___________ */}
+
         <div className="w-[30%] min-w-[220px] max-w-[350px]">
-          <Sidebar />
+          {!hideSidebar && (
+            <div className="w-1/4">
+              <Sidebar />
+            </div>
+          )}
         </div>
 
         {/*_________________ Card Section __________________ */}
@@ -118,15 +122,6 @@ const ProductCardMainStore = ({ products, title }) => {
               </div>
             ))}
           </div>
-          <a href="#">
-            <button
-              className="bg-[#C4E1E6] text-base font-semibold py-2 px-4
-         text-gray-700 rounded-lg mt-12 transition transform 
-         ease-in-out duration-700 hover:bg-[#8DBCC7]"
-            >
-              View More
-            </button>
-          </a>
         </div>
       </div>
     </div>
