@@ -1,6 +1,7 @@
-import React from "react";
+
 import Sidebar from "../Phone/Sidebar/Sidebar";
 import { Link } from "react-router";
+import { AllProducts } from "../../AllProducts/AllProducts";
 
 const ProductCardMainStore = ({ products, title }) => {
   return (
@@ -29,7 +30,8 @@ const ProductCardMainStore = ({ products, title }) => {
               >
                 {/* Image */}
                 <div className=" relative overflow-hidden ">
-                  <Link to="/detailsPage">
+                  {/* এখানে প্রত্যেক টা প্রোডাক্ট এর আইডি কে ডায়নামিকালি যুক্ত করলাম, এখানে চাপ দিলে ডিটেইলস পেইজে যাবে */}
+                  <Link to={`/detailsPage/${product.id}`}>
                     <img
                       className="h-[192px] w-full object-cover rounded-t-lg transform transition-transform duration-500 hover:scale-125"
                       src={product.image}

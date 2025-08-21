@@ -374,7 +374,7 @@ const router = createBrowserRouter([
 
       // Product Details Page__________***
       {
-        path: "/detailsPage",
+        path: "/detailsPage/:id",
         element: <DetailsPage />,
       },
 
