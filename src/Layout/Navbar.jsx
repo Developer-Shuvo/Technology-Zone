@@ -1,7 +1,4 @@
-// // Google Authentication..
-// import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
-// import { auth } from "../Firebase/firebase.init";
-// // Google Authentication..
+
 
 import { Link } from "react-router";
 import trolley from "../assets/images/trolley.png";
@@ -12,20 +9,6 @@ import home from "../assets/images/favicon/home2.png";
 
 const Navbar = () => {
   const [searchField, setSearchField] = useState(false);
-
-  // Google sign in ***
-  // const provider = new GoogleAuthProvider();
-
-  // const handleGoogleSignIn =()=>{
-  //   signInWithPopup(auth, provider)
-  //   .then(result =>{
-  //     console.log (result);
-  //   })
-
-  //   .catch(error =>{
-  //     console.log (error, 'ERROR')
-  //   })
-  // }
 
   return (
     <>

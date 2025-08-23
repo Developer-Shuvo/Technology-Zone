@@ -74,10 +74,10 @@ const ProductCardMainStore = ({ products, title, hideSidebar, isHomePage }) => {
                 </div>
 
                 {/* Title */}
-                <div className="px-4 pt-1 md:pt-2 lg:pt-2 xl:pt-3">
+                <div className="px-2 pt-2 md:pt-2 lg:pt-3 xl:pt-4 ">
                   <Link to={`/detailsPage/${product.id}`}>
                     <h5
-                      className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-semibold 
+                      className="text-sm sm:text-sm md:text-base lg:text-lg xl:text-xl font-semibold 
                    tracking-tight text-slate-900 line-clamp-2"
                     >
                       {product.title}
@@ -88,14 +88,14 @@ const ProductCardMainStore = ({ products, title, hideSidebar, isHomePage }) => {
                 {/* Body */}
                 <div className="flex flex-col justify-between flex-grow px-1 md:px-2 lg:px-2 xl:px-4 pb-5 pt-2">
                   {/* Rating */}
-                  <div className="flex items-center mt-1 lg:mt-2 xl:mt-2">
-                    <span className="mr-2 rounded bg-yellow-200 px-1 lg:px-2 xl:px-3 py-0.5 text-xs sm:text-sm font-medium sm:font-semibold">
+                  <div className="flex  items-center mt-1 lg:mt-2 xl:mt-2  px-2 md:px-0 lg:px-0 xl:px-0">
+                    <span className="mr-2 rounded bg-yellow-200 px-1 lg:px-3 xl:px-3 py-0.5 text-xs sm:text-sm md:text-base lg:text-base xl:text-lg font-medium sm:font-semibold">
                       {product.rating}
                     </span>
                     {[...Array(5)].map((_, i) => (
                       <svg
                         key={i}
-                        className={`h-4 w-4 sm:h-5 sm:w-5 ${
+                        className={`h-4 w-4 sm:h-5 sm:w-5  ${
                           i < Math.round(product.rating)
                             ? "text-yellow-400"
                             : "text-gray-300"
@@ -117,7 +117,7 @@ const ProductCardMainStore = ({ products, title, hideSidebar, isHomePage }) => {
                   </div>
 
                   {/* Price + Button */}
-                  <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mt-2 lg:mt-4 gap-2 sm:gap-0">
+                  <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mt-[2px] lg:mt-4 gap-2 sm:gap-0">
                     {/* Price Section */}
                     <div className="flex flex-col sm:flex-row sm:items-center sm:gap-2">
                       <span className="text-lg  lg:text-xl font-bold text-slate-900">
@@ -131,10 +131,10 @@ const ProductCardMainStore = ({ products, title, hideSidebar, isHomePage }) => {
                     {/* Add to Cart Button */}
                     <button
                       className="relative inline-flex items-center justify-center 
-                                  gap-1 sm:gap-2 mt-2 sm:mt-0
+                                  gap-1 sm:gap-2  sm:mt-0
                                   text-gray-700 font-medium 
                                   text-sm md:text-base
-                                  border border-gray-300 rounded-md 
+                                  border border-gray-300 rounded 
                                   px-3 sm:px-4 py-1.5 sm:py-2
                                   overflow-hidden transition-all duration-500
                                   before:absolute before:top-0 before:left-0 before:h-full before:w-0 

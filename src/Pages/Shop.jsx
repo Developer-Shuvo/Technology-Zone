@@ -5,7 +5,6 @@ import ProductCardMainStore from "./2ndLayerPage/ProductCardMainStore/ProductCar
 const Shop = () => {
   const [products, setProducts] = useState([]);
   const [visibleCount, setVisibleCount] = useState(20);
-  const [showAll, setShowAll] = useState(false);
 
   useEffect(() => {
     const allCategories = [
@@ -37,9 +36,9 @@ const Shop = () => {
     setProducts(allProducts);
   }, []);
 
+  // ✅ Load more 20 each click
   const handleViewMore = () => {
-    setShowAll(true);
-    setVisibleCount(products.length); // show all products
+    setVisibleCount((prev) => Math.min(prev + 20, products.length));
   };
 
   return (
@@ -52,16 +51,16 @@ const Shop = () => {
         isHomePage={true} // ✅ This makes it full-width + 5 columns
       />
 
-      {/* View All Products Button */}
-      {!showAll && products.length > visibleCount && (
-        <div className="flex justify-center  ">
+      {/* View More Products Button */}
+      {visibleCount < products.length && (
+        <div className="flex justify-center mt-6">
           <button
             onClick={handleViewMore}
             className="bg-[#C4E1E6] text-base font-semibold py-2 px-4
           text-gray-700 rounded transition transform ease-in-out duration-700 
           hover:bg-[#94ccd8] hover:scale-105"
           >
-            View All Products
+            View More Products
           </button>
         </div>
       )}

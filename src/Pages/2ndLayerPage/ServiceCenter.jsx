@@ -5,32 +5,37 @@ const ServiceCenter = () => {
     <div className="bg-[#109fa3] min-h-screen ">
       <div className="max-w-[1300px] mx-auto pt-20  px-4">
         <div className="flex flex-col lg:flex-row justify-center items-center gap-16">
-          {/* Text */}
-          <div className="lg:w-1/2 px-4 lg:text-left">
-            <h1 className="text-white font-extrabold text-3xl lg:text-5xl leading-snug drop-shadow-md">
-              Technology Zone - The Official Service <br /> Center of TECHNOLOGY
-              ZONE
-            </h1>
-            <p className="text-gray-100 mt-4 lg:text-lg font-medium leading-relaxed">
-              Expert Repair for iPhone, MacBook, Samsung, Android & All Your
-              Tech Devices — Fast, Reliable Service with Genuine Parts and
-              Certified Technicians in Dhaka
-            </p>
+     {/* Text Section */}
+<div className="w-full lg:w-1/2 px-4 text-center lg:text-left">
+  {/* Heading */}
+  <h1 className="text-white font-extrabold text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug drop-shadow-md">
+    Technology Zone - The Official Service <br className="hidden md:block" /> 
+    Center of TECHNOLOGY ZONE
+  </h1>
 
-            {/* Buttons */}
-            <div className="flex items-center gap-4 mt-8 flex-wrap">
-              <Link to="#">
-                <button className="bg-white font-semibold text-gray-900 px-6 py-3 rounded-lg shadow-md hover:bg-black hover:text-white transition-all duration-300 hover:scale-105">
-                  WhatsApp
-                </button>
-              </Link>
-              <Link to="#">
-                <button className="bg-white font-semibold text-gray-900 px-6 py-3 rounded-lg shadow-md hover:bg-black hover:text-white transition-all duration-300 hover:scale-105">
-                  Book a Repair
-                </button>
-              </Link>
-            </div>
-          </div>
+  {/* Paragraph */}
+  <p className="text-gray-100 mt-4 text-sm sm:text-base md:text-lg font-medium leading-relaxed">
+    Expert Repair for iPhone, MacBook, Samsung, Android & All Your Tech Devices — 
+    Fast, Reliable Service with Genuine Parts and Certified Technicians in Dhaka
+  </p>
+
+  {/* Buttons */}
+  <div className="flex flex-col sm:flex-row justify-center lg:justify-start items-center gap-4 mt-6 sm:mt-8 flex-wrap">
+    <Link to="#">
+      <button className="bg-white font-semibold text-gray-900 px-6 py-3 rounded-lg shadow-md 
+      hover:bg-black hover:text-white transition-all duration-300 hover:scale-105 w-full sm:w-auto">
+        WhatsApp
+      </button>
+    </Link>
+    <Link to="#">
+      <button className="bg-white font-semibold text-gray-900 px-6 py-3 rounded-lg shadow-md 
+      hover:bg-black hover:text-white transition-all duration-300 hover:scale-105 w-full sm:w-auto">
+        Book a Repair
+      </button>
+    </Link>
+  </div>
+</div>
+
 
           {/* Map */}
           <div className="lg:w-1/2 w-full bg-gray-300 rounded-xl overflow-hidden shadow-xl relative">

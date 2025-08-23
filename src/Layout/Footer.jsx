@@ -159,7 +159,7 @@ const Footer = () => {
 
       {/* All Rights Reserved */}
       <div className="py-6 text-sm text-center text-lime-600">
-        © 2025 <span className="text-orange-600">Developer Shuvo |</span> All
+        © 2025 <span className="text-orange-500">Developer Shuvo </span>| All
         rights reserved.
       </div>
     </footer>

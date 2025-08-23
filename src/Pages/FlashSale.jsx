@@ -11,7 +11,7 @@ import img6 from "../assets/images/Shop/11.jpg?w=300&format=webp&quality=80";
 const FlashSale = () => {
   return (
     // Flash Sale Slide *****
-    <section className="bg-[#F5F5F5] py-28 mt-6">
+    <section className="bg-[#b4adad75] py-28 mt-6 ">
       <div className="mx-auto max-w-[1400px] px-4 sm:px-6 lg:px-10">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-cyan-900 font-bold">
           Flash Sale
@@ -37,7 +37,7 @@ const FlashSale = () => {
           >
             {[...Array(6)].map((_, index) => (
               <SwiperSlide key={index}>
-                <div className="flex flex-col overflow-hidden rounded-lg shadow-md bg-white border-2 border-black">
+                <div className="flex flex-col overflow-hidden rounded shadow-md bg-white border-2 border-gray-500 ">
                   <img
                     src={[img1, img2, img3, img4, img5, img6][index % 5]}
                     className="h-44 sm:h-48 md:h-52 lg:h-56 w-full object-cover"
