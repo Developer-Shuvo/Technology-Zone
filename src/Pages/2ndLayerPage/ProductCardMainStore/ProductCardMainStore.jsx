@@ -5,7 +5,7 @@ import { AllProducts } from "../../AllProducts/AllProducts";
 const ProductCardMainStore = ({ products, title, hideSidebar, isHomePage }) => {
   return (
     <div
-      className={`mt-5 mb-40 mx-auto px-6 ${
+      className={`mt-5 mb-40 mx-auto px-4 ${
         isHomePage ? "max-w-full" : "max-w-[1400px]"
       }`}
     >
@@ -117,27 +117,31 @@ const ProductCardMainStore = ({ products, title, hideSidebar, isHomePage }) => {
                   </div>
 
                   {/* Price + Button */}
-                  <div className="flex items-center justify-between mt-1 md:mt-2 lg:mt-4 xl:mt-4">
-                    {/* Price */}
-                    <p>
-                      <span className="text-sm lg:text-lg xl:text-lg  font-bold text-slate-900">
+                  <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mt-2 lg:mt-4 gap-2 sm:gap-0">
+                    {/* Price Section */}
+                    <div className="flex flex-col sm:flex-row sm:items-center sm:gap-2">
+                      <span className="text-lg  lg:text-xl font-bold text-slate-900">
                         ${product.price}
                       </span>
-                      <span className="text-xs md:text-sm text-slate-500 line-through ml-[2px] lg:ml-2">
+                      <span className="text-xs md:text-sm lg:text-base text-slate-500 line-through">
                         ${product.oldPrice}
                       </span>
-                    </p>
+                    </div>
 
                     {/* Add to Cart Button */}
                     <button
-                      className="relative inline-flex items-center gap-1 sm:gap-2 
-                   text-gray-700 font-medium text-sm sm:text-base
-                   border border-gray-300 rounded-lg px-3 sm:px-4 py-1 sm:py-1.5 
-                   overflow-hidden transition-all duration-500
-                   before:absolute before:top-0 before:left-0 before:h-full before:w-0 
-                   before:bg-gradient-to-r before:from-pink-100 before:to-purple-500 
-                   before:transition-all before:duration-700 
-                   hover:before:w-full hover:text-black z-10 before:z-0"
+                      className="relative inline-flex items-center justify-center 
+                                  gap-1 sm:gap-2 mt-2 sm:mt-0
+                                  text-gray-700 font-medium 
+                                  text-sm md:text-base
+                                  border border-gray-300 rounded-md 
+                                  px-3 sm:px-4 py-1.5 sm:py-2
+                                  overflow-hidden transition-all duration-500
+                                  before:absolute before:top-0 before:left-0 before:h-full before:w-0 
+                                  before:bg-gradient-to-r before:from-pink-100 before:to-purple-500 
+                                  before:transition-all before:duration-700 
+                                  hover:before:w-full hover:text-black 
+                                  z-10 before:z-0"
                     >
                       <span className="relative z-10 flex items-center gap-1 sm:gap-2">
                         <svg
@@ -152,10 +156,10 @@ const ProductCardMainStore = ({ products, title, hideSidebar, isHomePage }) => {
                             strokeLinecap="round"
                             strokeLinejoin="round"
                             d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 
-                 13l-2.293 2.293c-.63.63-.184 1.707.707 
-                 1.707H17m0 0a2 2 0 100 4 2 2 0 
-                 000-4zm-8 2a2 2 0 11-4 0 2 2 0 
-                 014 0z"
+                                13l-2.293 2.293c-.63.63-.184 1.707.707 
+                                1.707H17m0 0a2 2 0 100 4 2 2 0 
+                                000-4zm-8 2a2 2 0 11-4 0 2 2 0 
+                                014 0z"
                           />
                         </svg>
                         Add

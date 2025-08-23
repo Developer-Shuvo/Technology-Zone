@@ -42,24 +42,24 @@ const Shop = () => {
     setVisibleCount(products.length); // show all products
   };
 
-    return (
-    <div className="max-w-[1300px] mx-auto px-4 py-8">
+  return (
+    <div className="max-w-[1400px] mx-auto lg:px-3 xl:px-4 mt-4 ">
       {/* Product Cards */}
       <ProductCardMainStore
         title="All Products"
         products={products.slice(0, visibleCount)}
         hideSidebar={true}
-        isHomePage={true}   // ✅ This makes it full-width + 5 columns
+        isHomePage={true} // ✅ This makes it full-width + 5 columns
       />
 
       {/* View All Products Button */}
       {!showAll && products.length > visibleCount && (
-        <div className="flex justify-center mt-8">
+        <div className="flex justify-center  ">
           <button
             onClick={handleViewMore}
-            className="bg-[#C4E1E6] text-base font-semibold py-2 px-6
-          text-gray-700 rounded-lg transition transform ease-in-out duration-700 
-          hover:bg-[#8DBCC7] hover:scale-105"
+            className="bg-[#C4E1E6] text-base font-semibold py-2 px-4
+          text-gray-700 rounded transition transform ease-in-out duration-700 
+          hover:bg-[#94ccd8] hover:scale-105"
           >
             View All Products
           </button>
