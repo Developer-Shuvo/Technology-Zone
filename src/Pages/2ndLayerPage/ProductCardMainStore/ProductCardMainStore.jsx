@@ -2,29 +2,44 @@ import Sidebar from "../Phone/Sidebar/Sidebar";
 import { Link } from "react-router";
 import { AllProducts } from "../../AllProducts/AllProducts";
 
-const ProductCardMainStore = ({ products, title, hideSidebar }) => {
+const ProductCardMainStore = ({ products, title, hideSidebar, isHomePage }) => {
   return (
-    <div className="mt-5 mb-40 max-w-[1400px] mx-auto px-6">
+    <div
+      className={`mt-5 mb-40 mx-auto px-6 ${
+        isHomePage ? "max-w-full" : "max-w-[1400px]"
+      }`}
+    >
       <div className="flex w-full">
         {/*___________ Sidebar___________ */}
-
-        <div className="w-[30%] min-w-[220px] max-w-[350px]">
-          {!hideSidebar && (
-            <div className="w-1/4">
-              <Sidebar />
-            </div>
-          )}
-        </div>
+        {!isHomePage && (
+          <div className="w-[30%] min-w-[220px] max-w-[350px]">
+            {!hideSidebar && (
+              <div className="w-1/4">
+                <Sidebar />
+              </div>
+            )}
+          </div>
+        )}
 
         {/*_________________ Card Section __________________ */}
-        <div className="w-[70%] flex-1">
-          <h1 className=" text-3xl lg:text-4xl xl:text-5xl px-4 lg:px-2 xl:px-0 text-cyan-900 font-bold text-left flex items-center mb-8">
+        <div className={`${isHomePage ? "w-full" : "w-[70%] flex-1"}`}>
+          <h1
+            className=" text-3xl lg:text-4xl xl:text-5xl px-4 lg:px-2 xl:px-0 text-cyan-900 
+          font-bold text-left flex items-center mb-8"
+          >
             {title}
             <span className="text-5xl lg:text-6xl xl:text-6xl text-orange-600 font-serif pr-4">
               !
             </span>
           </h1>
-          <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-x-6 gap-y-14 px-6 lg:px-2 xl:px-0">
+
+          <div
+            className={`grid gap-x-6 gap-y-14 px-6 lg:px-2 xl:px-0 ${
+              isHomePage
+                ? "grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5"
+                : "grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4"
+            }`}
+          >
             {products.map((product) => (
               // Cards here *****
               <div

@@ -42,13 +42,14 @@ const Shop = () => {
     setVisibleCount(products.length); // show all products
   };
 
-  return (
+    return (
     <div className="max-w-[1300px] mx-auto px-4 py-8">
       {/* Product Cards */}
       <ProductCardMainStore
         title="All Products"
         products={products.slice(0, visibleCount)}
-        hideSidebar={true} // ✅ Pass prop to hide sidebar
+        hideSidebar={true}
+        isHomePage={true}   // ✅ This makes it full-width + 5 columns
       />
 
       {/* View All Products Button */}
