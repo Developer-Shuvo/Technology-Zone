@@ -1,21 +1,33 @@
-
-
 import { Link } from "react-router";
 import trolley from "../assets/images/trolley.png";
 import profile from "../assets/images/user.png";
 import techZone from "../assets/images/favicon/tech-1.png";
 import { useState } from "react";
 import home from "../assets/images/favicon/home2.png";
+import { IoMenu, IoClose } from "react-icons/io5";
 
 const Navbar = () => {
   const [searchField, setSearchField] = useState(false);
+  const [open, setOpen] = useState(false);
 
   return (
     <>
       <header className="bg-[#f6f6f6] shadow">
         {/* ________________Top Navbar____________ */}
-        <div className="max-w-[1400px] mx-auto py-3 px-4">
-          <div className="flex flex-col md:flex-row items-center justify-between px-8">
+        <nav className="max-w-[1400px] mx-auto py-3 px-4">
+          {/*___ Menu Icon___ */}
+          <div
+            className="md:hidden text-3xl text-red-600"
+            onClick={() => setOpen(!open)}
+          >
+            {open === true ? <IoClose /> : <IoMenu />}
+          </div>
+
+          <div
+            className={`flex flex-col md:flex-row items-center justify-between px-8 bg-lime-400
+    md:static absolute left-0 w-full z-50 transition-all duration-700 ease-in-out
+    ${open ? "top-14" : "-top-[500px]"}`}
+          >
             {/* Left: Logo */}
             <div className="md:w-auto text-center md:text-left pb-4 sm:pb-0">
               <Link to="/" className="group inline-flex items-center relative">
@@ -29,7 +41,7 @@ const Navbar = () => {
                 {/* Tooltip */}
                 <span
                   className="absolute left-full ml-3 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all
-                 duration-700  text-green-800 text-md font-semibold  whitespace-nowrap"
+            duration-700  text-green-800 text-md font-semibold  whitespace-nowrap"
                 >
                   Home
                 </span>
@@ -101,31 +113,15 @@ const Navbar = () => {
             {/*----------- Right: Icons-------------- */}
             <div className="flex w-full md:w-auto justify-center md:justify-end pt-4 lg:pt-0 xl:pt-0">
               <div className="flex gap-3 items-center">
-                {/* *
-                1/ প্রথমে একটা Hook ডিক্লেয়ার করেছি  const [searchField, setSearchField] = useState(false);
-                 initial value = false  প্রাথমিক মান মিথ্যা দিয়েছি।
-
-                2/ তারপর যে জিনিস টা show করবো সেটার একটা মান দিয়েছি  {searchField === true && (
-                <>
-                ভিতরে যে জিনিস টা দেখাবো সেটা রেখছি।
-                </>
-                )}
-                
-
-                3/ সার্চ আইকনে এসে Arrow funtion লিখে শর্ত দিয়েছি... সত্য হলে দেখাবে, মিথ্যা হলে দেখাবে না। 
-                এবং setSearchfield দিয়ে মান সেট করেছি।
-                
-                *  */}
-                {/* _______________________--_start_--___________________________ */}
-
+                {/* Search Toggle */}
                 {searchField === true ? (
                   <>
                     {/* Closing icon */}
                     <button onClick={() => setSearchField(!searchField)}>
                       <img
                         className="h-10 w-10 bg-white rounded-full p-2 shadow-lg
-                         hover:animate-shake3d transition-all duration-700 
-                         ease-in-out hover:bg-red-500"
+                hover:animate-shake3d transition-all duration-700 
+                ease-in-out hover:bg-red-500"
                         src="https://i.postimg.cc/Ssn484q4/cancel.png"
                         alt="Search"
                       />
@@ -137,32 +133,32 @@ const Navbar = () => {
                     <button onClick={() => setSearchField(!searchField)}>
                       <img
                         className="h-10 w-10 bg-white rounded-full p-1 shadow-lg
-                         hover:animate-shake3d transition-all duration-700 
-                         ease-in-out hover:bg-lime-400"
+                hover:animate-shake3d transition-all duration-700 
+                ease-in-out hover:bg-lime-400"
                         src="https://i.postimg.cc/rm531PBz/search.png"
                         alt="Search"
                       />
                     </button>
                   </>
                 )}
-                {/* _______________________--_End_--___________________________ */}
 
                 {/* Cart */}
                 <Link>
                   <img
                     className="h-10 w-10 bg-white rounded-full p-2 shadow-lg
-                     hover:animate-shake3d transition-all duration-700 
-                     ease-in-out hover:bg-lime-400"
+            hover:animate-shake3d transition-all duration-700 
+            ease-in-out hover:bg-lime-400"
                     src={trolley}
                     alt="Trolley"
                   />
                 </Link>
-                {/* ****************** log in ********************** */}
+
+                {/* Log in */}
                 <Link to="/signup">
                   <img
                     className="h-10 w-10 bg-white rounded-full p-2 shadow-lg
-                     hover:animate-shake3d transition-all duration-700
-                      ease-in-out hover:bg-lime-400"
+            hover:animate-shake3d transition-all duration-700
+            ease-in-out hover:bg-lime-400"
                     src={profile}
                     alt="Profile"
                   />
@@ -170,7 +166,7 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-        </div>
+        </nav>
 
         {/* ______________________Second Navbar_________________________ */}
         <div className="bg-gray-800">
