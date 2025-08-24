@@ -17,16 +17,20 @@ const Navbar = () => {
         <nav className="max-w-[1400px] mx-auto py-3 px-4">
           {/*___ Menu Icon___ */}
           <div
-            className="md:hidden text-3xl text-red-600"
+            className="md:hidden text-3xl text-green-800"
             onClick={() => setOpen(!open)}
           >
             {open === true ? <IoClose /> : <IoMenu />}
           </div>
 
           <div
-            className={`flex flex-col md:flex-row items-center justify-between px-8 bg-lime-400
-    md:static absolute left-0 w-full z-50 transition-all duration-700 ease-in-out
-    ${open ? "top-14" : "-top-[500px]"}`}
+            className={`flex flex-col md:flex-row items-center justify-between  
+                        px-8 ${open ? "pb-5" : "pb-0"}  
+                             ${open ? "pt-5" : "pb-0"}  
+                        ${open ? "bg-[#62bcc6]" : "bg-transparent"}  
+                        md:bg-[#f6f6f6]  
+                        md:static absolute left-0 w-full z-50 transition-all duration-700 ease-in-out  
+                        ${open ? "top-[54px]" : "-top-[520px]"} `}
           >
             {/* Left: Logo */}
             <div className="md:w-auto text-center md:text-left pb-4 sm:pb-0">
@@ -40,7 +44,7 @@ const Navbar = () => {
 
                 {/* Tooltip */}
                 <span
-                  className="absolute left-full ml-3 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all
+                  className=" absolute left-full ml-3 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all
             duration-700  text-green-800 text-md font-semibold  whitespace-nowrap"
                 >
                   Home
