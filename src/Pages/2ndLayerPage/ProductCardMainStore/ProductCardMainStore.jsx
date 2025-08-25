@@ -1,21 +1,42 @@
 import Sidebar from "../Phone/Sidebar/Sidebar";
 import { Link } from "react-router";
-import { AllProducts } from "../../AllProducts/AllProducts";
+import { FaFilter } from "react-icons/fa"; // Filter icon
+import { IoMenu, IoClose } from "react-icons/io5";
+import { useState } from "react";
 
 const ProductCardMainStore = ({ products, title, hideSidebar, isHomePage }) => {
+  const [open, setOpen] = useState(false);
+
   return (
     <div
-      className={`mt-5 mb-40 mx-auto px-4 ${
+      className={`mt-20 md:mt-30 lg:mt-36 mb-40  mx-auto px-4 ${
         isHomePage ? "max-w-full" : "max-w-[1400px]"
       }`}
     >
       <div className="flex w-full">
         {/*___________ Sidebar___________ */}
         {!isHomePage && (
-          <div className="w-[30%] min-w-[220px] max-w-[350px]">
+          <div className="w-[30%]  min-w-[220px] max-w-[350px]">
             {!hideSidebar && (
-              <div className="w-1/4">
-                <Sidebar />
+              <div className="w-full">
+                {/* Filter Button for Small Devices */}
+                <div
+                  className="flex flex-col items-center justify-center gap-2 border rounded-lg border-gray-400 px-5 py-3 bg-white shadow-md hover:shadow-lg transition-all duration-300 cursor-pointer sm:hidden"
+                  onClick={() => setOpen(!open)}
+                >
+                  <FaFilter className="text-cyan-700 text-3xl" />
+                  <h1 className="text-base font-semibold text-gray-800">
+                    Filter Product
+                  </h1>
+                </div>
+                {/* Sidebar */}
+                <div
+                  className={`transition-all duration-500 ease-in-out ${
+                    open ? "block" : "hidden"
+                  } sm:block mt-4`}
+                >
+                  <Sidebar />
+                </div>
               </div>
             )}
           </div>

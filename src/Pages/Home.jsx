@@ -21,7 +21,7 @@ const Home = () => {
     <>
       {/* ________________Categories Cart____________________ */}
       <section className=" px-4 ">
-        <div className="mx-auto mt-8  max-w-[1300px] px-4 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-4 justify-center items-center text-center">
+        <div className="mx-auto mt-20 md:mt-40 lg:mt-42   max-w-[1300px] px-4 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-4 justify-center items-center text-center">
           {/* Smartphone */}
           <Link
             to="/smartPhone"

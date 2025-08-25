@@ -1,52 +1,68 @@
-import { Link } from "react-router";
-import trolley from "../assets/images/trolley.png";
+import { useState, useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
+import { IoMenu, IoClose } from "react-icons/io5"; // 3 Menu icon & Close icon
+import trolley from "../assets/images/trolley.png"; 
 import profile from "../assets/images/user.png";
 import techZone from "../assets/images/favicon/tech-1.png";
-import { useState } from "react";
-import home from "../assets/images/favicon/home2.png";
-import { IoMenu, IoClose } from "react-icons/io5";
+import home from "../assets/images/favicon/home2.png"; // Use your correct home icon path
 
 const Navbar = () => {
   const [searchField, setSearchField] = useState(false);
   const [open, setOpen] = useState(false);
+  const navRef = useRef(null);
+
+  // Responsive: close menu on scroll or outside click
+  useEffect(() => {
+    const handleScroll = () => {
+      if (open) setOpen(false);
+    };
+    const handleClickOutside = (e) => {
+      if (open && navRef.current && !navRef.current.contains(e.target)) {
+        setOpen(false);
+      }
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    document.addEventListener("mousedown", handleClickOutside);
+    document.addEventListener("touchstart", handleClickOutside);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("touchstart", handleClickOutside);
+    };
+  }, [open]);
 
   return (
     <>
-      <header className="bg-[#f6f6f6] shadow">
-        {/* ________________Top Navbar____________ */}
-        <nav className="max-w-[1400px] mx-auto py-3 px-4">
-          {/*___ Menu Icon___ */}
+      <header className="bg-[#f6f6f6] shadow fixed w-full z-50 left-0 top-0">
+        {/* ========== TOP NAVBAR (Responsive) ========== */}
+        <nav className="max-w-[1400px] mx-auto py-3 px-4" ref={navRef}>
+          {/* Mobile Menu Icon */}
           <div
             className="md:hidden text-3xl text-green-800"
             onClick={() => setOpen(!open)}
           >
-            {open === true ? <IoClose /> : <IoMenu />}
+            {open ? <IoClose /> : <IoMenu />}
           </div>
 
+          {/* Main Nav Content */}
           <div
             className={`flex flex-col md:flex-row items-center justify-between  
-                        px-8 ${open ? "pb-5" : "pb-0"}  
-                             ${open ? "pt-5" : "pb-0"}  
-                        ${open ? "bg-[#62bcc6]" : "bg-transparent"}  
-                        md:bg-[#f6f6f6]  
-                        md:static absolute left-0 w-full z-50 transition-all duration-700 ease-in-out  
-                        ${open ? "top-[54px]" : "-top-[520px]"} `}
+              px-8 ${open ? "pb-5 pt-5" : "pb-0"}  
+              ${open ? "bg-[#62bcc6]" : "bg-transparent"}  
+              md:bg-[#f6f6f6]  
+              md:static absolute left-0 w-full z-50 transition-all duration-700 ease-in-out  
+              ${open ? "top-[54px]" : "-top-[520px]"} `}
           >
             {/* Left: Logo */}
             <div className="md:w-auto text-center md:text-left pb-4 sm:pb-0">
               <Link to="/" className="group inline-flex items-center relative">
-                {/* Logo */}
                 <img
                   src={techZone}
                   alt="logo"
                   className="h-[40px] w-[40px] transition-transform duration-700 ease-in-out group-hover:-translate-y-2"
                 />
-
-                {/* Tooltip */}
-                <span
-                  className=" absolute left-full ml-3 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all
-            duration-700  text-green-800 text-md font-semibold  whitespace-nowrap"
-                >
+                {/* Tool tip, hover and text floating */}
+                <span className="absolute left-full ml-3 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-700 text-green-800 text-md font-semibold whitespace-nowrap">
                   Home
                 </span>
               </Link>
@@ -54,23 +70,20 @@ const Navbar = () => {
 
             {/* Center: Buttons + Links */}
             <div className="flex flex-col lg:flex-row items-center justify-center gap-6">
-              {/*___________ Buttons __________*/}
+              {/* Buttons */}
               <div className="flex flex-wrap justify-center gap-2">
-                {/* Offers */}
                 <Link
                   to="/offers"
                   className="px-4 py-2 font-semibold rounded bg-white shadow-lg text-orange-700 transition-all duration-700 ease-in-out hover:bg-cyan-800 hover:text-white hover:animate-shake3d"
                 >
                   Offers
                 </Link>
-                {/* pc builder */}
                 <Link
                   to="/pcBuilder"
                   className="px-4 py-2 font-semibold rounded bg-white shadow-lg text-orange-700 transition-all duration-700 ease-in-out hover:bg-cyan-800 hover:text-white hover:animate-shake3d"
                 >
                   PC Builder
                 </Link>
-                {/* service center */}
                 <Link
                   to="/serviceCenter"
                   className="px-4 py-2 font-semibold rounded bg-white shadow-lg text-orange-700 transition-all duration-700 ease-in-out hover:bg-cyan-800 hover:text-white hover:animate-shake3d"
@@ -78,33 +91,26 @@ const Navbar = () => {
                   Service Center
                 </Link>
               </div>
-              {/* ___________ Links___________ */}
+              {/* Links */}
               <div className="flex flex-wrap justify-center gap-4 items-center font-sans mt-2 lg:mt-0">
-                {/* Blog */}
                 <Link
                   to="/blog"
                   className="text-gray-600 font-bold hover:text-cyan-700 transition-all duration-700 ease-in-out hover:animate-shake3d"
                 >
                   BLOG
                 </Link>
-
-                {/* stores */}
                 <Link
                   to="/stores"
                   className="text-gray-600 font-bold hover:text-cyan-700 transition-all duration-700 ease-in-out hover:animate-shake3d"
                 >
                   STORES
                 </Link>
-
-                {/* corporate */}
                 <Link
                   to="/corporate"
                   className="text-gray-600 font-bold hover:text-cyan-700 transition-all duration-700 ease-in-out hover:animate-shake3d"
                 >
                   CORPORATE
                 </Link>
-
-                {/* About Us */}
                 <Link
                   to="/aboutUs"
                   className="text-gray-600 font-bold hover:text-cyan-700 transition-all duration-700 ease-in-out hover:animate-shake3d uppercase"
@@ -114,55 +120,36 @@ const Navbar = () => {
               </div>
             </div>
 
-            {/*----------- Right: Icons-------------- */}
+            {/* Right: Icons */}
             <div className="flex w-full md:w-auto justify-center md:justify-end pt-4 lg:pt-0 xl:pt-0">
               <div className="flex gap-3 items-center">
-                {/* Search Toggle */}
-                {searchField === true ? (
-                  <>
-                    {/* Closing icon */}
-                    <button onClick={() => setSearchField(!searchField)}>
-                      <img
-                        className="h-10 w-10 bg-white rounded-full p-2 shadow-lg
-                hover:animate-shake3d transition-all duration-700 
-                ease-in-out hover:bg-red-500"
-                        src="https://i.postimg.cc/Ssn484q4/cancel.png"
-                        alt="Search"
-                      />
-                    </button>
-                  </>
+                {searchField ? (
+                  <button onClick={() => setSearchField(!searchField)}>
+                    <img
+                      className="h-10 w-10 bg-white rounded-full p-2 shadow-lg hover:animate-shake3d transition-all duration-700 ease-in-out hover:bg-red-500"
+                      src="https://i.postimg.cc/Ssn484q4/cancel.png"
+                      alt="Search"
+                    />
+                  </button>
                 ) : (
-                  <>
-                    {/* search Icon */}
-                    <button onClick={() => setSearchField(!searchField)}>
-                      <img
-                        className="h-10 w-10 bg-white rounded-full p-1 shadow-lg
-                hover:animate-shake3d transition-all duration-700 
-                ease-in-out hover:bg-lime-400"
-                        src="https://i.postimg.cc/rm531PBz/search.png"
-                        alt="Search"
-                      />
-                    </button>
-                  </>
+                  <button onClick={() => setSearchField(!searchField)}>
+                    <img
+                      className="h-10 w-10 bg-white rounded-full p-1 shadow-lg hover:animate-shake3d transition-all duration-700 ease-in-out hover:bg-lime-400"
+                      src="https://i.postimg.cc/rm531PBz/search.png"
+                      alt="Search"
+                    />
+                  </button>
                 )}
-
-                {/* Cart */}
                 <Link>
                   <img
-                    className="h-10 w-10 bg-white rounded-full p-2 shadow-lg
-            hover:animate-shake3d transition-all duration-700 
-            ease-in-out hover:bg-lime-400"
+                    className="h-10 w-10 bg-white rounded-full p-2 shadow-lg hover:animate-shake3d transition-all duration-700 ease-in-out hover:bg-lime-400"
                     src={trolley}
                     alt="Trolley"
                   />
                 </Link>
-
-                {/* Log in */}
                 <Link to="/signup">
                   <img
-                    className="h-10 w-10 bg-white rounded-full p-2 shadow-lg
-            hover:animate-shake3d transition-all duration-700
-            ease-in-out hover:bg-lime-400"
+                    className="h-10 w-10 bg-white rounded-full p-2 shadow-lg hover:animate-shake3d transition-all duration-700 ease-in-out hover:bg-lime-400"
                     src={profile}
                     alt="Profile"
                   />
@@ -171,8 +158,7 @@ const Navbar = () => {
             </div>
           </div>
         </nav>
-
-        {/* ______________________Second Navbar_________________________ */}
+        {/*================ Second Navbar ================= */}
         <div className="bg-gray-800">
           <div id="navigation" className="max-w-[1400px] mx-auto px-4">
             <ul
@@ -552,46 +538,41 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
+        {/* ================= Search Field ================== */}
+        {searchField && (
+          <div className="mx-auto w-full max-w-screen-md py-4 px-4">
+            <form className="relative flex w-full max-w-2xl items-center justify-between rounded border border-gray-300 shadow-lg">
+              <svg
+                className="absolute left-3 h-5 w-5 text-gray-400"
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+              <input
+                type="text"
+                name="search"
+                className="h-11 w-full rounded-md py-2 pr-32 pl-10 outline-none focus:ring-2 focus:ring-black text-sm sm:text-base"
+                placeholder="Search Your Choice"
+              />
+              <button
+                type="submit"
+                className="absolute right-0 h-11 rounded-r bg-gray-900 px-6 sm:px-8 text-sm sm:text-base font-medium text-white hover:bg-cyan-900 transition-all duration-300"
+              >
+                Search
+              </button>
+            </form>
+          </div>
+        )}
       </header>
-
-      {/* ____________________Search Product____________________ */}
-
-      {searchField === true && (
-        <div className="mx-auto w-full max-w-screen-md py-4 px-4">
-          <form className="relative flex w-full max-w-2xl items-center justify-between rounded border border-gray-300 shadow-lg">
-            <svg
-              className="absolute left-3 h-5 w-5 text-gray-400"
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <circle cx="11" cy="11" r="8"></circle>
-              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-            </svg>
-
-            <input
-              type="text"
-              name="search"
-              className="h-11 w-full rounded-md py-2 pr-32 pl-10 outline-none focus:ring-2
-               focus:ring-black text-sm sm:text-base"
-              placeholder="Search Your Choice"
-            />
-
-            <button
-              type="submit"
-              className="absolute right-0 h-11 rounded-r bg-gray-900 px-6 sm:px-8 text-sm sm:text-base font-medium text-white hover:bg-cyan-900 transition-all duration-300"
-            >
-              Search
-            </button>
-          </form>
-        </div>
-      )}
     </>
   );
 };
