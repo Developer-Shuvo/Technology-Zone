@@ -6,7 +6,7 @@ import shop from "./Stores/shop.png?w=300&format=webp&quality=60";
 
 const Stores = () => {
   return (
-    <section className="bg-gradient-to-r from-cyan-800 to-sky-300">
+    <section className="bg-gradient-to-r from-cyan-800 to-sky-300 md:pt-40 lg:pt-30 xl:pt-30">
       <div className="mx-auto grid max-w-lg gap-x-6 gap-y-20 px-4 py-32 md:max-w-screen-xl md:grid-cols-2 lg:grid-cols-3">
         {/* Heading */}
         <div>

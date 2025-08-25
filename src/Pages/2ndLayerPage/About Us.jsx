@@ -9,7 +9,7 @@ const AboutUs = () => {
       {/* ABOUT Section */}
       <div
         className="w-full lg:h-screen h-full m-auto flex items-center
-       justify-center py-20  bg-gray-50 dark:bg-gray-900"
+       justify-center py-20  bg-gray-50 dark:bg-gray-900 pt-30 md:pt-60 lg:pt-50 xl:pt-70"
       >
         <div className="w-full h-full flex flex-col justify-center items-center sm:px-4 px-2 max-w-[1400px] mx-auto">
           <div className="lg:w-[90%] w-full mx-auto flex flex-col lg:gap-12 lg:flex-row items-center justify-center">

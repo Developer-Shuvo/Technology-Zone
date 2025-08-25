@@ -3,7 +3,7 @@ import { Link } from "react-router";
 const ServiceCenter = () => {
   return (
     <div className="bg-[#109fa3] min-h-screen ">
-      <div className="max-w-[1300px] mx-auto pt-20  px-4">
+      <div className="max-w-[1300px] mx-auto pt-20 md:pt-56 lg:pt-50 pb-30  px-4">
         <div className="flex flex-col lg:flex-row justify-center items-center gap-16">
      {/* Text Section */}
 <div className="w-full lg:w-1/2 px-4 text-center lg:text-left">
