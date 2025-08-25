@@ -16,7 +16,7 @@ import img13 from "./icons/13.png?w=800&format=webp&quality=75";
 const PcBuilder = () => {
   return (
     <section className="bg-gradient-to-r from-cyan-800 to-sky-300 min-h-screen flex justify-center items-start">
-      <div className="max-w-[1000px] w-full mx-auto p-6 mt-10 mb-[150px] bg-[#0a71169a]  shadow-lg rounded-xl">
+      <div className="max-w-[1000px] w-full mx-auto p-6 mt-20 md:mt-60  lg:mt-50 mb-[150px] bg-[#0a71169a]  shadow-lg rounded-xl">
         <div className="border border-gray-300 rounded-xl ">
           {/* Top */}
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 sm:gap-0 p-4">

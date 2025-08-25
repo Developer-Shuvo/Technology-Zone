@@ -21,7 +21,7 @@ const DetailsPage = () => {
   }, [id]);
 
   return (
-    <section className="font-['Poppins'] flex items-center bg-[#5ca4b8a6] justify-center bg-opacity-20 pt-10 pb-30">
+    <section className="font-['Poppins'] flex items-center bg-[#5ca4b8a6] justify-center bg-opacity-20 pt-20 sm:pt-30 md:pt-52 lg:pt-42 xl:pt-46 pb-30">
       <div className="flex flex-col lg:flex-row w-full max-w-[1300px] p-5 md:p-10 bg-white rounded-xl shadow-2xl">
         {/* Product Image */}
         <img

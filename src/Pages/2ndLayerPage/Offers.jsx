@@ -3,7 +3,7 @@ import React from "react";
 const Offers = () => {
   return (
     <div className="bg-gradient-to-r from-cyan-800 to-sky-300 w-full">
-      <section className="pt-16 pb-16">
+      <section className="pt-10 md:pt-40 pb-16">
         <div className=" mx-auto max-w-[1400px] w-full px-4 sm:px-6 md:px-10 relative flex flex-col-reverse  lg:flex-row justify-around items-center gap-12 lg:gap-20 rounded-xl shadow-lg overflow-hidden mt-6 mb-20">
           {/* Dotted Grid Decoration */}
           <div className="absolute left-4 bottom-4 w-[156px] h-[110px] grid grid-cols-4 gap-3 opacity-70">

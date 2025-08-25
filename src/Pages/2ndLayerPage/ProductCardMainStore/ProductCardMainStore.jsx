@@ -51,7 +51,7 @@ const ProductCardMainStore = ({ products, title, hideSidebar, isHomePage }) => {
           <div className={`flex-1 ${isHomePage ? "w-full" : "w-[70%]"} `}>
             <h1
               className="text-3xl lg:text-4xl xl:text-5xl px-4 lg:px-2 xl:px-0 text-cyan-900 
-            font-bold text-left flex items-center mb-8"
+            font-bold text-left flex items-center mb-8 "
             >
               {title}
               <span className="text-5xl lg:text-6xl xl:text-6xl text-orange-600 font-serif pr-4">
@@ -104,7 +104,7 @@ const ProductCardMainStore = ({ products, title, hideSidebar, isHomePage }) => {
                     <Link to={`/detailsPage/${product.id}`}>
                       <h5
                         className="text-sm sm:text-sm md:text-base lg:text-lg xl:text-xl font-semibold 
-                     tracking-tight text-slate-900 line-clamp-2"
+                     tracking-tight text-slate-900 line-clamp-1"
                       >
                         {product.title}
                       </h5>

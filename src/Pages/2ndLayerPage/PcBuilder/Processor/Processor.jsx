@@ -6,7 +6,7 @@ import img5 from "./processor-img/4.jpg?w=800&format=webp&quality=75";
 
 const Processor = () => {
   return (
-    <div className="space-y-4 p-4 max-w-[1300px] mx-auto mt-10 mb-30">
+    <div className="space-y-4 p-4 max-w-[1300px] mx-auto mt-20 md:mt-50 lg:mt-40 mb-30">
       {/* Product 1 */}
       <div className="border border-gray-200 rounded shadow p-4 md:p-8 flex flex-col md:flex-row gap-6 bg-white w-full max-w-6xl mx-auto">
         {/* image */}

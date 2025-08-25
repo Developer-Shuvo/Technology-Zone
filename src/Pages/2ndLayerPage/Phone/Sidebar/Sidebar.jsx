@@ -24,7 +24,7 @@ const Sidebar = () => {
   const rangePercentMin = ((minPrice - minLimit) / (maxLimit - minLimit)) * 100;
   const rangePercentMax = ((maxPrice - minLimit) / (maxLimit - minLimit)) * 100;
 
-  //   _____________Display Type, Ram, Internal Storage, Chipset, Region______________________
+  //   _____________Display Type, Ram, Internal Storage, Chipset, Region______________________
   const [showMoreDisplay, setShowMoreDisplay] = useState(false);
   const [showMoreRam, setShowMoreRam] = useState(false);
   const [showMoreStorage, setShowMoreStorage] = useState(false);
@@ -63,7 +63,7 @@ const Sidebar = () => {
     : defaultRegion;
 
   const Section = ({ title, items, showMore, setShowMore }) => (
-    <div className="space-y-4 p-4 max-w-sm mx-auto">
+    <div className="space-y-4 p-4 flex-shrink-0">
       <div className="border border-gray-200 rounded shadow p-4 w-68 bg-white">
         {/* Header */}
         <div className="flex justify-between items-center mb-3">
@@ -98,14 +98,14 @@ const Sidebar = () => {
       </div>
     </div>
   );
-  //_______________________________________
+
   return (
     <div>
-      <div class="w-screen ">
-        <div class=" w-90 pb-10 ">
-          <div class="flex h-full flex-grow flex-col overflow-y-auto ">
+      <div className="w-full">
+        <div className="flex flex-col items-center pb-10">
+          <div className="flex flex-col overflow-y-auto">
             {/* Price Range Field*/}
-            <div className="space-y-4 p-4 max-w-sm mx-auto ">
+            <div className="space-y-4 p-4 w-full">
               {/* ________Price Range_______ */}
               <div className="border border-gray-200 rounded shadow-md bg-white">
                 <div className="flex justify-between items-center px-4 py-2 border-b border-gray-200">
@@ -175,7 +175,7 @@ const Sidebar = () => {
               {/* _______Sort________ */}
               <div
                 className="border rounded border-gray-200 shadow
-               bg-white"
+                bg-white"
               >
                 <div className="flex justify-between items-center px-4 py-2 border-b border-gray-200">
                   <h2 className="font-bold text-gray-800">Sort</h2>
@@ -193,109 +193,109 @@ const Sidebar = () => {
                   </select>
                 </div>
               </div>
+            </div>
 
-              <style>{`
-                        input[type=range] {
-                        -webkit-appearance: none;
-                        height: 30px;
-                        background: transparent;
-                        margin: 0;
-                        }
-                        input[type=range]:focus {
-                        outline: none;
-                        }
-                        /* Track */
-                        input[type=range]::-webkit-slider-runnable-track {
-                        height: 8px;
-                        background: transparent;
-                        }
-                        input[type=range]::-moz-range-track {
-                        height: 8px;
-                        background: transparent;
-                        }
-                        /* Thumb for Min Slider */
-                        input[type=range]:nth-of-type(1)::-webkit-slider-thumb {
-                        -webkit-appearance: none;
-                        appearance: none;
-                        width: 20px;
-                        height: 20px;
-                        background: #f97316; /* orange-500 */
-                        cursor: pointer;
-                        border-radius: 50%;
-                        border: none;
-                        margin-top: -6px;
-                        position: relative;
-                        z-index: 5;
-                        }
-                        input[type=range]:nth-of-type(1)::-moz-range-thumb {
-                        width: 20px;
-                        height: 20px;
-                        background: #f97316;
-                        cursor: pointer;
-                        border-radius: 50%;
-                        border: none;
-                        position: relative;
-                        z-index: 5;
-                        }
-                        /* Thumb for Max Slider */
-                        input[type=range]:nth-of-type(2)::-webkit-slider-thumb {
-                        -webkit-appearance: none;
-                        appearance: none;
-                        width: 20px;
-                        height: 20px;
-                        background: #ea580c; /* orange-600 */
-                        cursor: pointer;
-                        border-radius: 50%;
-                        border: none;
-                        margin-top: -6px;
-                        position: relative;
-                        z-index: 6;
-                        }
-                        input[type=range]:nth-of-type(2)::-moz-range-thumb {
-                        width: 20px;
-                        height: 20px;
-                        background: #ea580c;
-                        cursor: pointer;
-                        border-radius: 50%;
-                        border: none;
-                        position: relative;
-                        z-index: 6;
-                        }
-               `}</style>
-            </div>
-            {/* ____________Display Type______________ */}
-            <div className="flex flex-col justify-center items-center">
-              <Section
-                title="Display Type"
-                items={displayTypes}
-                showMore={showMoreDisplay}
-                setShowMore={setShowMoreDisplay}
-              />
-              <Section
-                title="Ram"
-                items={ramTypes}
-                showMore={showMoreRam}
-                setShowMore={setShowMoreRam}
-              />
-              <Section
-                title="Internal Storage"
-                items={storageTypes}
-                showMore={showMoreStorage}
-                setShowMore={setShowMoreStorage}
-              />
-              <Section
-                title="Chipset"
-                items={chipsetTypes}
-                showMore={showMoreChipset}
-                setShowMore={setShowMoreChipset}
-              />
-              <Section
-                title="Region"
-                items={regionTypes}
-                showMore={showMoreRegion}
-                setShowMore={setShowMoreRegion}
-              />
-            </div>
+            <style>{`
+              input[type=range] {
+                -webkit-appearance: none;
+                height: 30px;
+                background: transparent;
+                margin: 0;
+              }
+              input[type=range]:focus {
+                outline: none;
+              }
+              /* Track */
+              input[type=range]::-webkit-slider-runnable-track {
+                height: 8px;
+                background: transparent;
+              }
+              input[type=range]::-moz-range-track {
+                height: 8px;
+                background: transparent;
+              }
+              /* Thumb for Min Slider */
+              input[type=range]:nth-of-type(1)::-webkit-slider-thumb {
+                -webkit-appearance: none;
+                appearance: none;
+                width: 20px;
+                height: 20px;
+                background: #f97316; /* orange-500 */
+                cursor: pointer;
+                border-radius: 50%;
+                border: none;
+                margin-top: -6px;
+                position: relative;
+                z-index: 5;
+              }
+              input[type=range]:nth-of-type(1)::-moz-range-thumb {
+                width: 20px;
+                height: 20px;
+                background: #f97316;
+                cursor: pointer;
+                border-radius: 50%;
+                border: none;
+                position: relative;
+                z-index: 5;
+              }
+              /* Thumb for Max Slider */
+              input[type=range]:nth-of-type(2)::-webkit-slider-thumb {
+                -webkit-appearance: none;
+                appearance: none;
+                width: 20px;
+                height: 20px;
+                background: #ea580c; /* orange-600 */
+                cursor: pointer;
+                border-radius: 50%;
+                border: none;
+                margin-top: -6px;
+                position: relative;
+                z-index: 6;
+              }
+              input[type=range]:nth-of-type(2)::-moz-range-thumb {
+                width: 20px;
+                height: 20px;
+                background: #ea580c;
+                cursor: pointer;
+                border-radius: 50%;
+                border: none;
+                position: relative;
+                z-index: 6;
+              }
+            `}</style>
+          </div>
+          {/* ____________Display Type______________ */}
+          <div className="flex flex-col items-center w-full">
+            <Section
+              title="Display Type"
+              items={displayTypes}
+              showMore={showMoreDisplay}
+              setShowMore={setShowMoreDisplay}
+            />
+            <Section
+              title="Ram"
+              items={ramTypes}
+              showMore={showMoreRam}
+              setShowMore={setShowMoreRam}
+            />
+            <Section
+              title="Internal Storage"
+              items={storageTypes}
+              showMore={showMoreStorage}
+              setShowMore={setShowMoreStorage}
+            />
+            <Section
+              title="Chipset"
+              items={chipsetTypes}
+              showMore={showMoreChipset}
+              setShowMore={setShowMoreChipset}
+            />
+            <Section
+              title="Region"
+              items={regionTypes}
+              showMore={showMoreRegion}
+              setShowMore={setShowMoreRegion}
+            />
           </div>
         </div>
       </div>
