@@ -56,11 +56,26 @@ const Shop = () => {
         <div className="flex justify-center mt-6">
           <button
             onClick={handleViewMore}
-            className="bg-[#C4E1E6] text-base font-semibold py-2 px-4
-          text-gray-700 rounded transition transform ease-in-out duration-700 
-          hover:bg-[#94ccd8] hover:scale-105"
+            className="relative inline-flex h-12 sm:h-10 md:h-12 lg:h-14 overflow-hidden rounded
+             p-[3px] focus:outline-none focus:ring-2 focus:ring-lime-400 focus:ring-offset-2 focus:ring-offset-white"
           >
-            View More Products
+            {/* Gradient Border */}
+            <span
+              className="absolute inset-[-1000%] animate-[spin_3s_linear_infinite] 
+                    bg-[conic-gradient(from_90deg_at_50%_50%,#84cc16_0%,#f97316_50%,#84cc16_100%)]"
+            />
+
+            {/* Inner Content */}
+            <span
+              className="inline-flex h-full w-full items-center justify-center rounded 
+                px-6 sm:px-4 md:px-8 lg:px-10
+                py-1 text-sm sm:text-xs md:text-base lg:text-lg
+                font-semibold text-gray-900 bg-white
+               hover:bg-gray-950 hover:text-gray-200 transition-colors duration-300
+                backdrop-blur-3xl"
+            >
+              View More Products
+            </span>
           </button>
         </div>
       )}
