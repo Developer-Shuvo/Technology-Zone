@@ -3,13 +3,20 @@ import img1 from "../assets/images/banner-image/banner-2.jpg?w=300&format=webp&q
 import img2 from "../assets/images/banner-image/banner-5.jpg?w=300&format=webp&quality=80";
 import img3 from "../assets/images/banner-image/banner-6.jpg?w=300&format=webp&quality=80";
 
+import { motion } from "framer-motion";
+
 const NewArrival = () => {
   return (
     <div className="bg-[#D1F8EF]">
       <div className="max-w-[1400px] mx-auto mt- px-4">
         <div className="flex flex-col lg:flex-row xl:flex-row gap-10 lg:gap-16 items-center justify-between py-8">
           {/* Text Section */}
-          <div className="w-full text-left px-8 lg:w-1/2">
+          <motion.div
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: -100 }}
+            transition={{ duration: 0.5 }}
+            className="w-full text-left px-8 lg:w-1/2"
+          >
             <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-cyan-900  ">
               New Arrival
             </h1>
@@ -17,18 +24,21 @@ const NewArrival = () => {
               Our Upcoming Products. Very Unique and Special. <br />
               We are confident that you will like our upcoming products.
             </p>
-          </div>
+          </motion.div>
 
           {/* Cards Section */}
-          <div className="flex flex-col sm:flex-row lg:flex-row xl:flex-row sm:flex-wrap justify-center items-center gap-6 w-full py-4 lg:w-1/2">
+          <div className="flex flex-col sm:flex-row lg:flex-row xl:flex-row sm:flex-wrap justify-center items-center gap-6 w-full py-4 lg:w-1/2 b">
             {[img1, img2, img3].map((img, i) => (
-              <div
+              <motion.div
+                whileInView={{ opacity: 1, x: 1 }}
+                initial={{ opacity: 0, x: -100 }}
+                transition={{ duration: 0.1 }}
                 key={i}
-                className="group flex w-full max-w-[280px] flex-col overflow-hidden
+                className="group  flex w-full max-w-[280px] flex-col overflow-hidden
               border border-gray-100 bg-white shadow-md rounded-lg 
               transform transition-transform duration-500 hover:scale-110 hover:-rotate-6 hover:shadow-xl"
               >
-                <a className="relative flex h-44 overflow-hidden" href="#">
+                <a className="relative flex h-44 overflow-hidden " href="#">
                   <img
                     className="absolute top-0 right-0 h-full w-full object-cover"
                     src={img}
@@ -84,7 +94,7 @@ const NewArrival = () => {
                     Add to cart
                   </button>
                 </div>
-              </div>
+              </motion.div>
             ))}
           </div>
         </div>

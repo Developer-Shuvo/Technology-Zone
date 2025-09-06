@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import { AllProducts } from "./AllProducts/AllProducts";
 import ProductCardMainStore from "./2ndLayerPage/ProductCardMainStore/ProductCardMainStore";
 
+import {motion} from "framer-motion"
+
 const Shop = () => {
   const [products, setProducts] = useState([]);
   const [visibleCount, setVisibleCount] = useState(20);
@@ -42,7 +44,11 @@ const Shop = () => {
   };
 
   return (
-    <div className="max-w-[1400px] mx-auto lg:px-3 xl:px-4 mt-4 ">
+    <motion.div
+          whileInView={{ opacity: 1, x: 1 }}
+                initial={{ opacity: 0, x: -100 }}
+                transition={{ duration: 0.5 }}
+    className="max-w-[1400px] mx-auto lg:px-3 xl:px-4 mt-4 ">
       {/* Product Cards */}
       <ProductCardMainStore
         title="All Products"
@@ -53,7 +59,7 @@ const Shop = () => {
 
       {/* View More Products Button */}
       {visibleCount < products.length && (
-        <div className="flex justify-center mt-6">
+        <div className="flex justify-center mt-6 ">
           <button
             onClick={handleViewMore}
             className="relative inline-flex h-12 sm:h-10 md:h-12 lg:h-14 overflow-hidden rounded
@@ -66,7 +72,8 @@ const Shop = () => {
             />
 
             {/* Inner Content */}
-            <span
+            <motion.span
+
               className="inline-flex h-full w-full items-center justify-center rounded 
                 px-6 sm:px-4 md:px-8 lg:px-10
                 py-1 text-sm sm:text-xs md:text-base lg:text-lg
@@ -75,11 +82,11 @@ const Shop = () => {
                 backdrop-blur-3xl"
             >
               View More Products
-            </span>
+            </motion.span>
           </button>
         </div>
       )}
-    </div>
+    </motion.div>
   );
 };
 
