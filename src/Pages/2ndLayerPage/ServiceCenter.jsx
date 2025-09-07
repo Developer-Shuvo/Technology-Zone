@@ -1,44 +1,58 @@
 import { Link } from "react-router";
+import { motion } from "framer-motion";
 
 const ServiceCenter = () => {
   return (
     <div className="bg-[#109fa3] min-h-screen ">
       <div className="max-w-[1300px] mx-auto pt-20 md:pt-56 lg:pt-50 pb-30  px-4">
         <div className="flex flex-col lg:flex-row justify-center items-center gap-16">
-     {/* Text Section */}
-<div className="w-full lg:w-1/2 px-4 text-center lg:text-left">
-  {/* Heading */}
-  <h1 className="text-white font-extrabold text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug drop-shadow-md">
-    Technology Zone - The Official Service <br className="hidden md:block" /> 
-    Center of TECHNOLOGY ZONE
-  </h1>
+          {/* Text Section */}
+          <motion.div
+               whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -100 }}
+            transition={{ duration: 0.5 }}
+          className="w-full lg:w-1/2 px-4 text-center lg:text-left">
+            {/* Heading */}
+            <h1 className="text-white font-extrabold text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-snug drop-shadow-md">
+              Technology Zone - The Official Service{" "}
+              <br className="hidden md:block" />
+              Center of TECHNOLOGY ZONE
+            </h1>
 
-  {/* Paragraph */}
-  <p className="text-gray-100 mt-4 text-sm sm:text-base md:text-lg font-medium leading-relaxed">
-    Expert Repair for iPhone, MacBook, Samsung, Android & All Your Tech Devices — 
-    Fast, Reliable Service with Genuine Parts and Certified Technicians in Dhaka
-  </p>
+            {/* Paragraph */}
+            <p className="text-gray-100 mt-4 text-sm sm:text-base md:text-lg font-medium leading-relaxed">
+              Expert Repair for iPhone, MacBook, Samsung, Android & All Your
+              Tech Devices — Fast, Reliable Service with Genuine Parts and
+              Certified Technicians in Dhaka
+            </p>
 
-  {/* Buttons */}
-  <div className="flex flex-col sm:flex-row justify-center lg:justify-start items-center gap-4 mt-6 sm:mt-8 flex-wrap">
-    <Link to="#">
-      <button className="bg-white font-semibold text-gray-900 px-6 py-3 rounded-lg shadow-md 
-      hover:bg-black hover:text-white transition-all duration-300 hover:scale-105 w-full sm:w-auto">
-        WhatsApp
-      </button>
-    </Link>
-    <Link to="#">
-      <button className="bg-white font-semibold text-gray-900 px-6 py-3 rounded-lg shadow-md 
-      hover:bg-black hover:text-white transition-all duration-300 hover:scale-105 w-full sm:w-auto">
-        Book a Repair
-      </button>
-    </Link>
-  </div>
-</div>
-
+            {/* Buttons */}
+            <div className="flex flex-col sm:flex-row justify-center lg:justify-start items-center gap-4 mt-6 sm:mt-8 flex-wrap">
+              <Link to="#">
+                <button
+                  className="bg-white font-semibold text-gray-900 px-6 py-3 rounded-lg shadow-md 
+      hover:bg-black hover:text-white transition-all duration-300 hover:scale-105 w-full sm:w-auto"
+                >
+                  WhatsApp
+                </button>
+              </Link>
+              <Link to="#">
+                <button
+                  className="bg-white font-semibold text-gray-900 px-6 py-3 rounded-lg shadow-md 
+      hover:bg-black hover:text-white transition-all duration-300 hover:scale-105 w-full sm:w-auto"
+                >
+                  Book a Repair
+                </button>
+              </Link>
+            </div>
+          </motion.div>
 
           {/* Map */}
-          <div className="lg:w-1/2 w-full bg-gray-300 rounded-xl overflow-hidden shadow-xl relative">
+          <motion.div
+               whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: 100 }}
+            transition={{ duration: 0.5 }}
+          className="lg:w-1/2 w-full bg-gray-300 rounded-xl overflow-hidden shadow-xl relative">
             <div className="relative h-[350px] sm:h-[400px] md:h-[450px]">
               <iframe
                 title="map"
@@ -77,7 +91,7 @@ const ServiceCenter = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>

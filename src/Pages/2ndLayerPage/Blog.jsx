@@ -6,6 +6,8 @@ import img4 from "./blog-images/4.jpg?w=300&format=webp&quality=80";
 import img5 from "./blog-images/5.jpg?w=300&format=webp&quality=80";
 import img6 from "./blog-images/6.jpg?w=300&format=webp&quality=80";
 
+import { motion } from "framer-motion";
+
 const Blog = () => {
   return (
     <section className="dark:bg-gray-100 dark:text-gray-800 pt-20 md:pt-50 lg:pt-40">
@@ -15,12 +17,20 @@ const Blog = () => {
           href="#"
           className="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-50"
         >
-          <img
+          <motion.img
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -100 }}
+            transition={{ duration: 0.5 }}
             src={blog}
             alt=""
             className="object-cover w-full h-64 rounded sm:h-96 lg:col-span-7 dark:bg-gray-500"
           />
-          <div className="p-6 space-y-2 lg:col-span-5">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: 100 }}
+            transition={{ duration: 0.5 }}
+            className="p-6  space-y-2 lg:col-span-5"
+          >
             <h3 className="text-2xl font-semibold sm:text-4xl group-hover:underline group-focus:underline">
               Noster tincidunt reprimique ad pro
             </h3>
@@ -31,7 +41,7 @@ const Blog = () => {
               Ei delenit sensibus liberavisse pri. Quod suscipit no nam. Est in
               graece fuisset, eos affert putent doctus id.
             </p>
-          </div>
+          </motion.div>
         </a>
         <div className="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           <a
@@ -39,12 +49,20 @@ const Blog = () => {
             href="#"
             className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50"
           >
-            <img
+            <motion.img
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: -100 }}
+              transition={{ duration: 0.5 }}
               role="presentation"
               className="object-cover w-full rounded h-44 dark:bg-gray-500"
               src={img1}
             />
-            <div className="p-6 space-y-2">
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: 100 }}
+              transition={{ duration: 0.5 }}
+              className="p-6 space-y-2 "
+            >
               <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">
                 In usu laoreet repudiare legendos
               </h3>
@@ -57,19 +75,27 @@ const Blog = () => {
                 albucius perfecto, ei probatus consulatu patrioque mea, ei
                 vocent delicata indoctum pri.
               </p>
-            </div>
+            </motion.div>
           </a>
           <a
             rel="noopener noreferrer"
             href="#"
             className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50"
           >
-            <img
+            <motion.img
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: -100 }}
+              transition={{ duration: 0.5 }}
               role="presentation"
               className="object-cover w-full rounded h-44 dark:bg-gray-500"
               src={img2}
             />
-            <div className="p-6 space-y-2">
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: 100 }}
+              transition={{ duration: 0.5 }}
+              className="p-6 space-y-2"
+            >
               <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">
                 In usu laoreet repudiare legendos
               </h3>
@@ -82,19 +108,27 @@ const Blog = () => {
                 albucius perfecto, ei probatus consulatu patrioque mea, ei
                 vocent delicata indoctum pri.
               </p>
-            </div>
+            </motion.div>
           </a>
           <a
             rel="noopener noreferrer"
             href="#"
             className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50"
           >
-            <img
+            <motion.img
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: -100 }}
+              transition={{ duration: 0.5 }}
               role="presentation"
               className="object-cover w-full rounded h-44 dark:bg-gray-500"
               src={img3}
             />
-            <div className="p-6 space-y-2">
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: 100 }}
+              transition={{ duration: 0.5 }}
+              className="p-6 space-y-2"
+            >
               <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">
                 In usu laoreet repudiare legendos
               </h3>
@@ -107,19 +141,27 @@ const Blog = () => {
                 albucius perfecto, ei probatus consulatu patrioque mea, ei
                 vocent delicata indoctum pri.
               </p>
-            </div>
+            </motion.div>
           </a>
           <a
             rel="noopener noreferrer"
             href="#"
             className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50 hidden sm:block"
           >
-            <img
+            <motion.img
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: -100 }}
+              transition={{ duration: 0.5 }}
               role="presentation"
               className="object-cover w-full rounded h-44 dark:bg-gray-500"
               src={img4}
             />
-            <div className="p-6 space-y-2">
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: 100 }}
+              transition={{ duration: 0.5 }}
+              className="p-6 space-y-2"
+            >
               <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">
                 In usu laoreet repudiare legendos
               </h3>
@@ -132,19 +174,27 @@ const Blog = () => {
                 albucius perfecto, ei probatus consulatu patrioque mea, ei
                 vocent delicata indoctum pri.
               </p>
-            </div>
+            </motion.div>
           </a>
           <a
             rel="noopener noreferrer"
             href="#"
             className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50 hidden sm:block"
           >
-            <img
+            <motion.img
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: -100 }}
+              transition={{ duration: 0.5 }}
               role="presentation"
               className="object-cover w-full rounded h-44 dark:bg-gray-500"
               src={img5}
             />
-            <div className="p-6 space-y-2">
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: 100 }}
+              transition={{ duration: 0.5 }}
+              className="p-6 space-y-2"
+            >
               <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">
                 In usu laoreet repudiare legendos
               </h3>
@@ -157,19 +207,27 @@ const Blog = () => {
                 albucius perfecto, ei probatus consulatu patrioque mea, ei
                 vocent delicata indoctum pri.
               </p>
-            </div>
+            </motion.div>
           </a>
           <a
             rel="noopener noreferrer"
             href="#"
             className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50 hidden sm:block"
           >
-            <img
+            <motion.img
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: -100 }}
+              transition={{ duration: 0.5 }}
               role="presentation"
               className="object-cover w-full rounded h-44 dark:bg-gray-500"
               src={img6}
             />
-            <div className="p-6 space-y-2">
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: 100 }}
+              transition={{ duration: 0.5 }}
+              className="p-6 space-y-2"
+            >
               <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">
                 In usu laoreet repudiare legendos
               </h3>
@@ -182,16 +240,19 @@ const Blog = () => {
                 albucius perfecto, ei probatus consulatu patrioque mea, ei
                 vocent delicata indoctum pri.
               </p>
-            </div>
+            </motion.div>
           </a>
         </div>
         <div className="flex justify-center">
-          <button
+          <motion.button
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 100 }}
+            transition={{ duration: 0.5 }}
             type="button"
             className="px-6 py-3 border border-gray-300 text-sm rounded-md hover:underline dark:bg-gray-50 dark:text-gray-600"
           >
             Load more posts...
-          </button>
+          </motion.button>
         </div>
       </div>
     </section>
