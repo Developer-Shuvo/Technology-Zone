@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const Offers = () => {
   return (
@@ -16,14 +17,21 @@ const Offers = () => {
           </div>
 
           {/* Image */}
-          <img
+          <motion.img
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -100 }}
+            transition={{ duration: 0.5 }}
             className="w-[500px] max-w-[600px] h-auto object-cover rounded-lg shadow-xl hover:scale-105 transition-transform duration-500"
             src="https://i.postimg.cc/dVPkqkVK/245861-P4-HNZU-388.jpg"
             alt="Exclusive Offer"
           />
 
           {/* Offer Content */}
-          <div className="w-full max-w-[589px] px-4 sm:px-0">
+          <motion.div
+               whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: 100 }}
+            transition={{ duration: 0.5 }}
+          className="w-full max-w-[589px] px-4 sm:px-0">
             <h2 className="text-[#2c1e5e] text-[40px] sm:text-[36px] md:text-[56px] mt-6 font-bold font-['Roboto_Slab'] text-center lg:text-left leading-tight drop-shadow-sm">
               Exclusive offer
             </h2>
@@ -62,7 +70,7 @@ const Offers = () => {
                 BUY NOW
               </button>
             </div>
-          </div>
+          </motion.div>
         </div>
       </section>
     </div>

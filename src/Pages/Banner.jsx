@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
 
 import banner5 from "../assets/images/banner-image/banner-5.jpg?w=800&format=webp&quality=75";
 import banner6 from "../assets/images/banner-image/banner-6.jpg?w=800&format=webp&quality=75";
@@ -38,9 +39,13 @@ const Banner = () => {
     <section className="max-w-[1300px] mx-auto py-20 px-4 flex items-center justify-center text-center">
       {/* Grid Layout */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-        
         {/* Slider Image (always on top for sm, middle for md+) */}
-        <div className="order-1 sm:order-1 md:order-2 col-span-1 sm:col-span-2 md:col-span-2 h-[220px] sm:h-[280px] md:h-[320px] relative overflow-hidden rounded-lg shadow-lg">
+        <motion.div
+          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: 100 }}
+          transition={{ duration: 1 }}
+          className="order-1 sm:order-1 md:order-2 col-span-1 sm:col-span-2 md:col-span-2 h-[220px] sm:h-[280px] md:h-[320px] relative overflow-hidden rounded-lg shadow-lg"
+        >
           <div
             key={currentIndex}
             className="w-full h-full transition-transform duration-700 ease-in-out"
@@ -68,10 +73,15 @@ const Banner = () => {
               }
             }
           `}</style>
-        </div>
+        </motion.div>
 
         {/* Left Image */}
-        <div className="order-2 sm:order-2 md:order-1 col-span-1 h-[220px] sm:h-[280px] md:h-[320px]">
+        <motion.div
+          whileInView={{ opacity: 1, x: 1 }}
+          initial={{ opacity: 0, x: -100 }}
+          transition={{ duration: 0.5 }}
+          className="order-2 sm:order-2 md:order-1 col-span-1 h-[220px] sm:h-[280px] md:h-[320px]"
+        >
           <img
             src={banner5}
             alt="Banner Left"
@@ -80,10 +90,14 @@ const Banner = () => {
               transform hover:scale-110 hover:-rotate-2 
               hover:shadow-2xl hover:shadow-purple-500"
           />
-        </div>
+        </motion.div>
 
         {/* Right Image */}
-        <div className="order-3 sm:order-3 md:order-3 col-span-1 h-[220px] sm:h-[280px] md:h-[320px]">
+        <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: 100 }}
+            transition={{ duration: 0.5 }}
+        className="order-3 sm:order-3 md:order-3 col-span-1 h-[220px] sm:h-[280px] md:h-[320px]">
           <img
             src={banner7}
             alt="Banner Right"
@@ -92,7 +106,7 @@ const Banner = () => {
               transform hover:scale-110 hover:rotate-2 
               hover:shadow-2xl hover:shadow-[#113F67]"
           />
-        </div>
+        </motion.div>
       </div>
     </section>
   );

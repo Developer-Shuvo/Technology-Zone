@@ -1,13 +1,20 @@
 import { Link } from "react-router";
 import icon from "../assets/images/favicon/tech-1.png";
+import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
     <footer className="px-8  divide-y   bg-[#212121]  text-gray-100">
       <div className="container max-w-[1400px]  items-center  flex flex-col justify-between py-20 mx-auto  space-y-8 lg:flex-row lg:space-y-0">
         {/* Technology Zone */}
-        <div className="lg:w-1/3">
-          <Link to="/"
+        <motion.div
+          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: -100 }}
+          transition={{ duration: 0.5 }}
+          className="lg:w-1/3"
+        >
+          <Link
+            to="/"
             rel="noopener noreferrer"
             className="flex items-center gap-2 justify-center lg:justify-start hover:text-sky-400 ease-in-out duration-500"
           >
@@ -22,12 +29,17 @@ const Footer = () => {
               Technology Zone
             </span>
           </Link>
-        </div>
+        </motion.div>
 
         {/* All Links here */}
         <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
           {/* About Us */}
-          <div className="space-y-3 text-left text-base font-medium">
+          <motion.div
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 100 }}
+            transition={{ duration: 0.5 }}
+            className="space-y-3 text-left text-base font-medium"
+          >
             <h3 className="tracking-wide uppercase text-sky-400 font-bold text-lg">
               About Us
             </h3>
@@ -48,10 +60,15 @@ const Footer = () => {
                 </Link>
               </li>
             </ul>
-          </div>
+          </motion.div>
 
           {/* Policy */}
-          <div className="space-y-3 text-left text-base font-medium">
+          <motion.div
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: -100 }}
+            transition={{ duration: 0.5 }}
+            className="space-y-3 text-left text-base font-medium"
+          >
             <h3 className="tracking-wide uppercase text-sky-400 text-lg font-bold">
               Policy
             </h3>
@@ -87,25 +104,41 @@ const Footer = () => {
                 </Link>
               </li>
             </ul>
-          </div>
+          </motion.div>
           {/* Help */}
-          <div className="space-y-3 text-left text-base font-medium">
+          <motion.div
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 100 }}
+            transition={{ duration: 0.5 }}
+            className="space-y-3 text-left text-base font-medium"
+          >
             <h3 className="uppercase text-lg font-bold text-sky-400">Help</h3>
             <ul className="space-y-2">
               <li className="hover:text-orange-500 transition transform ease-in-out duration-500">
-                <Link to="/contactUs" rel="noopener noreferrer">Contact Us</Link>
+                <Link to="/contactUs" rel="noopener noreferrer">
+                  Contact Us
+                </Link>
               </li>
               <li className="hover:text-orange-500 transition transform ease-in-out duration-500">
-                <Link to="/exchange" rel="noopener noreferrer">Exchange</Link>
+                <Link to="/exchange" rel="noopener noreferrer">
+                  Exchange
+                </Link>
               </li>
               <li className="hover:text-orange-500 transition transform ease-in-out duration-500">
-                <Link to="/announcement" rel="noopener noreferrer">Announcement</Link>
+                <Link to="/announcement" rel="noopener noreferrer">
+                  Announcement
+                </Link>
               </li>
             </ul>
-          </div>
+          </motion.div>
 
           {/* Social */}
-          <div className="space-y-3">
+          <motion.div
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: -100 }}
+            transition={{ duration: 0.5 }}
+            className="space-y-3"
+          >
             <div className="uppercase text-left text-base md:text-lg lg:text-lg font-bold text-sky-400">
               Social media
             </div>
@@ -153,12 +186,15 @@ const Footer = () => {
                 </svg>
               </Link>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
 
       {/* All Rights Reserved */}
-      <div className="py-6 text-sm text-center text-lime-600">
+      <div
+        whileInView={{ opacity: 1, y: 0 }}
+        className="py-6 text-sm text-center text-lime-600"
+      >
         © 2025 <span className="text-orange-500">Developer Shuvo </span>| All
         rights reserved.
       </div>

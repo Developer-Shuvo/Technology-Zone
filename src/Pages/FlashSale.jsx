@@ -7,18 +7,29 @@ import img3 from "../assets/images/3.jpg?w=300&format=webp&quality=80";
 import img4 from "../assets/images/4.jpg?w=300&format=webp&quality=80";
 import img5 from "../assets/images/Shop/10.jpg?w=300&format=webp&quality=80";
 import img6 from "../assets/images/Shop/11.jpg?w=300&format=webp&quality=80";
+import { motion } from "framer-motion";
 
 const FlashSale = () => {
   return (
     // Flash Sale Slide *****
-    <section className="bg-[#b4adad75] py-28 mt-6 ">
-      <div className="mx-auto max-w-[1400px] px-4 sm:px-6 lg:px-10">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-cyan-900 font-bold">
+    <section className="bg-[#b4adad75] mt-6 ">
+      <div className="mx-auto max-w-[1400px] py-20 px-4 sm:px-6 lg:px-10 ">
+        <motion.h1
+          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: -100 }}
+          transition={{ duration: 0.5 }}
+          className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-cyan-900 font-bold"
+        >
           Flash Sale
-        </h1>
+        </motion.h1>
 
         {/* Slider Background Box */}
-        <div className="bg-[#749BC2] p-6 sm:p-10 lg:p-14 rounded-lg shadow-md mt-8">
+        <motion.div
+          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, x: -100 }}
+          transition={{ duration: 0.5 }}
+          className="bg-[#749BC2] p-6 sm:p-10 lg:p-14 rounded-lg shadow-md mb-16 "
+        >
           <Swiper
             modules={[Autoplay]}
             loop={true}
@@ -69,7 +80,7 @@ const FlashSale = () => {
               </SwiperSlide>
             ))}
           </Swiper>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

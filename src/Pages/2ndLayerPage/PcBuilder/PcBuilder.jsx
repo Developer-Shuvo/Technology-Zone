@@ -1,4 +1,5 @@
 import { Link } from "react-router";
+import { motion } from "framer-motion";
 import img1 from "./icons/1.png?w=800&format=webp&quality=75";
 import img2 from "./icons/2.png?w=800&format=webp&quality=75";
 import img3 from "./icons/3.png?w=800&format=webp&quality=75";
@@ -35,17 +36,27 @@ const PcBuilder = () => {
 
           {/* Title */}
           <div className="p-4">
-            <div className="bg-[#93DA97] p-2 text-center  rounded">
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: -100 }}
+              transition={{ duration: 0.5 }}
+              className="bg-[#93DA97] p-2 text-center  rounded"
+            >
               <h1 className="text-gray-900 font-semibold text-lg">
                 Core Components
               </h1>
-            </div>
+            </motion.div>
           </div>
 
           {/*______________________ Core Components______________________ */}
 
           {/* Motherboard */}
-          <div className="flex justify-between items-center mx-4 py-2 px-2 lg:px-4  bg-[#FAF7F3] border-b border-gray-200 shadow-md">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: 100 }}
+            transition={{ duration: 0.5 }}
+            className="flex justify-between items-center mx-4 py-2 px-2 lg:px-4  bg-[#FAF7F3] border-b border-gray-200 shadow-md"
+          >
             <div className="flex items-center gap-2 md:gap-6 lg:gap-8 ">
               <img className="h-6 lg:h-10  w-6 lg:w-10" src={img1} alt="" />
 
@@ -67,10 +78,15 @@ const PcBuilder = () => {
             >
               <span className="relative z-10">Choose</span>
             </Link>
-          </div>
+          </motion.div>
 
           {/* Processor */}
-          <div className="flex justify-between items-center mx-4 py-2 px-2 lg:px-4  bg-[#FAF7F3] border-b border-gray-200 shadow-md mt-3">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -100 }}
+            transition={{ duration: 0.5 }}
+            className="flex justify-between items-center mx-4 py-2 px-2 lg:px-4  bg-[#FAF7F3] border-b border-gray-200 shadow-md mt-3"
+          >
             <div className="flex items-center gap-2 md:gap-6 lg:gap-8 ">
               <img className="h-6 lg:h-10  w-6 lg:w-10" src={img2} alt="" />
 
@@ -92,10 +108,15 @@ const PcBuilder = () => {
             >
               <span className="relative z-10">Choose</span>
             </Link>
-          </div>
+          </motion.div>
 
           {/* Ram */}
-          <div className="flex justify-between items-center mx-4 py-2 px-2 lg:px-4  bg-[#FAF7F3] border-b border-gray-200 mt-3 shadow-md">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: 100 }}
+            transition={{ duration: 0.5 }}
+            className="flex justify-between items-center mx-4 py-2 px-2 lg:px-4  bg-[#FAF7F3] border-b border-gray-200 mt-3 shadow-md"
+          >
             <div className="flex items-center gap-2 md:gap-6 lg:gap-8">
               <img className="h-6 lg:h-10  w-6 lg:w-10" src={img3} alt="" />
 
@@ -117,10 +138,15 @@ const PcBuilder = () => {
             >
               <span className="relative z-10">Choose</span>
             </Link>
-          </div>
+          </motion.div>
 
           {/* HDD */}
-          <div className="flex justify-between items-center mx-4 py-2 px-2 lg:px-4  bg-[#FAF7F3] border-b border-gray-200 mt-3 shadow-md">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -100 }}
+            transition={{ duration: 0.5 }}
+            className="flex justify-between items-center mx-4 py-2 px-2 lg:px-4  bg-[#FAF7F3] border-b border-gray-200 mt-3 shadow-md"
+          >
             <div className="flex items-center gap-2 md:gap-6 lg:gap-8">
               <img className="h-6 lg:h-10  w-6 lg:w-10" src={img4} alt="" />
 
@@ -142,9 +168,14 @@ const PcBuilder = () => {
             >
               <span className="relative z-10">Choose</span>
             </Link>
-          </div>
+          </motion.div>
           {/* SSD */}
-          <div className="flex justify-between items-center mx-4 py-2 px-2 lg:px-4  bg-[#FAF7F3] border-b border-gray-200 mt-3 shadow-md">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: 100 }}
+            transition={{ duration: 0.5 }}
+            className="flex justify-between items-center mx-4 py-2 px-2 lg:px-4  bg-[#FAF7F3] border-b border-gray-200 mt-3 shadow-md"
+          >
             <div className="flex items-center gap-2 md:gap-6 lg:gap-8">
               <img className="h-6 lg:h-10  w-6 lg:w-10" src={img5} alt="" />
 
@@ -166,10 +197,15 @@ const PcBuilder = () => {
             >
               <span className="relative z-10">Choose</span>
             </Link>
-          </div>
+          </motion.div>
 
           {/* Cooler fan */}
-          <div className="flex justify-between items-center mx-4 py-2 px-2 lg:px-4  bg-[#FAF7F3] border-b border-gray-200 mt-3 shadow-md">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -100 }}
+            transition={{ duration: 0.5 }}
+            className="flex justify-between items-center mx-4 py-2 px-2 lg:px-4  bg-[#FAF7F3] border-b border-gray-200 mt-3 shadow-md"
+          >
             <div className="flex items-center gap-2 md:gap-6 lg:gap-8">
               <img className="h-6 lg:h-10  w-6 lg:w-10" src={img6} alt="" />
 
@@ -191,9 +227,14 @@ const PcBuilder = () => {
             >
               <span className="relative z-10">Choose</span>
             </Link>
-          </div>
+          </motion.div>
           {/* Casing */}
-          <div className="flex justify-between items-center mx-4 py-2 px-2 lg:px-4  bg-[#FAF7F3] border-b border-gray-200 mt-3 shadow-md">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: 100 }}
+            transition={{ duration: 0.5 }}
+            className="flex justify-between items-center mx-4 py-2 px-2 lg:px-4  bg-[#FAF7F3] border-b border-gray-200 mt-3 shadow-md"
+          >
             <div className="flex items-center gap-2 md:gap-6 lg:gap-8">
               <img className="h-6 lg:h-10  w-6 lg:w-10" src={img7} alt="" />
 
@@ -215,10 +256,15 @@ const PcBuilder = () => {
             >
               <span className="relative z-10">Choose</span>
             </Link>
-          </div>
+          </motion.div>
 
           {/* Power supply */}
-          <div className="flex justify-between items-center mx-4 py-2 px-2 lg:px-4  bg-[#FAF7F3] border-b border-gray-200 mt-3 shadow-md">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -100 }}
+            transition={{ duration: 0.5 }}
+            className="flex justify-between items-center mx-4 py-2 px-2 lg:px-4  bg-[#FAF7F3] border-b border-gray-200 mt-3 shadow-md"
+          >
             <div className="flex items-center gap-2 md:gap-6 lg:gap-8">
               <img className="h-6 lg:h-10  w-6 lg:w-10" src={img8} alt="" />
 
@@ -240,10 +286,15 @@ const PcBuilder = () => {
             >
               <span className="relative z-10">Choose</span>
             </Link>
-          </div>
+          </motion.div>
 
           {/* Graphics Card */}
-          <div className="flex justify-between items-center mx-4 py-2 px-2 lg:px-4  bg-[#FAF7F3] border-b border-gray-200 mt-3 shadow-md">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: 100 }}
+            transition={{ duration: 0.5 }}
+            className="flex justify-between items-center mx-4 py-2 px-2 lg:px-4  bg-[#FAF7F3] border-b border-gray-200 mt-3 shadow-md"
+          >
             <div className="flex items-center gap-2 md:gap-6 lg:gap-8">
               <img className="h-6 lg:h-10  w-6 lg:w-10" src={img9} alt="" />
 
@@ -265,19 +316,29 @@ const PcBuilder = () => {
             >
               <span className="relative z-10">Choose</span>
             </Link>
-          </div>
+          </motion.div>
 
           {/* __________Title_________ */}
           <div className="p-4">
-            <div className="bg-[#93DA97] p-2 text-center  rounded ">
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: -100 }}
+              transition={{ duration: 0.5 }}
+              className="bg-[#93DA97] p-2 text-center  rounded "
+            >
               <h1 className="text-gray-900 font-semibold text-lg">
                 Peripherals and Others
               </h1>
-            </div>
+            </motion.div>
           </div>
 
           {/* Monitor */}
-          <div className="flex justify-between items-center mx-4 py-2 px-2 lg:px-4  bg-[#FAF7F3] border-b border-gray-200 mt-3 shadow-md">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: 100 }}
+            transition={{ duration: 0.5 }}
+            className="flex justify-between items-center mx-4 py-2 px-2 lg:px-4  bg-[#FAF7F3] border-b border-gray-200 mt-3 shadow-md"
+          >
             <div className="flex items-center gap-2 md:gap-6 lg:gap-8">
               <img className="h-6 lg:h-10  w-6 lg:w-10" src={img10} alt="" />
 
@@ -299,10 +360,15 @@ const PcBuilder = () => {
             >
               <span className="relative z-10">Choose</span>
             </Link>
-          </div>
+          </motion.div>
 
           {/* Mouse */}
-          <div className="flex justify-between items-center mx-4 py-2 px-2 lg:px-4  bg-[#FAF7F3] border-b border-gray-200 mt-3 shadow-md">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -100 }}
+            transition={{ duration: 0.5 }}
+            className="flex justify-between items-center mx-4 py-2 px-2 lg:px-4  bg-[#FAF7F3] border-b border-gray-200 mt-3 shadow-md"
+          >
             <div className="flex items-center gap-2 md:gap-6 lg:gap-8">
               <img className="h-6 lg:h-10  w-6 lg:w-10" src={img11} alt="" />
 
@@ -324,10 +390,15 @@ const PcBuilder = () => {
             >
               <span className="relative z-10">Choose</span>
             </Link>
-          </div>
+          </motion.div>
 
           {/* Keyboard */}
-          <div className="flex justify-between items-center mx-4 py-2 px-2 lg:px-4  bg-[#FAF7F3] border-b border-gray-200 mt-3 shadow-md">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: 100 }}
+            transition={{ duration: 0.5 }}
+            className="flex justify-between items-center mx-4 py-2 px-2 lg:px-4  bg-[#FAF7F3] border-b border-gray-200 mt-3 shadow-md"
+          >
             <div className="flex items-center gap-2 md:gap-6 lg:gap-8">
               <img className="h-6 lg:h-10  w-6 lg:w-10" src={img12} alt="" />
 
@@ -349,9 +420,14 @@ const PcBuilder = () => {
             >
               <span className="relative z-10">Choose</span>
             </Link>
-          </div>
+          </motion.div>
           {/* Speaker */}
-          <div className="flex justify-between items-center mx-4 py-2 px-2 lg:px-4  bg-[#FAF7F3] border-b border-gray-200 mt-3 shadow-md mb-6">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -100 }}
+            transition={{ duration: 0.5 }}
+            className="flex justify-between items-center mx-4 py-2 px-2 lg:px-4  bg-[#FAF7F3] border-b border-gray-200 mt-3 shadow-md mb-6"
+          >
             <div className="flex items-center gap-2 md:gap-6 lg:gap-8">
               <img className="h-6 lg:h-10  w-6 lg:w-10" src={img13} alt="" />
 
@@ -373,7 +449,7 @@ const PcBuilder = () => {
             >
               <span className="relative z-10">Choose</span>
             </Link>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
