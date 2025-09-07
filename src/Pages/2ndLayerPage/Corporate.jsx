@@ -1,6 +1,7 @@
 import img1 from "./corporate/email.png";
 import img2 from "./corporate/call.png";
 import img3 from "./corporate/location.png";
+import { motion } from "framer-motion";
 
 const Corporate = () => {
   return (
@@ -118,11 +119,16 @@ const Corporate = () => {
         </div>
       </div>
 
-      {/* Card Section */}
+      {/* _____________Card Section_____________ */}
       <div className="mt-16 flex items-center justify-center">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-6xl px-4">
           {/* Card 1 */}
-          <div className="flex items-start gap-4 bg-gradient-to-r from-blue-50 to-blue-100 rounded-xl shadow-md p-5 sm:p-6 hover:shadow-lg transition-shadow duration-300">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -100 }}
+            transition={{ duration: 0.5 }}
+            className="flex items-start gap-4 bg-gradient-to-r from-blue-50 to-blue-100 rounded-xl shadow-md p-5 sm:p-6 hover:shadow-lg transition-shadow duration-300"
+          >
             <div className="p-3 sm:p-4 bg-blue-200 text-white rounded-lg flex items-center justify-center">
               <img
                 className="h-8 w-8 sm:h-10 sm:w-10 object-contain"
@@ -138,10 +144,15 @@ const Corporate = () => {
                 corporate@gmail.com
               </p>
             </div>
-          </div>
+          </motion.div>
 
           {/* Card 2 */}
-          <div className="flex items-start gap-4 bg-gradient-to-r from-green-50 to-green-100 rounded-xl shadow-md p-5 sm:p-6 hover:shadow-lg transition-shadow duration-300">
+          <motion.div
+            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: 100 }}
+            transition={{ duration: 0.5 }}
+            className="flex items-start gap-4 bg-gradient-to-r from-green-50 to-green-100 rounded-xl shadow-md p-5 sm:p-6 hover:shadow-lg transition-shadow duration-300"
+          >
             <div className="p-3 sm:p-4 bg-green-200 text-white rounded-lg flex items-center justify-center">
               <img
                 className="h-8 w-8 sm:h-10 sm:w-10 object-contain"
@@ -157,10 +168,15 @@ const Corporate = () => {
                 +880 1234567890
               </p>
             </div>
-          </div>
+          </motion.div>
 
           {/* Card 3 */}
-          <div className="flex items-start gap-4 bg-gradient-to-r from-purple-50 to-purple-100 rounded-xl shadow-md p-5 sm:p-6 hover:shadow-lg transition-shadow duration-300">
+          <motion.div
+               whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: -100 }}
+            transition={{ duration: 0.5 }}
+          
+          className="flex items-start gap-4 bg-gradient-to-r from-purple-50 to-purple-100 rounded-xl shadow-md p-5 sm:p-6 hover:shadow-lg transition-shadow duration-300">
             <div className="p-3 sm:p-4 bg-purple-200 text-white rounded-lg flex items-center justify-center">
               <img
                 className="h-8 w-10 sm:h-10 sm:w-12 object-contain"
@@ -176,7 +192,7 @@ const Corporate = () => {
                 123 Corporate St, Business City, Dhaka
               </p>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

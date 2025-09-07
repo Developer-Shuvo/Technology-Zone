@@ -2,6 +2,7 @@ import img1 from "./About us/pc.jpg?w=800&format=webp&quality=75";
 import img3 from "./About us/joystick.jpg?w=300&format=webp&quality=80";
 import img4 from "./About us/light.jpg?w=300&format=webp&quality=80";
 import img5 from "./About us/2331.jpg?w=300&format=webp&quality=80  ";
+import { motion } from "framer-motion";
 
 const AboutUs = () => {
   return (
@@ -14,7 +15,12 @@ const AboutUs = () => {
         <div className="w-full h-full flex flex-col justify-center items-center sm:px-4 px-2 max-w-[1400px] mx-auto">
           <div className="lg:w-[90%] w-full mx-auto flex flex-col lg:gap-12 lg:flex-row items-center justify-center">
             {/* Side Images */}
-            <div className="relative">
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: -100 }}
+              transition={{ duration: 0.5 }}
+              className="relative"
+            >
               {/* Side Img 1 */}
               <img
                 className="absolute z-20 lg:left-[2rem] -top-4 left-[1rem] lg:w-[8rem] lg:h-[8rem] sm:w-[6rem] sm:h-[6rem] w-[3rem] h-[3rem] rounded-full"
@@ -42,10 +48,15 @@ const AboutUs = () => {
                 src={img1}
                 alt="About us"
               />
-            </div>
+            </motion.div>
 
             {/* Text Content */}
-            <div className="lg:w-[60%] p-4 w-full h-full shadow-xl shadow-green-300/40 flex flex-col justify-center items-center sm:px-6 px-4 rounded-xl">
+            <motion.div
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: 100 }}
+              transition={{ duration: 0.5 }}
+              className="lg:w-[60%] p-4 w-full h-full shadow-xl shadow-green-300/40 flex flex-col justify-center items-center sm:px-6 px-4 rounded-xl"
+            >
               <h2 className="text-4xl text-center text-green-600 dark:text-green-400 font-bold px-4 py-1 md:mt-0 mt-10">
                 About Us
               </h2>
@@ -74,7 +85,7 @@ const AboutUs = () => {
               <button className="lg:mt-10 mt-6 lg:px-6 px-4 lg:py-4 py-2 bg-green-600 rounded-sm lg:text-xl text-lg text-white font-semibold">
                 Read More
               </button>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
@@ -82,7 +93,12 @@ const AboutUs = () => {
       {/* Reach Section */}
       <div id="about" className="py-20 pb-30 md:px-20 lg:px-20 bg-[#121212]">
         <div className="max-w-[1400px] mx-auto px-4">
-          <div className="mb-12 text-center">
+          <motion.div
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: -100 }}
+            transition={{ duration: 0.5 }}
+            className="mb-12 text-center"
+          >
             {/* Heading */}
             <h2 className="text-purple-400 text-lg mb-2" data-aos="fade-down">
               Achievement
@@ -131,25 +147,29 @@ const AboutUs = () => {
                 <p className="text-gray-400">Awards Won</p>
               </div>
             </div>
-          </div>
+          </motion.div>
 
           {/* Buttons Section */}
           <div
             className="flex flex-col sm:flex-row justify-center items-center gap-4 mt-8"
             data-aos="fade-up"
           >
-            <a
+            <motion.a
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: -100 }}
+              transition={{ duration: 0.5 }}
               href="#team"
               className="cursor-pointer rounded-full bg-purple-600 hover:bg-purple-700 text-white py-3 px-8"
             >
               Meet Our Team
-            </a>
-            <a
+            </motion.a>
+            <motion.a
+           
               href="#contact"
               className="cursor-pointer rounded-full border-2 py-3 px-8 border-white text-white hover:bg-white hover:text-purple-900 transition duration-300 ease-in-out"
             >
               Contact Us
-            </a>
+            </motion.a>
           </div>
         </div>
       </div>
