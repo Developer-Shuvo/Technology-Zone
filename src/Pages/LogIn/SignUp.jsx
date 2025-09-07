@@ -32,7 +32,7 @@ export default function AuthForm() {
   // Google Authentication.. start
 
   return (
-    <div className="flex items-center justify-center p-2 mt-20 mb-30">
+    <div className="flex items-center justify-center p-2 mt-20 md:mt-50 lg:mt-40 mb-30">
       <div className="w-full max-w-sm bg-gray-900 shadow-lg rounded-xl p-6 transition-all duration-300">
         {/* Top SignIn, SignUp */}
         <div className="flex justify-between mb-4 border-b border-gray-700">
@@ -98,13 +98,13 @@ export default function AuthForm() {
                 />
                 <span>Remember me</span>
               </label>
-              <a href="#" className="text-red-500 hover:underline">
+              <a href="#" className="text-yellow-400 hover:underline">
                 Forgot password?
               </a>
             </div>
 
             {/* Button */}
-            <button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2 rounded-md text-sm">
+            <button className="w-full bg-cyan-900 hover:bg-stone-600 text-white font-medium py-2 rounded-md text-sm">
               Sign In
             </button>
           </form>
@@ -174,7 +174,7 @@ export default function AuthForm() {
             </div>
 
             {/* Button */}
-            <button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2 rounded-md text-sm">
+            <button className="w-full bg-cyan-900 hover:bg-stone-600 text-white font-medium py-2 rounded-md text-sm">
               Sign Up
             </button>
           </form>

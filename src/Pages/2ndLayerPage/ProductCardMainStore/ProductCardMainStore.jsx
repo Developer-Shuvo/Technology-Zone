@@ -34,7 +34,7 @@ const ProductCardMainStore = ({ products, title, hideSidebar, isHomePage }) => {
           {!isHomePage && (
             <div
               className={` fixed top-0 left-0 h-full w-[300px] bg-white z-50 transform transition-transform duration-500 ease-in-out sm:relative sm:top-auto sm:left-[340px] sm:h-auto sm:w-[30%] sm:min-w-[220px] sm:max-w-[350px] sm:bg-transparent sm:z-auto sm:transform-none ${
-                open ? "translate-x-0" : "-translate-x-full"
+                open ? "translate-x-0" : "-translate-x-full "
               }`}
             >
               <div className="flex justify-end p-4 sm:hidden">
