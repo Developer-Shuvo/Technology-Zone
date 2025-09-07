@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import { Eye, EyeOff } from "lucide-react";
+import { BsGoogle } from "react-icons/bs";
+import { FaFacebook } from "react-icons/fa";
 
 // Google Authentication.. start
 import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { auth } from "../../Firebase/firebase.init";
+import { BiLogoGoogle } from "react-icons/bi";
 // Google Authentication.. end
 
 export default function AuthForm() {
@@ -183,27 +186,20 @@ export default function AuthForm() {
           <div className="mt-2 flex space-x-2">
             {/* Facebook */}
             <button
-              className="flex-1 bg-cyan-800 hover:bg-lime-500 transition 
+              className="flex-1 bg-stone-600 hover:bg-cyan-800 transition 
             p-2 rounded-md flex items-center justify-center"
             >
-              <img
-                src="https://i.postimg.cc/k5h4ds7X/facebook-2.png"
-                alt="Facebook"
-                className="h-6 bg-white  rounded-full"
-              />
+              <FaFacebook className="text-2xl text-lime-400" />
             </button>
             {/* ************Google Sign In************** */}
 
+            {/* Google */}
             <button
               onClick={handleGoogleSignIn}
-              className="flex-1 bg-cyan-800 hover:bg-lime-500 transition
+              className="flex-1 bg-stone-600 hover:bg-cyan-800 transition
              p-2 rounded-md flex items-center justify-center "
             >
-              <img
-                src="https://i.postimg.cc/d3wKMKPP/google.png"
-                alt="Google"
-                className="h-6"
-              />
+              <BiLogoGoogle className="text-2xl text-sky-400" />
             </button>
           </div>
         </div>

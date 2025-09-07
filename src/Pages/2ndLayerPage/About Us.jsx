@@ -164,7 +164,6 @@ const AboutUs = () => {
               Meet Our Team
             </motion.a>
             <motion.a
-           
               href="#contact"
               className="cursor-pointer rounded-full border-2 py-3 px-8 border-white text-white hover:bg-white hover:text-purple-900 transition duration-300 ease-in-out"
             >
