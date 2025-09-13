@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { AllProducts } from "../../AllProducts/AllProducts";
-import { useParams } from "react-router";
+import { Link, useParams } from "react-router";
 import review from "../../../assets/images/favicon/review.png";
 import shareItem from "../../../assets/images/social-icons/social-media.png";
+import cartManager from "../../../CartManager";
 
 const DetailsPage = () => {
   const { id } = useParams();
@@ -161,7 +162,9 @@ const DetailsPage = () => {
             </div>
 
             {/* Add to Cart Button */}
-            <button className="h-[44px] sm:h-[51px] px-4 sm:px-6 md:px-8 bg-[#00b206] rounded-[43px] flex items-center gap-2 md:gap-3 hover:bg-green-600 transition">
+            <Link to="/addToCartDetailsPage"
+            onClick={() => cartManager.addToCart(product)}
+            className="h-[44px] sm:h-[51px] px-4 sm:px-6 md:px-8 bg-[#00b206] rounded-[43px] flex items-center gap-2 md:gap-3 hover:bg-green-600 transition">
               <span className="text-white text-sm md:text-base font-semibold">
                 Add to Cart
               </span>
@@ -181,7 +184,7 @@ const DetailsPage = () => {
                   strokeLinejoin="round"
                 />
               </svg>
-            </button>
+            </Link>
 
             {/* Wishlist Heart */}
             <div className="cursor-pointer">

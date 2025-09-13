@@ -155,7 +155,7 @@ const ProductCardMainStore = ({ products, title, hideSidebar, isHomePage }) => {
                         </span>
                       </div>
 
-                      {/* Add to Cart Button */}
+                      {/*--------------- Add to Cart Button --------------*/}
                       <button
                         onClick={() => cartManager.addToCart(product)}
                         className="relative inline-flex items-center justify-center 

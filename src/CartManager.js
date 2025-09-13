@@ -13,6 +13,12 @@ class CartManager {
     return this.cart.length;
   }
 
+  setCart(newCart) {
+    this.cart = newCart;
+    localStorage.setItem("cart", JSON.stringify(this.cart));
+    this.notify();
+  }
+
   addToCart(product) {
     if (this.cart.length >= 10) {
       alert("You can only add up to 10 products.");
@@ -25,9 +31,15 @@ class CartManager {
       return;
     }
 
-    this.cart.push(product);
-    localStorage.setItem("cart", JSON.stringify(this.cart));
-    this.notify(); // 🔔 notify all listeners
+    this.setCart([...this.cart, product]);
+  }
+
+  removeFromCart(id) {
+    this.setCart(this.cart.filter((item) => item.id !== id));
+  }
+
+  clearCart() {
+    this.setCart([]);
   }
 
   subscribe(callback) {
@@ -43,6 +55,5 @@ class CartManager {
   }
 }
 
-// singleton instance
 const cartManager = new CartManager();
 export default cartManager;

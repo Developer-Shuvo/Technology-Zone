@@ -13,16 +13,12 @@ const Navbar = () => {
   const navRef = useRef(null);
 
   // Add to cart get here from local storage
-  const [count, setCount] = useState(cartManager.getCount());
+    const [count, setCount] = useState(cartManager.getCount());
 
   useEffect(() => {
-    // subscribe to changes
-    const updateCount = (cart) => setCount(cart.length);
-    cartManager.subscribe(updateCount);
-
-    return () => {
-      cartManager.unsubscribe(updateCount);
-    };
+    const update = (cart) => setCount(cart.length);
+    cartManager.subscribe(update);
+    return () => cartManager.unsubscribe(update);
   }, []);
 
   // Responsive: close menu on scroll or outside click

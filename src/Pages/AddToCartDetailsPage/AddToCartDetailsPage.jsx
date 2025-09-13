@@ -18,7 +18,7 @@ const AddToCartDetailsPage = () => {
   if (cart.length === 0) {
     return (
       <div className="flex items-center justify-center h-[80vh]">
-        <h2 className="text-gray-500 text-xl font-semibold">
+        <h2 className="text-gray-500 text-2xl md:text-4xl font-semibold">
           🛒 Your cart is empty
         </h2>
       </div>
@@ -26,7 +26,7 @@ const AddToCartDetailsPage = () => {
   }
 
   return (
-    <div className="max-w-5xl mx-auto px-6 py-10">
+    <div className="max-w-5xl mx-auto px-6 py-10 md:mt-30 mt-10">
       <h1 className="text-2xl font-bold mb-6">Your Shopping Cart</h1>
 
       <div className="grid gap-6">
@@ -69,6 +69,7 @@ const AddToCartDetailsPage = () => {
             {/* Remove Button */}
             <button
               onClick={() => removeFromCart(product.id)}
+              //    onClick={() => cartManager.removeFromCart(product.id)}
               className="ml-4 bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600 transition"
             >
               Remove
