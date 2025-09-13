@@ -4,6 +4,7 @@ import img2 from "../assets/images/banner-image/banner-5.jpg?w=300&format=webp&q
 import img3 from "../assets/images/banner-image/banner-6.jpg?w=300&format=webp&quality=80";
 
 import { motion } from "framer-motion";
+import { Link } from "react-router";
 
 const NewArrival = () => {
   return (
@@ -39,11 +40,13 @@ const NewArrival = () => {
               transform transition-transform duration-500 hover:scale-110 hover:-rotate-6 hover:shadow-xl"
               >
                 <a className="relative flex h-44 overflow-hidden " href="#">
-                  <img
-                    className="absolute top-0 right-0 h-full w-full object-cover"
-                    src={img}
-                    alt={`Product ${i + 1}`}
-                  />
+                  <Link to={{}}>
+                    <img
+                      className="absolute top-0 right-0 h-full w-full object-cover"
+                      src={img}
+                      alt={`Product ${i + 1}`}
+                    />
+                  </Link>
                   <div className="absolute bottom-0 mb-4 flex w-full justify-center space-x-2">
                     <div className="h-2.5 w-2.5 rounded-full border-2 border-white bg-white" />
                     <div className="h-2.5 w-2.5 rounded-full border-2 border-white bg-transparent" />

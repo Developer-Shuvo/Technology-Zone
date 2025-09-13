@@ -3,6 +3,7 @@ import { Link } from "react-router";
 import { FaFilter } from "react-icons/fa"; // Filter icon
 import { IoClose } from "react-icons/io5";
 import { useState } from "react";
+import cartManager from "../../../CartManager";
 
 const ProductCardMainStore = ({ products, title, hideSidebar, isHomePage }) => {
   const [open, setOpen] = useState(false);
@@ -75,7 +76,7 @@ const ProductCardMainStore = ({ products, title, hideSidebar, isHomePage }) => {
                hover:shadow-lg hover:shadow-[#A4CCD9] transition-all duration-500"
                 >
                   {/* Image Section */}
-                  <div className="relative overflow-hidden">
+                  <div className="relative overflow-hidden ">
                     <Link to={`/detailsPage/${product.id}`}>
                       <img
                         className="w-full 
@@ -156,6 +157,7 @@ const ProductCardMainStore = ({ products, title, hideSidebar, isHomePage }) => {
 
                       {/* Add to Cart Button */}
                       <button
+                        onClick={() => cartManager.addToCart(product)}
                         className="relative inline-flex items-center justify-center 
                                     gap-1 sm:gap-2  sm:mt-0
                                     text-gray-700 font-medium 

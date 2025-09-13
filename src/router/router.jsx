@@ -82,6 +82,7 @@ import Desktop from "../Pages/2ndLayerPage/Desktop/Desktop";
 import Laptop from "../Pages/2ndLayerPage/Laptop/Laptop";
 import Headphone from "../Pages/2ndLayerPage/Accessories/Headphone";
 import DetailsPage from "../Pages/2ndLayerPage/DetailsPage/DetailsPage";
+import AddToCartDetailsPage from "../Pages/AddToCartDetailsPage/AddToCartDetailsPage";
 
 const router = createBrowserRouter([
   {
@@ -181,6 +182,11 @@ const router = createBrowserRouter([
       {
         path: "/aboutUs",
         element: <AboutUs />,
+      },
+      // Add to cart details page
+      {
+        path: "/addToCartDetailsPage",
+        element: <AddToCartDetailsPage />,
       },
 
       // 2nd Navbar pages ...

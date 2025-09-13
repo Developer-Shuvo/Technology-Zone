@@ -1,15 +1,29 @@
 import { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import { IoMenu, IoClose } from "react-icons/io5"; // 3 Menu icon & Close icon
-import trolley from "../assets/images/trolley.png"; 
+import trolley from "../assets/images/trolley.png";
 import profile from "../assets/images/user.png";
 import techZone from "../assets/images/favicon/tech-1.png";
 import home from "../assets/images/favicon/home2.png"; // Use your correct home icon path
+import cartManager from "../CartManager";
 
 const Navbar = () => {
   const [searchField, setSearchField] = useState(false);
   const [open, setOpen] = useState(false);
   const navRef = useRef(null);
+
+  // Add to cart get here from local storage
+  const [count, setCount] = useState(cartManager.getCount());
+
+  useEffect(() => {
+    // subscribe to changes
+    const updateCount = (cart) => setCount(cart.length);
+    cartManager.subscribe(updateCount);
+
+    return () => {
+      cartManager.unsubscribe(updateCount);
+    };
+  }, []);
 
   // Responsive: close menu on scroll or outside click
   useEffect(() => {
@@ -140,13 +154,24 @@ const Navbar = () => {
                     />
                   </button>
                 )}
-                <Link>
+
+                {/*__________ Add to cart icon ___________*/}
+                <Link to="/addToCartDetailsPage" className="relative inline-block">
                   <img
                     className="h-10 w-10 bg-white rounded-full p-2 shadow-lg hover:animate-shake3d transition-all duration-700 ease-in-out hover:bg-lime-400"
                     src={trolley}
                     alt="Trolley"
                   />
+
+                  {/* Badge for count */}
+                  {count > 0 && (
+                    <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs font-bold w-5 h-5 flex items-center justify-center rounded-full shadow-md">
+                      {count}
+                    </span>
+                  )}
                 </Link>
+
+                {/* profile icon */}
                 <Link to="/signup">
                   <img
                     className="h-10 w-10 bg-white rounded-full p-2 shadow-lg hover:animate-shake3d transition-all duration-700 ease-in-out hover:bg-lime-400"
